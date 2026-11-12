@@ -4,21 +4,28 @@ Smell expensive. Pay honest.
 
 ## How it works
 
-- `index.html`: the whole site. Tabs: Explore (landing page plus an endless shuffled feed), Search, Dupes, and Match me (quiz). Every fragrance and dupe has its own page (`#f/...`, `#d/...`) with main accords, a note pyramid and store links. Both / Men / Women switch and a light / dark button in the top bar.
-- `accords.js`: works out main accords and note icons from each fragrance's notes.
-- `data.json`: fragrances (gender, notes, dupes, similar, photo) and store search links.
-- `functions/api/prices.js`: Cloudflare function that fetches live full-bottle prices from Arvella and Beauty House (public Shopify search), cached for 6 hours.
-- `scripts/images.mjs`: fills each fragrance's product photo from the stores. Run `node scripts/images.mjs` after adding fragrances.
+- `index.html`: the whole site. Tabs: Explore (landing page, "Smells like…" search, top-rated row, endless shuffled feed), Dupes (type any fragrance to see what it dupes or what dupes it) and Match me (quiz). Every fragrance, dupes included, has its own page (`#f/...`) with main accords, notes, star rating, store links and similar scents. Both / Men / Women switch and a light / dark button in the top bar.
+- `data.json`: fragrances (gender, notes, dupes, `dupeOf`, similar, photo, notes source) and store search links.
+- `accords.js`: works out main accords from each fragrance's notes.
+- `shared.js`: slug helper shared by the page and the functions.
+- `functions/api/prices.js`: live full-bottle prices from Arvella and Beauty House (public Shopify search), cached 6 hours.
+- `functions/api/ratings.js`: 1-5 star ratings, one vote per visitor per fragrance.
+- `scripts/images.mjs`: fills missing product photos from the stores. Run `node scripts/images.mjs` after adding fragrances.
 
-FragranceNet, Sephora and Ulta block bots, so those show as "Check price" links. Notes are entered by hand, since Fragrantica forbids scraping. Affiliate product feeds would cover the big stores and add licensed product photos.
+Notes are entered by hand from brand and store listings (each dupe links its source). Nothing is scraped from Fragrantica: its terms forbid it. FragranceNet, Sephora and Ulta block bots, so those show as "See price" links.
+
+## Cloudflare Pages setup
+
+1. Connect this repo. No build command; output directory `/`.
+2. Create a KV namespace and bind it to the project as `RATINGS` (Settings → Bindings). Without it the site works, but star ratings stay hidden.
 
 ## Develop
 
 ```bash
 npm test
-python -m http.server
+npx wrangler pages dev . --kv RATINGS
 ```
 
 ## Add a fragrance
 
-Add an entry to `fragrances` in `data.json`.
+Add an entry to `fragrances` in `data.json`. For a dupe, set `dupeOf` to the original's "Brand Name" and add the dupe's name to the original's `dupes`.

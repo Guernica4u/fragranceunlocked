@@ -121,9 +121,7 @@
           "Cedar"
         ]
       },
-      "dupes": [
-        "Dossier Gourmand Coffee"
-      ],
+      "dupes": [],
       "similar": [
         "Lancôme La Vie Est Belle",
         "Kayali Vanilla 28"
@@ -152,9 +150,7 @@
           "Labdanum"
         ]
       },
-      "dupes": [
-        "Armaf Ventana Pour Homme"
-      ],
+      "dupes": [],
       "similar": [],
       "prices": {},
       "gender": "men",
@@ -538,7 +534,7 @@
         ]
       },
       "dupes": [
-        "Al Battash AB Spirit Millionaire"
+        "Lomani AB Spirit Millionaire"
       ],
       "similar": [],
       "prices": {},
@@ -1021,6 +1017,474 @@
       "similar": [],
       "prices": {},
       "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02mnh982py.jpg?v=1724871544"
+    },
+    {
+      "name": "Club de Nuit Untold",
+      "brand": "Armaf",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Saffron",
+          "Jasmine"
+        ],
+        "heart": [
+          "Amberwood"
+        ],
+        "base": [
+          "Fir Resin",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://armafperfume.com/products/armaf-club-de-nuit-untold-edp-105ml",
+      "dupeOf": "Maison Francis Kurkdjian Baccarat Rouge 540",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_80.png?v=1770591161"
+    },
+    {
+      "name": "Red Temptation",
+      "brand": "Zara",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Bitter Orange",
+          "Saffron",
+          "Coriander"
+        ],
+        "heart": [
+          "Praline",
+          "Jasmine"
+        ],
+        "base": [
+          "Amber",
+          "Woods",
+          "Moss",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.zara.com/au/en/red-zara-temptation-edp-80-ml---2-71-oz-p20110747.html",
+      "dupeOf": "Maison Francis Kurkdjian Baccarat Rouge 540"
+    },
+    {
+      "name": "Club de Nuit Intense Man",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Bergamot",
+          "Pineapple",
+          "Apple",
+          "Blackcurrant"
+        ],
+        "heart": [
+          "Birch",
+          "Jasmine",
+          "Rose"
+        ],
+        "base": [
+          "Musk",
+          "Ambergris",
+          "Patchouli",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.parfumo.com/Perfumes/Armaf/club-de-nuit-intense-man",
+      "dupeOf": "Creed Aventus"
+    },
+    {
+      "name": "L'Aventure",
+      "brand": "Al Haramain",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Elemi",
+          "Lemon",
+          "Bergamot"
+        ],
+        "heart": [
+          "Jasmine",
+          "Lily of the Valley",
+          "Woody Notes"
+        ],
+        "base": [
+          "Patchouli",
+          "Amber",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://galaxus.ch/en/s6/product/al-haramain-laventure-eau-de-parfum-100-ml-fragrances-8122299",
+      "dupeOf": "Creed Aventus",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/04r4iftazl.png?v=1723880345"
+    },
+    {
+      "name": "Woody Sandalwood",
+      "brand": "Dossier",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Violet Leaves",
+          "Cardamom"
+        ],
+        "heart": [
+          "Orris",
+          "Ambrox",
+          "Cedarwood",
+          "Cypriol"
+        ],
+        "base": [
+          "Musk",
+          "Sandalwood",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://dossier.co/products/woody-sandalwood",
+      "dupeOf": "Le Labo Santal 33"
+    },
+    {
+      "name": "Club de Nuit Iconic",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Lemon",
+          "Mint",
+          "Pink Pepper",
+          "Coriander"
+        ],
+        "heart": [
+          "Ginger",
+          "Melon",
+          "Nutmeg",
+          "Jasmine"
+        ],
+        "base": [
+          "Sandalwood",
+          "Cedarwood",
+          "Incense",
+          "Amber",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.scento.com/perfume-database/perfumes/armaf-club-de-nuit-iconic",
+      "dupeOf": "Chanel Bleu de Chanel",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-16T203730.828.png?v=1771252836"
+    },
+    {
+      "name": "Floral Aldehydes",
+      "brand": "Dossier",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Aldehydes",
+          "Neroli",
+          "Bergamot"
+        ],
+        "heart": [
+          "Ylang-Ylang",
+          "Jasmine",
+          "May Rose"
+        ],
+        "base": [
+          "Vetiver",
+          "Sandalwood",
+          "Orris"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://dossier.co/products/floral-aldehydes",
+      "dupeOf": "Chanel No. 5"
+    },
+    {
+      "name": "Floral Lavender",
+      "brand": "Dossier",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Mandarin",
+          "Neroli",
+          "Blackcurrant"
+        ],
+        "heart": [
+          "Jasmine",
+          "Lavender",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Vanilla",
+          "Amber",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://dossier.co/products/floral-lavender",
+      "dupeOf": "Yves Saint Laurent Libre"
+    },
+    {
+      "name": "Golden Decade",
+      "brand": "Zara",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Mandarin Orange"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "Jasmine",
+          "Lavender"
+        ],
+        "base": [
+          "Vanilla",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.scentverdict.com/perfume/zara-golden-decade-paradise-eau-de-toilette",
+      "dupeOf": "Yves Saint Laurent Libre"
+    },
+    {
+      "name": "Cherry Smash",
+      "brand": "Alt. Fragrances",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Black Cherry",
+          "Bitter Almond"
+        ],
+        "heart": [
+          "Turkish Rose",
+          "Jasmine Sambac"
+        ],
+        "base": [
+          "Tonka Bean",
+          "Sandalwood",
+          "Woods"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.therazorcompany.com/products/alt-fragrances-cherry-smash-eau-de-parfum-60ml",
+      "dupeOf": "Tom Ford Lost Cherry"
+    },
+    {
+      "name": "Delilah",
+      "brand": "Maison Alhambra",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Rhubarb",
+          "Litchi",
+          "Bergamot"
+        ],
+        "heart": [
+          "Turkish Rose",
+          "Peony",
+          "Lily"
+        ],
+        "base": [
+          "White Musk",
+          "Vanilla",
+          "Cashmeran"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://bjutip.com/women-eau-de-parfum/alhambra-delilah-pour-femme-edp-w-100-ml",
+      "dupeOf": "Parfums de Marly Delina",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_99.png?v=1770703659"
+    },
+    {
+      "name": "Oriental",
+      "brand": "Zara",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Rose",
+          "Bergamot",
+          "Freesia"
+        ],
+        "heart": [
+          "Jasmine",
+          "Vanilla"
+        ],
+        "base": [
+          "Caramel",
+          "Patchouli",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://scentverdict.com/perfume/zara-oriental-eau-de-parfum",
+      "dupeOf": "Viktor&Rolf Flowerbomb"
+    },
+    {
+      "name": "Bade'e Al Oud for Glory",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Saffron",
+          "Lavender",
+          "Nutmeg"
+        ],
+        "heart": [
+          "Agarwood",
+          "Patchouli"
+        ],
+        "base": [
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.bjutip.com/lattafa-badee-al-oud-edp-u-100-ml",
+      "dupeOf": "Initio Oud for Greatness"
+    },
+    {
+      "name": "Floral Marshmallow",
+      "brand": "Dossier",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Marshmallow",
+          "Neroli",
+          "Bergamot"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "Honeysuckle",
+          "Jasmine",
+          "Orris"
+        ],
+        "base": [
+          "Amber",
+          "Vanilla",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://dossier.co/products/floral-marshmallow",
+      "dupeOf": "Kilian Love, Don't Be Shy"
+    },
+    {
+      "name": "AB Spirit Millionaire",
+      "brand": "Lomani",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Mandarin",
+          "Cardamom",
+          "Green Apple"
+        ],
+        "heart": [
+          "Coriander",
+          "Cumin",
+          "Jasmine",
+          "Nutmeg"
+        ],
+        "base": [
+          "Amber",
+          "Cedarwood",
+          "Vanilla",
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://vivir.com/article/lomani-ab-spirit-millionaire",
+      "dupeOf": "Paco Rabanne 1 Million",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_3490d9bd-9bce-4304-8ba3-fd28d7c4ae3c.png?v=1723934059"
+    },
+    {
+      "name": "Ultra Male",
+      "brand": "Jean Paul Gaultier",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Pear",
+          "Bergamot",
+          "Lavender",
+          "Mint"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Clary Sage"
+        ],
+        "base": [
+          "Black Vanilla",
+          "Amber",
+          "Cedar",
+          "Patchouli"
+        ]
+      },
+      "dupes": [
+        "Afnan 9PM"
+      ],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.escentual.com/blog/2015/07/08/jean-paul-gaultier-ultra-male-more-man-for-your-money/",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/14_adc62928-835e-49ef-8c7c-93e7dc8c692b.png?v=1767866696"
+    },
+    {
+      "name": "9PM",
+      "brand": "Afnan",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Apple",
+          "Cinnamon",
+          "Wild Lavender",
+          "Bergamot"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "Lily of the Valley"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean",
+          "Amber",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.parfumdreams.ie/Afnan/Collections/9-Collection/Eau-de-Parfum-Spray/index_138552.aspx",
+      "dupeOf": "Jean Paul Gaultier Ultra Male",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_2_18fe64ae-39b3-485c-8e5a-f54280bbe6c4.png?v=1771197593"
     }
   ]
 }

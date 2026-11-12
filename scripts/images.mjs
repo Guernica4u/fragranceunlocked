@@ -5,6 +5,7 @@ import { SHOPS, shop } from '../functions/api/prices.js';
 const file = new URL('../data.json', import.meta.url);
 const data = JSON.parse(readFileSync(file, 'utf8'));
 for (const f of data.fragrances) {
+  if (f.image) continue; // only fetch missing photos
   for (const [store, base] of Object.entries(SHOPS)) {
     const hit = await shop(store, base, `${f.brand} ${f.name}`, f.name, f.brand).catch(() => null);
     if (hit?.image) { f.image = hit.image; break; }
