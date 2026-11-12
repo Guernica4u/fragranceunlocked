@@ -1,14 +1,28 @@
 # Fragrance Unlocked
 
-One search for a fragrance: notes, dupes, similar scents, and links to every store.
+No secrets. Every price, every note, every dupe.
 
-Static site, no build. Open `index.html` through any web server (`python -m http.server`), or visit the GitHub Pages site.
+Live at https://fragranceunlocked.pages.dev
+
+## How it works
+
+- `index.html`: the whole site. Search covers names, notes and dupes. Click any note or dupe to search for it. Bottle art is drawn from each fragrance's scent families.
+- `data.json`: fragrances (notes, dupes, similar) and store search links.
+- `functions/api/prices.js`: Cloudflare function that fetches live full-bottle prices from Arvella and Beauty House (public Shopify search), cached for 6 hours.
+
+FragranceNet, Sephora and Ulta block bots, so those show as "Check price" links. Notes are entered by hand, since Fragrantica forbids scraping. Affiliate product feeds would cover the big stores and add licensed product photos.
+
+## Develop
+
+```bash
+npm test
+npx wrangler pages dev .
+```
+
+## Deploy
+
+Pushing to `main` deploys through GitHub Actions once the repo has a `CLOUDFLARE_API_TOKEN` secret (a Cloudflare API token with "Cloudflare Pages: Edit").
 
 ## Add a fragrance
 
-Add an entry to `fragrances` in `data.json`. Store search URLs live in `stores`.
-
-## Not done yet
-
-- **Live prices.** Sephora, Ulta and Fragrantica block scrapers and forbid scraping in their terms, and a static page can't fetch other sites anyway (CORS). The practical route is affiliate product feeds (FragranceNet, Sephora and Ulta all run affiliate programs) pulled by a scheduled GitHub Action into `prices` in `data.json`.
-- **Notes from Fragrantica.** Same problem. Notes here are entered by hand; each card links to Fragrantica.
+Add an entry to `fragrances` in `data.json`.
