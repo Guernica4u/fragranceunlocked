@@ -4,71 +4,167 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fragrance Unlocked</title>
-<meta name="description" content="No secrets. Every price, every note, every dupe.">
+<meta name="description" content="Smell expensive. Pay honest. Notes, prices and dupes for the fragrances you love.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root { --fg: #1a1714; --bg: #faf8f5; --card: #fff; --mute: #8a837a; --line: #ece7e0; --chip: #f3efe9; --accent: #b0703a; --cap: #2b2622; }
   @media (prefers-color-scheme: dark) {
     :root { --fg: #f1ece5; --bg: #141210; --card: #1c1916; --mute: #8f877d; --line: #2c2723; --chip: #26221e; --accent: #e0a46c; --cap: #d9d1c6; }
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.55 Inter, system-ui, sans-serif; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.55 Inter, system-ui, sans-serif; overflow-x: hidden; }
   .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px 80px; }
-  header { padding: 14vh 0 28px; text-align: center; }
-  h1 { font: 400 clamp(2.6rem, 9vw, 4.2rem)/1 "Instrument Serif", Georgia, serif; margin: 0; letter-spacing: -0.01em; }
-  .tag { color: var(--mute); margin: 12px 0 0; }
-  .search { position: sticky; top: 0; z-index: 1; background: var(--bg); padding: 12px 0; }
-  input { width: 100%; padding: 14px 18px; font: inherit; font-size: 1.05rem; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 999px; outline: none; }
+  .serif { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; }
+
+  /* Tabs */
+  nav { position: sticky; top: 0; z-index: 2; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  nav .wrap { display: flex; align-items: center; gap: 4px; padding: 10px 16px; }
+  .logo { font: 1.25rem "Instrument Serif", Georgia, serif; margin-right: auto; color: inherit; text-decoration: none; white-space: nowrap; }
+  nav a.tab { color: var(--mute); text-decoration: none; padding: 6px 12px; border-radius: 999px; font-weight: 500; font-size: 14px; transition: background .2s, color .2s; }
+  nav a.tab:hover { color: var(--fg); }
+  nav a.tab[aria-current="page"] { background: var(--fg); color: var(--bg); }
+  section[hidden] { display: none; }
+  .view { animation: fade .4s ease; }
+  @keyframes fade { from { opacity: 0; transform: translateY(6px); } }
+
+  /* Home */
+  .hero { text-align: center; padding: 12vh 0 32px; }
+  .eyebrow { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+  .hero h1 { font: 400 clamp(3rem, 12vw, 5.6rem)/.95 "Instrument Serif", Georgia, serif; margin: 16px 0 0; letter-spacing: -0.02em; }
+  .hero h1 span { display: inline-block; opacity: 0; animation: rise .9s cubic-bezier(.2,.7,.2,1) forwards; animation-delay: calc(var(--i) * 120ms + 100ms); }
+  .hero h1 em { color: var(--accent); }
+  @keyframes rise { from { opacity: 0; transform: translateY(24px); filter: blur(6px); } to { opacity: 1; transform: none; filter: none; } }
+  .hero p { color: var(--mute); max-width: 420px; margin: 20px auto 0; opacity: 0; animation: rise .9s .7s forwards; }
+  .cta { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 28px; opacity: 0; animation: rise .9s .85s forwards; }
+  .btn { display: inline-block; padding: 12px 22px; border-radius: 999px; font-weight: 600; text-decoration: none; border: 1px solid var(--fg); color: var(--fg); transition: transform .2s; }
+  .btn:hover { transform: translateY(-2px); }
+  .btn.solid { background: var(--fg); color: var(--bg); }
+  .shelf { display: flex; justify-content: center; gap: 14px; margin: 48px 0 8px; }
+  .shelf .art { width: 84px; height: 84px; animation: bob 4s ease-in-out infinite alternate; animation-delay: calc(var(--i) * -0.7s); box-shadow: 0 10px 30px -12px rgba(0,0,0,.25); }
+  .shelf .art:nth-child(n+5) { display: none; }
+  @media (min-width: 560px) { .shelf .art:nth-child(n+5) { display: grid; } }
+  @keyframes bob { from { transform: translateY(-6px) rotate(-2deg); } to { transform: translateY(6px) rotate(2deg); } }
+  .marquee { overflow: hidden; margin: 40px -16px; mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); }
+  .marquee > div { display: flex; gap: 8px; width: max-content; animation: slide 50s linear infinite; }
+  .marquee:hover > div { animation-play-state: paused; }
+  @keyframes slide { to { transform: translateX(-50%); } }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+  .tile { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
+  .tile b { display: block; font: 400 1.6rem/1.1 "Instrument Serif", Georgia, serif; margin-bottom: 6px; }
+  .tile p { margin: 0; color: var(--mute); font-size: 14px; }
+  .reveal { opacity: 0; transform: translateY(16px); transition: opacity .7s ease, transform .7s ease; transition-delay: calc(var(--i, 0) * 100ms); }
+  .reveal.in { opacity: 1; transform: none; }
+  .stats { display: flex; justify-content: center; gap: 32px; margin: 48px 0 0; text-align: center; }
+  .stats b { display: block; font: 400 2.4rem/1 "Instrument Serif", Georgia, serif; }
+  .stats span { color: var(--mute); font-size: 13px; }
+
+  /* Search + Dupes */
+  .head { padding: 40px 0 8px; }
+  .head h2 { font: 400 2.4rem/1.05 "Instrument Serif", Georgia, serif; margin: 0; }
+  .head p { color: var(--mute); margin: 6px 0 0; }
+  input { width: 100%; margin-top: 20px; padding: 14px 18px; font: inherit; font-size: 1.05rem; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 999px; outline: none; transition: border-color .2s; }
   input:focus { border-color: var(--accent); }
-  .count { color: var(--mute); font-size: 13px; margin: 6px 4px 0; min-height: 1.2em; }
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; margin-top: 12px; overflow: hidden; }
+  .count { color: var(--mute); font-size: 13px; margin: 8px 4px 0; min-height: 1.2em; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; margin-top: 12px; overflow: hidden; transition: border-color .2s; }
+  .card:hover { border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
   summary { display: flex; gap: 16px; align-items: center; padding: 14px 18px; cursor: pointer; list-style: none; }
   summary::-webkit-details-marker { display: none; }
-  summary::after { content: "+"; margin-left: auto; color: var(--mute); font-size: 1.4rem; font-weight: 300; }
-  details[open] summary::after { content: "–"; }
+  summary::after { content: "+"; margin-left: auto; color: var(--mute); font-size: 1.4rem; font-weight: 300; transition: transform .25s; }
+  details[open] summary::after { transform: rotate(45deg); }
   .art { width: 72px; height: 72px; flex: none; display: grid; place-items: center; background: #fff; border-radius: 12px; overflow: hidden; }
   .art svg { display: block; height: 62px; width: auto; }
   .art img { width: 100%; height: 100%; object-fit: contain; }
-  h2 { font: 400 1.5rem/1.1 "Instrument Serif", Georgia, serif; margin: 0; }
+  h3.name { font: 400 1.5rem/1.1 "Instrument Serif", Georgia, serif; margin: 0; }
   .brand { color: var(--mute); font-size: 13px; }
   .fams { font-size: 12px; margin-top: 4px; display: flex; gap: 10px; flex-wrap: wrap; }
   .fams span::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--c); margin-right: 5px; }
-  .body { padding: 4px 18px 18px; border-top: 1px solid var(--line); }
-  h3 { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--mute); font-weight: 600; margin: 18px 0 8px; }
+  .body { padding: 4px 18px 18px; border-top: 1px solid var(--line); animation: fade .3s ease; }
+  h4 { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--mute); font-weight: 600; margin: 18px 0 8px; }
   .tier { display: grid; grid-template-columns: 52px 1fr; gap: 8px; align-items: baseline; margin-bottom: 6px; }
   .tier > span { color: var(--mute); font-size: 13px; }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; }
-  .chip { font: inherit; font-size: 13px; color: inherit; background: var(--chip); border: 0; border-radius: 999px; padding: 4px 11px; cursor: pointer; }
+  .chip { font: inherit; font-size: 13px; color: inherit; background: var(--chip); border: 0; border-radius: 999px; padding: 4px 11px; cursor: pointer; white-space: nowrap; transition: background .2s, color .2s; }
   .chip:hover, .chip:focus-visible { background: var(--accent); color: var(--bg); outline: none; }
   .none { color: var(--mute); font-size: 13px; }
-  .prices { list-style: none; margin: 0; padding: 0; }
-  .prices li { display: flex; align-items: baseline; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line); }
-  .prices li:last-child { border: 0; }
-  .prices a { color: inherit; text-decoration: none; font-weight: 500; }
-  .prices a:hover { color: var(--accent); }
-  .prices .amt { margin-left: auto; font-variant-numeric: tabular-nums; font-weight: 600; }
-  .prices small { color: var(--mute); font-size: 12px; }
+  .rows { list-style: none; margin: 0; padding: 0; }
+  .rows li { display: flex; align-items: baseline; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--line); }
+  .rows li:last-child { border: 0; }
+  .rows a { color: inherit; text-decoration: none; font-weight: 500; }
+  .rows a:hover { color: var(--accent); }
+  .rows .end { margin-left: auto; font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; }
+  .rows small { color: var(--mute); font-size: 12px; }
   .best { font-size: 11px; font-weight: 600; color: var(--bg); background: var(--accent); border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
   .more { display: inline-block; margin-top: 18px; color: var(--mute); font-size: 13px; }
-  footer { text-align: center; color: var(--mute); font-size: 12px; margin-top: 48px; }
+  .dupe { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px; margin-top: 12px; }
+  .dupe .top { display: flex; gap: 16px; align-items: center; }
+  .dupe .label { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--accent); font-weight: 600; }
+  .dupe .rows { margin-top: 12px; border-top: 1px solid var(--line); }
+  footer { text-align: center; color: var(--mute); font-size: 12px; margin-top: 56px; }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+    .hero h1 span, .hero p, .cta, .reveal { opacity: 1; transform: none; }
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <h1>Fragrance Unlocked</h1>
-    <p class="tag">No secrets. Every price, every note, every dupe.</p>
-  </header>
-  <div class="search">
-    <label for="q" hidden>Search fragrances, notes or dupes</label>
-    <input id="q" type="search" placeholder="Search a fragrance, note or dupe" autocomplete="off">
-    <div class="count" id="count" aria-live="polite"></div>
+<nav>
+  <div class="wrap">
+    <a class="logo" href="#home">Fragrance Unlocked</a>
+    <a class="tab" href="#home">Home</a>
+    <a class="tab" href="#search">Search</a>
+    <a class="tab" href="#dupes">Dupes</a>
   </div>
-  <main id="out"></main>
-  <footer>Live prices are the largest full bottle and refresh every 6 hours. Always confirm on the store.</footer>
+</nav>
+
+<div class="wrap">
+  <section id="home" class="view" hidden>
+    <div class="hero">
+      <div class="eyebrow">No secrets</div>
+      <h1><span style="--i:0">Smell</span> <span style="--i:1">expensive.</span><br><span style="--i:2"><em>Pay</em></span> <span style="--i:3"><em>honest.</em></span></h1>
+      <p>The notes, the prices and the cheaper dupes behind the fragrances you love. All in one place.</p>
+      <div class="cta">
+        <a class="btn solid" href="#search">Look up a fragrance</a>
+        <a class="btn" href="#dupes">Find a dupe</a>
+      </div>
+    </div>
+    <div class="shelf" id="shelf"></div>
+    <div class="marquee" aria-label="Popular notes"><div id="marquee"></div></div>
+    <div class="tiles">
+      <div class="tile reveal" style="--i:0"><b>Every note</b><p>Top, heart and base, laid out plainly. Tap any note to see what else has it.</p></div>
+      <div class="tile reveal" style="--i:1"><b>Every price</b><p>Stores side by side, with the best value per ml called out.</p></div>
+      <div class="tile reveal" style="--i:2"><b>Every dupe</b><p>The cheaper bottles that get you most of the way there.</p></div>
+    </div>
+    <div class="stats reveal" id="stats"></div>
+  </section>
+
+  <section id="search" class="view" hidden>
+    <div class="head">
+      <h2>Look it up</h2>
+      <p>Search by name, brand, note or dupe.</p>
+      <label for="q" hidden>Search fragrances</label>
+      <input id="q" type="search" placeholder="Try “Aventus” or “vanilla”" autocomplete="off">
+      <div class="count" id="count" aria-live="polite"></div>
+    </div>
+    <div id="out"></div>
+  </section>
+
+  <section id="dupes" class="view" hidden>
+    <div class="head">
+      <h2>Same vibe, smaller price</h2>
+      <p>Pick a fragrance you love and see the dupes people swear by.</p>
+      <label for="dq" hidden>Search dupes</label>
+      <input id="dq" type="search" placeholder="Which fragrance do you love?" autocomplete="off">
+      <div class="count" id="dcount" aria-live="polite"></div>
+    </div>
+    <div id="dout"></div>
+  </section>
+
+  <footer>Prices change fast. Check the store before you buy.</footer>
 </div>
+
 <script>
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const enc = encodeURIComponent;
@@ -100,22 +196,25 @@ function families(f) {
   return FAMILIES.filter(x => n[x.name]).sort((a, b) => n[b.name] - n[a.name]).slice(0, 3);
 }
 
-// Bottle illustration: shape from the name, liquid colored by scent family.
+// Bottle drawing for fragrances without a photo: shape from the name, liquid colored by scent family.
 const SHAPES = [
   'M16 38a8 8 0 0 1 8-8h32a8 8 0 0 1 8 8v64a8 8 0 0 1-8 8H24a8 8 0 0 1-8-8z',
   'M40 36a36 36 0 1 1 0 72a36 36 0 1 1 0-72z',
   'M8 54a14 14 0 0 1 14-14h36a14 14 0 0 1 14 14v42a14 14 0 0 1-14 14H22a14 14 0 0 1-14-14z',
 ];
-function bottle(f, fams, i) {
-  const c = fams.map(x => x.color);
+let gid = 0;
+function art(f) {
+  if (f.image) return `<div class="art"><img src="${esc(f.image)}&width=200" alt="${esc(f.brand + ' ' + f.name)} bottle" loading="lazy" width="72" height="72"></div>`;
+  const c = families(f).map(x => x.color);
   if (!c.length) c.push('#d8d2c8');
   if (c.length < 2) c.push(c[0]);
   const shape = SHAPES[[...f.name].reduce((h, ch) => h + ch.charCodeAt(0), 0) % SHAPES.length];
+  const id = 'g' + gid++;
   const stops = c.map((x, j) => `<stop offset="${j / (c.length - 1)}" stop-color="${x}"/>`).join('');
-  return `<svg viewBox="0 0 80 112" aria-hidden="true"><defs><linearGradient id="g${i}" x1="0" y1="0" x2=".4" y2="1">${stops}</linearGradient></defs>
-    <rect x="29" y="2" width="22" height="20" rx="4" fill="var(--cap)"/><rect x="34" y="21" width="12" height="12" fill="var(--cap)" opacity=".8"/>
-    <path d="${shape}" fill="url(#g${i})"/><path d="${shape}" fill="none" stroke="#000" stroke-opacity=".08"/>
-    <rect x="22" y="48" width="5" height="34" rx="2.5" fill="#fff" opacity=".4"/></svg>`;
+  return `<div class="art"><svg viewBox="0 0 80 112" aria-hidden="true"><defs><linearGradient id="${id}" x1="0" y1="0" x2=".4" y2="1">${stops}</linearGradient></defs>
+    <rect x="29" y="2" width="22" height="20" rx="4" fill="#2b2622"/><rect x="34" y="21" width="12" height="12" fill="#2b2622" opacity=".8"/>
+    <path d="${shape}" fill="url(#${id})"/><path d="${shape}" fill="none" stroke="#000" stroke-opacity=".08"/>
+    <rect x="22" y="48" width="5" height="34" rx="2.5" fill="#fff" opacity=".4"/></svg></div>`;
 }
 
 // Fragrances in our list that share at least two notes.
@@ -128,30 +227,23 @@ function sharesNotes(f) {
 
 const chips = list => list.length
   ? `<div class="chips">${list.map(x => `<button class="chip" data-q="${esc(x)}">${esc(x)}</button>`).join('')}</div>`
-  : '<span class="none">None found yet</span>';
+  : '<span class="none">None yet</span>';
 
-function card(f, i) {
-  const fams = families(f);
+const head = f => `${art(f)}<div><h3 class="name">${esc(f.name)}</h3><div class="brand">${esc(f.brand)}</div>
+  <div class="fams">${families(f).map(x => `<span style="--c:${x.color}">${x.name}</span>`).join('')}</div></div>`;
+
+function card(f) {
   const similar = [...new Set([...f.similar, ...sharesNotes(f)])];
   return `<details class="card" data-i="${data.fragrances.indexOf(f)}">
-    <summary>
-      <div class="art">${f.image
-        ? `<img src="${esc(f.image)}&width=200" alt="${esc(f.brand + ' ' + f.name)} bottle" loading="lazy" width="72" height="72">`
-        : bottle(f, fams, i)}</div>
-      <div>
-        <h2>${esc(f.name)}</h2>
-        <div class="brand">${esc(f.brand)}</div>
-        <div class="fams">${fams.map(x => `<span style="--c:${x.color}">${x.name}</span>`).join('')}</div>
-      </div>
-    </summary>
+    <summary>${head(f)}</summary>
     <div class="body">
-      <h3>Notes</h3>
+      <h4>Notes</h4>
       ${['top', 'heart', 'base'].map(t => `<div class="tier"><span>${t[0].toUpperCase() + t.slice(1)}</span>${chips(f.notes[t])}</div>`).join('')}
-      <h3>Where to buy</h3>
-      <ul class="prices"><li><small>Checking prices…</small></li></ul>
-      <h3>Dupes</h3>${chips(f.dupes)}
-      <h3>Similar</h3>${chips(similar)}
-      <a class="more" href="https://www.fragrantica.com/search/?query=${enc(f.brand + ' ' + f.name)}" ${ext}>Read more on Fragrantica ↗</a>
+      <h4>Where to buy</h4>
+      <ul class="rows prices"><li><small>Checking prices…</small></li></ul>
+      <h4>Dupes</h4>${chips(f.dupes)}
+      <h4>Smells similar</h4>${chips(similar)}
+      <a class="more" href="https://www.fragrantica.com/search/?query=${enc(f.brand + ' ' + f.name)}" ${ext}>More on Fragrantica ↗</a>
     </div>
   </details>`;
 }
@@ -160,48 +252,87 @@ async function loadPrices(el) {
   const f = data.fragrances[el.dataset.i];
   const q = `${f.brand} ${f.name}`;
   let live = [];
-  try {
+  try { // live prices need the /api/prices function (Cloudflare); without it, store links only
     const r = await fetch(`/api/prices?q=${enc(q)}&name=${enc(f.name)}&brand=${enc(f.brand)}`);
-    if (r.ok) live = (await r.json()).prices;
-  } catch {} // no API (e.g. GitHub Pages copy): show store links only
+    if (r.ok && r.headers.get('content-type')?.includes('json')) live = (await r.json()).prices;
+  } catch {}
   const perMl = p => p.price / p.size;
   const best = live.length > 1 ? live.reduce((a, b) => perMl(b) < perMl(a) ? b : a) : null;
   const rows = live.sort((a, b) => perMl(a) - perMl(b)).map(p => `<li>
       <a href="${esc(p.url)}" ${ext}>${esc(p.store)}</a>${p === best ? '<span class="best">Best value</span>' : ''}
       <small>${p.size} ml · $${perMl(p).toFixed(2)}/ml</small>
-      <span class="amt">$${p.price.toFixed(2)}</span></li>`);
+      <span class="end">$${p.price.toFixed(2)}</span></li>`);
   const priced = new Set(live.map(p => p.store));
   for (const [store, url] of Object.entries(data.stores)) {
-    if (!priced.has(store)) rows.push(`<li><a href="${url}${enc(q)}" ${ext}>${esc(store)}</a><span class="amt"><small>Check price ↗</small></span></li>`);
+    if (!priced.has(store)) rows.push(`<li><a href="${url}${enc(q)}" ${ext}>${esc(store)}</a><span class="end"><small>See price ↗</small></span></li>`);
   }
   el.querySelector('.prices').innerHTML = rows.join('');
 }
 
-function render() {
+const matches = (f, q, fields) => fields(f).join(' ').toLowerCase().includes(q);
+const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
+
+function renderSearch() {
   const q = $('q').value.trim().toLowerCase();
-  const hits = data.fragrances.filter(f =>
-    [f.brand, f.name, ...notesOf(f), ...f.dupes, ...f.similar].join(' ').toLowerCase().includes(q));
-  $('count').textContent = q ? `${hits.length} match${hits.length === 1 ? '' : 'es'}` : `${data.fragrances.length} fragrances`;
+  const hits = data.fragrances.filter(f => matches(f, q, f => [f.brand, f.name, ...notesOf(f), ...f.dupes, ...f.similar]));
+  $('count').textContent = q ? plural(hits.length, 'match').replace('matchs', 'matches') : plural(data.fragrances.length, 'fragrance');
   $('out').innerHTML = hits.length ? hits.map(card).join('')
-    : `<p class="none" style="text-align:center;margin-top:32px">Not in our list yet. <a href="https://www.fragrantica.com/search/?query=${enc(q)}" ${ext}>Search Fragrantica ↗</a></p>`;
+    : `<p class="none" style="text-align:center;margin-top:32px">Not on our list yet. <a href="https://www.fragrantica.com/search/?query=${enc(q)}" ${ext}>Try Fragrantica ↗</a></p>`;
   if (hits.length === 1) $('out').querySelector('details').open = true;
 }
 
-$('out').addEventListener('toggle', e => {
-  if (e.target.open && !e.target.dataset.loaded) { e.target.dataset.loaded = 1; loadPrices(e.target); }
-}, true);
-$('out').addEventListener('click', e => {
+function renderDupes() {
+  const q = $('dq').value.trim().toLowerCase();
+  const withDupes = data.fragrances.filter(f => f.dupes.length);
+  const hits = withDupes.filter(f => matches(f, q, f => [f.brand, f.name, ...f.dupes]));
+  $('dcount').textContent = q ? plural(hits.length, 'match').replace('matchs', 'matches') : `${withDupes.length} fragrances with known dupes`;
+  $('dout').innerHTML = hits.map(f => `<article class="dupe">
+      <div class="top">${art(f)}<div><div class="label">The original</div><h3 class="name">${esc(f.name)}</h3><div class="brand">${esc(f.brand)}</div></div></div>
+      <ul class="rows">${f.dupes.map(d => `<li><span>${esc(d)}</span>
+        <span class="end"><a href="${data.stores.FragranceNet}${enc(d)}" ${ext}>Find it ↗</a></span></li>`).join('')}</ul>
+    </article>`).join('') || `<p class="none" style="text-align:center;margin-top:32px">No dupes on file for that yet.</p>`;
+}
+
+function renderHome() {
+  $('shelf').innerHTML = data.fragrances.filter(f => f.image).slice(0, 6)
+    .map((f, i) => art(f).replace('class="art"', `class="art" style="--i:${i}"`)).join('');
+  const notes = [...new Set(data.fragrances.flatMap(notesOf))].slice(0, 30);
+  $('marquee').innerHTML = chips([...notes, ...notes]).replace(/^<div class="chips">|<\/div>$/g, '');
+  const dupes = data.fragrances.reduce((n, f) => n + f.dupes.length, 0);
+  $('stats').innerHTML = [[data.fragrances.length, 'fragrances'], [Object.keys(data.stores).length, 'stores'], [dupes, 'dupes']]
+    .map(([n, w]) => `<div><b>${n}</b><span>${w}</span></div>`).join('');
+  const io = new IntersectionObserver(es => es.forEach(e => e.isIntersecting && e.target.classList.add('in')), { threshold: .2 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+}
+
+function route() {
+  const tab = ['home', 'search', 'dupes'].includes(location.hash.slice(1)) ? location.hash.slice(1) : 'home';
+  for (const s of document.querySelectorAll('section.view')) s.hidden = s.id !== tab;
+  for (const a of document.querySelectorAll('nav a.tab')) {
+    if (a.hash === '#' + tab) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+  }
+  scrollTo(0, 0);
+}
+
+// Clicking a note or dupe anywhere searches for it.
+document.addEventListener('click', e => {
   const q = e.target.closest('.chip')?.dataset.q;
   if (!q) return;
   $('q').value = q;
-  render();
-  $('q').scrollIntoView({ behavior: 'smooth' });
+  renderSearch();
+  location.hash = 'search';
 });
+$('out').addEventListener('toggle', e => {
+  if (e.target.open && !e.target.dataset.loaded) { e.target.dataset.loaded = 1; loadPrices(e.target); }
+}, true);
 
 fetch('data.json').then(r => r.json()).then(d => {
   data = d;
-  $('q').addEventListener('input', render);
-  render();
+  $('q').addEventListener('input', renderSearch);
+  $('dq').addEventListener('input', renderDupes);
+  renderHome(); renderSearch(); renderDupes();
+  addEventListener('hashchange', route);
+  route();
 });
 </script>
 </body>

@@ -1,10 +1,10 @@
 # Fragrance Unlocked
 
-No secrets. Every price, every note, every dupe.
+Smell expensive. Pay honest.
 
 ## How it works
 
-- `index.html`: the whole site. Search covers names, notes and dupes. Click any note or dupe to search for it. Bottle art is drawn from each fragrance's scent families.
+- `index.html`: the whole site, with three tabs: Home (animated landing page), Search (notes, prices, similar scents) and Dupes (cheaper alternatives). Click any note or dupe to search for it.
 - `data.json`: fragrances (notes, dupes, similar) and store search links.
 - `functions/api/prices.js`: Cloudflare function that fetches live full-bottle prices from Arvella and Beauty House (public Shopify search), cached for 6 hours.
 - `scripts/images.mjs`: fills each fragrance's product photo from the stores. Run `node scripts/images.mjs` after adding fragrances.
