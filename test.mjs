@@ -32,3 +32,16 @@ assert.equal(match([{ title: "L'Homme EDT", vendor: 'Yves Saint Laurent' }], "L'
 assert.equal(match([{ title: "L'Homme EDT", vendor: 'Prada' }], "L'Homme", 'Prada').title, "L'Homme EDT");
 assert.equal(match([{ title: "Terre d'Hermes EDT", vendor: 'Hermes' }], "Terre d'Hermès", 'Hermès').title, "Terre d'Hermes EDT");
 console.log('ok');
+
+// Accords and note icons
+const { accords, noteIcon, ink } = await import('./accords.js');
+assert.deepEqual(accords(['Rosemary']).map(a => a.name), ['Aromatic']); // not Rose
+assert.equal(noteIcon('Rosemary'), '🌿');
+assert.equal(noteIcon('Turkish Rose'), '🌹');
+assert.deepEqual(accords(['Vanilla', 'Vanilla', 'Cedar']).map(a => [a.name, a.pct]), [['Sweet', 100], ['Vanilla', 100], ['Woody', 50]]);
+assert.equal(ink('#f6e94a'), '#1a1714');
+assert.equal(ink('#3e2e22'), '#fff');
+const all = JSON.parse((await import('node:fs')).readFileSync(new URL('./data.json', import.meta.url), 'utf8'))
+  .fragrances.flatMap(f => [...f.notes.top, ...f.notes.heart, ...f.notes.base]);
+assert.deepEqual(all.filter(n => !accords([n]).length), []); // every note feeds an accord
+console.log('accords ok');
