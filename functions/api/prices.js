@@ -4,7 +4,7 @@ export const SHOPS = {
   'Arvella': 'https://arvellafragrance.com',
   'Beauty House': 'https://www.beautyhouse.com',
 };
-const UA = 'Mozilla/5.0 (compatible; FragranceUnlocked/1.0; +https://fragranceunlocked.pages.dev)';
+const UA = 'Mozilla/5.0 (compatible; FragranceUnlocked/1.0; +https://github.com/Guernica4u/fragranceunlocked)';
 
 export function ml(title) {
   const m = title.match(/(\d+(?:\.\d+)?)\s*ml/i);

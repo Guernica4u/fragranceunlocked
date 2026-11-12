@@ -2,8 +2,6 @@
 
 No secrets. Every price, every note, every dupe.
 
-Live at https://fragranceunlocked.pages.dev
-
 ## How it works
 
 - `index.html`: the whole site. Search covers names, notes and dupes. Click any note or dupe to search for it. Bottle art is drawn from each fragrance's scent families.
@@ -19,10 +17,6 @@ FragranceNet, Sephora and Ulta block bots, so those show as "Check price" links.
 npm test
 npx wrangler pages dev .
 ```
-
-## Deploy
-
-Pushing to `main` deploys through GitHub Actions once the repo has a `CLOUDFLARE_API_TOKEN` secret (a Cloudflare API token with "Cloudflare Pages: Edit").
 
 ## Add a fragrance
 
