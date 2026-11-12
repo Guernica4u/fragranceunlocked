@@ -15,7 +15,7 @@ FragranceNet, Sephora and Ulta block bots, so those show as "Check price" links.
 
 ```bash
 npm test
-npx wrangler pages dev .
+python -m http.server
 ```
 
 ## Add a fragrance
