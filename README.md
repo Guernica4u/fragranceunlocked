@@ -4,8 +4,8 @@ Smell expensive. Pay honest.
 
 ## How it works
 
-- `index.html`: the whole site, with three tabs: Home (animated landing page), Search (notes, prices, similar scents) and Dupes (cheaper alternatives). Click any note or dupe to search for it.
-- `data.json`: fragrances (notes, dupes, similar) and store search links.
+- `index.html`: the whole site. Tabs: Explore (landing page plus an endless shuffled feed), Search (notes, prices, similar scents), Dupes, and Match me (a short quiz that recommends fragrances). The Both / Men / Women switch filters everything and defaults to Both.
+- `data.json`: fragrances (gender, notes, dupes, similar, photo) and store search links.
 - `functions/api/prices.js`: Cloudflare function that fetches live full-bottle prices from Arvella and Beauty House (public Shopify search), cached for 6 hours.
 - `scripts/images.mjs`: fills each fragrance's product photo from the stores. Run `node scripts/images.mjs` after adding fragrances.
 

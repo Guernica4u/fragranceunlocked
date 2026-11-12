@@ -25,16 +25,22 @@ export function pick(variants) {
 // Title minus brand, concentration and size: "Creed Aventus Eau de Parfum for Men 3.4 oz" -> "aventus".
 const FILLER = /\b(edp|edt|eau|de|parfum|toilette|cologne|for|men|women|unisex|spray|by|tester|new|the)\b|\d+(\.\d+)?\s*(oz|ml)\.?/g;
 export function clean(title, brand = '') {
-  let t = title.toLowerCase().replace(/[^\p{L}\p{N}\s.]/gu, ' ');
-  for (const w of brand.toLowerCase().split(/\s+/)) if (w) t = t.replace(new RegExp(`\\b${w.replace(/\W/g, '')}\\b`, 'g'), ' ');
+  const plain = s => s.toLowerCase().normalize('NFD').replace(/\p{M}/gu, ''); // "hermès" -> "hermes"
+  const words = s => plain(s).replace(/[^\p{L}\p{N}\s.]/gu, ' ').replace(/\s+/g, ' ').trim();
+  let t = words(title);
+  const b = words(brand); // only a leading brand: "Hermes Terre d'Hermes" keeps the second "hermes"
+  if (b && t.startsWith(b + ' ')) t = t.slice(b.length);
   return t.replace(FILLER, ' ').replace(/\./g, ' ').replace(/\s+/g, ' ').trim();
 }
 
 // Exact name match first so flankers ("Sauvage Elixir", "Aventus for Her") lose to the original.
-export function match(products, name, brand) {
+// The store's brand (vendor) must agree when it lists one; partial matches must be whole words ("her" ≠ "hero").
+const norm = s => s.toLowerCase().normalize('NFD').replace(/[^a-z0-9]/g, '');
+export function match(products, name, brand = '') {
   const want = clean(name);
-  return products.find(p => clean(p.title, brand) === want)
-    || products.find(p => clean(p.title, brand).includes(want)) || null;
+  const ours = products.filter(p => !brand || !p.vendor || norm(p.vendor).includes(norm(brand)) || norm(brand).includes(norm(p.vendor)));
+  return ours.find(p => clean(p.title, brand) === want)
+    || ours.find(p => ` ${clean(p.title, brand)} `.includes(` ${want} `)) || null;
 }
 
 export async function shop(store, base, q, name, brand) {

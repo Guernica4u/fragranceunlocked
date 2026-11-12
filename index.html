@@ -9,29 +9,43 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root { --fg: #1a1714; --bg: #faf8f5; --card: #fff; --mute: #8a837a; --line: #ece7e0; --chip: #f3efe9; --accent: #b0703a; --cap: #2b2622; }
+  :root { --fg: #1a1714; --bg: #faf8f5; --card: #fff; --mute: #8a837a; --line: #ece7e0; --chip: #f3efe9; --accent: #b0703a; --tile: transparent; }
   @media (prefers-color-scheme: dark) {
-    :root { --fg: #f1ece5; --bg: #141210; --card: #1c1916; --mute: #8f877d; --line: #2c2723; --chip: #26221e; --accent: #e0a46c; --cap: #d9d1c6; }
+    :root { --fg: #f1ece5; --bg: #141210; --card: #1c1916; --mute: #8f877d; --line: #2c2723; --chip: #26221e; --accent: #e0a46c; --tile: #efe9e1; }
   }
   * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
   body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.55 Inter, system-ui, sans-serif; overflow-x: hidden; }
-  .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px 80px; }
-  .serif { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 16px 80px; }
+  .narrow { max-width: 720px; margin: 0 auto; }
+  button { font: inherit; color: inherit; }
 
-  /* Tabs */
+  /* Top bar: logo, tabs, gender switch */
   nav { position: sticky; top: 0; z-index: 2; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
-  nav .wrap { display: flex; align-items: center; gap: 4px; padding: 10px 16px; }
-  .logo { font: 1.25rem "Instrument Serif", Georgia, serif; margin-right: auto; color: inherit; text-decoration: none; white-space: nowrap; }
-  nav a.tab { color: var(--mute); text-decoration: none; padding: 6px 12px; border-radius: 999px; font-weight: 500; font-size: 14px; transition: background .2s, color .2s; }
-  nav a.tab:hover { color: var(--fg); }
-  nav a.tab[aria-current="page"] { background: var(--fg); color: var(--bg); }
+  nav .wrap { display: grid; grid-template-columns: auto 1fr auto; grid-template-areas: "logo tabs seg"; align-items: center; gap: 8px; padding: 10px 16px; }
+  .logo { grid-area: logo; font: 1.25rem "Instrument Serif", Georgia, serif; color: inherit; text-decoration: none; white-space: nowrap; }
+  .tabs { grid-area: tabs; display: flex; gap: 2px; justify-content: center; overflow-x: auto; scrollbar-width: none; }
+  .tabs a { color: var(--mute); text-decoration: none; padding: 6px 12px; border-radius: 999px; font-weight: 500; font-size: 14px; white-space: nowrap; transition: background .2s, color .2s; }
+  .tabs a:hover { color: var(--fg); }
+  .tabs a[aria-current="page"] { background: var(--fg); color: var(--bg); }
+  .seg { grid-area: seg; display: flex; background: var(--chip); border-radius: 999px; padding: 3px; }
+  .seg button { border: 0; background: none; padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 500; color: var(--mute); cursor: pointer; transition: background .2s, color .2s; }
+  .seg button[aria-pressed="true"] { background: var(--card); color: var(--fg); box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+  @media (max-width: 640px) {
+    nav .wrap { grid-template-columns: 1fr auto; grid-template-areas: "logo seg" "tabs tabs"; }
+    .tabs { justify-content: flex-start; }
+  }
   section[hidden] { display: none; }
   .view { animation: fade .4s ease; }
   @keyframes fade { from { opacity: 0; transform: translateY(6px); } }
 
-  /* Home */
-  .hero { text-align: center; padding: 12vh 0 32px; }
+  /* Product art. Photos have white backgrounds: multiply blends them into light surfaces. */
+  .art { display: grid; place-items: center; background: var(--tile); border-radius: 12px; overflow: hidden; flex: none; }
+  .art img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; }
+  .art svg { height: 86%; width: auto; }
+  .thumb { width: 72px; height: 72px; }
+
+  /* Explore (home) */
+  .hero { text-align: center; padding: 10vh 0 24px; }
   .eyebrow { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
   .hero h1 { font: 400 clamp(3rem, 12vw, 5.6rem)/.95 "Instrument Serif", Georgia, serif; margin: 16px 0 0; letter-spacing: -0.02em; }
   .hero h1 span { display: inline-block; opacity: 0; animation: rise .9s cubic-bezier(.2,.7,.2,1) forwards; animation-delay: calc(var(--i) * 120ms + 100ms); }
@@ -39,29 +53,36 @@
   @keyframes rise { from { opacity: 0; transform: translateY(24px); filter: blur(6px); } to { opacity: 1; transform: none; filter: none; } }
   .hero p { color: var(--mute); max-width: 420px; margin: 20px auto 0; opacity: 0; animation: rise .9s .7s forwards; }
   .cta { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 28px; opacity: 0; animation: rise .9s .85s forwards; }
-  .btn { display: inline-block; padding: 12px 22px; border-radius: 999px; font-weight: 600; text-decoration: none; border: 1px solid var(--fg); color: var(--fg); transition: transform .2s; }
+  .btn { display: inline-block; padding: 12px 22px; border-radius: 999px; font-weight: 600; text-decoration: none; border: 1px solid var(--fg); color: var(--fg); background: none; cursor: pointer; transition: transform .2s; }
   .btn:hover { transform: translateY(-2px); }
   .btn.solid { background: var(--fg); color: var(--bg); }
-  .shelf { display: flex; justify-content: center; gap: 14px; margin: 48px 0 8px; }
-  .shelf .art { width: 84px; height: 84px; animation: bob 4s ease-in-out infinite alternate; animation-delay: calc(var(--i) * -0.7s); box-shadow: 0 10px 30px -12px rgba(0,0,0,.25); }
-  .shelf .art:nth-child(n+5) { display: none; }
-  @media (min-width: 560px) { .shelf .art:nth-child(n+5) { display: grid; } }
+  .shelf { display: flex; justify-content: center; gap: 14px; margin: 40px 0 0; }
+  .shelf .art { width: 92px; height: 92px; animation: bob 4s ease-in-out infinite alternate; animation-delay: calc(var(--i) * -0.7s); }
+  .shelf .art:nth-child(n+4) { display: none; }
+  @media (min-width: 560px) { .shelf .art:nth-child(n+4) { display: grid; } }
   @keyframes bob { from { transform: translateY(-6px) rotate(-2deg); } to { transform: translateY(6px) rotate(2deg); } }
-  .marquee { overflow: hidden; margin: 40px -16px; mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); }
-  .marquee > div { display: flex; gap: 8px; width: max-content; animation: slide 50s linear infinite; }
+  .marquee { overflow: hidden; margin: 36px -16px; mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); }
+  .marquee > div { display: flex; gap: 8px; width: max-content; animation: slide 60s linear infinite; }
   .marquee:hover > div { animation-play-state: paused; }
   @keyframes slide { to { transform: translateX(-50%); } }
-  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
-  .tile { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
-  .tile b { display: block; font: 400 1.6rem/1.1 "Instrument Serif", Georgia, serif; margin-bottom: 6px; }
-  .tile p { margin: 0; color: var(--mute); font-size: 14px; }
-  .reveal { opacity: 0; transform: translateY(16px); transition: opacity .7s ease, transform .7s ease; transition-delay: calc(var(--i, 0) * 100ms); }
-  .reveal.in { opacity: 1; transform: none; }
-  .stats { display: flex; justify-content: center; gap: 32px; margin: 48px 0 0; text-align: center; }
-  .stats b { display: block; font: 400 2.4rem/1 "Instrument Serif", Georgia, serif; }
-  .stats span { color: var(--mute); font-size: 13px; }
+  .sub { display: flex; align-items: baseline; justify-content: space-between; margin: 40px 0 14px; }
+  .sub h2 { font: 400 2rem/1 "Instrument Serif", Georgia, serif; margin: 0; }
+  .link { border: 0; background: none; color: var(--mute); cursor: pointer; font-size: 13px; padding: 0; }
+  .link:hover { color: var(--accent); }
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  @media (min-width: 640px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+  .tile { text-align: left; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 12px; cursor: pointer; position: relative;
+          animation: rise .6s cubic-bezier(.2,.7,.2,1) backwards; animation-delay: calc(var(--i) * 60ms); transition: transform .25s, border-color .25s; }
+  .tile:hover { transform: translateY(-3px); border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
+  .tile .art { width: 100%; aspect-ratio: 1; margin-bottom: 10px; }
+  .tile .art img { transition: transform .4s; }
+  .tile:hover .art img { transform: scale(1.05); }
+  .tile .name { font: 400 1.25rem/1.15 "Instrument Serif", Georgia, serif; }
+  .pill { position: absolute; top: 10px; right: 10px; font-size: 11px; font-weight: 600; background: var(--accent); color: var(--bg); border-radius: 999px; padding: 1px 8px; }
+  .why { font-size: 12px; color: var(--accent); margin-top: 4px; }
+  .end { text-align: center; margin-top: 28px; }
 
-  /* Search + Dupes */
+  /* Search, Dupes, Match */
   .head { padding: 40px 0 8px; }
   .head h2 { font: 400 2.4rem/1.05 "Instrument Serif", Georgia, serif; margin: 0; }
   .head p { color: var(--mute); margin: 6px 0 0; }
@@ -74,9 +95,6 @@
   summary::-webkit-details-marker { display: none; }
   summary::after { content: "+"; margin-left: auto; color: var(--mute); font-size: 1.4rem; font-weight: 300; transition: transform .25s; }
   details[open] summary::after { transform: rotate(45deg); }
-  .art { width: 72px; height: 72px; flex: none; display: grid; place-items: center; background: #fff; border-radius: 12px; overflow: hidden; }
-  .art svg { display: block; height: 62px; width: auto; }
-  .art img { width: 100%; height: 100%; object-fit: contain; }
   h3.name { font: 400 1.5rem/1.1 "Instrument Serif", Georgia, serif; margin: 0; }
   .brand { color: var(--mute); font-size: 13px; }
   .fams { font-size: 12px; margin-top: 4px; display: flex; gap: 10px; flex-wrap: wrap; }
@@ -86,61 +104,69 @@
   .tier { display: grid; grid-template-columns: 52px 1fr; gap: 8px; align-items: baseline; margin-bottom: 6px; }
   .tier > span { color: var(--mute); font-size: 13px; }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; }
-  .chip { font: inherit; font-size: 13px; color: inherit; background: var(--chip); border: 0; border-radius: 999px; padding: 4px 11px; cursor: pointer; white-space: nowrap; transition: background .2s, color .2s; }
+  .chip { font-size: 13px; background: var(--chip); border: 1px solid transparent; border-radius: 999px; padding: 4px 11px; cursor: pointer; white-space: nowrap; transition: background .2s, color .2s; }
   .chip:hover, .chip:focus-visible { background: var(--accent); color: var(--bg); outline: none; }
+  .chip[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+  .chip.dot::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--c); margin-right: 6px; }
   .none { color: var(--mute); font-size: 13px; }
   .rows { list-style: none; margin: 0; padding: 0; }
   .rows li { display: flex; align-items: baseline; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--line); }
   .rows li:last-child { border: 0; }
   .rows a { color: inherit; text-decoration: none; font-weight: 500; }
   .rows a:hover { color: var(--accent); }
-  .rows .end { margin-left: auto; font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; }
+  .rows .r { margin-left: auto; font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; }
   .rows small { color: var(--mute); font-size: 12px; }
   .best { font-size: 11px; font-weight: 600; color: var(--bg); background: var(--accent); border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
   .more { display: inline-block; margin-top: 18px; color: var(--mute); font-size: 13px; }
   .dupe { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px; margin-top: 12px; }
   .dupe .top { display: flex; gap: 16px; align-items: center; }
-  .dupe .label { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--accent); font-weight: 600; }
+  .label { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--accent); font-weight: 600; }
   .dupe .rows { margin-top: 12px; border-top: 1px solid var(--line); }
+  .q { margin-top: 28px; }
+  .q h3 { font: 400 1.4rem/1.2 "Instrument Serif", Georgia, serif; margin: 0 0 10px; }
   footer { text-align: center; color: var(--mute); font-size: 12px; margin-top: 56px; }
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation: none !important; transition: none !important; }
-    .hero h1 span, .hero p, .cta, .reveal { opacity: 1; transform: none; }
+    .hero h1 span, .hero p, .cta { opacity: 1; }
   }
 </style>
 </head>
 <body>
 <nav>
   <div class="wrap">
-    <a class="logo" href="#home">Fragrance Unlocked</a>
-    <a class="tab" href="#home">Home</a>
-    <a class="tab" href="#search">Search</a>
-    <a class="tab" href="#dupes">Dupes</a>
+    <a class="logo" href="#explore">Fragrance Unlocked</a>
+    <div class="tabs">
+      <a href="#explore">Explore</a>
+      <a href="#search">Search</a>
+      <a href="#dupes">Dupes</a>
+      <a href="#match">Match me</a>
+    </div>
+    <div class="seg" role="group" aria-label="Show fragrances for">
+      <button data-g="both">Both</button><button data-g="men">Men</button><button data-g="women">Women</button>
+    </div>
   </div>
 </nav>
 
 <div class="wrap">
-  <section id="home" class="view" hidden>
+  <section id="explore" class="view" hidden>
     <div class="hero">
       <div class="eyebrow">No secrets</div>
       <h1><span style="--i:0">Smell</span> <span style="--i:1">expensive.</span><br><span style="--i:2"><em>Pay</em></span> <span style="--i:3"><em>honest.</em></span></h1>
       <p>The notes, the prices and the cheaper dupes behind the fragrances you love. All in one place.</p>
       <div class="cta">
-        <a class="btn solid" href="#search">Look up a fragrance</a>
+        <a class="btn solid" href="#match">Find my scent</a>
         <a class="btn" href="#dupes">Find a dupe</a>
       </div>
     </div>
     <div class="shelf" id="shelf"></div>
     <div class="marquee" aria-label="Popular notes"><div id="marquee"></div></div>
-    <div class="tiles">
-      <div class="tile reveal" style="--i:0"><b>Every note</b><p>Top, heart and base, laid out plainly. Tap any note to see what else has it.</p></div>
-      <div class="tile reveal" style="--i:1"><b>Every price</b><p>Stores side by side, with the best value per ml called out.</p></div>
-      <div class="tile reveal" style="--i:2"><b>Every dupe</b><p>The cheaper bottles that get you most of the way there.</p></div>
-    </div>
-    <div class="stats reveal" id="stats"></div>
+    <div class="sub"><h2>Explore</h2><button class="link" id="shuffle">Shuffle ↻</button></div>
+    <div class="grid" id="feed"></div>
+    <div id="sentinel"></div>
+    <div class="end" id="end" hidden><button class="btn" id="again">You've seen them all. Shuffle again</button></div>
   </section>
 
-  <section id="search" class="view" hidden>
+  <section id="search" class="view narrow" hidden>
     <div class="head">
       <h2>Look it up</h2>
       <p>Search by name, brand, note or dupe.</p>
@@ -151,7 +177,7 @@
     <div id="out"></div>
   </section>
 
-  <section id="dupes" class="view" hidden>
+  <section id="dupes" class="view narrow" hidden>
     <div class="head">
       <h2>Same vibe, smaller price</h2>
       <p>Pick a fragrance you love and see the dupes people swear by.</p>
@@ -162,6 +188,18 @@
     <div id="dout"></div>
   </section>
 
+  <section id="match" class="view" hidden>
+    <div class="head narrow" style="margin:0">
+      <h2>Find your scent</h2>
+      <p>Answer a few quick questions. Picks update as you go.</p>
+      <div class="q"><h3>What pulls you in?</h3><div class="chips" id="like"></div></div>
+      <div class="q"><h3>Anything you'd rather skip?</h3><div class="chips" id="avoid"></div></div>
+      <div class="q"><h3>When will you wear it most?</h3><div class="chips" id="when"></div></div>
+    </div>
+    <div class="sub"><h2>Your picks</h2><button class="link" id="reset">Start over</button></div>
+    <div class="grid" id="picks"></div>
+  </section>
+
   <footer>Prices change fast. Check the store before you buy.</footer>
 </div>
 
@@ -170,31 +208,39 @@ const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>'
 const enc = encodeURIComponent;
 const $ = id => document.getElementById(id);
 const ext = 'target="_blank" rel="noopener"';
-let data;
+const plural = (n, w, ws = w + 's') => `${n} ${n === 1 ? w : ws}`;
+let data, gender = 'both';
+try { gender = localStorage.getItem('gender') || 'both'; } catch {}
 
 // Scent families, checked in order (so "Orange Blossom" is floral, not citrus).
 const FAMILIES = [
-  ['Floral', '#e7a6c1', 'rose jasmine iris violet tuberose peony lily freesia ylang blossom osmanthus honeysuckle'],
-  ['Citrus', '#f2c94c', 'bergamot lemon grapefruit mandarin orange tangerine neroli petitgrain'],
-  ['Fruity', '#e5735f', 'cherry pear apple pineapple lychee plum peach apricot currant rhubarb fruit'],
-  ['Gourmand', '#c99a6b', 'vanilla coffee cacao tonka caramel sugar almond marshmallow'],
-  ['Spicy', '#b5523b', 'pepper cinnamon nutmeg ginger cardamom coriander spicy saffron tobacco leather'],
+  ['Floral', '#e7a6c1', 'rose jasmine iris violet tuberose peony lily freesia ylang blossom osmanthus honeysuckle gardenia heliotrope orchid creeper orris'],
+  ['Citrus', '#f2c94c', 'bergamot lemon lime grapefruit mandarin orange tangerine neroli petitgrain'],
+  ['Fruity', '#e5735f', 'cherry pear apple pineapple lychee plum peach apricot currant rhubarb fruit berry strawberry coconut'],
+  ['Gourmand', '#c99a6b', 'vanilla coffee cacao tonka caramel sugar almond marshmallow praline pistachio'],
+  ['Spicy', '#b5523b', 'pepper cinnamon nutmeg ginger cardamom coriander spicy saffron tobacco leather cumin'],
   ['Amber', '#d98b3a', 'amber labdanum benzoin incense resin ambrox'],
-  ['Woody', '#8a6a4b', 'cedar sandalwood vetiver birch oud agarwood patchouli wood papyrus fir moss cashmeran'],
-  ['Fresh', '#7fb3cf', 'mint salt sage lavender tea mineral'],
+  ['Woody', '#8a6a4b', 'cedar sandalwood vetiver birch oud agarwood patchouli wood papyrus fir moss cashmeran pine'],
+  ['Fresh', '#7fb3cf', 'mint salt sage lavender tea mineral sea juniper rosemary flint'],
   ['Musky', '#cfc6b8', 'musk aldehyde ambrette'],
 ].map(([name, color, words]) => ({ name, color, words: words.split(' ') }));
+const DAY = ['Citrus', 'Fresh', 'Floral', 'Fruity'], NIGHT = ['Amber', 'Gourmand', 'Spicy', 'Woody'];
 
 const notesOf = f => [...f.notes.top, ...f.notes.heart, ...f.notes.base];
-
+const pool = () => data.fragrances.filter(f => gender === 'both' || f.gender === gender || f.gender === 'unisex');
+const famCache = new Map();
 function families(f) {
+  if (famCache.has(f)) return famCache.get(f);
   const n = {};
   for (const note of notesOf(f)) {
     const fam = FAMILIES.find(x => x.words.some(w => note.toLowerCase().includes(w)));
     if (fam) n[fam.name] = (n[fam.name] || 0) + 1;
   }
-  return FAMILIES.filter(x => n[x.name]).sort((a, b) => n[b.name] - n[a.name]).slice(0, 3);
+  const out = FAMILIES.filter(x => n[x.name]).sort((a, b) => n[b.name] - n[a.name]).slice(0, 3);
+  famCache.set(f, out);
+  return out;
 }
+const famDots = f => `<div class="fams">${families(f).map(x => `<span style="--c:${x.color}">${x.name}</span>`).join('')}</div>`;
 
 // Bottle drawing for fragrances without a photo: shape from the name, liquid colored by scent family.
 const SHAPES = [
@@ -203,39 +249,56 @@ const SHAPES = [
   'M8 54a14 14 0 0 1 14-14h36a14 14 0 0 1 14 14v42a14 14 0 0 1-14 14H22a14 14 0 0 1-14-14z',
 ];
 let gid = 0;
-function art(f) {
-  if (f.image) return `<div class="art"><img src="${esc(f.image)}&width=200" alt="${esc(f.brand + ' ' + f.name)} bottle" loading="lazy" width="72" height="72"></div>`;
+function art(f, cls = '', style = '') {
+  const open = `<div class="art ${cls}" style="${style}">`;
+  if (f.image) return `${open}<img src="${esc(f.image)}&width=400" alt="${esc(f.brand + ' ' + f.name)} bottle" loading="lazy"></div>`;
   const c = families(f).map(x => x.color);
   if (!c.length) c.push('#d8d2c8');
   if (c.length < 2) c.push(c[0]);
   const shape = SHAPES[[...f.name].reduce((h, ch) => h + ch.charCodeAt(0), 0) % SHAPES.length];
   const id = 'g' + gid++;
   const stops = c.map((x, j) => `<stop offset="${j / (c.length - 1)}" stop-color="${x}"/>`).join('');
-  return `<div class="art"><svg viewBox="0 0 80 112" aria-hidden="true"><defs><linearGradient id="${id}" x1="0" y1="0" x2=".4" y2="1">${stops}</linearGradient></defs>
+  return `${open}<svg viewBox="0 0 80 112" aria-hidden="true"><defs><linearGradient id="${id}" x1="0" y1="0" x2=".4" y2="1">${stops}</linearGradient></defs>
     <rect x="29" y="2" width="22" height="20" rx="4" fill="#2b2622"/><rect x="34" y="21" width="12" height="12" fill="#2b2622" opacity=".8"/>
     <path d="${shape}" fill="url(#${id})"/><path d="${shape}" fill="none" stroke="#000" stroke-opacity=".08"/>
     <rect x="22" y="48" width="5" height="34" rx="2.5" fill="#fff" opacity=".4"/></svg></div>`;
-}
-
-// Fragrances in our list that share at least two notes.
-function sharesNotes(f) {
-  const mine = new Set(notesOf(f).map(n => n.toLowerCase()));
-  return data.fragrances.filter(g => g !== f)
-    .map(g => [g.name, notesOf(g).filter(n => mine.has(n.toLowerCase())).length])
-    .filter(([, n]) => n >= 2).sort((a, b) => b[1] - a[1]).slice(0, 4).map(([name]) => name);
 }
 
 const chips = list => list.length
   ? `<div class="chips">${list.map(x => `<button class="chip" data-q="${esc(x)}">${esc(x)}</button>`).join('')}</div>`
   : '<span class="none">None yet</span>';
 
-const head = f => `${art(f)}<div><h3 class="name">${esc(f.name)}</h3><div class="brand">${esc(f.brand)}</div>
-  <div class="fams">${families(f).map(x => `<span style="--c:${x.color}">${x.name}</span>`).join('')}</div></div>`;
+// A grid tile that opens the fragrance in Search.
+const tile = (f, i, extra = '') => `<button class="tile" data-open="${esc(f.brand + ' ' + f.name)}" style="--i:${i}">
+    ${f.dupes.length ? `<span class="pill">${plural(f.dupes.length, 'dupe')}</span>` : ''}
+    ${art(f)}<div class="name">${esc(f.name)}</div><div class="brand">${esc(f.brand)}</div>${famDots(f)}${extra}</button>`;
 
+/* ---------- Explore ---------- */
+let feed = [], shown = 0;
+const shuffle = a => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; };
+function resetFeed() { feed = shuffle(pool()); shown = 0; $('feed').innerHTML = ''; moreFeed(); }
+function moreFeed() {
+  const next = feed.slice(shown, shown + 9);
+  $('feed').insertAdjacentHTML('beforeend', next.map((f, i) => tile(f, i)).join(''));
+  shown += next.length;
+  $('end').hidden = shown < feed.length;
+}
+function renderExplore() {
+  $('shelf').innerHTML = shuffle(pool().filter(f => f.image)).slice(0, 6).map((f, i) => art(f, '', `--i:${i}`)).join('');
+  resetFeed();
+}
+
+/* ---------- Search ---------- */
+const sharesNotes = f => {
+  const mine = new Set(notesOf(f).map(n => n.toLowerCase()));
+  return pool().filter(g => g !== f)
+    .map(g => [g.name, notesOf(g).filter(n => mine.has(n.toLowerCase())).length])
+    .filter(([, n]) => n >= 2).sort((a, b) => b[1] - a[1]).slice(0, 4).map(([name]) => name);
+};
 function card(f) {
   const similar = [...new Set([...f.similar, ...sharesNotes(f)])];
   return `<details class="card" data-i="${data.fragrances.indexOf(f)}">
-    <summary>${head(f)}</summary>
+    <summary>${art(f, 'thumb')}<div><h3 class="name">${esc(f.name)}</h3><div class="brand">${esc(f.brand)}</div>${famDots(f)}</div></summary>
     <div class="body">
       <h4>Notes</h4>
       ${['top', 'heart', 'base'].map(t => `<div class="tier"><span>${t[0].toUpperCase() + t.slice(1)}</span>${chips(f.notes[t])}</div>`).join('')}
@@ -247,7 +310,6 @@ function card(f) {
     </div>
   </details>`;
 }
-
 async function loadPrices(el) {
   const f = data.fragrances[el.dataset.i];
   const q = `${f.brand} ${f.name}`;
@@ -260,77 +322,117 @@ async function loadPrices(el) {
   const best = live.length > 1 ? live.reduce((a, b) => perMl(b) < perMl(a) ? b : a) : null;
   const rows = live.sort((a, b) => perMl(a) - perMl(b)).map(p => `<li>
       <a href="${esc(p.url)}" ${ext}>${esc(p.store)}</a>${p === best ? '<span class="best">Best value</span>' : ''}
-      <small>${p.size} ml · $${perMl(p).toFixed(2)}/ml</small>
-      <span class="end">$${p.price.toFixed(2)}</span></li>`);
+      <small>${p.size} ml · $${perMl(p).toFixed(2)}/ml</small><span class="r">$${p.price.toFixed(2)}</span></li>`);
   const priced = new Set(live.map(p => p.store));
   for (const [store, url] of Object.entries(data.stores)) {
-    if (!priced.has(store)) rows.push(`<li><a href="${url}${enc(q)}" ${ext}>${esc(store)}</a><span class="end"><small>See price ↗</small></span></li>`);
+    if (!priced.has(store)) rows.push(`<li><a href="${url}${enc(q)}" ${ext}>${esc(store)}</a><span class="r"><small>See price ↗</small></span></li>`);
   }
   el.querySelector('.prices').innerHTML = rows.join('');
 }
-
-const matches = (f, q, fields) => fields(f).join(' ').toLowerCase().includes(q);
-const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
-
+const has = (q, fields) => fields.join(' ').toLowerCase().includes(q);
 function renderSearch() {
   const q = $('q').value.trim().toLowerCase();
-  const hits = data.fragrances.filter(f => matches(f, q, f => [f.brand, f.name, ...notesOf(f), ...f.dupes, ...f.similar]));
-  $('count').textContent = q ? plural(hits.length, 'match').replace('matchs', 'matches') : plural(data.fragrances.length, 'fragrance');
+  const hits = pool().filter(f => has(q, [f.brand, f.name, ...notesOf(f), ...f.dupes, ...f.similar]));
+  $('count').textContent = q ? plural(hits.length, 'match', 'matches') : plural(hits.length, 'fragrance');
   $('out').innerHTML = hits.length ? hits.map(card).join('')
     : `<p class="none" style="text-align:center;margin-top:32px">Not on our list yet. <a href="https://www.fragrantica.com/search/?query=${enc(q)}" ${ext}>Try Fragrantica ↗</a></p>`;
   if (hits.length === 1) $('out').querySelector('details').open = true;
 }
 
+/* ---------- Dupes ---------- */
 function renderDupes() {
   const q = $('dq').value.trim().toLowerCase();
-  const withDupes = data.fragrances.filter(f => f.dupes.length);
-  const hits = withDupes.filter(f => matches(f, q, f => [f.brand, f.name, ...f.dupes]));
-  $('dcount').textContent = q ? plural(hits.length, 'match').replace('matchs', 'matches') : `${withDupes.length} fragrances with known dupes`;
+  const withDupes = pool().filter(f => f.dupes.length);
+  const hits = withDupes.filter(f => has(q, [f.brand, f.name, ...f.dupes]));
+  $('dcount').textContent = q ? plural(hits.length, 'match', 'matches') : `${withDupes.length} fragrances with known dupes`;
   $('dout').innerHTML = hits.map(f => `<article class="dupe">
-      <div class="top">${art(f)}<div><div class="label">The original</div><h3 class="name">${esc(f.name)}</h3><div class="brand">${esc(f.brand)}</div></div></div>
-      <ul class="rows">${f.dupes.map(d => `<li><span>${esc(d)}</span>
-        <span class="end"><a href="${data.stores.FragranceNet}${enc(d)}" ${ext}>Find it ↗</a></span></li>`).join('')}</ul>
+      <div class="top">${art(f, 'thumb')}<div><div class="label">The original</div><h3 class="name">${esc(f.name)}</h3><div class="brand">${esc(f.brand)}</div></div></div>
+      <ul class="rows">${f.dupes.map(d => `<li><span>${esc(d)}</span><span class="r"><a href="${data.stores.FragranceNet}${enc(d)}" ${ext}>Find it ↗</a></span></li>`).join('')}</ul>
     </article>`).join('') || `<p class="none" style="text-align:center;margin-top:32px">No dupes on file for that yet.</p>`;
 }
 
-function renderHome() {
-  $('shelf').innerHTML = data.fragrances.filter(f => f.image).slice(0, 6)
-    .map((f, i) => art(f).replace('class="art"', `class="art" style="--i:${i}"`)).join('');
-  const notes = [...new Set(data.fragrances.flatMap(notesOf))].slice(0, 30);
-  $('marquee').innerHTML = chips([...notes, ...notes]).replace(/^<div class="chips">|<\/div>$/g, '');
-  const dupes = data.fragrances.reduce((n, f) => n + f.dupes.length, 0);
-  $('stats').innerHTML = [[data.fragrances.length, 'fragrances'], [Object.keys(data.stores).length, 'stores'], [dupes, 'dupes']]
-    .map(([n, w]) => `<div><b>${n}</b><span>${w}</span></div>`).join('');
-  const io = new IntersectionObserver(es => es.forEach(e => e.isIntersecting && e.target.classList.add('in')), { threshold: .2 });
-  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+/* ---------- Match me ---------- */
+const picked = id => [...$(id).querySelectorAll('[aria-pressed="true"]')].map(b => b.dataset.v);
+function renderQuiz() {
+  const famChip = x => `<button class="chip dot" data-v="${x.name}" aria-pressed="false" style="--c:${x.color}">${x.name}</button>`;
+  $('like').innerHTML = FAMILIES.map(famChip).join('');
+  $('avoid').innerHTML = FAMILIES.map(famChip).join('');
+  $('when').innerHTML = ['Day', 'Night', 'Anytime'].map(v => `<button class="chip" data-v="${v}" data-single aria-pressed="false">${v}</button>`).join('');
+}
+function renderPicks() {
+  const like = picked('like'), avoid = picked('avoid'), when = picked('when')[0];
+  if (!like.length && !avoid.length && !when) {
+    $('picks').innerHTML = '<p class="none">Pick a few scents you like to see your matches.</p>';
+    return;
+  }
+  const scored = pool().map(f => {
+    const fams = families(f).map(x => x.name);
+    let s = like.length ? 0 : 1; // with no likes, anything not skipped is a candidate
+    const why = [];
+    fams.forEach((n, i) => {
+      if (like.includes(n)) { s += (3 - i) * 2; why.push(n); }
+      if (avoid.includes(n)) s -= (3 - i) * 3;
+    });
+    if (when === 'Day' || when === 'Night') s += fams.filter(n => (when === 'Day' ? DAY : NIGHT).includes(n)).length;
+    return { f, s, why };
+  }).filter(x => x.s > 0).sort((a, b) => b.s - a.s).slice(0, 6);
+  $('picks').innerHTML = scored.map(({ f, why }, i) =>
+    tile(f, i, `<div class="why">${why.length ? 'Because you like ' + why.join(' & ').toLowerCase()
+      : when === 'Day' || when === 'Night' ? 'Made for the ' + when.toLowerCase() : 'Nothing you wanted to skip'}</div>`)).join('')
+    || '<p class="none">Nothing fits all of that yet. Try skipping fewer scents.</p>';
 }
 
+/* ---------- Shell ---------- */
+function setGender(g) {
+  gender = g;
+  try { localStorage.setItem('gender', g); } catch {}
+  for (const b of document.querySelectorAll('.seg button')) b.setAttribute('aria-pressed', b.dataset.g === g);
+  renderExplore(); renderSearch(); renderDupes(); renderPicks();
+}
 function route() {
-  const tab = ['home', 'search', 'dupes'].includes(location.hash.slice(1)) ? location.hash.slice(1) : 'home';
+  const tab = ['explore', 'search', 'dupes', 'match'].includes(location.hash.slice(1)) ? location.hash.slice(1) : 'explore';
   for (const s of document.querySelectorAll('section.view')) s.hidden = s.id !== tab;
-  for (const a of document.querySelectorAll('nav a.tab')) {
+  for (const a of document.querySelectorAll('.tabs a')) {
     if (a.hash === '#' + tab) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
   }
   scrollTo(0, 0);
 }
+function openInSearch(q) { $('q').value = q; renderSearch(); location.hash = 'search'; }
 
-// Clicking a note or dupe anywhere searches for it.
 document.addEventListener('click', e => {
-  const q = e.target.closest('.chip')?.dataset.q;
-  if (!q) return;
-  $('q').value = q;
-  renderSearch();
-  location.hash = 'search';
+  const t = e.target;
+  const g = t.closest('.seg button');
+  if (g) return setGender(g.dataset.g);
+  const opt = t.closest('.q .chip');
+  if (opt) {
+    const on = opt.getAttribute('aria-pressed') !== 'true';
+    if (opt.hasAttribute('data-single')) opt.parentNode.querySelectorAll('.chip').forEach(b => b.setAttribute('aria-pressed', 'false'));
+    opt.setAttribute('aria-pressed', on);
+    // A scent can't be both liked and skipped.
+    const other = opt.closest('#like') ? 'avoid' : opt.closest('#avoid') ? 'like' : null;
+    if (on && other) $(other).querySelector(`[data-v="${opt.dataset.v}"]`).setAttribute('aria-pressed', 'false');
+    return renderPicks();
+  }
+  const open = t.closest('[data-open]')?.dataset.open;
+  if (open) return openInSearch(open);
+  const q = t.closest('.chip')?.dataset.q;
+  if (q) openInSearch(q);
 });
 $('out').addEventListener('toggle', e => {
   if (e.target.open && !e.target.dataset.loaded) { e.target.dataset.loaded = 1; loadPrices(e.target); }
 }, true);
+$('shuffle').onclick = $('again').onclick = () => resetFeed();
+$('reset').onclick = () => { renderQuiz(); renderPicks(); };
 
 fetch('data.json').then(r => r.json()).then(d => {
   data = d;
+  const notes = [...new Set(data.fragrances.flatMap(notesOf))].slice(0, 36);
+  $('marquee').innerHTML = chips([...notes, ...notes]).replace(/^<div class="chips">|<\/div>$/g, '');
+  renderQuiz();
   $('q').addEventListener('input', renderSearch);
   $('dq').addEventListener('input', renderDupes);
-  renderHome(); renderSearch(); renderDupes();
+  new IntersectionObserver(es => { if (es[0].isIntersecting && shown < feed.length) moreFeed(); }, { rootMargin: '400px' }).observe($('sentinel'));
+  setGender(['both', 'men', 'women'].includes(gender) ? gender : 'both');
   addEventListener('hashchange', route);
   route();
 });

@@ -33,7 +33,8 @@
         "Ariana Grande Cloud"
       ],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Shammy_-_2026-04-09T191900.465.png?v=1775740772"
+      "gender": "unisex",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/08ub1xtjo2.png?v=1773181550"
     },
     {
       "name": "Aventus",
@@ -67,6 +68,7 @@
         "Parfums de Marly Layton"
       ],
       "prices": {},
+      "gender": "men",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/6_d8b413e8-b123-49b1-9626-68be988387c6.png?v=1767866679"
     },
     {
@@ -96,6 +98,7 @@
         "Le Labo Another 13"
       ],
       "prices": {},
+      "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/0584tw78ud.png?v=1723933082"
     },
     {
@@ -126,6 +129,7 @@
         "Kayali Vanilla 28"
       ],
       "prices": {},
+      "gender": "women",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitled_design_2_a5667a8e-e99a-4c27-ba29-a2353dbaf5b6.png?v=1770634073"
     },
     {
@@ -153,6 +157,7 @@
       ],
       "similar": [],
       "prices": {},
+      "gender": "men",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-16T212303.972.png?v=1771255480"
     },
     {
@@ -181,7 +186,8 @@
         "Armaf Club de Nuit Iconic"
       ],
       "similar": [],
-      "prices": {}
+      "prices": {},
+      "gender": "men"
     },
     {
       "name": "No. 5",
@@ -210,7 +216,8 @@
         "Dossier Floral Aldehydes"
       ],
       "similar": [],
-      "prices": {}
+      "prices": {},
+      "gender": "women"
     },
     {
       "name": "Libre",
@@ -240,6 +247,7 @@
       ],
       "similar": [],
       "prices": {},
+      "gender": "women",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-71.png?v=1767866721"
     },
     {
@@ -268,6 +276,7 @@
       ],
       "similar": [],
       "prices": {},
+      "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/lostcherry100mltester.png?v=1767866654"
     },
     {
@@ -291,7 +300,8 @@
       },
       "dupes": [],
       "similar": [],
-      "prices": {}
+      "prices": {},
+      "gender": "unisex"
     },
     {
       "name": "Delina",
@@ -317,6 +327,7 @@
       ],
       "similar": [],
       "prices": {},
+      "gender": "women",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Sara_28_79e5fd44-367a-43e8-b044-9fad79dcdcd9.png?v=1780732441"
     },
     {
@@ -345,6 +356,7 @@
       ],
       "similar": [],
       "prices": {},
+      "gender": "women",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_30.png?v=1770345048"
     },
     {
@@ -370,7 +382,9 @@
       },
       "dupes": [],
       "similar": [],
-      "prices": {}
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SARA_78_b6401381-358f-4537-93be-124d06149a8a.png?v=1773253762"
     },
     {
       "name": "Good Girl",
@@ -398,6 +412,7 @@
       "dupes": [],
       "similar": [],
       "prices": {},
+      "gender": "women",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_59.png?v=1770359639"
     },
     {
@@ -419,6 +434,7 @@
         "Issey Miyake Le Sel d'Issey"
       ],
       "prices": {},
+      "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/029tlneeoy.png?v=1723923470"
     },
     {
@@ -443,6 +459,7 @@
       ],
       "similar": [],
       "prices": {},
+      "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Oud-for-greatness_1024x1024_04a8d29d-e1de-4e88-b244-4ee0c54cb4f3.jpg?v=1767866679"
     },
     {
@@ -472,7 +489,8 @@
         "Dossier Floral Marshmallow"
       ],
       "similar": [],
-      "prices": {}
+      "prices": {},
+      "gender": "women"
     },
     {
       "name": "You",
@@ -496,7 +514,7 @@
         "Le Labo Another 13"
       ],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/2_71c9d037-484c-4850-8219-ec3587fbf0c6.png?v=1767866693"
+      "gender": "unisex"
     },
     {
       "name": "1 Million",
@@ -524,6 +542,7 @@
       ],
       "similar": [],
       "prices": {},
+      "gender": "men",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/7_0997b17e-fe61-4e7f-93bb-4292ed818a2a.png?v=1767868416"
     },
     {
@@ -550,7 +569,458 @@
       "dupes": [],
       "similar": [],
       "prices": {},
+      "gender": "women",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-12T164925.537.png?v=1770895194"
+    },
+    {
+      "name": "Y",
+      "brand": "Yves Saint Laurent",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Apple",
+          "Ginger",
+          "Bergamot"
+        ],
+        "heart": [
+          "Sage",
+          "Juniper Berries",
+          "Geranium"
+        ],
+        "base": [
+          "Amberwood",
+          "Tonka Bean",
+          "Cedar",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/4_06ad5373-eb61-4461-a194-10a3a9d05cd6.png?v=1767867768"
+    },
+    {
+      "name": "Acqua di Giò",
+      "brand": "Giorgio Armani",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Lemon",
+          "Neroli",
+          "Mandarin"
+        ],
+        "heart": [
+          "Sea Notes",
+          "Jasmine",
+          "Rosemary",
+          "Peach"
+        ],
+        "base": [
+          "White Musk",
+          "Cedar",
+          "Oakmoss",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/UniversalImages.png?v=1767866709"
+    },
+    {
+      "name": "Eros",
+      "brand": "Versace",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Mint",
+          "Green Apple",
+          "Lemon"
+        ],
+        "heart": [
+          "Tonka Bean",
+          "Ambroxan",
+          "Geranium"
+        ],
+        "base": [
+          "Vanilla",
+          "Vetiver",
+          "Oakmoss",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/16_013f2018-f4cb-491c-bdbf-f14a91212237.png?v=1769242552"
+    },
+    {
+      "name": "Le Male",
+      "brand": "Jean Paul Gaultier",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lavender",
+          "Mint",
+          "Cardamom",
+          "Bergamot"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Orange Blossom",
+          "Cumin"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean",
+          "Sandalwood",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/2_97996610-5282-4d8e-b91e-20b5d82b57b0.png?v=1767866698"
+    },
+    {
+      "name": "Dior Homme Intense",
+      "brand": "Dior",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lavender"
+        ],
+        "heart": [
+          "Iris",
+          "Ambrette",
+          "Pear"
+        ],
+        "base": [
+          "Vetiver",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {}
+    },
+    {
+      "name": "Terre d'Hermès",
+      "brand": "Hermès",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Orange",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Pepper",
+          "Geranium",
+          "Flint"
+        ],
+        "base": [
+          "Vetiver",
+          "Cedar",
+          "Patchouli",
+          "Benzoin"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-13T122235.144.png?v=1770965154"
+    },
+    {
+      "name": "L'Homme",
+      "brand": "Prada",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Neroli",
+          "Black Pepper",
+          "Cardamom"
+        ],
+        "heart": [
+          "Iris",
+          "Violet",
+          "Geranium"
+        ],
+        "base": [
+          "Amber",
+          "Patchouli",
+          "Cedar",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/8_92de9d78-375e-4ede-8bb3-089f32000b08.png?v=1767866704"
+    },
+    {
+      "name": "Born in Roma Uomo Intense",
+      "brand": "Valentino",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lavender"
+        ],
+        "heart": [
+          "Vanilla"
+        ],
+        "base": [
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {}
+    },
+    {
+      "name": "Ombré Leather",
+      "brand": "Tom Ford",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Cardamom"
+        ],
+        "heart": [
+          "Leather",
+          "Jasmine Sambac"
+        ],
+        "base": [
+          "Amber",
+          "Moss",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SARA_137bfb02-7ddb-4f22-beba-b6dedb0116f2.png?v=1774353022"
+    },
+    {
+      "name": "Gypsy Water",
+      "brand": "Byredo",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Lemon",
+          "Pepper",
+          "Juniper Berries"
+        ],
+        "heart": [
+          "Incense",
+          "Pine Needles",
+          "Orris"
+        ],
+        "base": [
+          "Amber",
+          "Vanilla",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/angelshare50ml-10.png?v=1767866656"
+    },
+    {
+      "name": "La Vie Est Belle",
+      "brand": "Lancôme",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Black Currant",
+          "Pear"
+        ],
+        "heart": [
+          "Iris",
+          "Jasmine",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Praline",
+          "Vanilla",
+          "Patchouli",
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/25_928ea33c-eadf-456e-874d-aad7b24380fe.png?v=1767866703"
+    },
+    {
+      "name": "Cloud",
+      "brand": "Ariana Grande",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Lavender",
+          "Pear",
+          "Bergamot"
+        ],
+        "heart": [
+          "Coconut",
+          "Praline",
+          "Vanilla Orchid"
+        ],
+        "base": [
+          "Musk",
+          "Woody Notes"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/4_76ee3c71-aa77-4d80-943e-0c43ed5e3ab1.png?v=1767868600"
+    },
+    {
+      "name": "Cheirosa 62",
+      "brand": "Sol de Janeiro",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pistachio",
+          "Almond"
+        ],
+        "heart": [
+          "Heliotrope",
+          "Jasmine"
+        ],
+        "base": [
+          "Salted Caramel",
+          "Vanilla",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {}
+    },
+    {
+      "name": "Her",
+      "brand": "Burberry",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Strawberry",
+          "Raspberry",
+          "Blackberry",
+          "Sour Cherry"
+        ],
+        "heart": [
+          "Violet",
+          "Jasmine"
+        ],
+        "base": [
+          "Musk",
+          "Vanilla",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/17_1754c310-da29-43ae-9136-9d44352571da.png?v=1767866703"
+    },
+    {
+      "name": "Bloom",
+      "brand": "Gucci",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Jasmine"
+        ],
+        "heart": [
+          "Tuberose"
+        ],
+        "base": [
+          "Rangoon Creeper"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitled_design_21.png?v=1770562793"
+    },
+    {
+      "name": "Vanilla 28",
+      "brand": "Kayali",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Brown Sugar"
+        ],
+        "heart": [
+          "Vanilla",
+          "Tonka Bean"
+        ],
+        "base": [
+          "Amber",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SHAMMY-2026-03-09T115208.035.png?v=1773035550"
+    },
+    {
+      "name": "Daisy",
+      "brand": "Marc Jacobs",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Strawberry",
+          "Violet Leaf",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Violet",
+          "Jasmine",
+          "Gardenia"
+        ],
+        "base": [
+          "Musk",
+          "Vanilla",
+          "White Woods"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_10_42692987-91fa-45b9-be51-2589dc569eac.png?v=1770579839"
+    },
+    {
+      "name": "Coco Mademoiselle",
+      "brand": "Chanel",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Orange",
+          "Bergamot",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Rose",
+          "Jasmine",
+          "Lychee"
+        ],
+        "base": [
+          "Patchouli",
+          "Vetiver",
+          "Vanilla",
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02mnh982py.jpg?v=1724871544"
     }
   ]
 }
