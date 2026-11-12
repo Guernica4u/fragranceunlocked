@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { ml, pick } from './functions/api/prices.js';
+import { ml, pick, clean, match } from './functions/api/prices.js';
 
 assert.equal(ml('3.4 oz / 100 ml Spray'), 100);
 assert.equal(ml('1.7 oz. / 50ml'), 50);
@@ -14,4 +14,16 @@ assert.deepEqual(pick([
   { title: '0.05 oz Vial Spray', price: '9.79' },
 ]), { size: 100, price: 248.89 });
 assert.equal(pick([{ title: '5ml Travel Spray', price: '40' }]), null);
+assert.equal(clean('Creed Aventus Eau de Parfum for Men', 'Creed'), 'aventus');
+assert.equal(clean('Aventus EDP 3.4 oz. / 100ml'), 'aventus');
+assert.equal(clean("Love, Don't Be Shy EDP"), 'love don t be shy');
+assert.equal(clean('Chanel No.5 Eau de Parfum', 'Chanel'), 'no 5');
+assert.equal(clean('No. 5'), 'no 5');
+
+// Real Arvella results: the flanker comes first but the original wins.
+const sauvage = [{ title: 'Sauvage Elixir EDP' }, { title: 'Sauvage EDP' }];
+assert.equal(match(sauvage, 'Sauvage', 'Dior').title, 'Sauvage EDP');
+assert.equal(match([{ title: 'Aventus For Her EDP' }, { title: 'Aventus EDP' }], 'Aventus', 'Creed').title, 'Aventus EDP');
+assert.equal(match([{ title: 'Sauvage Elixir EDP' }], 'Sauvage', 'Dior').title, 'Sauvage Elixir EDP'); // fallback
+assert.equal(match([{ title: 'Bleu de Chanel' }], 'Aventus', 'Creed'), null);
 console.log('ok');

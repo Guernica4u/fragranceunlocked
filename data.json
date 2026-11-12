@@ -10,50 +10,547 @@
     {
       "name": "Baccarat Rouge 540",
       "brand": "Maison Francis Kurkdjian",
-      "notes": { "top": ["Saffron", "Jasmine"], "heart": ["Amberwood", "Ambergris"], "base": ["Fir Resin", "Cedar"] },
-      "dupes": ["Armaf Club de Nuit Untold", "Zara Red Temptation"],
-      "similar": ["Maison Francis Kurkdjian Grand Soir", "Ariana Grande Cloud"],
-      "prices": {}
+      "notes": {
+        "top": [
+          "Saffron",
+          "Jasmine"
+        ],
+        "heart": [
+          "Amberwood",
+          "Ambergris"
+        ],
+        "base": [
+          "Fir Resin",
+          "Cedar"
+        ]
+      },
+      "dupes": [
+        "Armaf Club de Nuit Untold",
+        "Zara Red Temptation"
+      ],
+      "similar": [
+        "Maison Francis Kurkdjian Grand Soir",
+        "Ariana Grande Cloud"
+      ],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Shammy_-_2026-04-09T191900.465.png?v=1775740772"
     },
     {
       "name": "Aventus",
       "brand": "Creed",
-      "notes": { "top": ["Pineapple", "Bergamot", "Black Currant", "Apple"], "heart": ["Birch", "Patchouli", "Jasmine", "Rose"], "base": ["Musk", "Oakmoss", "Ambergris", "Vanilla"] },
-      "dupes": ["Armaf Club de Nuit Intense Man", "Al Haramain L'Aventure"],
-      "similar": ["Montblanc Explorer", "Parfums de Marly Layton"],
-      "prices": {}
+      "notes": {
+        "top": [
+          "Pineapple",
+          "Bergamot",
+          "Black Currant",
+          "Apple"
+        ],
+        "heart": [
+          "Birch",
+          "Patchouli",
+          "Jasmine",
+          "Rose"
+        ],
+        "base": [
+          "Musk",
+          "Oakmoss",
+          "Ambergris",
+          "Vanilla"
+        ]
+      },
+      "dupes": [
+        "Armaf Club de Nuit Intense Man",
+        "Al Haramain L'Aventure"
+      ],
+      "similar": [
+        "Montblanc Explorer",
+        "Parfums de Marly Layton"
+      ],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/6_d8b413e8-b123-49b1-9626-68be988387c6.png?v=1767866679"
     },
     {
       "name": "Santal 33",
       "brand": "Le Labo",
-      "notes": { "top": ["Cardamom", "Violet"], "heart": ["Iris", "Ambrox", "Papyrus"], "base": ["Sandalwood", "Cedar", "Leather"] },
-      "dupes": ["Dossier Woody Sandalwood"],
-      "similar": ["Diptyque Tam Dao", "Le Labo Another 13"],
-      "prices": {}
+      "notes": {
+        "top": [
+          "Cardamom",
+          "Violet"
+        ],
+        "heart": [
+          "Iris",
+          "Ambrox",
+          "Papyrus"
+        ],
+        "base": [
+          "Sandalwood",
+          "Cedar",
+          "Leather"
+        ]
+      },
+      "dupes": [
+        "Dossier Woody Sandalwood"
+      ],
+      "similar": [
+        "Diptyque Tam Dao",
+        "Le Labo Another 13"
+      ],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/0584tw78ud.png?v=1723933082"
     },
     {
       "name": "Black Opium",
       "brand": "Yves Saint Laurent",
-      "notes": { "top": ["Pear", "Pink Pepper", "Orange Blossom"], "heart": ["Coffee", "Jasmine", "Bitter Almond"], "base": ["Vanilla", "Patchouli", "Cedar"] },
-      "dupes": ["Dossier Gourmand Coffee"],
-      "similar": ["Lancôme La Vie Est Belle", "Kayali Vanilla 28"],
+      "notes": {
+        "top": [
+          "Pear",
+          "Pink Pepper",
+          "Orange Blossom"
+        ],
+        "heart": [
+          "Coffee",
+          "Jasmine",
+          "Bitter Almond"
+        ],
+        "base": [
+          "Vanilla",
+          "Patchouli",
+          "Cedar"
+        ]
+      },
+      "dupes": [
+        "Dossier Gourmand Coffee"
+      ],
+      "similar": [
+        "Lancôme La Vie Est Belle",
+        "Kayali Vanilla 28"
+      ],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitled_design_2_a5667a8e-e99a-4c27-ba29-a2353dbaf5b6.png?v=1770634073"
+    },
+    {
+      "name": "Sauvage",
+      "brand": "Dior",
+      "notes": {
+        "top": [
+          "Calabrian Bergamot",
+          "Black Pepper"
+        ],
+        "heart": [
+          "Sichuan Pepper",
+          "Lavender",
+          "Pink Pepper",
+          "Vetiver"
+        ],
+        "base": [
+          "Ambroxan",
+          "Cedar",
+          "Labdanum"
+        ]
+      },
+      "dupes": [
+        "Armaf Ventana Pour Homme"
+      ],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-16T212303.972.png?v=1771255480"
+    },
+    {
+      "name": "Bleu de Chanel",
+      "brand": "Chanel",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Lemon",
+          "Mint",
+          "Pink Pepper"
+        ],
+        "heart": [
+          "Ginger",
+          "Nutmeg",
+          "Jasmine"
+        ],
+        "base": [
+          "Cedar",
+          "Sandalwood",
+          "Amber",
+          "Incense"
+        ]
+      },
+      "dupes": [
+        "Armaf Club de Nuit Iconic"
+      ],
+      "similar": [],
       "prices": {}
     },
-    { "name": "Sauvage", "brand": "Dior", "notes": { "top": ["Calabrian Bergamot", "Black Pepper"], "heart": ["Sichuan Pepper", "Lavender", "Pink Pepper", "Vetiver"], "base": ["Ambroxan", "Cedar", "Labdanum"] }, "dupes": ["Armaf Ventana Pour Homme"], "similar": [], "prices": {} },
-    { "name": "Bleu de Chanel", "brand": "Chanel", "notes": { "top": ["Grapefruit", "Lemon", "Mint", "Pink Pepper"], "heart": ["Ginger", "Nutmeg", "Jasmine"], "base": ["Cedar", "Sandalwood", "Amber", "Incense"] }, "dupes": ["Armaf Club de Nuit Iconic"], "similar": [], "prices": {} },
-    { "name": "No. 5", "brand": "Chanel", "notes": { "top": ["Aldehydes", "Ylang-Ylang", "Neroli", "Bergamot"], "heart": ["Iris", "Jasmine", "Rose", "Lily-of-the-Valley"], "base": ["Sandalwood", "Oakmoss", "Vanilla", "Patchouli"] }, "dupes": ["Dossier Floral Aldehydes"], "similar": [], "prices": {} },
-    { "name": "Libre", "brand": "Yves Saint Laurent", "notes": { "top": ["Mandarin Orange", "Blackcurrant", "Petitgrain", "Lavender"], "heart": ["Lavender", "Orange Blossom", "Jasmine Sambac"], "base": ["Vanilla", "Musk", "Cedar", "Ambergris"] }, "dupes": ["Dossier Floral Lavender", "Zara Golden Decade"], "similar": [], "prices": {} },
-    { "name": "Lost Cherry", "brand": "Tom Ford", "notes": { "top": ["Bitter Almond", "Black Cherry"], "heart": ["Sour Cherry", "Plum", "Turkish Rose", "Jasmine Sambac"], "base": ["Vanilla", "Tonka Bean", "Cinnamon", "Sandalwood"] }, "dupes": ["Alt. Fragrances Cherry Smash"], "similar": [], "prices": {} },
-    { "name": "Tobacco Vanille", "brand": "Tom Ford", "notes": { "top": ["Tobacco Leaf", "Spicy Notes"], "heart": ["Vanilla", "Cacao", "Tonka Bean", "Tobacco Blossom"], "base": ["Dried Fruits", "Woody Notes"] }, "dupes": [], "similar": [], "prices": {} },
-    { "name": "Delina", "brand": "Parfums de Marly", "notes": { "top": ["Rhubarb", "Lychee", "Bergamot"], "heart": ["Damascena Rose", "Vanilla"], "base": ["Cashmeran", "Musk", "Vetiver"] }, "dupes": ["Maison Alhambra Delilah"], "similar": [], "prices": {} },
-    { "name": "Flowerbomb", "brand": "Viktor&Rolf", "notes": { "top": ["Tea", "Bergamot", "Osmanthus"], "heart": ["Jasmine", "Orange Blossom", "Freesia", "Rose"], "base": ["Musk", "Patchouli", "Vanilla"] }, "dupes": ["Zara Oriental"], "similar": [], "prices": {} },
-    { "name": "Miss Dior", "brand": "Dior", "notes": { "top": ["Iris", "Peony", "Lily-of-the-Valley"], "heart": ["Apricot", "Rose", "Peach"], "base": ["Vanilla", "Musk", "Tonka Bean", "Sandalwood"] }, "dupes": [], "similar": [], "prices": {} },
-    { "name": "Good Girl", "brand": "Carolina Herrera", "notes": { "top": ["Almond", "Coffee", "Bergamot", "Lemon"], "heart": ["Tuberose", "Jasmine Sambac", "Orange Blossom", "Rose"], "base": ["Tonka Bean", "Cacao", "Vanilla", "Sandalwood"] }, "dupes": [], "similar": [], "prices": {} },
-    { "name": "Wood Sage & Sea Salt", "brand": "Jo Malone", "notes": { "top": ["Ambrette Seed"], "heart": ["Sea Salt"], "base": ["Sage"] }, "dupes": [], "similar": ["Issey Miyake Le Sel d'Issey"], "prices": {} },
-    { "name": "Oud for Greatness", "brand": "Initio", "notes": { "top": ["Saffron", "Nutmeg", "Lavender"], "heart": ["Agarwood"], "base": ["Patchouli", "Musk"] }, "dupes": ["Lattafa Bade'e Al Oud for Glory"], "similar": [], "prices": {} },
-    { "name": "Love, Don't Be Shy", "brand": "Kilian", "notes": { "top": ["Neroli", "Bergamot", "Pink Pepper", "Coriander"], "heart": ["Orange Blossom", "Honeysuckle", "Jasmine", "Marshmallow"], "base": ["Sugar", "Vanilla", "Caramel", "Musk"] }, "dupes": ["Dossier Floral Marshmallow"], "similar": [], "prices": {} },
-    { "name": "You", "brand": "Glossier", "notes": { "top": ["Pink Pepper"], "heart": ["Iris Root", "Violet"], "base": ["Ambrette", "Ambroxan", "Musk"] }, "dupes": [], "similar": ["Le Labo Another 13"], "prices": {} },
-    { "name": "1 Million", "brand": "Paco Rabanne", "notes": { "top": ["Blood Mandarin", "Grapefruit", "Mint"], "heart": ["Cinnamon", "Rose", "Spicy Notes"], "base": ["Amber", "Leather", "Woody Notes", "Patchouli"] }, "dupes": ["Al Battash AB Spirit Millionaire"], "similar": [], "prices": {} },
-    { "name": "Paradoxe", "brand": "Prada", "notes": { "top": ["Calabrian Bergamot", "Tangerine", "Pear"], "heart": ["Neroli", "Orange Blossom", "Jasmine Sambac"], "base": ["Amber", "Benzoin", "Vanilla", "White Musk"] }, "dupes": [], "similar": [], "prices": {} }
+    {
+      "name": "No. 5",
+      "brand": "Chanel",
+      "notes": {
+        "top": [
+          "Aldehydes",
+          "Ylang-Ylang",
+          "Neroli",
+          "Bergamot"
+        ],
+        "heart": [
+          "Iris",
+          "Jasmine",
+          "Rose",
+          "Lily-of-the-Valley"
+        ],
+        "base": [
+          "Sandalwood",
+          "Oakmoss",
+          "Vanilla",
+          "Patchouli"
+        ]
+      },
+      "dupes": [
+        "Dossier Floral Aldehydes"
+      ],
+      "similar": [],
+      "prices": {}
+    },
+    {
+      "name": "Libre",
+      "brand": "Yves Saint Laurent",
+      "notes": {
+        "top": [
+          "Mandarin Orange",
+          "Blackcurrant",
+          "Petitgrain",
+          "Lavender"
+        ],
+        "heart": [
+          "Lavender",
+          "Orange Blossom",
+          "Jasmine Sambac"
+        ],
+        "base": [
+          "Vanilla",
+          "Musk",
+          "Cedar",
+          "Ambergris"
+        ]
+      },
+      "dupes": [
+        "Dossier Floral Lavender",
+        "Zara Golden Decade"
+      ],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-71.png?v=1767866721"
+    },
+    {
+      "name": "Lost Cherry",
+      "brand": "Tom Ford",
+      "notes": {
+        "top": [
+          "Bitter Almond",
+          "Black Cherry"
+        ],
+        "heart": [
+          "Sour Cherry",
+          "Plum",
+          "Turkish Rose",
+          "Jasmine Sambac"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean",
+          "Cinnamon",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [
+        "Alt. Fragrances Cherry Smash"
+      ],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/lostcherry100mltester.png?v=1767866654"
+    },
+    {
+      "name": "Tobacco Vanille",
+      "brand": "Tom Ford",
+      "notes": {
+        "top": [
+          "Tobacco Leaf",
+          "Spicy Notes"
+        ],
+        "heart": [
+          "Vanilla",
+          "Cacao",
+          "Tonka Bean",
+          "Tobacco Blossom"
+        ],
+        "base": [
+          "Dried Fruits",
+          "Woody Notes"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {}
+    },
+    {
+      "name": "Delina",
+      "brand": "Parfums de Marly",
+      "notes": {
+        "top": [
+          "Rhubarb",
+          "Lychee",
+          "Bergamot"
+        ],
+        "heart": [
+          "Damascena Rose",
+          "Vanilla"
+        ],
+        "base": [
+          "Cashmeran",
+          "Musk",
+          "Vetiver"
+        ]
+      },
+      "dupes": [
+        "Maison Alhambra Delilah"
+      ],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Sara_28_79e5fd44-367a-43e8-b044-9fad79dcdcd9.png?v=1780732441"
+    },
+    {
+      "name": "Flowerbomb",
+      "brand": "Viktor&Rolf",
+      "notes": {
+        "top": [
+          "Tea",
+          "Bergamot",
+          "Osmanthus"
+        ],
+        "heart": [
+          "Jasmine",
+          "Orange Blossom",
+          "Freesia",
+          "Rose"
+        ],
+        "base": [
+          "Musk",
+          "Patchouli",
+          "Vanilla"
+        ]
+      },
+      "dupes": [
+        "Zara Oriental"
+      ],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_30.png?v=1770345048"
+    },
+    {
+      "name": "Miss Dior",
+      "brand": "Dior",
+      "notes": {
+        "top": [
+          "Iris",
+          "Peony",
+          "Lily-of-the-Valley"
+        ],
+        "heart": [
+          "Apricot",
+          "Rose",
+          "Peach"
+        ],
+        "base": [
+          "Vanilla",
+          "Musk",
+          "Tonka Bean",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {}
+    },
+    {
+      "name": "Good Girl",
+      "brand": "Carolina Herrera",
+      "notes": {
+        "top": [
+          "Almond",
+          "Coffee",
+          "Bergamot",
+          "Lemon"
+        ],
+        "heart": [
+          "Tuberose",
+          "Jasmine Sambac",
+          "Orange Blossom",
+          "Rose"
+        ],
+        "base": [
+          "Tonka Bean",
+          "Cacao",
+          "Vanilla",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_59.png?v=1770359639"
+    },
+    {
+      "name": "Wood Sage & Sea Salt",
+      "brand": "Jo Malone",
+      "notes": {
+        "top": [
+          "Ambrette Seed"
+        ],
+        "heart": [
+          "Sea Salt"
+        ],
+        "base": [
+          "Sage"
+        ]
+      },
+      "dupes": [],
+      "similar": [
+        "Issey Miyake Le Sel d'Issey"
+      ],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/029tlneeoy.png?v=1723923470"
+    },
+    {
+      "name": "Oud for Greatness",
+      "brand": "Initio",
+      "notes": {
+        "top": [
+          "Saffron",
+          "Nutmeg",
+          "Lavender"
+        ],
+        "heart": [
+          "Agarwood"
+        ],
+        "base": [
+          "Patchouli",
+          "Musk"
+        ]
+      },
+      "dupes": [
+        "Lattafa Bade'e Al Oud for Glory"
+      ],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Oud-for-greatness_1024x1024_04a8d29d-e1de-4e88-b244-4ee0c54cb4f3.jpg?v=1767866679"
+    },
+    {
+      "name": "Love, Don't Be Shy",
+      "brand": "Kilian",
+      "notes": {
+        "top": [
+          "Neroli",
+          "Bergamot",
+          "Pink Pepper",
+          "Coriander"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "Honeysuckle",
+          "Jasmine",
+          "Marshmallow"
+        ],
+        "base": [
+          "Sugar",
+          "Vanilla",
+          "Caramel",
+          "Musk"
+        ]
+      },
+      "dupes": [
+        "Dossier Floral Marshmallow"
+      ],
+      "similar": [],
+      "prices": {}
+    },
+    {
+      "name": "You",
+      "brand": "Glossier",
+      "notes": {
+        "top": [
+          "Pink Pepper"
+        ],
+        "heart": [
+          "Iris Root",
+          "Violet"
+        ],
+        "base": [
+          "Ambrette",
+          "Ambroxan",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [
+        "Le Labo Another 13"
+      ],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/2_71c9d037-484c-4850-8219-ec3587fbf0c6.png?v=1767866693"
+    },
+    {
+      "name": "1 Million",
+      "brand": "Paco Rabanne",
+      "notes": {
+        "top": [
+          "Blood Mandarin",
+          "Grapefruit",
+          "Mint"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Rose",
+          "Spicy Notes"
+        ],
+        "base": [
+          "Amber",
+          "Leather",
+          "Woody Notes",
+          "Patchouli"
+        ]
+      },
+      "dupes": [
+        "Al Battash AB Spirit Millionaire"
+      ],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/7_0997b17e-fe61-4e7f-93bb-4292ed818a2a.png?v=1767868416"
+    },
+    {
+      "name": "Paradoxe",
+      "brand": "Prada",
+      "notes": {
+        "top": [
+          "Calabrian Bergamot",
+          "Tangerine",
+          "Pear"
+        ],
+        "heart": [
+          "Neroli",
+          "Orange Blossom",
+          "Jasmine Sambac"
+        ],
+        "base": [
+          "Amber",
+          "Benzoin",
+          "Vanilla",
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-12T164925.537.png?v=1770895194"
+    }
   ]
 }
