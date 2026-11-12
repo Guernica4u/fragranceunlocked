@@ -1,0 +1,43 @@
+{
+  "stores": {
+    "Arvella": "https://arvellafragrance.com/search?q=",
+    "Beauty House": "https://www.beautyhouse.com/search?q=",
+    "FragranceNet": "https://www.fragrancenet.com/search?q=",
+    "Sephora": "https://www.sephora.com/search?keyword=",
+    "Ulta": "https://www.ulta.com/search?search="
+  },
+  "fragrances": [
+    {
+      "name": "Baccarat Rouge 540",
+      "brand": "Maison Francis Kurkdjian",
+      "notes": { "top": ["Saffron", "Jasmine"], "heart": ["Amberwood", "Ambergris"], "base": ["Fir Resin", "Cedar"] },
+      "dupes": ["Armaf Club de Nuit Untold", "Zara Red Temptation"],
+      "similar": ["Maison Francis Kurkdjian Grand Soir", "Ariana Grande Cloud"],
+      "prices": {}
+    },
+    {
+      "name": "Aventus",
+      "brand": "Creed",
+      "notes": { "top": ["Pineapple", "Bergamot", "Black Currant", "Apple"], "heart": ["Birch", "Patchouli", "Jasmine", "Rose"], "base": ["Musk", "Oakmoss", "Ambergris", "Vanilla"] },
+      "dupes": ["Armaf Club de Nuit Intense Man", "Al Haramain L'Aventure"],
+      "similar": ["Montblanc Explorer", "Parfums de Marly Layton"],
+      "prices": {}
+    },
+    {
+      "name": "Santal 33",
+      "brand": "Le Labo",
+      "notes": { "top": ["Cardamom", "Violet"], "heart": ["Iris", "Ambrox", "Papyrus"], "base": ["Sandalwood", "Cedar", "Leather"] },
+      "dupes": ["Dossier Woody Sandalwood"],
+      "similar": ["Diptyque Tam Dao", "Le Labo Another 13"],
+      "prices": {}
+    },
+    {
+      "name": "Black Opium",
+      "brand": "Yves Saint Laurent",
+      "notes": { "top": ["Pear", "Pink Pepper", "Orange Blossom"], "heart": ["Coffee", "Jasmine", "Bitter Almond"], "base": ["Vanilla", "Patchouli", "Cedar"] },
+      "dupes": ["Dossier Gourmand Coffee"],
+      "similar": ["Lancôme La Vie Est Belle", "Kayali Vanilla 28"],
+      "prices": {}
+    }
+  ]
+}
