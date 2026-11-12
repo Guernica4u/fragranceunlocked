@@ -1,4 +1,4 @@
-# No Secrets
+# Fragrance Unlocked
 
 One search for a fragrance: notes, dupes, similar scents, and links to every store.
 
