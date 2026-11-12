@@ -38,7 +38,16 @@ export function match(products, name, brand) {
 }
 
 export async function shop(store, base, q, name, brand) {
-  const get = url => fetch(url, { headers: { 'user-agent': UA } }).then(r => r.ok ? r.json() : null);
+  // Stores throttle Cloudflare's IPs now and then: retry once, then throw so the result isn't cached.
+  const get = async url => {
+    for (let i = 0; i < 2; i++) {
+      const r = await fetch(url, { headers: { 'user-agent': UA, accept: 'application/json' } });
+      if (r.ok) return r.json();
+      if (r.status === 404) return null;
+      await new Promise(ok => setTimeout(ok, 400));
+    }
+    throw new Error(`${store} unavailable`);
+  };
   const s = await get(`${base}/search/suggest.json?q=${encodeURIComponent(q)}&resources[type]=product&resources[limit]=8`);
   const hit = match(s?.resources?.results?.products || [], name, brand);
   if (!hit) return null;
@@ -55,11 +64,12 @@ export async function onRequestGet({ request, waitUntil }) {
   const name = (u.searchParams.get('name') || '').slice(0, 60);
   const brand = (u.searchParams.get('brand') || '').slice(0, 60);
   if (!q || !name) return Response.json({ error: 'q and name are required' }, { status: 400 });
+  let failed = false;
   const prices = (await Promise.all(
-    Object.entries(SHOPS).map(([store, base]) => shop(store, base, q, name, brand).catch(() => null))
+    Object.entries(SHOPS).map(([store, base]) => shop(store, base, q, name, brand).catch(() => { failed = true; return null; }))
   )).filter(Boolean);
   const res = Response.json({ prices, checked: new Date().toISOString() },
-    { headers: { 'cache-control': 'public, max-age=21600' } }); // 6 h
-  waitUntil(caches.default.put(request, res.clone()));
+    { headers: { 'cache-control': failed ? 'no-store' : 'public, max-age=21600' } }); // 6 h when complete
+  if (!failed) waitUntil(caches.default.put(request, res.clone()));
   return res;
 }
