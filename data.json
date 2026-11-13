@@ -2626,6 +2626,740 @@
       "prices": {},
       "source": "https://vivir.com/article/dossier-dossier-floral-musk",
       "dupeOf": "Lancôme Idôle"
+    },
+    {
+      "name": "Sì",
+      "brand": "Giorgio Armani",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Blackcurrant Liqueur"
+        ],
+        "heart": [
+          "Rose de Mai",
+          "Freesia"
+        ],
+        "base": [
+          "Patchouli",
+          "Oakmoss"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/armani-si-eau-de-parfum-30ml/11210488/",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_0adb5aa0-3270-4219-8e4f-bfbaec724064.png?v=1764363659"
+    },
+    {
+      "name": "Sì Passione",
+      "brand": "Giorgio Armani",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pink Pepper",
+          "Pear",
+          "Blackcurrant"
+        ],
+        "heart": [
+          "Rose",
+          "Jasmine",
+          "Heliotrope"
+        ],
+        "base": [
+          "Vanilla",
+          "Cedarwood",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://eu.lookfantastic.com/p/armani-si-passione-eau-de-parfum-50ml/11918614/",
+      "image": "https://cdn.shopify.com/s/files/1/0269/7763/2389/products/Giorgio-Armani-Si-Passione-Women-Eau-de-Parfum-3.4-Best-Price-Fragrance-Parfume-FragranceOutlet.com.jpg?v=1580835567"
+    },
+    {
+      "name": "Eau de Nuit",
+      "brand": "Giorgio Armani",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Peruvian Pepper",
+          "Bergamot"
+        ],
+        "heart": [
+          "Iris",
+          "Cardamom",
+          "Nutmeg",
+          "Heliotrope"
+        ],
+        "base": [
+          "Tonka Bean",
+          "Amber",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.tendance-parfums.com/en/armani-eau-de-nuit.html"
+    },
+    {
+      "name": "Light di Gioia",
+      "brand": "Giorgio Armani",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Bergamot"
+        ],
+        "heart": [
+          "Gardenia",
+          "Jasmine"
+        ],
+        "base": [
+          "White Musk",
+          "Ambroxan",
+          "Light Woods"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.myperfumeshop.ae/products/giorgio-armani-light-di-gioia-edp",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SARA_41.png?v=1772082576"
+    },
+    {
+      "name": "Because It's You",
+      "brand": "Giorgio Armani",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Raspberry",
+          "Neroli"
+        ],
+        "heart": [
+          "Rose Absolute"
+        ],
+        "base": [
+          "Vanilla",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/emporio-armani-because-it-s-you-eau-de-parfum-100ml/11671563.html"
+    },
+    {
+      "name": "My Way Nectar",
+      "brand": "Giorgio Armani",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pear",
+          "Orange Blossom",
+          "Bergamot"
+        ],
+        "heart": [
+          "Tuberose",
+          "Jasmine",
+          "Violet Leaf"
+        ],
+        "base": [
+          "White Musk",
+          "Bourbon Vanilla",
+          "Cedarwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.sephora.com/product/giorgio-armani-beauty-my-way-eau-de-parfum-nectar-P510140",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/010t3qmf3x.png?v=1723913086"
+    },
+    {
+      "name": "Donna Born in Roma",
+      "brand": "Valentino",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Jasmine Sambac"
+        ],
+        "heart": [
+          "Cashmeran"
+        ],
+        "base": [
+          "Vanilla Bourbon"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/valentino-born-in-roma-donna-eau-de-parfum-30ml/12737210/",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-86.png?v=1767866721"
+    },
+    {
+      "name": "Donna Born in Roma Intense",
+      "brand": "Valentino",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Mandarin",
+          "Bergamot",
+          "Blackcurrant"
+        ],
+        "heart": [
+          "Jasmine Sambac Absolute",
+          "Jasmine Grandiflorum",
+          "Jasmine Tea"
+        ],
+        "base": [
+          "Vanilla",
+          "Benzoin"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/valentino-born-in-roma-donna-intense-eau-de-parfum-50ml/14234060/",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/14_0b5a8664-faa6-443f-82e2-dd4bdc676e93.png?v=1767866744"
+    },
+    {
+      "name": "Donna Born in Roma Yellow Dream",
+      "brand": "Valentino",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Lemon"
+        ],
+        "heart": [
+          "Rose"
+        ],
+        "base": [
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/valentino-born-in-roma-donna-yellow-dream-eau-de-parfum-for-her-100ml/12852734/",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/04muejixdb.png?v=1734374564"
+    },
+    {
+      "name": "Voce Viva",
+      "brand": "Valentino",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Italian Bergamot",
+          "Mandarin"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "Golden Gardenia"
+        ],
+        "base": [
+          "Crystal Moss",
+          "Vanilla",
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://eu.lookfantastic.com/p/valentino-voce-viva-eau-de-parfum-for-women-30ml/12737271/",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_123862fd-935a-40ed-8ece-43f97952f601.png?v=1764197677"
+    },
+    {
+      "name": "Hero",
+      "brand": "Burberry",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Pine Needles"
+        ],
+        "heart": [
+          "Benzoin",
+          "Incense"
+        ],
+        "base": [
+          "Cedarwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/burberry-hero-eau-de-parfum-for-men-100ml/13998105/",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/14_9fb33fd9-bd95-472d-85d1-1c0c4ef008bb.png?v=1767866701"
+    },
+    {
+      "name": "Brit for Her",
+      "brand": "Burberry",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Pear",
+          "White Almond"
+        ],
+        "heart": [
+          "White Peony"
+        ],
+        "base": [
+          "Vanilla",
+          "Amber",
+          "Mahogany",
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/burberry-brit-for-her-eau-de-parfum-100ml/12044877",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/1_cdfec7ca-f90b-4db6-a438-ab55d64b6ca2.png?v=1770406319"
+    },
+    {
+      "name": "London",
+      "brand": "Burberry",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Honeysuckle"
+        ],
+        "heart": [
+          "Tiare Flower",
+          "Jasmine",
+          "Peony",
+          "Clementine"
+        ],
+        "base": [
+          "Sandalwood",
+          "Musk",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.woolworths.co.za/prod/_/A-510160248",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-16T222551.285.png?v=1771259506"
+    },
+    {
+      "name": "Her Intense",
+      "brand": "Burberry",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Blackberry",
+          "Cherry"
+        ],
+        "heart": [
+          "Jasmine",
+          "Violet"
+        ],
+        "base": [
+          "Benzoin",
+          "Cedarwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/burberry-her-intense-eau-de-parfum-50ml/12586214/"
+    },
+    {
+      "name": "Her Elixir",
+      "brand": "Burberry",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Strawberry",
+          "Blackberry"
+        ],
+        "heart": [
+          "Jasmine"
+        ],
+        "base": [
+          "Vanilla",
+          "Amber",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/burberry-her-elixir-de-parfum-for-women-100ml/14324093/"
+    },
+    {
+      "name": "Dreams",
+      "brand": "Coach",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Bitter Orange",
+          "Pear"
+        ],
+        "heart": [
+          "Cactus Flower",
+          "Gardenia"
+        ],
+        "base": [
+          "Joshua Tree",
+          "Ambroxan"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/coach-women-s-dreams-eau-de-parfum-60ml/12611908/",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/8057971188116_13.png?v=1773844781"
+    },
+    {
+      "name": "Blue",
+      "brand": "Coach",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lime Oil",
+          "Absinthe",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Ozone",
+          "Black Pepper",
+          "Cedar Leaf"
+        ],
+        "base": [
+          "Cedarwood",
+          "Amber",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/coach-men-s-blue-eau-de-toilette-100ml/12611912/",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitled_design_33.png?v=1770345876"
+    },
+    {
+      "name": "Coach for Men",
+      "brand": "Coach",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Citrus",
+          "Pear"
+        ],
+        "heart": [
+          "Cardamom",
+          "Coriander"
+        ],
+        "base": [
+          "Vetiver",
+          "Suede",
+          "Ambergris"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/coach-men-s-eau-de-toilette-100ml/12004641/"
+    },
+    {
+      "name": "Invictus Legend",
+      "brand": "Paco Rabanne",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Sea Notes",
+          "Sea Salt",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Bay Leaf",
+          "Geranium",
+          "Spices"
+        ],
+        "base": [
+          "Red Amber",
+          "Guaiac Wood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://klinq.com/en/paco-rabanne-invictus-legend-edp.html"
+    },
+    {
+      "name": "Invictus Victory Elixir",
+      "brand": "Paco Rabanne",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lavandin",
+          "Green Cardamom",
+          "Black Pepper"
+        ],
+        "heart": [
+          "Incense",
+          "Patchouli"
+        ],
+        "base": [
+          "Vanilla Bean",
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/paco-rabanne-invictus-victory-elixir-parfum-intense-100ml/14198998/",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/8_235e5c90-24b7-4718-8409-463e9fc489de.png?v=1767866723"
+    },
+    {
+      "name": "Eros Flame",
+      "brand": "Versace",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Tangerine",
+          "Bitter Orange",
+          "Black Pepper",
+          "Rosemary"
+        ],
+        "heart": [
+          "Pepperwood",
+          "Geranium",
+          "Rose"
+        ],
+        "base": [
+          "Texas Cedar",
+          "Patchouli",
+          "Haitian Vetiver",
+          "Mountain Oakmoss",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://eu.lookfantastic.com/p/versace-eros-flame-eau-de-parfum-50ml/12038631",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/23_82b2ed47-a515-480e-9beb-9279a99b3d47.png?v=1767866743"
+    },
+    {
+      "name": "Pour Homme",
+      "brand": "Versace",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Diamante Citrus",
+          "Bitter Orange Leaf",
+          "Neroli"
+        ],
+        "heart": [
+          "Clary Sage",
+          "Blue Hyacinth"
+        ],
+        "base": [
+          "Amber",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://lookfantastic.com/p/versace-pour-homme-eau-de-toilette-100ml/11034080",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/9_8f0d904e-64d9-45af-896a-f2989a410d02.png?v=1769244706"
+    },
+    {
+      "name": "Bright Crystal",
+      "brand": "Versace",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pomegranate",
+          "Ice",
+          "Yuzu"
+        ],
+        "heart": [
+          "Magnolia",
+          "Peony",
+          "Lotus"
+        ],
+        "base": [
+          "Vegetal Amber",
+          "Acajou",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.woolworths.co.za/prod/_/A-100241196",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitled_design_8.png?v=1770080487"
+    },
+    {
+      "name": "Dylan Turquoise",
+      "brand": "Versace",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Mandarin",
+          "Lemon",
+          "Pink Pepper"
+        ],
+        "heart": [
+          "Blackcurrant",
+          "Jasmine",
+          "Guava",
+          "Freesia"
+        ],
+        "base": [
+          "Clearwood",
+          "Woods",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://eu.lookfantastic.com/p/versace-pour-femme-dylan-turquoise-eau-de-toilette-vapo-50ml/12915076",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02ufb1o7ez.png?v=1723957871"
+    },
+    {
+      "name": "Yellow Diamond",
+      "brand": "Versace",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Citron",
+          "Pear Sorbet",
+          "Neroli",
+          "Bergamot"
+        ],
+        "heart": [
+          "Nymphea",
+          "Freesia",
+          "Orange Blossom",
+          "Mimosa"
+        ],
+        "base": [
+          "Amber Wood",
+          "Palo Santo",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/versace-yellow-diamond-50ml-eau-de-toilette/10597225",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SARA_19_1928eb94-ec5a-46cd-8fe6-a7fe0991bbd0.png?v=1777443698"
+    },
+    {
+      "name": "Elixir",
+      "brand": "Rayhaan",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Lavender"
+        ],
+        "heart": [
+          "Armoise",
+          "Honey"
+        ],
+        "base": [
+          "Benzoin",
+          "Vanilla",
+          "Tonka"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.fragrancehub.co.uk/products/rayhaan-elixir-100ml-edp-by-rayhaan",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/CopyofUntitled_14.png?v=1771597363"
+    },
+    {
+      "name": "Nocturno",
+      "brand": "Rayhaan",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Pepper",
+          "Mint"
+        ],
+        "heart": [
+          "Lavender",
+          "Pink Pepper",
+          "Geranium"
+        ],
+        "base": [
+          "Amberwood",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.perfumesdupes.com/perfume/rayhaan/nocturno-rayhaan-for-men"
+    },
+    {
+      "name": "9PM Rebel",
+      "brand": "Afnan",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Grapefruit",
+          "Cardamom"
+        ],
+        "heart": [
+          "Lavender",
+          "Geranium",
+          "Nutmeg"
+        ],
+        "base": [
+          "Sandalwood",
+          "Vetiver",
+          "Musk",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.orientfragance.com/en/products/9-pm-rebel-100ml",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-21T224011.401.png?v=1771692101"
+    },
+    {
+      "name": "Liquid Brun",
+      "brand": "French Avenue",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Cinnamon",
+          "Bergamot",
+          "Cardamom",
+          "Orange Blossom"
+        ],
+        "heart": [
+          "Bourbon Vanilla",
+          "Elemi"
+        ],
+        "base": [
+          "Musk",
+          "Praline",
+          "Ambroxan",
+          "Guaiac Wood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.fragrancehub.co.uk/products/liquid-brun-perfume-100ml-edp-fa-paris-by-fragrance-world",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/11_5e33c00f-5305-4d88-aa6f-5ecb69c41f69.png?v=1770100663"
     }
   ]
 }
