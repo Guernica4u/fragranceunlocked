@@ -4,6 +4,7 @@
 //   node scripts/catalog.mjs candidates <Brand>...       one line per fragrance that has a full top/heart/base list
 //                                                        in its listing, with photo and link (JSON, for review)
 // Only explicit "Top notes ... Heart/Middle notes ... Base notes ..." text counts. Prose is never parsed into notes.
+import { execFileSync } from 'node:child_process';
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -16,6 +17,12 @@ const SHOPS = {
   'Dossier': 'https://www.dossier.co',
   'Alt. Fragrances': 'https://www.altfragrances.com',
   'Lattafa USA': 'https://lattafa-usa.com',
+  // Brand-owned shops: their own descriptions are the best notes source.
+  'Armaf': 'https://armaf.com',
+  'Tom Ford Beauty': 'https://www.tomfordbeauty.com',
+  'Triple Traders': 'https://tripletraders.com',
+  'Almanaar': 'https://almanaar.co.uk',
+  'Emirates Oud': 'https://emiratesoud.co.uk',
 };
 const CACHE = process.env.CATALOG_CACHE || join(tmpdir(), 'fragrance-catalog');
 const UA = 'Mozilla/5.0 (compatible; FragranceUnlocked/1.0)';
@@ -30,12 +37,17 @@ async function getJson(url) {
     if (r.status === 404) return null;
     await sleep(800 * (i + 1));
   }
-  throw new Error('failed: ' + url);
+  // Some shops refuse Node's fetch but serve curl; fall back to curl for those.
+  try {
+    const text = execFileSync('curl', ['-g', '-s', '-f', '-m', '60', '-A', UA, url], { encoding: 'utf8', maxBuffer: 1 << 26 });
+    return JSON.parse(text);
+  } catch { throw new Error('failed: ' + url); }
 }
 
-async function fetchAll() {
+async function fetchAll(only = []) { // `fetch Armaf "Tom Ford Beauty"` downloads just those shops
   mkdirSync(CACHE, { recursive: true });
   for (const [store, base] of Object.entries(SHOPS)) {
+    if (only.length && !only.some(o => norm(o) === norm(store))) continue;
     const all = [];
     for (let page = 1; ; page++) {
       const list = (await getJson(`${base}/products.json?limit=250&page=${page}`))?.products || [];
@@ -50,6 +62,7 @@ async function fetchAll() {
 
 // Listing text with tags stripped, one line per paragraph.
 export function plainText(html = '') {
+  html = html || ''; // Shopify sends null for some descriptions
   return html.replace(/<br\s*\/?>|<\/(p|li|div|h\d|tr)>/gi, '\n').replace(/<[^>]+>/g, ' ')
     .replace(/&nbsp;|&#160;/g, ' ').replace(/&amp;/g, '&').replace(/&#8217;|&rsquo;/g, "'")
     .replace(/[ \t]+/g, ' ').replace(/ *\n */g, '\n');
@@ -110,7 +123,9 @@ const JUNK = /deodorant|body|hair|mist|air freshener|bundle|gift|\bset\b|vial|sa
 function nameOf(title, brand) {
   let s = title.replace(new RegExp('^\\s*' + brand.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s+', 'i'), '').replace(/^\s*(&|and)\s*\S+\s+/i, ''); // "Dolce & Gabbana X" -> "X"
   s = s.replace(SIZE, ' ').replace(CONC, ' ').replace(GENDER, ' ').replace(/[|()\-–,]+/g, ' ');
-  return s.replace(/\s+/g, ' ').trim();
+  s = s.replace(/\s+/g, ' ').trim();
+  // "LOST CHERRY" -> "Lost Cherry" (brand feeds print names in capitals)
+  return s === s.toUpperCase() ? s.toLowerCase().replace(/(^|\s)(\p{L})/gu, (m, a, c) => a + c.toUpperCase()) : s;
 }
 
 function genderOf(title, p) {
@@ -121,16 +136,22 @@ function genderOf(title, p) {
   return null;
 }
 
+// Brand-owned shops sell only that brand, and their titles often leave the brand name out.
+const OWN_BRAND = { 'armaf': 'Armaf', 'tom-ford-beauty': 'Tom Ford' };
+
 function candidates(brands) {
   const byKey = new Map();
   for (const p of products()) {
-    const brand = brands.find(b => norm(p.vendor || '').startsWith(norm(b)) || norm(p.title).startsWith(norm(b)));
+    const owned = OWN_BRAND[p.store];
+    const brand = owned && brands.some(b => norm(b) === norm(owned)) ? owned
+      : brands.find(b => norm(p.vendor || '').startsWith(norm(b)) || norm(p.title).startsWith(norm(b)));
     if (!brand || JUNK.test(p.title)) continue;
     const notes = explicitNotes(p.body_html);
     const ph = photo(p);
     if (!notes || !ph) continue;
-    const name = nameOf(p.title, brand);
-    const gender = genderOf(p.title, p);
+    // "Amber Oud" is a product family, so its name keeps the words; the Al Haramain shops rarely say men or women.
+    const name = nameOf(p.title, brand === 'Amber Oud' ? '' : brand);
+    const gender = genderOf(p.title, p) || (/^(al haramain|amber oud)$/i.test(brand) ? 'unisex' : null);
     if (!name || !gender) continue;
     const key = norm(brand) + '|' + norm(name);
     const c = { brand, name, gender, notes, source: url(p), image: ph, store: p.store };
@@ -140,7 +161,7 @@ function candidates(brands) {
 }
 
 const [cmd, ...rest] = process.argv.slice(2);
-if (cmd === 'fetch') await fetchAll();
+if (cmd === 'fetch') await fetchAll(rest);
 else if (cmd === 'find') find(rest.join(' '));
 else if (cmd === 'candidates') console.log(JSON.stringify(candidates(rest), null, 1));
 else console.log('usage: node scripts/catalog.mjs fetch | find <word> | candidates <Brand>...');

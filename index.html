@@ -140,12 +140,21 @@ function resetFeed() {
   shown = 0;
   $('feed').innerHTML = feed.length ? '' : `<p class="none">Nothing yet. <a href="https://www.fragrantica.com/search/?query=${enc(q)}" ${ext}>Try Fragrantica ↗</a></p>`;
   moreFeed();
+  fillFeed();
 }
 function moreFeed() {
   const next = feed.slice(shown, shown + 9);
   $('feed').insertAdjacentHTML('beforeend', next.map((f, i) => tile(f, i)).join(''));
   shown += next.length;
   $('end').hidden = shown < feed.length || !feed.length || !!$('q').value.trim();
+  if (!$('q').value.trim()) $('count').textContent = feed.length ? `${shown} of ${feed.length} shown` : '';
+}
+// Keeps loading while the end of the list is still on screen, so short screens and quick scrolls never stall.
+function fillFeed() {
+  if (!$('explore').hidden && shown < feed.length && $('sentinel').getBoundingClientRect().top < innerHeight + 600) {
+    moreFeed();
+    requestAnimationFrame(fillFeed);
+  }
 }
 function renderTop() {
   const top = pool().filter(f => ratings?.[slug(f)]?.count)
@@ -394,10 +403,13 @@ $('marquee').innerHTML = chipQ([...notes, ...notes]);
 renderQuiz();
 $('q').addEventListener('input', resetFeed);
 $('dq').addEventListener('input', renderDupes);
-new IntersectionObserver(es => { if (es[0].isIntersecting && shown < feed.length) moreFeed(); }, { rootMargin: '400px' }).observe($('sentinel'));
+addEventListener('scroll', fillFeed, { passive: true });
+addEventListener('resize', fillFeed);
+new IntersectionObserver(() => fillFeed(), { rootMargin: '600px' }).observe($('sentinel'));
 setGender(['both', 'men', 'women'].includes(gender) ? gender : 'both');
 addEventListener('hashchange', route);
 route();
+fillFeed();
 </script>
 </body>
 </html>
