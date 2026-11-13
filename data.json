@@ -4,7 +4,13 @@
     "Beauty House": "https://www.beautyhouse.com/search?q=",
     "FragranceNet": "https://www.fragrancenet.com/search?q=",
     "Sephora": "https://www.sephora.com/search?keyword=",
-    "Ulta": "https://www.ulta.com/search?search="
+    "Ulta": "https://www.ulta.com/search?search=",
+    "Perfumania": "https://www.perfumania.com/search?q=",
+    "FragranceOutlet": "https://www.fragranceoutlet.com/search?q=",
+    "Nordstrom": "https://www.nordstrom.com/sr?origin=keywordsearch&keyword=",
+    "Bluemercury": "https://www.bluemercury.com/search?q=",
+    "Beauty Bay": "https://www.beautybay.com/search?q=",
+    "Lookfantastic": "https://www.lookfantastic.com/search?q="
   },
   "fragrances": [
     {
