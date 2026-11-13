@@ -4,7 +4,7 @@ Smell expensive. Pay honest.
 
 ## How it works
 
-- `index.html` + `style.css`: the whole site. Tabs: Explore (landing page, search, top-rated row, endless shuffled feed), Dupes (type any fragrance to see what it dupes or what dupes it) and Match me (quiz). Every fragrance, dupes included, has its own page (`#f/...`) with main accords, notes, star rating, store links and similar scents. Both / Men / Women switch and a light / dark button in the top bar.
+- `index.html` + `style.css`: the whole site. Tabs: Explore (landing page, search, top-rated row, endless shuffled feed), Dupes (type any fragrance to see what it dupes or what dupes it) and Match me (3-step quiz: budget, dupe or original, then scent vibes like "a day at the beach"). Every fragrance, dupes included, has its own page (`#f/...`) with main accords, notes, star rating, store links and similar scents. Both / Men / Women switch and a light / dark button in the top bar.
 - `data.json`: fragrances (gender, notes, dupes, `dupeOf`, similar, photo, notes source) and store search links.
 - `accords.js`: works out main accords from each fragrance's notes.
 - `shared.js`: slug helper shared by the page and the functions.

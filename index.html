@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 </head>
 <body>
 <nav>
@@ -24,8 +25,7 @@
         <button data-g="both">Both</button><button data-g="men">Men</button><button data-g="women">Women</button>
       </div>
       <button class="theme" id="theme" aria-label="Switch light or dark mode">
-        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
-        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg>
       </button>
     </div>
   </div>
@@ -63,22 +63,15 @@
   </section>
 
   <section id="match" class="view" hidden>
-    <div class="head narrow" style="margin:0">
-      <h2>Match me</h2>
-      <p>Tap what you like. Picks update live.</p>
-      <div class="q"><h3>Love</h3><div class="chips" id="like"></div></div>
-      <div class="q"><h3>Skip</h3><div class="chips" id="avoid"></div></div>
-      <div class="q"><h3>Wear it</h3><div class="chips" id="when"></div></div>
-    </div>
-    <div class="sub"><h2>Your picks</h2><button class="link" id="reset">Reset</button></div>
-    <div class="grid" id="picks"></div>
+    <div class="head"><h2>Match me</h2><p>Three questions. Then your picks.</p></div>
+    <div id="quiz"></div>
   </section>
 
   <section id="page" class="view" hidden></section>
 </div>
 
 <script type="module">
-import { ACCORDS, accords as accordsOf, ink } from './accords.js';
+import { accords as accordsOf, ink } from './accords.js';
 import { norm, slug } from './shared.js';
 
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -89,9 +82,6 @@ const plural = (n, w, ws = w + 's') => `${n} ${n === 1 ? w : ws}`;
 const store = { get: k => { try { return localStorage.getItem(k); } catch { return null; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch {} } };
 let data, ratings = null, gender = store.get('gender') || 'both';
 
-const QUIZ = ['Citrus', 'Fresh', 'Aquatic', 'Aromatic', 'Floral', 'Fruity', 'Sweet', 'Vanilla', 'Warm spicy', 'Amber', 'Woody', 'Musky', 'Leather', 'Smoky'];
-const DAY = ['Citrus', 'Fresh', 'Aquatic', 'Aromatic', 'Floral', 'White floral', 'Fruity', 'Green', 'Fresh spicy'];
-const NIGHT = ['Sweet', 'Vanilla', 'Warm spicy', 'Amber', 'Woody', 'Leather', 'Smoky', 'Oud', 'Coffee', 'Earthy'];
 const GENDER = { men: 'For men', women: 'For women', unisex: 'Unisex' };
 
 const notesOf = f => [...f.notes.top, ...f.notes.heart, ...f.notes.base];
@@ -190,31 +180,66 @@ function renderDupes() {
     || `<p class="none" style="text-align:center;margin-top:32px">Not in our list yet. <a href="https://www.fragrantica.com/search/?query=${enc(q)}" ${ext}>Try Fragrantica ↗</a></p>`;
 }
 
-/* ---------- Match me ---------- */
-const picked = id => [...$(id).querySelectorAll('[aria-pressed="true"]')].map(b => b.dataset.v);
+/* ---------- Match me: budget, then dupe or original, then a vibe ---------- */
+const VIBES = [
+  ['Apple pie & ice cream', 'Warm, sweet, cozy', ['Sweet', 'Vanilla', 'Fruity', 'Warm spicy', 'Nutty']],
+  ['A brand-new leather boot', 'Rich, smoky, grown-up', ['Leather', 'Smoky', 'Woody']],
+  ['A day at the beach', 'Salt air, citrus, sun', ['Aquatic', 'Citrus', 'Fresh', 'Tropical']],
+  ['A forest after rain', 'Green, woody, earthy', ['Woody', 'Green', 'Earthy', 'Aromatic']],
+  ['A flower shop', 'Petals everywhere', ['Floral', 'White floral', 'Rose', 'Powdery']],
+  ['Fresh laundry', 'Clean, soft, skin-like', ['Musky', 'Powdery', 'Fresh', 'Aromatic']],
+  ['A spice market', 'Pepper, saffron, warmth', ['Warm spicy', 'Fresh spicy', 'Amber']],
+  ['A campfire', 'Smoke, resin, embers', ['Smoky', 'Amber', 'Woody', 'Oud']],
+  ['A coffee shop', 'Espresso and pastry', ['Coffee', 'Sweet', 'Nutty', 'Vanilla']],
+  ['A fruit stand', 'Juicy and bright', ['Fruity', 'Citrus', 'Tropical']],
+];
+const BUDGETS = [['Under $50', 'Dupes and budget gems', 50], ['Under $100', 'Lots of designers', 100], ['Under $200', 'Most designers', 200], ['No limit', 'Niche included', 0]];
+const KINDS = [['A dupe', 'Smells close, costs less', 'dupe'], ['The original', 'The real thing', 'original'], ['Either', 'Show me both', 'any']];
+const fresh = () => ({ step: 0, budget: null, kind: null, vibes: [] });
+let quiz = fresh(), quizRun = 0;
+
+const opt = (key, label, sub, value, on) =>
+  `<button class="opt" data-key="${key}" data-val="${esc(value)}" aria-pressed="${on}">${esc(label)}<small>${esc(sub)}</small></button>`;
 function renderQuiz() {
-  const chip = n => `<button class="chip dot" data-v="${n}" aria-pressed="false" style="--c:${ACCORDS.find(a => a.name === n).color}">${n}</button>`;
-  $('like').innerHTML = QUIZ.map(chip).join('');
-  $('avoid').innerHTML = QUIZ.map(chip).join('');
-  $('when').innerHTML = ['Day', 'Night', 'Anytime'].map(v => `<button class="chip" data-v="${v}" data-single aria-pressed="false">${v}</button>`).join('');
+  const { step, budget, kind, vibes } = quiz;
+  if (step === 3) return renderPicks();
+  const [title, hint, opts] = [
+    ['What can you spend?', 'For a full bottle, about 100 ml.', BUDGETS.map(([l, s, v]) => opt('budget', l, s, v, v === budget))],
+    ['Dupe or the real thing?', 'Dupes get you close for a lot less.', KINDS.map(([l, s, v]) => opt('kind', l, s, v, v === kind))],
+    ['What do you want to smell like?', 'Pick as many as you like.', VIBES.map(([l, s]) => opt('vibe', l, s, l, vibes.includes(l)))],
+  ][step];
+  $('quiz').innerHTML = `<div class="qstep">
+    <div class="progress">${[0, 1, 2].map(i => `<i class="${i <= step ? 'on' : ''}"></i>`).join('')}</div>
+    <div class="label">Question ${step + 1} of 3</div><h3>${title}</h3><p class="hint">${hint}</p>
+    <div class="opts">${opts.join('')}</div>
+    <div class="qnav">${step ? '<button class="link" data-qback>← Back</button>' : '<span></span>'}
+      ${step === 2 ? `<button class="btn" data-qdone ${vibes.length ? '' : 'disabled'}>See my matches</button>` : ''}</div></div>`;
 }
-function renderPicks() {
-  const like = picked('like'), avoid = picked('avoid'), when = picked('when')[0];
-  if (!like.length && !avoid.length && !when) return void ($('picks').innerHTML = '<p class="none">Tap a scent to start.</p>');
-  const scored = pool().map(f => {
-    let s = like.length ? 0 : 0.5; // no likes: anything not skipped counts
+async function renderPicks() {
+  const run = ++quizRun;
+  const want = quiz.vibes.map(v => VIBES.find(x => x[0] === v));
+  const scored = pool().filter(f => quiz.kind === 'any' || (quiz.kind === 'dupe') === !!f.dupeOf).map(f => {
+    const top = acc(f).slice(0, 6);
+    let s = 0;
     const why = [];
-    for (const a of acc(f).slice(0, 6)) {
-      const w = a.pct / 100;
-      if (like.includes(a.name)) { s += w * 2; why.push(a.name); }
-      if (avoid.includes(a.name)) s -= w * 3;
-      if ((when === 'Day' && DAY.includes(a.name)) || (when === 'Night' && NIGHT.includes(a.name))) s += w * 0.5;
+    for (const [label, , names] of want) {
+      const hit = top.filter(a => names.includes(a.name)).reduce((t, a) => t + a.pct / 100, 0);
+      if (hit) { s += hit; why.push(label); }
     }
     return { f, s, why };
-  }).filter(x => x.s > 0).sort((a, b) => b.s - a.s).slice(0, 6);
-  $('picks').innerHTML = scored.map(({ f, why }, i) => tile(f, i,
-    `<div class="why">${why.length ? why.join(' + ') : when === 'Day' || when === 'Night' ? 'Good for ' + when.toLowerCase() : 'Nothing you skip'}</div>`)).join('')
-    || '<p class="none">No match. Skip less.</p>';
+  }).filter(x => x.s > 0).sort((a, b) => b.s - a.s).slice(0, 15);
+  const head = '<div class="sub" style="margin-top:0"><h2>Your picks</h2><button class="link" data-qreset>Start over</button></div>';
+  $('quiz').innerHTML = head + '<p class="none">Checking prices…</p>';
+  const prices = await Promise.all(scored.map(x => fetchPrices(x.f)));
+  if (run !== quizRun) return; // answers changed while prices loaded
+  const live = prices.some(p => p.length); // false where the price API isn't running
+  const low = list => list.length ? Math.min(...list.map(p => p.price)) : null;
+  const picks = scored.map((x, i) => ({ ...x, low: low(prices[i]) }))
+    .filter(x => !quiz.budget || !live || (x.low != null && x.low <= quiz.budget)).slice(0, 6);
+  $('quiz').innerHTML = head + (picks.length ? `<div class="grid">${picks.map(({ f, why, low }, i) => tile(f, i,
+      `<div class="why">${esc(why.join(' + '))}</div>${low != null ? `<div class="tprice">From $${low.toFixed(2)}</div>` : ''}`)).join('')}</div>`
+    : '<p class="none">Nothing fits all of that. Try a bigger budget or more scents.</p>')
+    + (quiz.budget && !live ? `<p class="fine">Live prices are off right now, so your budget isn't applied.</p>` : '');
 }
 
 /* ---------- Fragrance page ---------- */
@@ -250,8 +275,8 @@ function fragPage(f) {
         <div class="meta">${GENDER[f.gender] || ''}</div>
         ${o ? `<a class="dupeof" href="${href(o)}">Dupe of ${esc(full(o))} →</a>` : f.dupeOf ? `<span class="dupeof">Dupe of ${esc(f.dupeOf)}</span>` : ''}
         <div class="from" id="from" aria-live="polite"></div>
-        <h4>Buy</h4><ul class="rows" id="prices"><li><small>Checking prices…</small></li></ul>
         <h4>Main accords</h4>${accordBars(f)}
+        <h4>Where to buy</h4><ul class="rows" id="prices"><li><small>Checking prices…</small></li></ul>
         <div id="stars">${starsHtml(f)}</div>
       </div>
     </div>
@@ -311,7 +336,8 @@ function setGender(g) {
   gender = g;
   store.set('gender', g);
   for (const b of document.querySelectorAll('.seg button')) b.setAttribute('aria-pressed', b.dataset.g === g);
-  renderExplore(); renderDupes(); renderPicks();
+  renderExplore(); renderDupes();
+  if (quiz.step === 3) renderPicks();
 }
 function route() {
   const [tab, id] = location.hash.slice(1).split('/');
@@ -336,15 +362,17 @@ document.addEventListener('click', e => {
   if (g) return setGender(g.dataset.g);
   const star = t.closest('[data-star]');
   if (star) return vote(star.closest('.stars').dataset.slug, Number(star.dataset.star));
-  const opt = t.closest('.q .chip');
-  if (opt) {
-    const on = opt.getAttribute('aria-pressed') !== 'true';
-    if (opt.hasAttribute('data-single')) opt.parentNode.querySelectorAll('.chip').forEach(b => b.setAttribute('aria-pressed', 'false'));
-    opt.setAttribute('aria-pressed', on);
-    const other = opt.closest('#like') ? 'avoid' : opt.closest('#avoid') ? 'like' : null; // can't love and skip the same scent
-    if (on && other) $(other).querySelector(`[data-v="${opt.dataset.v}"]`).setAttribute('aria-pressed', 'false');
-    return renderPicks();
+  const choice = t.closest('[data-key]');
+  if (choice) {
+    const { key, val } = choice.dataset;
+    if (key === 'budget') Object.assign(quiz, { budget: Number(val), step: 1 });
+    else if (key === 'kind') Object.assign(quiz, { kind: val, step: 2 });
+    else quiz.vibes = quiz.vibes.includes(val) ? quiz.vibes.filter(v => v !== val) : [...quiz.vibes, val];
+    return renderQuiz();
   }
+  if (t.closest('[data-qback]')) { quiz.step--; return renderQuiz(); }
+  if (t.closest('[data-qdone]')) { quiz.step = 3; return renderQuiz(); }
+  if (t.closest('[data-qreset]')) { quiz = fresh(); return renderQuiz(); }
   if (t.closest('[data-back]')) return history.length > 1 ? history.back() : (location.hash = 'explore');
   const q = t.closest('[data-q]')?.dataset.q;
   if (q) { $('q').value = q; location.hash = 'explore'; resetFeed(); setTimeout(() => $('feedTitle').scrollIntoView({ behavior: 'smooth' }), 50); }
@@ -356,7 +384,6 @@ $('theme').onclick = () => {
   store.set('theme', dark ? 'light' : 'dark');
 };
 $('shuffle').onclick = $('again').onclick = () => resetFeed();
-$('reset').onclick = () => { renderQuiz(); renderPicks(); };
 
 [data, ratings] = await Promise.all([
   fetch('data.json').then(r => r.json()),
