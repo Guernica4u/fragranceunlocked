@@ -28,10 +28,14 @@ assert.equal(clean('No. 5'), 'no 5');
 const sauvage = [{ title: 'Sauvage Elixir EDP' }, { title: 'Sauvage EDP' }];
 assert.equal(match(sauvage, 'Sauvage', 'Dior').title, 'Sauvage EDP');
 assert.equal(match([{ title: 'Aventus For Her EDP' }, { title: 'Aventus EDP' }], 'Aventus', 'Creed').title, 'Aventus EDP');
-assert.equal(match([{ title: 'Sauvage Elixir EDP' }], 'Sauvage', 'Dior').title, 'Sauvage Elixir EDP'); // fallback
+assert.equal(match([{ title: 'Sauvage Elixir EDP' }], 'Sauvage', 'Dior'), null); // flanker, not a fallback
+assert.equal(match([{ title: 'Emporio Stronger With You Intensely EDP' }], 'Stronger With You', 'Giorgio Armani'), null);
+assert.equal(match([{ title: 'Emporio Stronger With You EDT' }], 'Stronger With You', 'Giorgio Armani').title, 'Emporio Stronger With You EDT');
+assert.equal(match([{ title: 'Club de Nuit Intense Man EDT' }], 'Club de Nuit Intense Man', 'Armaf').title, 'Club de Nuit Intense Man EDT');
 assert.equal(match([{ title: 'Bleu de Chanel' }], 'Aventus', 'Creed'), null);
 assert.equal(match([{ title: 'Hero EDP', vendor: 'Burberry' }], 'Her', 'Burberry'), null);
-assert.equal(match([{ title: 'Her Intense EDP', vendor: 'Burberry' }], 'Her', 'Burberry').title, 'Her Intense EDP');
+assert.equal(match([{ title: 'Her Intense EDP', vendor: 'Burberry' }], 'Her', 'Burberry'), null); // flanker
+assert.equal(match([{ title: 'Her EDP', vendor: 'Burberry' }], 'Her', 'Burberry').title, 'Her EDP');
 assert.equal(match([{ title: "L'Homme EDT", vendor: 'Yves Saint Laurent' }], "L'Homme", 'Prada'), null);
 assert.equal(match([{ title: "L'Homme EDT", vendor: 'Prada' }], "L'Homme", 'Prada').title, "L'Homme EDT");
 assert.equal(match([{ title: "Terre d'Hermes EDT", vendor: 'Hermes' }], "Terre d'Hermès", 'Hermès').title, "Terre d'Hermes EDT");

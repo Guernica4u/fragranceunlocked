@@ -46,8 +46,12 @@ export function match(products, name, brand = '') {
   const want = clean(name);
   const ours = products.filter(p => !brand || !p.vendor || norm(p.vendor).includes(norm(brand)) || norm(brand).includes(norm(p.vendor)));
   return ours.find(p => clean(p.title, brand) === want)
-    || ours.find(p => ` ${clean(p.title, brand)} `.includes(` ${want} `)) || null;
+    || ours.find(p => ` ${clean(p.title, brand)} `.includes(` ${want} `) && !isFlanker(clean(p.title, brand), want)) || null;
 }
+
+// A partial match that adds one of these words is a different fragrance ("Stronger With You Intensely").
+const FLANKERS = new Set('intense intensely elixir absolu absolute extreme sport aqua platinum night noir tonic privee prive edition limited summer fraiche reserve'.split(' '));
+const isFlanker = (title, want) => title.split(' ').some(w => FLANKERS.has(w) && !want.split(' ').includes(w));
 
 export async function shop(store, { base, brands }, q, name, brand) {
   if (brands && !brands.some(b => norm(b) === norm(brand))) return null;

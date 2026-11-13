@@ -26,7 +26,8 @@
       },
       "dupes": [
         "Armaf Club de Nuit Untold",
-        "Zara Red Temptation"
+        "Zara Red Temptation",
+        "Al Haramain Amber Oud Rouge"
       ],
       "similar": [
         "Maison Francis Kurkdjian Grand Soir",
@@ -61,7 +62,8 @@
       },
       "dupes": [
         "Armaf Club de Nuit Intense Man",
-        "Al Haramain L'Aventure"
+        "Al Haramain L'Aventure",
+        "Afnan Supremacy Silver"
       ],
       "similar": [
         "Montblanc Explorer",
@@ -751,8 +753,7 @@
       },
       "dupes": [],
       "similar": [],
-      "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/8_92de9d78-375e-4ede-8bb3-089f32000b08.png?v=1767866704"
+      "prices": {}
     },
     {
       "name": "Born in Roma Uomo Intense",
@@ -922,7 +923,7 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/17_1754c310-da29-43ae-9136-9d44352571da.png?v=1767866703"
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01nh7toupr.png?v=1781129589"
     },
     {
       "name": "Bloom",
@@ -1491,6 +1492,745 @@
       "source": "https://www.parfumdreams.ie/Afnan/Collections/9-Collection/Eau-de-Parfum-Spray/index_138552.aspx",
       "dupeOf": "Jean Paul Gaultier Ultra Male",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_2_18fe64ae-39b3-485c-8e5a-f54280bbe6c4.png?v=1771197593"
+    },
+    {
+      "name": "Fahrenheit",
+      "brand": "Dior",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Mandarin Orange",
+          "Bergamot",
+          "Lemon",
+          "Lavender"
+        ],
+        "heart": [
+          "Violet Leaf",
+          "Jasmine",
+          "Lily of the Valley"
+        ],
+        "base": [
+          "Leather",
+          "Vetiver",
+          "Musk",
+          "Amber",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.parfumo.com/Perfumes/Dior/Fahrenheit_Eau_de_Toilette",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SARA-2026-03-19T173216.348.png?v=1773919966"
+    },
+    {
+      "name": "Dylan Blue",
+      "brand": "Versace",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Calabrian Bergamot",
+          "Grapefruit",
+          "Fig Leaf"
+        ],
+        "heart": [
+          "Ambroxan",
+          "Black Pepper",
+          "Violet Leaf",
+          "Papyrus",
+          "Patchouli"
+        ],
+        "base": [
+          "Incense",
+          "Tonka Bean",
+          "Saffron",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.parfumo.com/Perfumes/Versace/Versace_pour_Homme_Dylan_Blue_Eau_de_Toilette",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/8_f71dc60d-724e-4c78-b892-4e4ec4458c1f.png?v=1769243259"
+    },
+    {
+      "name": "Acqua di Gio Profondo",
+      "brand": "Giorgio Armani",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Grapefruit",
+          "Spices"
+        ],
+        "heart": [
+          "Cypress",
+          "Lavandin",
+          "Aquatic Accord"
+        ],
+        "base": [
+          "Patchouli",
+          "Mineral Accord"
+        ]
+      },
+      "dupes": [
+        "Lattafa Liam Blue Shine"
+      ],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.theperfumeshop.com/ie/armani/acqua-di-gio-profondo/eau-de-toilette-spray/p/76480EDTJU",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/3_3adf6c32-8397-45c9-b2e9-564cca6c5a05.png?v=1767866710"
+    },
+    {
+      "name": "Stronger With You",
+      "brand": "Giorgio Armani",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Mint",
+          "Violet Leaf",
+          "Pink Pepper",
+          "Cardamom"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Lavender",
+          "Pineapple",
+          "Melon",
+          "Sage"
+        ],
+        "base": [
+          "Guaiac Wood",
+          "Amberwood",
+          "Cedar",
+          "Chestnut",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://harrods.com/en-ua/p/armani-stronger-with-you-eau-de-toilette-50ml-000000000005697854",
+      "image": "https://cdn.shopify.com/s/files/1/0269/7763/2389/products/Armani-Stronger_with_you-Men-Eau_de_Toilette-1.7-Best-Price-Fragrance-Parfume-FragranceOutlet.com-SECOND.jpg?v=1580848618"
+    },
+    {
+      "name": "Uomo Born in Roma",
+      "brand": "Valentino",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Violet Leaf",
+          "Vetiver"
+        ],
+        "heart": [
+          "Sage",
+          "Salt"
+        ],
+        "base": [
+          "Ginger",
+          "Wood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.scento.com/perfume-database/perfumes/valentino-born-in-roma-uomo",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/6_ee8ab143-dce8-43c0-b807-b69c5cf21285.png?v=1767866705"
+    },
+    {
+      "name": "Luna Rossa Carbon",
+      "brand": "Prada",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Citrus",
+          "Pepper"
+        ],
+        "heart": [
+          "Lavender",
+          "Geranium"
+        ],
+        "base": [
+          "Patchouli",
+          "Ambroxan",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.notino.co.uk/-/pd/PRA0847",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/8057971188116_79.png?v=1774277531"
+    },
+    {
+      "name": "Light Blue pour Homme",
+      "brand": "Dolce & Gabbana",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Mandarin",
+          "Grapefruit",
+          "Bergamot",
+          "Juniper"
+        ],
+        "heart": [
+          "Pepper",
+          "Rosemary",
+          "Rosewood"
+        ],
+        "base": [
+          "Musk",
+          "Incense",
+          "Oakmoss"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://harrods.com/en-at/p/dolce-and-gabbana-light-blue-pour-homme-eau-de-toilette-125ml-000000000001381697",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SHAMMY_83.png?v=1772024734"
+    },
+    {
+      "name": "Spicebomb",
+      "brand": "Viktor&Rolf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Grapefruit",
+          "Pink Pepper",
+          "Elemi"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Chili Pepper",
+          "Saffron"
+        ],
+        "base": [
+          "Leather",
+          "Vetiver",
+          "Tobacco"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://modesens.uk/product/viktor-and-rolf-spicebomb-eau-de-toilette-19723714/",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SHAMMY-2026-03-05T163506.537.png?v=1772707085"
+    },
+    {
+      "name": "Odyssey Homme",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Mandarin",
+          "Neroli",
+          "Cardamom"
+        ],
+        "heart": [
+          "Rose",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Vanilla",
+          "Amber",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.notino.co.uk/armaf/odyssey-homme-eau-de-parfum-for-men/",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SARA_5_390ca274-d628-4f48-b442-0557653b8aca.png?v=1775287713"
+    },
+    {
+      "name": "Man in Black",
+      "brand": "Bvlgari",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Spices",
+          "Rum"
+        ],
+        "heart": [
+          "Tuberose",
+          "Iris",
+          "Leather"
+        ],
+        "base": [
+          "Benzoin",
+          "Tonka Bean",
+          "Guaiac Wood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/bvlgari-man-in-black-eau-de-parfum-100ml/17001581/",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-12T162608.169.png?v=1770892478"
+    },
+    {
+      "name": "Explorer",
+      "brand": "Montblanc",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Sage",
+          "Pomarose"
+        ],
+        "heart": [
+          "Vetiver",
+          "Leather",
+          "Sandalwood"
+        ],
+        "base": [
+          "Patchouli",
+          "Ambrofix",
+          "Akigalawood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/montblanc-explorer-eau-de-parfum-200ml/12720142/",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/3_1fc5b031-c5a6-4759-a8fc-ac5a2e361f6b.png?v=1769239814"
+    },
+    {
+      "name": "Green Irish Tweed",
+      "brand": "Creed",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Peppermint",
+          "Verbena",
+          "Lemon",
+          "Bergamot",
+          "Galbanum"
+        ],
+        "heart": [
+          "Geranium",
+          "Lavender",
+          "Violet"
+        ],
+        "base": [
+          "Sandalwood",
+          "Cedarwood",
+          "Ambroxan",
+          "Oakmoss"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://dillards.com/p/creed-green-irish-tweed/511111885",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03mqdjwscw.png?v=1776274615"
+    },
+    {
+      "name": "Invictus",
+      "brand": "Paco Rabanne",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Sea Notes",
+          "Mandarin Orange"
+        ],
+        "heart": [
+          "Bay Leaf",
+          "Jasmine"
+        ],
+        "base": [
+          "Guaiac Wood",
+          "Oakmoss",
+          "Patchouli",
+          "Ambergris"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://harrods.com/en-gb/p/paco-rabanne-invictus-eau-de-toilette-50ml-000000000003373866",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SARA_34_ffa6a31e-32b0-49df-990a-900fd9365cb4.png?v=1772080591"
+    },
+    {
+      "name": "Asad",
+      "brand": "Lattafa",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Black Pepper",
+          "Pineapple",
+          "Tobacco"
+        ],
+        "heart": [
+          "Coffee",
+          "Iris",
+          "Patchouli"
+        ],
+        "base": [
+          "Vanilla",
+          "Amber",
+          "Dry Woods",
+          "Benzoin",
+          "Labdanum"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://vanitystock.com/en-de/products/lattafa-asad-eau-de-parfum-spray-100-ml",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_41.png?v=1770630995"
+    },
+    {
+      "name": "Hawas for Him",
+      "brand": "Rasasi",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Apple",
+          "Lemon",
+          "Cinnamon"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "Cardamom",
+          "Plum"
+        ],
+        "base": [
+          "Patchouli",
+          "Grey Amber",
+          "Driftwood",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.scento.com/perfume-database/perfumes/rasasi-hawas-for-him"
+    },
+    {
+      "name": "Supremacy Silver",
+      "brand": "Afnan",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Apple",
+          "Pineapple",
+          "Blackcurrant",
+          "Bergamot"
+        ],
+        "heart": [
+          "Birch",
+          "Patchouli",
+          "Jasmine",
+          "Rose"
+        ],
+        "base": [
+          "Musk",
+          "Oakmoss",
+          "Ambergris",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.parfumo.com/Perfumes/Afnan_Perfumes/Supremacy_Silver",
+      "dupeOf": "Creed Aventus",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SHAMMY_82.png?v=1772024413"
+    },
+    {
+      "name": "Angels' Share",
+      "brand": "Kilian",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Cognac"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Oak"
+        ],
+        "base": [
+          "Tonka Bean",
+          "Sandalwood",
+          "Praline",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.bykilian.com/product/19797/82905/perfume/angels-share",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitled_design-77.png?v=1769394726"
+    },
+    {
+      "name": "Khamrah",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Cinnamon",
+          "Nutmeg",
+          "Bergamot"
+        ],
+        "heart": [
+          "Dates",
+          "Praline",
+          "Tuberose",
+          "Mahonial"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean",
+          "Amberwood",
+          "Myrrh",
+          "Benzoin"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://perfumeforever.com/products/khamrah-eau-de-parfum-100ml",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_31.png?v=1770627495"
+    },
+    {
+      "name": "Replica By the Fireplace",
+      "brand": "Maison Margiela",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Pink Pepper",
+          "Clove",
+          "Orange Blossom"
+        ],
+        "heart": [
+          "Chestnut",
+          "Guaiac Wood",
+          "Cade"
+        ],
+        "base": [
+          "Vanilla",
+          "Peru Balsam",
+          "Cashmeran"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.scento.com/perfume-database/perfumes/maison-margiela-replica-by-the-fireplace",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/7_0f9bd251-6224-485f-b37b-e91ec8c92941.png?v=1767866702"
+    },
+    {
+      "name": "Black Orchid",
+      "brand": "Tom Ford",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Black Truffle",
+          "Bergamot",
+          "Bitter Orange",
+          "Ylang-Ylang"
+        ],
+        "heart": [
+          "Black Orchid",
+          "Black Plum"
+        ],
+        "base": [
+          "Patchouli",
+          "Vetiver",
+          "Sandalwood",
+          "Incense"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.sephora.com/product/P183301",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/blackorchid_3a5cd7a0-0abe-464f-9a76-c5e01d7ff3de.png?v=1770530603"
+    },
+    {
+      "name": "Yara",
+      "brand": "Lattafa",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Orchid",
+          "Heliotrope",
+          "Tangerine"
+        ],
+        "heart": [
+          "Tropical Fruits",
+          "Gourmand Accord"
+        ],
+        "base": [
+          "Vanilla",
+          "Musk",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.notino.co.uk/-/pd/LTF00377",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_20.png?v=1770622730"
+    },
+    {
+      "name": "Flora Gorgeous Gardenia",
+      "brand": "Gucci",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pear Blossom",
+          "Red Berries",
+          "Mandarin"
+        ],
+        "heart": [
+          "Gardenia",
+          "Jasmine",
+          "Frangipani"
+        ],
+        "base": [
+          "Brown Sugar",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.harrods.com/en-eg/p/gucci-gucci-flora-gorgeous-gardenia-eau-de-parfum-100ml-000000000006911757",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SARA_441874e3-ed59-4fbe-b505-e8fe2e8837a6.png?v=1773308578"
+    },
+    {
+      "name": "Chance Eau Tendre",
+      "brand": "Chanel",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Quince"
+        ],
+        "heart": [
+          "Jasmine",
+          "Rose"
+        ],
+        "base": [
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.chanel.com/us/fragrance/p/126310/chance-eau-tendre-eau-de-toilette-spray/"
+    },
+    {
+      "name": "For Her",
+      "brand": "Narciso Rodriguez",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Rose",
+          "Peach"
+        ],
+        "heart": [
+          "Musk",
+          "Amber"
+        ],
+        "base": [
+          "Patchouli",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.notino.co.uk/narciso-rodriguez/for-her-eau-de-parfum-for-women/p-69404/",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/014hrknlfd_c6ad6e1a-fd80-4b04-8396-84c02e88b40e.png?v=1723941571"
+    },
+    {
+      "name": "Hypnotic Poison",
+      "brand": "Dior",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Bitter Almond",
+          "Apricot",
+          "Plum",
+          "Coconut"
+        ],
+        "heart": [
+          "Jasmine Sambac",
+          "Tuberose",
+          "Lily of the Valley",
+          "Rose"
+        ],
+        "base": [
+          "Sandalwood",
+          "Almond",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.harrods.com/en-gb/p/dior-hypnotic-poison-eau-de-toilette-50ml-000000000006764040",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SARA_75_8fdf8e6b-b8a8-4f66-a560-e1a99dfa0502.png?v=1773253083"
+    },
+    {
+      "name": "Liam Blue Shine",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Rosemary",
+          "Black Pepper"
+        ],
+        "heart": [
+          "Sea Notes",
+          "Violet"
+        ],
+        "base": [
+          "Patchouli",
+          "Amber",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://lattafa.com/?p=91863",
+      "dupeOf": "Giorgio Armani Acqua di Gio Profondo",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/nwe_17_5a7015c7-9f6e-4485-abdd-8812cbe0b9f6.png?v=1784747701"
+    },
+    {
+      "name": "Amber Oud Rouge",
+      "brand": "Al Haramain",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Saffron",
+          "Floral Notes"
+        ],
+        "heart": [
+          "Amberwood",
+          "Ambergris"
+        ],
+        "base": [
+          "Fir Resin",
+          "Cedarwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.anabis.com/uk/Al-Haramain-Amber-Oud-Rouge-EDP-U-120-ml.html",
+      "dupeOf": "Maison Francis Kurkdjian Baccarat Rouge 540",
+      "image": "https://cdn.shopify.com/s/files/1/0269/7763/2389/files/AmberOud_Rouge_40.png?v=1753376667"
     }
   ]
 }
