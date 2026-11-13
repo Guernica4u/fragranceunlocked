@@ -299,7 +299,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "gender": "unisex"
+      "gender": "unisex",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/tobaccovanille50ml-2.png?v=1767866654"
     },
     {
       "name": "Delina",
@@ -753,7 +754,8 @@
       },
       "dupes": [],
       "similar": [],
-      "prices": {}
+      "prices": {},
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/37_04cbbb84-0ca5-436b-858f-f2b5b11451fd.png?v=1773295912"
     },
     {
       "name": "Born in Roma Uomo Intense",
@@ -1099,7 +1101,8 @@
       "similar": [],
       "prices": {},
       "source": "https://www.parfumo.com/Perfumes/Armaf/club-de-nuit-intense-man",
-      "dupeOf": "Creed Aventus"
+      "dupeOf": "Creed Aventus",
+      "image": "https://media.parfumo.com/perfume_social/f7/f7f71f-club-de-nuit-intense-man-eau-de-toilette-armaf_1200.jpg?format=jpg&quality=90"
     },
     {
       "name": "L'Aventure",
@@ -1268,7 +1271,8 @@
       "similar": [],
       "prices": {},
       "source": "https://www.scentverdict.com/perfume/zara-golden-decade-paradise-eau-de-toilette",
-      "dupeOf": "Yves Saint Laurent Libre"
+      "dupeOf": "Yves Saint Laurent Libre",
+      "image": "https://scentverdict.com/og/live/images/perfumes/zara/zara-golden-decade-paradise-eau-de-toilette-1780040943.jpg"
     },
     {
       "name": "Cherry Smash",
@@ -1348,7 +1352,8 @@
       "similar": [],
       "prices": {},
       "source": "https://scentverdict.com/perfume/zara-oriental-eau-de-parfum",
-      "dupeOf": "Viktor&Rolf Flowerbomb"
+      "dupeOf": "Viktor&Rolf Flowerbomb",
+      "image": "https://scentverdict.com/og/live/images/perfumes/zara/zara-oriental-eau-de-parfum-1778866160.jpg"
     },
     {
       "name": "Bade'e Al Oud for Glory",
@@ -2125,7 +2130,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "source": "https://www.chanel.com/us/fragrance/p/126310/chance-eau-tendre-eau-de-toilette-spray/"
+      "source": "https://www.chanel.com/us/fragrance/p/126310/chance-eau-tendre-eau-de-toilette-spray/",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03i7tnv2nc.png?v=1741795274"
     },
     {
       "name": "For Her",
@@ -2281,7 +2287,8 @@
       ],
       "similar": [],
       "prices": {},
-      "source": "https://www.ulta.com/p/idole-eau-de-parfum-pimprod2008623"
+      "source": "https://www.ulta.com/p/idole-eau-de-parfum-pimprod2008623",
+      "image": "https://media.ulta.com/i/ulta/2553350?w=500&h=500"
     },
     {
       "name": "Lady Million",
@@ -2438,7 +2445,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "source": "https://www.selfridges.com/AU/en/cat/tom-ford-bitter-peach-eau-de-parfum-100ml_R03789035/"
+      "source": "https://www.selfridges.com/AU/en/cat/tom-ford-bitter-peach-eau-de-parfum-100ml_R03789035/",
+      "image": "https://images.selfridges.com/is/image/selfridges/R03789035_M"
     },
     {
       "name": "Valaya",
@@ -2599,7 +2607,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "source": "https://www.tendance-parfums.com/en/chanel-chance-eau-de-parfum.html"
+      "source": "https://www.tendance-parfums.com/en/chanel-chance-eau-de-parfum.html",
+      "image": "https://www.tendance-parfums.com/media/catalog/product/c/h/chanel-chance-eau-de-parfum-3145891265200-1.jpg"
     },
     {
       "name": "Floral Musk",
@@ -2701,7 +2710,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "source": "https://www.tendance-parfums.com/en/armani-eau-de-nuit.html"
+      "source": "https://www.tendance-parfums.com/en/armani-eau-de-nuit.html",
+      "image": "https://www.tendance-parfums.com/media/catalog/product/a/r/armani-eau-de-nuit-3605521695178-1.jpg"
     },
     {
       "name": "Light di Gioia",
@@ -2747,7 +2757,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "source": "https://www.lookfantastic.com/emporio-armani-because-it-s-you-eau-de-parfum-100ml/11671563.html"
+      "source": "https://www.lookfantastic.com/emporio-armani-because-it-s-you-eau-de-parfum-100ml/11671563.html",
+      "image": "https://static.thcdn.com/productimg/original/11671563-2894886585761491.jpg"
     },
     {
       "name": "My Way Nectar",
@@ -2965,7 +2976,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "source": "https://www.lookfantastic.com/p/burberry-her-intense-eau-de-parfum-50ml/12586214/"
+      "source": "https://www.lookfantastic.com/p/burberry-her-intense-eau-de-parfum-50ml/12586214/",
+      "image": "https://static.thcdn.com/productimg/original/12586214-1494931902955385.jpg"
     },
     {
       "name": "Her Elixir",
@@ -2988,7 +3000,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "source": "https://www.lookfantastic.com/p/burberry-her-elixir-de-parfum-for-women-100ml/14324093/"
+      "source": "https://www.lookfantastic.com/p/burberry-her-elixir-de-parfum-for-women-100ml/14324093/",
+      "image": "https://static.thcdn.com/productimg/original/14324093-1045318418776799.jpg"
     },
     {
       "name": "Dreams",
@@ -3063,7 +3076,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "source": "https://www.lookfantastic.com/p/coach-men-s-eau-de-toilette-100ml/12004641/"
+      "source": "https://www.lookfantastic.com/p/coach-men-s-eau-de-toilette-100ml/12004641/",
+      "image": "https://static.thcdn.com/productimg/original/12004641-1745318379959037.jpg"
     },
     {
       "name": "Invictus Legend",
@@ -3088,7 +3102,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "source": "https://klinq.com/en/paco-rabanne-invictus-legend-edp.html"
+      "source": "https://klinq.com/en/paco-rabanne-invictus-legend-edp.html",
+      "image": "https://klinq.com/media/catalog/product/cache/6355c4f21c1ab6e7222bb5837778e5d9/3/3/3349668577576-1_hpzemyx2ao0bjzd7.jpg"
     },
     {
       "name": "Invictus Victory Elixir",
@@ -3360,6 +3375,4597 @@
       "prices": {},
       "source": "https://www.fragrancehub.co.uk/products/liquid-brun-perfume-100ml-edp-fa-paris-by-fragrance-world",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/11_5e33c00f-5305-4d88-aa6f-5ecb69c41f69.png?v=1770100663"
+    },
+    {
+      "name": "Sakeena",
+      "brand": "Lattafa",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Passionfruit",
+          "Mandarin Orange"
+        ],
+        "heart": [
+          "Raspberry",
+          "Rose",
+          "Orange Blossom",
+          "Sea Salt"
+        ],
+        "base": [
+          "Praline",
+          "Toffee",
+          "Musk",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-sakeena-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01bahaf7h2.png?v=1744327282"
+    },
+    {
+      "name": "Opulent Red",
+      "brand": "Lattafa",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Blood Orange",
+          "Pink Pepper",
+          "Pear",
+          "Cardamom"
+        ],
+        "heart": [
+          "Jasmine",
+          "Tuberose",
+          "Brazilian Rosewood",
+          "Cognac",
+          "Heliotrope"
+        ],
+        "base": [
+          "Agarwood",
+          "Vanilla",
+          "Amber",
+          "Tonka Bean",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-opulent-red-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02hqkdpcjp.png?v=1744327088"
+    },
+    {
+      "name": "Al Awsaaf",
+      "brand": "Lattafa",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Elemi",
+          "Violet",
+          "Pink Pepper"
+        ],
+        "heart": [
+          "Myrrh",
+          "Tonka Bean",
+          "Cedar"
+        ],
+        "base": [
+          "Cedar",
+          "Musk",
+          "Oakmoss",
+          "Agarwood",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-al-awsaaf-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01wqzqcfae.png?v=1736447458"
+    },
+    {
+      "name": "Confidential Platinum",
+      "brand": "Lattafa",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Cypress",
+          "Bergamot",
+          "Black Pepper"
+        ],
+        "heart": [
+          "Olibanum"
+        ],
+        "base": [
+          "Ambergris",
+          "Musk",
+          "Labdanum",
+          "Moss"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-confidential-platinum-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02jzlgrqex.png?v=1729882863"
+    },
+    {
+      "name": "Muna",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Watermelon",
+          "Strawberry"
+        ],
+        "heart": [
+          "Cyclamen",
+          "Magnolia",
+          "Peony",
+          "Damask Rose"
+        ],
+        "base": [
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-muna-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/015ftjjtl7.png?v=1729803651"
+    },
+    {
+      "name": "Mazaaji",
+      "brand": "Lattafa",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Orange Blossom",
+          "Jasmine"
+        ],
+        "heart": [
+          "Rose"
+        ],
+        "base": [
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-mazaaji-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02crls6xes.png?v=1729198879"
+    },
+    {
+      "name": "Pride Ishq Al Shuyukh Silver",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Bergamot"
+        ],
+        "heart": [
+          "Pineapple",
+          "Black Pepper"
+        ],
+        "base": [
+          "Vanilla",
+          "Cedar",
+          "Amberwood",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-pride-ishq-al-shuyukh-sliver-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_8c511cb5-c1df-4f7a-b335-2b4facd490b9.png?v=1723932770"
+    },
+    {
+      "name": "Emeer",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Juniper Berries",
+          "Clary Sage",
+          "Bergamot",
+          "Lemon"
+        ],
+        "heart": [
+          "Sandalwood",
+          "Olibanum",
+          "White Tea",
+          "Cardamom"
+        ],
+        "base": [
+          "Patchouli",
+          "Ambergris",
+          "Cashmeran",
+          "Cedarwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-emeer-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/04gdjakvjx.png?v=1723930260"
+    },
+    {
+      "name": "Qaaed",
+      "brand": "Lattafa",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Cinnamon",
+          "Cardamom",
+          "Bergamot"
+        ],
+        "heart": [
+          "Saffron",
+          "Sandalwood",
+          "Cedar",
+          "Carnation"
+        ],
+        "base": [
+          "Vanilla",
+          "Agarwood",
+          "Amber",
+          "Leather"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-qaaed-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01x2xmkfij.png?v=1723931292"
+    },
+    {
+      "name": "Pride Winners Trophy Silver",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Orange",
+          "Olibanum"
+        ],
+        "heart": [
+          "Vanilla",
+          "Lavender"
+        ],
+        "base": [
+          "Cedarwood",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-pride-winners-trophy-silver-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01m877ia0j.png?v=1723933019"
+    },
+    {
+      "name": "Pride Tharwah Silver",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Mint",
+          "Bergamot"
+        ],
+        "heart": [
+          "Lavender",
+          "Clary Sage"
+        ],
+        "base": [
+          "Musk",
+          "Vetiver",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-pride-tharwah-silver-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/013kmhhqlq.png?v=1723932980"
+    },
+    {
+      "name": "Pride Royal Sapphire",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Mandarin Orange",
+          "Saffron",
+          "Lemon"
+        ],
+        "heart": [
+          "Jasmine",
+          "Rose"
+        ],
+        "base": [
+          "Ambergris",
+          "Musk",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-pride-royal-sapphire-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/027wsluhxy.png?v=1723932918"
+    },
+    {
+      "name": "Mayar Natural Intense",
+      "brand": "Lattafa",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Fig",
+          "Green Tangerine",
+          "Coconut Water",
+          "Melon"
+        ],
+        "heart": [
+          "Water Lily",
+          "Jasmine",
+          "Lotus"
+        ],
+        "base": [
+          "Vanilla",
+          "Sandalwood",
+          "Ambroxan",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-mayar-natural-intense-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01upink6ge.png?v=1723930855"
+    },
+    {
+      "name": "Thouq",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Litchi",
+          "Bergamot"
+        ],
+        "heart": [
+          "Rose",
+          "Incense"
+        ],
+        "base": [
+          "Amber",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-thouq-eau-de-parfum-for-everyone"
+    },
+    {
+      "name": "Sutoor",
+      "brand": "Lattafa",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Peach",
+          "Cardamom",
+          "Blood Orange",
+          "Heliotrope"
+        ],
+        "heart": [
+          "Rum",
+          "Brandy",
+          "Davana",
+          "Jasmine"
+        ],
+        "base": [
+          "Benzoin",
+          "Vanilla",
+          "Cashmere Wood",
+          "Sandalwood",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-sutoor-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01dwv2xifk.png?v=1723932026"
+    },
+    {
+      "name": "Sheikh Al Shuyukh Final Edition",
+      "brand": "Lattafa",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lemongrass",
+          "Sage",
+          "Lavender",
+          "Lemon"
+        ],
+        "heart": [
+          "Leather",
+          "Cardamom",
+          "Rose",
+          "Rosemary",
+          "Mimosa"
+        ],
+        "base": [
+          "Cedar",
+          "Musk",
+          "Amber",
+          "Vanilla",
+          "Oakmoss"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-sheikh-al-shuyukh-final-edition-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01bxex6xxx.png?v=1723931896"
+    },
+    {
+      "name": "Royal Sapphire",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Saffron",
+          "Mandarin Orange",
+          "Lemon"
+        ],
+        "heart": [
+          "Jasmine",
+          "Rose"
+        ],
+        "base": [
+          "Ambergris",
+          "Vanilla",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-royal-sapphire-eau-de-parfum-for-everyone"
+    },
+    {
+      "name": "Najdia In Gold",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Bay Leaf"
+        ],
+        "heart": [
+          "Patchouli",
+          "Guaiac Wood"
+        ],
+        "base": [
+          "Ambergris",
+          "Oakmoss"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-najdia-in-gold-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_acb8ea8b-3aa3-4f51-9855-e748653801e6.png?v=1723931020"
+    },
+    {
+      "name": "Maahir Legacy",
+      "brand": "Lattafa",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lime",
+          "Mint",
+          "Grapefruit",
+          "Lavender",
+          "Pineapple"
+        ],
+        "heart": [
+          "Juniper Berry",
+          "Black Pepper",
+          "Rosemary",
+          "Geranium",
+          "Frankincense"
+        ],
+        "base": [
+          "Ambroxan",
+          "Oakmoss",
+          "Vetiver",
+          "Cashmeran",
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-maahir-legacy-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01sw0omlng.png?v=1751324956"
+    },
+    {
+      "name": "Haya",
+      "brand": "Lattafa",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Champagne",
+          "Strawberry",
+          "Rose",
+          "Tangerine",
+          "Blood Orange"
+        ],
+        "heart": [
+          "Gardenia",
+          "Jasmine",
+          "Vanilla Orchid"
+        ],
+        "base": [
+          "Amber",
+          "Sandalwood",
+          "Chestnut"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-haya-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01iw5zoq4x.png?v=1723930385"
+    },
+    {
+      "name": "Ajayeb Dubai Portrait",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Orange",
+          "Lemon"
+        ],
+        "heart": [
+          "Mango",
+          "Osmanthus",
+          "Jasmine"
+        ],
+        "base": [
+          "Sandalwood",
+          "Amber",
+          "Musk",
+          "Oud"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-ajayeb-dubai-portrait-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02uc1ipdpw.jpg?v=1723929333"
+    },
+    {
+      "name": "Najdia Tribute",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Ginger",
+          "Mandarin Orange",
+          "Apple",
+          "Bergamot"
+        ],
+        "heart": [
+          "Violet Leaf",
+          "Guaiac Wood",
+          "Saffron",
+          "Cedar"
+        ],
+        "base": [
+          "Leather",
+          "Ambergris",
+          "Agarwood",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-najdia-tribute-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02idgbnnj7.png?v=1723931030"
+    },
+    {
+      "name": "Mohra",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Lavender",
+          "Saffron",
+          "Blood Orange",
+          "Bergamot"
+        ],
+        "heart": [
+          "Black Pepper",
+          "Cashmeran",
+          "Rose"
+        ],
+        "base": [
+          "Cedar",
+          "Patchouli",
+          "Sandalwood",
+          "Labdanum",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-mohra-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01n2ka0cxb.png?v=1786033826"
+    },
+    {
+      "name": "Awaan",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Orange"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "Jasmine"
+        ],
+        "base": [
+          "Sandalwood",
+          "Musk",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-awaan-eau-de-parfum-for-everyone"
+    },
+    {
+      "name": "Shaari",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Agarwood",
+          "Cinnamon",
+          "Saffron"
+        ],
+        "heart": [
+          "Rose",
+          "Sandalwood"
+        ],
+        "base": [
+          "Leather",
+          "Incense",
+          "Musk",
+          "Vanilla",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-shaari-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02y4effaa5.jpg?v=1723931778"
+    },
+    {
+      "name": "Raghba Wood Intense",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Caramel",
+          "Guaiac Wood",
+          "Licorice",
+          "Cedar"
+        ],
+        "heart": [
+          "Sugar",
+          "Agarwood",
+          "Sandalwood",
+          "Cashmere Wood"
+        ],
+        "base": [
+          "Incense",
+          "Vanilla",
+          "Amber",
+          "Oakmoss",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-raghba-wood-intense-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/05vlgunrn0.png?v=1723931546"
+    },
+    {
+      "name": "Musamum",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Saffron",
+          "Lavender",
+          "Italian Mandarin"
+        ],
+        "heart": [
+          "Amberwood",
+          "Virginia Cedar",
+          "Geranium"
+        ],
+        "base": [
+          "Akigalawood",
+          "Incense",
+          "Labdanum"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-musamum-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/030tm9us9f.png?v=1723930935"
+    },
+    {
+      "name": "Velvet Rose",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Rose",
+          "Patchouli"
+        ],
+        "heart": [
+          "Labdanum",
+          "Musk"
+        ],
+        "base": [
+          "Amber",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-velvet-rose-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_a0064b05-a0c6-4c20-b1e9-6e01e3d9e898.png?v=1723932233"
+    },
+    {
+      "name": "Ramz Gold",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Apple",
+          "Pear",
+          "Peach",
+          "Sweet Orange",
+          "Black Currant"
+        ],
+        "heart": [
+          "Jasmine Sambac",
+          "Rose",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Sandalwood",
+          "White Musk",
+          "Patchouli",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-ramz-gold-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03jz4pcert.png?v=1751484331"
+    },
+    {
+      "name": "Ameer Al Oudh Intense Oud",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Agarwood"
+        ],
+        "heart": [
+          "Sugar",
+          "Vanilla"
+        ],
+        "base": [
+          "Agarwood",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-ameer-al-oudh-intense-oud-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02xl70lwwq.png?v=1723929583"
+    },
+    {
+      "name": "Maahir Black Edition",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Black Pepper",
+          "Pink Pepper",
+          "Saffron"
+        ],
+        "heart": [
+          "Labdanum",
+          "Cade Oil",
+          "Gurjan Balsam",
+          "Rhubarb"
+        ],
+        "base": [
+          "Leather",
+          "Cedar",
+          "Patchouli",
+          "Guaiac Wood",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/lattafa-maahir-black-edition-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/078qpwrtwl.png?v=1723930732"
+    },
+    {
+      "name": "Beyond Precious",
+      "brand": "Lattafa",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Pear",
+          "Neroli"
+        ],
+        "heart": [
+          "Jasmine",
+          "Angelica",
+          "Orange Flower"
+        ],
+        "base": [
+          "Tonka Bean",
+          "Immortelle",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://lattafa-usa.com/products/lattafa-beyond-precious-eau-de-parfum-100ml",
+      "image": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/lattafa-beyond-precious-edp-2.jpg?v=1791565586"
+    },
+    {
+      "name": "Atlas Canyon",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Ginger",
+          "Lemon"
+        ],
+        "heart": [
+          "Lily Of The Valley"
+        ],
+        "base": [
+          "Patchouli",
+          "Oakmoss",
+          "Ambroxan",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://lattafa-usa.com/products/lattafa-atlas-canyon-eau-de-parfum-55ml",
+      "image": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/lattafa-atlas-canyon-edp-55ml-1.jpg?v=1791565640"
+    },
+    {
+      "name": "Atlas Glacial Valley",
+      "brand": "Lattafa",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Fig",
+          "Pineapple",
+          "Mint"
+        ],
+        "heart": [
+          "Jasmine",
+          "Patchouli",
+          "Sea Salt"
+        ],
+        "base": [
+          "Moss",
+          "Musk",
+          "Vanilla",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://lattafa-usa.com/products/lattafa-atlas-glacial-valley-eau-de-parfum-55ml",
+      "image": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/lattafa-atlas-glacial-valley-edp-55ml-1.jpg?v=1791565701"
+    },
+    {
+      "name": "Habik",
+      "brand": "Lattafa",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Cardamom",
+          "Pepper",
+          "Artemisia",
+          "Bergamot"
+        ],
+        "heart": [
+          "Sage",
+          "Lavender",
+          "Cinnamon"
+        ],
+        "base": [
+          "Sandalwood",
+          "Patchouli",
+          "Tonka Bean",
+          "Amberwood",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://lattafa-usa.com/products/habik-for-men-pre-order",
+      "image": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_baf250d5-708c-425a-a3c7-94c3ea2d274c.png?v=1756361768"
+    },
+    {
+      "name": "Qimmah",
+      "brand": "Lattafa",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Agarwood",
+          "Cedar"
+        ],
+        "heart": [
+          "Lavender",
+          "Sage",
+          "Rosemary"
+        ],
+        "base": [
+          "Patchouli",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://lattafa-usa.com/products/lattafa-qimmah-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/1_51f22846-368f-4710-b74d-8e092d101f71.png?v=1756361872"
+    },
+    {
+      "name": "Musk Pour Amber",
+      "brand": "Khadlaj",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pear",
+          "Frankincense",
+          "Bergamot"
+        ],
+        "heart": [
+          "Hazelnut",
+          "Jasmine Sambac",
+          "Rose"
+        ],
+        "base": [
+          "Vanilla",
+          "Cedarwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/khadlaj-musk-pour-amber-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02o2wo6vcs.png?v=1784313116"
+    },
+    {
+      "name": "Sketchbook P.33 Blank Page Edition Parfum",
+      "brand": "Xerjoff",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Apple",
+          "Bergamot"
+        ],
+        "heart": [
+          "Iris",
+          "Cinnamon"
+        ],
+        "base": [
+          "Musk",
+          "Cedarwood",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/xerjoff-sketchbook-p33-blank-page-edition-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02odtcmosi.png?v=1769036032"
+    },
+    {
+      "name": "XJ 1861 Decas",
+      "brand": "Xerjoff",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Calabrian Mandarin",
+          "Tuberose",
+          "Tobacco"
+        ],
+        "heart": [
+          "Benzoin",
+          "Opoponax",
+          "Italian Orris Root"
+        ],
+        "base": [
+          "Resin",
+          "Bourbon Vanilla",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/xerjoff-xj-1861-decas-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03kqpazzih.png?v=1749056729"
+    },
+    {
+      "name": "Soprano",
+      "brand": "Xerjoff",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Litchi",
+          "Freesia",
+          "Calabrian Bergamot"
+        ],
+        "heart": [
+          "Bulgarian Rose",
+          "Milk",
+          "Osmanthus",
+          "Egyptian Jasmine"
+        ],
+        "base": [
+          "Agarwood",
+          "Patchouli",
+          "Leather"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/xerjoff-soprano-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/022kzknrh5.png?v=1749063632"
+    },
+    {
+      "name": "Groove Xcape Parfum",
+      "brand": "Xerjoff",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Pepper",
+          "Elemi",
+          "Cardamom",
+          "Ginger"
+        ],
+        "heart": [
+          "Myrrh",
+          "Incense",
+          "Rose",
+          "Mimosa"
+        ],
+        "base": [
+          "Cedar",
+          "Labdanum",
+          "Benzoin",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/xerjoff-groove-xcape-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03tcvdeokh.png?v=1723959812"
+    },
+    {
+      "name": "Opera",
+      "brand": "Xerjoff",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Turkish Rose"
+        ],
+        "heart": [
+          "Ylang-Ylang",
+          "Nutmeg",
+          "Leather",
+          "Amber"
+        ],
+        "base": [
+          "Vanilla",
+          "Patchouli",
+          "Musk",
+          "Virginia Cedar",
+          "Haitian Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/xerjoff-opera-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02zlzsfuda.png?v=1767635070"
+    },
+    {
+      "name": "Accento",
+      "brand": "Xerjoff",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Pineapple",
+          "Hyacinth"
+        ],
+        "heart": [
+          "Iris",
+          "Jasmine",
+          "Pink Pepper"
+        ],
+        "base": [
+          "Musk",
+          "Vetiver",
+          "Amber",
+          "Vanilla",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/xerjoff-accento-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/033vhter91.png?v=1749055737"
+    },
+    {
+      "name": "Original Vetiver",
+      "brand": "Creed",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Ginger",
+          "Mandarin Orange"
+        ],
+        "heart": [
+          "Haitian Vetiver",
+          "Sandalwood",
+          "Iris"
+        ],
+        "base": [
+          "Musk",
+          "Ambergris"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/creed-original-vetiver-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/07t8petl8f.png?v=1723902214"
+    },
+    {
+      "name": "Millesime Imperial",
+      "brand": "Creed",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Sea Salt"
+        ],
+        "heart": [
+          "Sicilian Lemon",
+          "Bergamot",
+          "Iris",
+          "Mandarin Orange"
+        ],
+        "base": [
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/creed-millesime-imperial-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/052753zp8n.png?v=1753134724"
+    },
+    {
+      "name": "Bois Luxura",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lavender",
+          "Basil",
+          "Sage"
+        ],
+        "heart": [
+          "Violet",
+          "Iris",
+          "Mimosa"
+        ],
+        "base": [
+          "Cedar",
+          "Vetiver",
+          "Amber",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-bois-luxura-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_8f73dd48-938e-45fa-b569-819995fda7e6.png?v=1759265830"
+    },
+    {
+      "name": "Tres Nuit",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lemon Verbena",
+          "Iris",
+          "Lemon"
+        ],
+        "heart": [
+          "Lavender",
+          "Violet"
+        ],
+        "base": [
+          "Ambergris",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-tres-nuit-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/04qwdxwipb.jpg?v=1787947337"
+    },
+    {
+      "name": "Skin Couture Classic",
+      "brand": "Armaf",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Black Currant",
+          "Blood Orange",
+          "Raspberry"
+        ],
+        "heart": [
+          "Honeysuckle",
+          "Osmanthus",
+          "Magnolia"
+        ],
+        "base": [
+          "Cashmere Wood",
+          "Amber",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-skin-couture-classic-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03cro9ocdn.png?v=1739402875"
+    },
+    {
+      "name": "Marjan Red",
+      "brand": "Armaf",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Cardamom"
+        ],
+        "heart": [
+          "Jasmine",
+          "Red Apple",
+          "Pineapple"
+        ],
+        "base": [
+          "Amber",
+          "Tonka Bean",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-marjan-red-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/010p5zgele.png?v=1739292664"
+    },
+    {
+      "name": "Niche Purple Amethyst",
+      "brand": "Armaf",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Litchi",
+          "Rose",
+          "Lemon"
+        ],
+        "heart": [
+          "Rose",
+          "Magnolia",
+          "Iris",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Musk",
+          "Patchouli",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-niche-purple-amethyst-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02go3vyyb1.png?v=1731528015"
+    },
+    {
+      "name": "Tag Him",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Lemon",
+          "Pink Pepper",
+          "Bergamot"
+        ],
+        "heart": [
+          "Ginger",
+          "Mint",
+          "Lavender",
+          "Nutmeg"
+        ],
+        "base": [
+          "Vetiver",
+          "Sandalwood",
+          "Patchouli",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-tag-him-eau-de-toilette-for-men"
+    },
+    {
+      "name": "Marjan Silver",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Bergamot",
+          "Pink Pepper"
+        ],
+        "heart": [
+          "Lemon",
+          "Mint",
+          "Ginger",
+          "Nutmeg"
+        ],
+        "base": [
+          "Sandalwood",
+          "Cedar",
+          "Patchouli",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-marjan-silver-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/05v0tmnati.png?v=1724277626"
+    },
+    {
+      "name": "Voyage Intense",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Cardamom",
+          "Iris",
+          "Sage",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Lavender"
+        ],
+        "base": [
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-voyage-intense-eau-de-parfum-for-men"
+    },
+    {
+      "name": "Tres Nuit Lyric",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Mandarin Orange"
+        ],
+        "heart": [
+          "Rosemary",
+          "Lavender",
+          "Cypress"
+        ],
+        "base": [
+          "Musk",
+          "Patchouli",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-tres-nuit-lyric-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_48bb4bfd-e844-466b-a7a0-f5ddebed7f22.jpg?v=1723885306"
+    },
+    {
+      "name": "Studio Flame Orange",
+      "brand": "Armaf",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Blackberry",
+          "Cranberry"
+        ],
+        "heart": [
+          "Violet",
+          "Peony"
+        ],
+        "base": [
+          "Vanilla",
+          "Sandalwood",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-studio-flame-orange-eau-de-parfum-for-women"
+    },
+    {
+      "name": "Magnificent Blue",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Bergamot",
+          "Pepper"
+        ],
+        "heart": [
+          "Sichuan Pepper",
+          "Pink Pepper",
+          "Lavender",
+          "Elemi",
+          "Patchouli"
+        ],
+        "base": [
+          "Cedar",
+          "Amber",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-magnificent-blue-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01oaf24zfu.jpg?v=1787949027"
+    },
+    {
+      "name": "Extreme Warrior",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Grapefruit",
+          "Mandarin Orange",
+          "Red Fruits"
+        ],
+        "heart": [
+          "Ginger",
+          "Nutmeg",
+          "Geranium",
+          "Lavender",
+          "Mint"
+        ],
+        "base": [
+          "Precious Woods",
+          "Sandalwood",
+          "Vetiver",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-extreme-warrior-eau-de-toilette-for-men"
+    },
+    {
+      "name": "Bucephalus XI",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Black Currant",
+          "Pineapple",
+          "Bergamot"
+        ],
+        "heart": [
+          "Myrrh",
+          "Jasmine",
+          "Rose"
+        ],
+        "base": [
+          "Vanilla",
+          "Amber",
+          "Oakmoss",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-bucephalus-xi-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_5d4e7131-54e0-4b15-8851-d1b24054cef9.jpg?v=1723884075"
+    },
+    {
+      "name": "Oros Oud",
+      "brand": "Armaf",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Rose",
+          "Saffron"
+        ],
+        "heart": [
+          "Geranium",
+          "Jasmine"
+        ],
+        "base": [
+          "Agarwood",
+          "Musk",
+          "Amber",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-oros-oud-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02ztwhfwqv.jpg?v=1787950899"
+    },
+    {
+      "name": "Q Intense",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Fig",
+          "Pimento",
+          "Rosemary",
+          "Sage"
+        ],
+        "heart": [
+          "Mint",
+          "Basil",
+          "Lavender",
+          "Patchouli"
+        ],
+        "base": [
+          "Sandalwood",
+          "Tonka Bean",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-q-intense-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/039aiwg63v.jpg?v=1787952611"
+    },
+    {
+      "name": "Oros",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Pink Pepper"
+        ],
+        "heart": [
+          "Jasmine"
+        ],
+        "base": [
+          "Patchouli",
+          "Guaiac Wood",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-oros-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/042ooxpvw2.png?v=1764949290"
+    },
+    {
+      "name": "Derby Club House Gold",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Cardamom",
+          "Bergamot"
+        ],
+        "heart": [
+          "Red Apple",
+          "Pineapple",
+          "Jasmine"
+        ],
+        "base": [
+          "Tonka Bean",
+          "Amber",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-derby-club-house-gold-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03nrt817o2.png?v=1723884523"
+    },
+    {
+      "name": "Aura",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Lemon",
+          "Black Cardamom",
+          "Apple"
+        ],
+        "heart": [
+          "Geranium",
+          "Violet",
+          "Iris",
+          "Lavender",
+          "Pepper"
+        ],
+        "base": [
+          "Musk",
+          "Amber",
+          "Sandalwood",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-aura-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03wnguprus.jpg?v=1787949011"
+    },
+    {
+      "name": "Le Femme",
+      "brand": "Armaf",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Plum",
+          "Orange",
+          "Gardenia",
+          "Bergamot"
+        ],
+        "heart": [
+          "Jasmine",
+          "Saffron",
+          "Lily-Of-The-Valley",
+          "Rose"
+        ],
+        "base": [
+          "Vanilla",
+          "Patchouli",
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-le-femme-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01jlwhltgk.png?v=1723884711"
+    },
+    {
+      "name": "La Rosa",
+      "brand": "Armaf",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pear",
+          "Black Currant",
+          "Pink Pepper",
+          "Bergamot"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "Tuberose",
+          "Jasmine",
+          "Ylang-Ylang",
+          "Mimosa"
+        ],
+        "base": [
+          "Praline",
+          "Hazelnut",
+          "Patchouli",
+          "Tonka Bean",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-la-rosa-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_dd1482b5-f8a7-4e69-ac24-7b93320ea7c2.png?v=1764181852"
+    },
+    {
+      "name": "Hunter",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Rosemary",
+          "Cedar Needles",
+          "Cardamom"
+        ],
+        "heart": [
+          "Ylang-Ylang",
+          "Tuberose",
+          "Olibanum"
+        ],
+        "base": [
+          "Cedar",
+          "Sandalwood",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-hunter-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01vhoejzml.png?v=1723884659"
+    },
+    {
+      "name": "Futura La Homme Intense",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Sage",
+          "Grapefruit",
+          "Cardamom"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Violet Leaves",
+          "Lavender"
+        ],
+        "base": [
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-futura-la-homme-intense-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02ru7nbhvu.png?v=1723884601"
+    },
+    {
+      "name": "Club De Nuit Intense Parfum",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Pineapple",
+          "Bergamot",
+          "Black Currant",
+          "Apple"
+        ],
+        "heart": [
+          "Birch",
+          "Jasmine",
+          "Rose"
+        ],
+        "base": [
+          "Musk",
+          "Ambergris",
+          "Patchouli",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/armaf-club-de-nuit-intense-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03kaejy9p7.jpg?v=1787947267"
+    },
+    {
+      "name": "Tres Nuit Lyric Cologne",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Mandarin Orange"
+        ],
+        "heart": [
+          "Rosemary",
+          "Lavender",
+          "Cypress"
+        ],
+        "base": [
+          "Musk",
+          "Patchouli",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.fragranceoutlet.com/products/tres-nuit-lyric-pour-homme-eau-de-parfum-for-men-by-armaf",
+      "image": "https://cdn.shopify.com/s/files/1/0910/0818/files/tres_nuit.jpg?v=1683643702"
+    },
+    {
+      "name": "Tres Bon Cologne",
+      "brand": "Armaf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Bergamot"
+        ],
+        "heart": [
+          "Lavender",
+          "Violet",
+          "Pink Pepper"
+        ],
+        "base": [
+          "Coffee"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.fragranceoutlet.com/products/tres-bon-pour-homme-mens-eau-de-toilette-spray",
+      "image": "https://cdn.shopify.com/s/files/1/0910/0818/products/Special-Selection-Tres-Bon-Pour-Homme-Mens-Eau-de-Toilette-Spray-3.4-Best-Price-Fragrance-Parfume-FragranceOutlet.com-Main.jpg?v=1626970331"
+    },
+    {
+      "name": "Kalan",
+      "brand": "Parfums de Marly",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Blood Orange",
+          "Black Pepper"
+        ],
+        "heart": [
+          "Lavender",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Moss",
+          "White Sandalwood",
+          "Tonka Bean",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/parfums-de-marly-kalan-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01qs0xmpxg.png?v=1723944964"
+    },
+    {
+      "name": "Hawas for Her",
+      "brand": "Rasasi",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Apple",
+          "Pomegranate",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Iris",
+          "Jasmine Sambac"
+        ],
+        "base": [
+          "Praline",
+          "Patchouli",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/rasasi-hawas-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03jj4jdnrj.png?v=1723948096"
+    },
+    {
+      "name": "The One Gold Intense",
+      "brand": "Dolce & Gabbana",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Plum",
+          "Pink Pepper",
+          "Italian Mandarin"
+        ],
+        "heart": [
+          "Rose",
+          "Jasmine",
+          "Lily-Of-The-Valley"
+        ],
+        "base": [
+          "Patchouli",
+          "Vanilla",
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dolce-gabbana-the-one-gold-intense-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01rjl1eezg.png?v=1771949454"
+    },
+    {
+      "name": "Intenso",
+      "brand": "Dolce & Gabbana",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lavender",
+          "Basil",
+          "Marigold",
+          "Geranium"
+        ],
+        "heart": [
+          "Tobacco",
+          "Hay",
+          "Clary Sage"
+        ],
+        "base": [
+          "Sandalwood",
+          "Cypress",
+          "Musk",
+          "Amber",
+          "Labdanum"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dolce-gabbana-pour-homme-intenso-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01jhd6btfg.png?v=1765406652"
+    },
+    {
+      "name": "The One Intense",
+      "brand": "Dolce & Gabbana",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Cardamom",
+          "Neroli",
+          "Cypress"
+        ],
+        "heart": [
+          "Cashmeran",
+          "Benzoin",
+          "Neroli",
+          "Clary Sage"
+        ],
+        "base": [
+          "Leather",
+          "Neroli",
+          "Patchouli",
+          "Labdanum"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dolce-gabbana-the-one-intense-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02btzs0xsq.png?v=1756509748"
+    },
+    {
+      "name": "Dolce",
+      "brand": "Dolce & Gabbana",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Neroli",
+          "Papaya Flower"
+        ],
+        "heart": [
+          "Water Lily",
+          "Narcissus",
+          "Amaryllis"
+        ],
+        "base": [
+          "Musk",
+          "Cashmeran"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dolce-gabbana-dolce-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02guaxvgu5.png?v=1756508891"
+    },
+    {
+      "name": "The Only One Intense",
+      "brand": "Dolce & Gabbana",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Neroli",
+          "Green Apple",
+          "Italian Mandarin"
+        ],
+        "heart": [
+          "Jasmine",
+          "Coconut",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Vanilla",
+          "Cashmere Wood",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dolce-gabbana-the-only-one-intense-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/017yqnrfld.png?v=1756509136"
+    },
+    {
+      "name": "Q",
+      "brand": "Dolce & Gabbana",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Sicilian Lemon",
+          "Blood Orange",
+          "Jasmine"
+        ],
+        "heart": [
+          "Cherry",
+          "Heliotrope"
+        ],
+        "base": [
+          "Musk",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dolce-gabbana-q-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/10djwsykuc.png?v=1756510124"
+    },
+    {
+      "name": "Dolce Shine",
+      "brand": "Dolce & Gabbana",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Mango",
+          "Quince",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Tuberose",
+          "Sea Salt",
+          "Jasmine",
+          "Orange Blossom"
+        ],
+        "base": [
+          "White Musk",
+          "Australian Sandalwood",
+          "White Woods"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dolce-gabbana-dolce-shine-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02s7uveszb.png?v=1723907355"
+    },
+    {
+      "name": "Dolce Garden",
+      "brand": "Dolce & Gabbana",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Magnolia",
+          "Neroli",
+          "Mandarin Orange"
+        ],
+        "heart": [
+          "Coconut",
+          "Frangipani",
+          "Ylang-Ylang"
+        ],
+        "base": [
+          "Vanilla Absolute",
+          "Almond Milk",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dolce-gabbana-dolce-garden-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/047wapfrqw.png?v=1756509798"
+    },
+    {
+      "name": "The One Gold",
+      "brand": "Dolce & Gabbana",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Plum",
+          "Pink Pepper",
+          "Italian Mandarin"
+        ],
+        "heart": [
+          "Rose",
+          "Jasmine",
+          "Lily-Of-The-Valley"
+        ],
+        "base": [
+          "Patchouli",
+          "Vanilla",
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dolce-gabbana-the-one-gold-eau-de-parfum-for-women"
+    },
+    {
+      "name": "Light Blue Eau Intense",
+      "brand": "Dolce & Gabbana",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Granny Smith Apple"
+        ],
+        "heart": [
+          "Jasmine",
+          "Marigold"
+        ],
+        "base": [
+          "Musk",
+          "Amberwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dolce-gabbana-light-blue-eau-intense-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03fp6pixro.png?v=1723907802"
+    },
+    {
+      "name": "K",
+      "brand": "Dolce & Gabbana",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Juniper Berries",
+          "Blood Orange",
+          "Sicilian Lemon"
+        ],
+        "heart": [
+          "Pimento",
+          "Lavender",
+          "Clary Sage",
+          "Geranium"
+        ],
+        "base": [
+          "Vetiver",
+          "Cedar",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dolce-gabbana-k-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_6b0d8d56-3958-4970-bb92-9e7a52fcfb85.png?v=1756507407"
+    },
+    {
+      "name": "Parisienne",
+      "brand": "Yves Saint Laurent",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Rose",
+          "Vinyl",
+          "Violet Leaf"
+        ],
+        "heart": [
+          "Black Currant",
+          "Cranberry",
+          "Red Berries"
+        ],
+        "base": [
+          "Musk",
+          "Patchouli",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/yves-saint-laurent-parisienne-eau-de-toilette-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02diaudvgr.png?v=1781907277"
+    },
+    {
+      "name": "Libre Intense",
+      "brand": "Yves Saint Laurent",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Lavender",
+          "Mandarin Orange",
+          "Bergamot"
+        ],
+        "heart": [
+          "Lavender",
+          "Tunisian Orange Blossom",
+          "Jasmine Sambac",
+          "Orchid"
+        ],
+        "base": [
+          "Madagascar Vanilla",
+          "Tonka Bean",
+          "Ambergris",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/yves-saint-laurent-libre-intense-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01455x358n.png?v=1771613352"
+    },
+    {
+      "name": "Y Intense",
+      "brand": "Yves Saint Laurent",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Ginger",
+          "Juniper Berries",
+          "Bergamot"
+        ],
+        "heart": [
+          "Sage",
+          "Geranium",
+          "Lavender"
+        ],
+        "base": [
+          "Vetiver",
+          "Patchouli",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/yves-saint-laurent-y-intense-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/028lm4oond.png?v=1762905922"
+    },
+    {
+      "name": "Mon Paris Couture",
+      "brand": "Yves Saint Laurent",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Raspberry",
+          "Grapefruit",
+          "Litchi",
+          "Bergamot",
+          "Mandarin Orange"
+        ],
+        "heart": [
+          "Rose",
+          "Peony",
+          "Orange Blossom",
+          "Datura"
+        ],
+        "base": [
+          "White Musk",
+          "Patchouli",
+          "Cashmeran",
+          "Ambroxan"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/yves-saint-laurent-mon-paris-couture-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/04n0nqfngf.png?v=1723960521"
+    },
+    {
+      "name": "Black Opium Intense",
+      "brand": "Yves Saint Laurent",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Absinthe",
+          "Boysenberry"
+        ],
+        "heart": [
+          "Coffee",
+          "Jasmine Sambac",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Vanilla",
+          "Licorice",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/yves-saint-laurent-opium-black-intense-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02s571prde.png?v=1723960694"
+    },
+    {
+      "name": "Opium",
+      "brand": "Yves Saint Laurent",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Black Currant",
+          "Star Anise"
+        ],
+        "heart": [
+          "Pepper",
+          "Galangal"
+        ],
+        "base": [
+          "Bourbon Vanilla",
+          "Tolu Balsam",
+          "Atlas Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/yves-saint-laurent-opium-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/04svh8l9j4_4c9f04ca-cd65-4366-9293-86620a9a2605.png?v=1723960618"
+    },
+    {
+      "name": "L'Homme Le Parfum",
+      "brand": "Yves Saint Laurent",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Cardamom",
+          "Lemon"
+        ],
+        "heart": [
+          "Geranium",
+          "Violet Leaf",
+          "Basil"
+        ],
+        "base": [
+          "Amberwood",
+          "Cedar Essence",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/yves-saint-laurent-lhomme-le-parfum-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01iyrn1sr4_7f57283e-15c0-4940-a26c-83c99e94b06e.png?v=1723960325"
+    },
+    {
+      "name": "Cinema",
+      "brand": "Yves Saint Laurent",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Almond Blossom",
+          "Clementine",
+          "Cyclamen"
+        ],
+        "heart": [
+          "Jasmine",
+          "Peony",
+          "Amaryllis"
+        ],
+        "base": [
+          "Vanilla",
+          "Amber",
+          "Benzoin",
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/yves-saint-laurent-cinema-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01ggqdegny.png?v=1738799875"
+    },
+    {
+      "name": "Paris",
+      "brand": "Yves Saint Laurent",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Rose",
+          "Mimosa",
+          "Hyacinth",
+          "Geranium",
+          "Nasturtium"
+        ],
+        "heart": [
+          "Rose",
+          "Violet",
+          "Lily",
+          "Lime Blossom",
+          "Ylang-Ylang"
+        ],
+        "base": [
+          "Iris",
+          "Musk",
+          "Heliotrope",
+          "Sandalwood",
+          "Oakmoss"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/yves-saint-laurent-paris-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03uotmbcrx.png?v=1776094321"
+    },
+    {
+      "name": "Baby Doll",
+      "brand": "Yves Saint Laurent",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Black Currant",
+          "Pineapple",
+          "Orange",
+          "Apple"
+        ],
+        "heart": [
+          "Rose",
+          "Freesia",
+          "Heliotrope",
+          "Lily-Of-The-Valley"
+        ],
+        "base": [
+          "Vanilla",
+          "Cedar",
+          "Sandalwood",
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/yves-saint-laurent-baby-doll-eau-de-toilette-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_cd057596-b4d7-496e-821c-f68917a95dab.png?v=1723960052"
+    },
+    {
+      "name": "Eau Sauvage",
+      "brand": "Dior",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Bergamot",
+          "Basil",
+          "Rosemary",
+          "Caraway"
+        ],
+        "heart": [
+          "Jasmine",
+          "Coriander",
+          "Carnation",
+          "Patchouli",
+          "Orris Root"
+        ],
+        "base": [
+          "Oakmoss",
+          "Vetiver",
+          "Musk",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dior-eau-sauvage-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/027nismnmf.png?v=1761159620"
+    },
+    {
+      "name": "Poison Girl",
+      "brand": "Dior",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Bitter Orange",
+          "Lemon"
+        ],
+        "heart": [
+          "Damask Rose",
+          "Grasse Rose",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Vanilla",
+          "Almond",
+          "Tonka Bean",
+          "Tolu Balsam",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dior-poison-girl-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01fs8le2sc.png?v=1737052796"
+    },
+    {
+      "name": "J'adore",
+      "brand": "Dior",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pear",
+          "Melon",
+          "Magnolia",
+          "Peach",
+          "Mandarin Orange"
+        ],
+        "heart": [
+          "Jasmine",
+          "Lily-Of-The-Valley",
+          "Tuberose",
+          "Freesia",
+          "Rose"
+        ],
+        "base": [
+          "Musk",
+          "Vanilla",
+          "Blackberry",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dior-jadore-eau-de-toilette-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01tttl1at0.png?v=1723906228"
+    },
+    {
+      "name": "Dolce Vita",
+      "brand": "Dior",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Peach",
+          "Cardamom",
+          "Lily",
+          "Grapefruit",
+          "Bergamot"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Apricot",
+          "Brazilian Rosewood",
+          "Lily",
+          "Heliotrope"
+        ],
+        "base": [
+          "Vanilla",
+          "Sandalwood",
+          "Cedar",
+          "Coconut"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dior-dolce-vita-eau-de-toilette-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_ab0cfa3c-b65b-4dbe-8e74-1fe24901808b.jpg?v=1723905197"
+    },
+    {
+      "name": "Diorissimo",
+      "brand": "Dior",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Green Leaves",
+          "Bergamot"
+        ],
+        "heart": [
+          "Lily-Of-The-Valley",
+          "Lilac",
+          "Jasmine",
+          "Lily",
+          "Ylang-Ylang"
+        ],
+        "base": [
+          "Civet",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dior-diorissimo-eau-de-toilette-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03rl8arbpg.png?v=1723904924"
+    },
+    {
+      "name": "Sauvage Very Cool Spray",
+      "brand": "Dior",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Bergamot",
+          "Pepper"
+        ],
+        "heart": [
+          "Lavender",
+          "Sichuan Pepper",
+          "Pink Pepper",
+          "Geranium",
+          "Patchouli"
+        ],
+        "base": [
+          "Ambroxan",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dior-sauvage-very-cool-spray-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/04ny87ggsb.png?v=1723907166"
+    },
+    {
+      "name": "Pure Poison",
+      "brand": "Dior",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Jasmine",
+          "Orange",
+          "Bergamot",
+          "Sicilian Mandarin"
+        ],
+        "heart": [
+          "Gardenia",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Sandalwood",
+          "White Amber",
+          "Cedar",
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/dior-pure-poison-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/04_98663cb3-9211-477f-a79d-f82bf30ada1e.png?v=1723906846"
+    },
+    {
+      "name": "Lady Million Fabulous Intense",
+      "brand": "Paco Rabanne",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Mandarin Orange",
+          "Pink Pepper"
+        ],
+        "heart": [
+          "Tuberose",
+          "Jasmine",
+          "Ylang-Ylang"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean",
+          "Moss"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-lady-million-fabulous-intense-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02om9czypj.png?v=1727109207"
+    },
+    {
+      "name": "XS Black",
+      "brand": "Paco Rabanne",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Cranberry",
+          "Pink Pepper",
+          "Tamarind"
+        ],
+        "heart": [
+          "Cacao",
+          "Rose",
+          "Black Violet"
+        ],
+        "base": [
+          "Vanilla",
+          "Patchouli",
+          "Massoia Wood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-xs-black-eau-de-toilette-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/04bvw41ghw.png?v=1764360044"
+    },
+    {
+      "name": "1 Million Elixir Intense Parfum",
+      "brand": "Paco Rabanne",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Apple",
+          "Davana"
+        ],
+        "heart": [
+          "Damask Rose",
+          "Cedar",
+          "Osmanthus"
+        ],
+        "base": [
+          "Vanilla Absolute",
+          "Tonka Bean",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-1-million-elixir-intense-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/08rzicgnha.png?v=1757972861"
+    },
+    {
+      "name": "Olympea Flora Intense",
+      "brand": "Paco Rabanne",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Black Currant",
+          "Sorbet",
+          "Pink Pepper"
+        ],
+        "heart": [
+          "Rose",
+          "Peony"
+        ],
+        "base": [
+          "Vanilla",
+          "Patchouli",
+          "Cashmere Wood",
+          "Salt"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-olympea-flora-intense-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02jgafprth_0f359466-e4a1-4975-9b43-38101ca6b136.png?v=1723944248"
+    },
+    {
+      "name": "One Million Intense",
+      "brand": "Paco Rabanne",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Saffron",
+          "Black Pepper",
+          "Blood Mandarin",
+          "Cardamom"
+        ],
+        "heart": [
+          "Rose",
+          "Cinnamon",
+          "Neroli"
+        ],
+        "base": [
+          "Leather",
+          "Sandalwood",
+          "Patchouli",
+          "Orris Root"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-one-million-intense-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01c6veuwvu.png?v=1723944480"
+    },
+    {
+      "name": "Phantom Parfum",
+      "brand": "Paco Rabanne",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Cardamom",
+          "Bergamot",
+          "Lemon",
+          "Rhubarb"
+        ],
+        "heart": [
+          "Lavender",
+          "Patchouli",
+          "Cedarwood",
+          "Geranium"
+        ],
+        "base": [
+          "Vanilla",
+          "Haitian Vetiver",
+          "Tolu Balsam"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-phantom-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01rm0kjpgo.png?v=1723944728"
+    },
+    {
+      "name": "Paco",
+      "brand": "Paco Rabanne",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Amalfi Lemon",
+          "Pine",
+          "Mandarin Orange",
+          "Coriander"
+        ],
+        "heart": [
+          "Tea",
+          "Lavender",
+          "Jasmine",
+          "Cyclamen"
+        ],
+        "base": [
+          "Musk",
+          "Sandalwood",
+          "Virginia Cedar",
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-paco-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03_e0549b90-858f-424a-999c-8fae5630692a.jpg?v=1723944535"
+    },
+    {
+      "name": "Fame Blooming Pink",
+      "brand": "Paco Rabanne",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Mango",
+          "Bergamot"
+        ],
+        "heart": [
+          "Jasmine",
+          "Olibanum"
+        ],
+        "base": [
+          "Vanilla",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-fame-blooming-pink-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01ly6euhqx.png?v=1723943741"
+    },
+    {
+      "name": "Ultra Violet",
+      "brand": "Paco Rabanne",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Mint",
+          "Amber"
+        ],
+        "heart": [
+          "Vetiver",
+          "Pepper"
+        ],
+        "base": [
+          "Oakmoss",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-ultra-violet-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02rp4bt3qk.png?v=1723944790"
+    },
+    {
+      "name": "Invictus Victory",
+      "brand": "Paco Rabanne",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Pink Pepper",
+          "Lemon"
+        ],
+        "heart": [
+          "Olibanum",
+          "Lavender"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-invictus-victory-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_397af61a-9005-4db2-813d-f6ad638b48dd.png?v=1757713313"
+    },
+    {
+      "name": "Lady Million Empire",
+      "brand": "Paco Rabanne",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Red Currant",
+          "Orange",
+          "Neroli Essence"
+        ],
+        "heart": [
+          "Mirabelle",
+          "Magnolia",
+          "Osmanthus",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Cognac",
+          "Patchouli",
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-lady-million-empire-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01j3aiotvy.png?v=1788292177"
+    },
+    {
+      "name": "Fame Parfum",
+      "brand": "Paco Rabanne",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Mango",
+          "Pink Pepper",
+          "Bergamot"
+        ],
+        "heart": [
+          "Jasmine",
+          "Patchouli",
+          "Frankincense"
+        ],
+        "base": [
+          "Sandalwood",
+          "Benzoin",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-fame-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01enrgsr8h.png?v=1765305362"
+    },
+    {
+      "name": "Fame",
+      "brand": "Paco Rabanne",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Mango",
+          "Bergamot"
+        ],
+        "heart": [
+          "Jasmine",
+          "Olibanum"
+        ],
+        "base": [
+          "Vanilla",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-fame-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/012okbdckn.png?v=1723943662"
+    },
+    {
+      "name": "Olympea Aqua Legere",
+      "brand": "Paco Rabanne",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Clementine",
+          "Lemon Blossom"
+        ],
+        "heart": [
+          "Water Jasmine",
+          "Water Lily"
+        ],
+        "base": [
+          "Salt",
+          "Vanilla",
+          "Ambergris",
+          "Cashmere Wood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-olympea-aqua-legere-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01dqikbzyk.png?v=1723944226"
+    },
+    {
+      "name": "Calandre",
+      "brand": "Paco Rabanne",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Aldehydes",
+          "Bergamot"
+        ],
+        "heart": [
+          "Rose",
+          "Lily-Of-The-Valley",
+          "Orris Root",
+          "Hyacinth",
+          "Geranium"
+        ],
+        "base": [
+          "Oakmoss",
+          "Vetiver",
+          "Musk",
+          "Sandalwood",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-calandre-eau-de-toilette-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/04taordczp.png?v=1723943650"
+    },
+    {
+      "name": "Olympea",
+      "brand": "Paco Rabanne",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Water Jasmine",
+          "Green Mandarin",
+          "Ginger Flower"
+        ],
+        "heart": [
+          "Vanilla",
+          "Salt"
+        ],
+        "base": [
+          "Ambergris",
+          "Cashmere Wood",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paco-rabanne-olympea-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/07q43skbnb.png?v=1723944178"
+    },
+    {
+      "name": "Allure Homme Sport",
+      "brand": "Chanel",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Orange",
+          "Aldehydes",
+          "Blood Mandarin"
+        ],
+        "heart": [
+          "Pepper",
+          "Neroli",
+          "Cedar"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean",
+          "White Musk",
+          "Amber",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/chanel-allure-homme-sport-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02tbjug2y9.png?v=1723895736"
+    },
+    {
+      "name": "Weekend",
+      "brand": "Burberry",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Mignonette",
+          "Mandarin Orange",
+          "Sage"
+        ],
+        "heart": [
+          "Nectarine",
+          "Blue Hyacinth",
+          "Peach Blossom",
+          "Rose Hip",
+          "Iris"
+        ],
+        "base": [
+          "Musk",
+          "Sandalwood",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/burberry-weekend-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/029nccc7ts.png?v=1723892831"
+    },
+    {
+      "name": "Blossom",
+      "brand": "Burberry",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Mandarin Orange",
+          "Pink Pepper"
+        ],
+        "heart": [
+          "Peony",
+          "Plum Blossom"
+        ],
+        "base": [
+          "Musk",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/burberry-blossom-eau-de-toilette-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01hybe326x.png?v=1723892560"
+    },
+    {
+      "name": "Mr. Burberry",
+      "brand": "Burberry",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Cardamom",
+          "Tarragon",
+          "Mint"
+        ],
+        "heart": [
+          "Cedar",
+          "Birch Leaf",
+          "Nutmeg",
+          "Lavender"
+        ],
+        "base": [
+          "Vetiver",
+          "Guaiac Wood",
+          "Sandalwood",
+          "Amberwood",
+          "Benzoin"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/burberry-mr-burberry-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01e4iydjj6.png?v=1723892735"
+    },
+    {
+      "name": "Caleche Soie de Parfum",
+      "brand": "Hermès",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Aldehydes",
+          "Citron",
+          "Neroli",
+          "Bergamot"
+        ],
+        "heart": [
+          "Iris",
+          "May Rose",
+          "Damask Rose",
+          "Jasmine",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Oakmoss",
+          "Sandalwood",
+          "Vetiver",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/hermes-caleche-soie-de-parfum-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02ewbdkwsr.png?v=1729267582"
+    },
+    {
+      "name": "Voyage d'Hermès",
+      "brand": "Hermès",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Cardamom",
+          "Amalfi Lemon",
+          "Juniper Berries"
+        ],
+        "heart": [
+          "Tea"
+        ],
+        "base": [
+          "Musk",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/hermes-voyage-dhermes-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03rj3lubht.png?v=1723919389"
+    },
+    {
+      "name": "Un Jardin Mediterranee",
+      "brand": "Hermès",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Lemon",
+          "Mandarin Orange"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "White Nerium Oleander"
+        ],
+        "base": [
+          "Fig Leaf",
+          "Cypress",
+          "Red Cedar",
+          "Juniper",
+          "Pistachio"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/hermes-un-jardin-mediterranee-eau-de-toilette-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/05vhh6zcio.png?v=1726067045"
+    },
+    {
+      "name": "Equipage",
+      "brand": "Hermès",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Brazilian Rosewood",
+          "Nutmeg Flower",
+          "Clary Sage",
+          "Aldehydes",
+          "Bergamot"
+        ],
+        "heart": [
+          "Carnation",
+          "Pine Tree Needles",
+          "Cinnamon",
+          "Lily-Of-The-Valley",
+          "Jasmine"
+        ],
+        "base": [
+          "Oakmoss",
+          "Vetiver",
+          "Patchouli",
+          "Tonka Bean",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/hermes-equipage-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/012uxhbudt.png?v=1757005244"
+    },
+    {
+      "name": "Kelly Caleche",
+      "brand": "Hermès",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "Narcissus",
+          "Lily-Of-The-Valley"
+        ],
+        "heart": [
+          "Rose",
+          "Mimosa",
+          "Tuberose"
+        ],
+        "base": [
+          "Leather",
+          "Iris"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/hermes-kelly-caleche-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03gdnhdiot.png?v=1726070172"
+    },
+    {
+      "name": "Voyage d'Hermès Parfum",
+      "brand": "Hermès",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Cardamom",
+          "Lemon",
+          "Juniper"
+        ],
+        "heart": [
+          "Tea",
+          "Rose",
+          "Hedione"
+        ],
+        "base": [
+          "Musk",
+          "Amber",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/hermes-voyage-dhermes-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/0416uaisv9.png?v=1771509834"
+    },
+    {
+      "name": "Terre d'Hermès Eau Intense Vétiver",
+      "brand": "Hermès",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Geranium",
+          "Vetiver",
+          "Sichuan Pepper"
+        ],
+        "base": [
+          "Amberwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/hermes-terre-dhermes-eau-intense-vetiver-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01wotxx90e.png?v=1753831028"
+    },
+    {
+      "name": "Rose Rush",
+      "brand": "Paris Hilton",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Rose Petals",
+          "Litchi",
+          "Neroli"
+        ],
+        "heart": [
+          "May Rose",
+          "Papaya",
+          "Peony"
+        ],
+        "base": [
+          "White Musk",
+          "Amber",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paris-hilton-rose-rush-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_3b41ac01-03db-4a26-89d2-a8509214bf7b.jpg?v=1723945335"
+    },
+    {
+      "name": "Platinum Rush",
+      "brand": "Paris Hilton",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pear",
+          "Mango",
+          "Red Apple"
+        ],
+        "heart": [
+          "Magnolia",
+          "Green Accord",
+          "Lily-Of-The-Valley"
+        ],
+        "base": [
+          "Cashmere Musk",
+          "Patchouli",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paris-hilton-platinum-rush-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/024m8592du_e16cfd75-2cd7-4530-be71-c0c6e3a011c1.png?v=1723945321"
+    },
+    {
+      "name": "Passport In St Moritz",
+      "brand": "Paris Hilton",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Mountain Air",
+          "Amalfi Lemon",
+          "Ivy",
+          "Pear"
+        ],
+        "heart": [
+          "Red Poppy",
+          "Lily-Of-The-Valley",
+          "Jasmine",
+          "Freesia",
+          "Peony"
+        ],
+        "base": [
+          "Musk",
+          "Sandalwood",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paris-hilton-passport-in-st-moritz-eau-de-toilette-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02aalyqwow.png?v=1723945284"
+    },
+    {
+      "name": "Just Me",
+      "brand": "Paris Hilton",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pink Pepper",
+          "Raspberry",
+          "Violet",
+          "Bergamot"
+        ],
+        "heart": [
+          "White Rose",
+          "Freesia",
+          "Iris",
+          "Lily-Of-The-Valley",
+          "Ylang-Ylang"
+        ],
+        "base": [
+          "Sandalwood",
+          "Musk",
+          "Tahitian Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paris-hilton-just-me-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_c20ccb2f-b8b3-49e8-aa5b-606adc65eb99.jpg?v=1723945214"
+    },
+    {
+      "name": "Dazzle",
+      "brand": "Paris Hilton",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Sour Cherry",
+          "Red Apple",
+          "Peach"
+        ],
+        "heart": [
+          "Orchid",
+          "Violet",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Vanilla",
+          "Champagne",
+          "Patchouli",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paris-hilton-dazzle-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/039r2xyrla.png?v=1723945141"
+    },
+    {
+      "name": "Pink Rush",
+      "brand": "Paris Hilton",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Goji Berries",
+          "Quince",
+          "Nashi Pear",
+          "Bergamot"
+        ],
+        "heart": [
+          "Osmanthus",
+          "Hibiscus",
+          "Pink Peony",
+          "Turkish Rose"
+        ],
+        "base": [
+          "Vanilla",
+          "Musk",
+          "Amber",
+          "Cashmere Wood",
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paris-hilton-pink-rush-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_a1a6f01e-4980-4a3e-90a3-d89140c06340.jpg?v=1723945294"
+    },
+    {
+      "name": "Gold Rush",
+      "brand": "Paris Hilton",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Nectarine",
+          "Lemon",
+          "Bergamot"
+        ],
+        "heart": [
+          "Orchid",
+          "Rose Petals",
+          "Violet"
+        ],
+        "base": [
+          "Praline",
+          "Vanilla",
+          "Cashmere Wood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paris-hilton-gold-rush-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01qxntv7r5.png?v=1723945160"
+    },
+    {
+      "name": "Can Can Burlesque",
+      "brand": "Paris Hilton",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Raspberry",
+          "Nectarine",
+          "Cassis",
+          "Clementine"
+        ],
+        "heart": [
+          "Wild Orchid",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Musk",
+          "White Woods"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/paris-hilton-can-can-burlesque-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03ebnhxnox.png?v=1723945124"
+    },
+    {
+      "name": "Rosa Nobile",
+      "brand": "Acqua di Parma",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Tangerine",
+          "Calabrian Bergamot",
+          "Peony Accord",
+          "Violet",
+          "Virginian Cedarwood"
+        ],
+        "heart": [
+          "Centifolia Rose Absolute",
+          "Peony Accord",
+          "Violet",
+          "Virginian Cedarwood",
+          "Ambergris"
+        ],
+        "base": [
+          "Musk",
+          "Virginian Cedarwood",
+          "Ambergris"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/acqua-di-parma-rosa-nobile-for-women"
+    },
+    {
+      "name": "Quercia",
+      "brand": "Acqua di Parma",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Lemon",
+          "Petitgrain",
+          "Pink Pepper"
+        ],
+        "heart": [
+          "Geranium",
+          "Cedar",
+          "Cardamom"
+        ],
+        "base": [
+          "Oakmoss",
+          "Tonka Bean",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/acqua-di-parma-quercia-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03naxh0ryc.png?v=1723878127"
+    },
+    {
+      "name": "Osmanthus",
+      "brand": "Acqua di Parma",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Neroli",
+          "Green Mandarin"
+        ],
+        "heart": [
+          "Peony",
+          "Ambrette",
+          "Pink Pepper"
+        ],
+        "base": [
+          "Osmanthus",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/acqua-di-parma-osmanthus-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01k1u9jm6p.png?v=1723878038"
+    },
+    {
+      "name": "Blu Mediterraneo Mandorlo Di Sicilia",
+      "brand": "Acqua di Parma",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Green Almond",
+          "Star Anise",
+          "Orange",
+          "Bergamot"
+        ],
+        "heart": [
+          "White Peach",
+          "Ylang-Ylang",
+          "Jasmine"
+        ],
+        "base": [
+          "Bourbon Vanilla",
+          "Tolu Balsam",
+          "White Musk",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/acqua-di-parma-blu-mediterraneo-mandorlo-di-sicilia-eau-de-toilette-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03_a56b54f0-0e84-48f6-86cd-826bc467ee5d.png?v=1723877497"
+    },
+    {
+      "name": "Blu Mediterraneo Chinotto Di Liguria",
+      "brand": "Acqua di Parma",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Chinotto",
+          "Mandarin Orange"
+        ],
+        "heart": [
+          "Rosemary",
+          "Jasmine",
+          "Geranium",
+          "Cardamom"
+        ],
+        "base": [
+          "Musk",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/acqua-di-parma-blu-mediterraneo-chinotto-di-liguria-eau-de-toilette-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03fzaempqy.png?v=1723877395"
+    },
+    {
+      "name": "Yuzu",
+      "brand": "Acqua di Parma",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Yuzu",
+          "Bergamot",
+          "Mimosa",
+          "Violet Leaves",
+          "Liquorice"
+        ],
+        "heart": [
+          "Lotus",
+          "Mimosa",
+          "Violet Leaves",
+          "Liquorice",
+          "Sandalwood"
+        ],
+        "base": [
+          "Musk",
+          "Liquorice",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/acqua-di-parma-yuzu-eau-de-parfum-for-everyone",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_c9ec469d-8013-4911-a826-afc5900e0f52.jpg?v=1753830011"
+    },
+    {
+      "name": "Colonia Club",
+      "brand": "Acqua di Parma",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Mint",
+          "Bergamot",
+          "Neroli",
+          "Lemon",
+          "Petitgrain"
+        ],
+        "heart": [
+          "Lavender",
+          "Geranium",
+          "Galbanum"
+        ],
+        "base": [
+          "Haitian Vetiver",
+          "Ambergris",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/acqua-di-parma-colonia-club-eau-de-cologne-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03n12wrwdx.png?v=1723877719"
+    },
+    {
+      "name": "Colonia",
+      "brand": "Acqua di Parma",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Sicilian Citrus Fruits"
+        ],
+        "heart": [
+          "Bulgarian Rose",
+          "Jasmine",
+          "Rosemary",
+          "Lavender"
+        ],
+        "base": [
+          "Amber",
+          "Light Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.fragranceoutlet.com/products/colonia-eau-de-cologne-spray-for-men-and-women-by-acqua-di-parma",
+      "image": "https://cdn.shopify.com/s/files/1/0910/0818/products/Acqua-Di-Parma-Colonia-Unisex-Eau-de-Cologne-Spray-3.4-Best-Price-Fragrance-Parfume-FragranceOutlet.com-DETAILS.jpg?v=1536676393"
+    },
+    {
+      "name": "Dahlia Noir",
+      "brand": "Givenchy",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pink Pepper",
+          "Mimosa",
+          "Mandarin Orange",
+          "Bergamot"
+        ],
+        "heart": [
+          "Iris",
+          "Rose",
+          "Patchouli"
+        ],
+        "base": [
+          "Sandalwood",
+          "Tonka Bean",
+          "Vanille",
+          "Oakmoss"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-dahila-noir-eau-de-toilette-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01bj5ystug.png?v=1723913540"
+    },
+    {
+      "name": "Ysatis",
+      "brand": "Givenchy",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Aldehydes",
+          "Ylang-Ylang",
+          "Orange Blossom",
+          "Galbanum",
+          "Brazilian Rosewood"
+        ],
+        "heart": [
+          "Tuberose",
+          "Jasmine",
+          "Narcissus",
+          "Carnation",
+          "Rum"
+        ],
+        "base": [
+          "Civet",
+          "Honey",
+          "Oakmoss",
+          "Sandalwood",
+          "Cloves"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-ysatis-eau-de-toilette-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03mjludw6f.png?v=1723914495"
+    },
+    {
+      "name": "Insensé Ultramarine",
+      "brand": "Givenchy",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Black Currant",
+          "Watermelon",
+          "Bergamot",
+          "Galbanum"
+        ],
+        "heart": [
+          "Iris",
+          "Magnolia",
+          "Mint",
+          "Carnation",
+          "Cardamom"
+        ],
+        "base": [
+          "Tobacco",
+          "Vetiver",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-insense-ultramarine-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01ytqxdihc.png?v=1723913911"
+    },
+    {
+      "name": "Gentlemen Only Intense",
+      "brand": "Givenchy",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Birch Leaf",
+          "Black Pepper",
+          "Green Mandarin",
+          "Pink Pepper",
+          "Mint"
+        ],
+        "heart": [
+          "Leather",
+          "Patchouli",
+          "Texas Cedar",
+          "Violet Leaf",
+          "Coriander"
+        ],
+        "base": [
+          "Tonka Bean",
+          "Incense",
+          "Amber",
+          "Vanilla",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-gentlemen-only-intense-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01ovylfguo.png?v=1723913876"
+    },
+    {
+      "name": "Gentlemen Only Casual Chic",
+      "brand": "Givenchy",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Ginger",
+          "Juniper",
+          "Cardamom",
+          "Nutmeg",
+          "Geranium"
+        ],
+        "heart": [
+          "Birch",
+          "Cedar",
+          "Lavender",
+          "Mint"
+        ],
+        "base": [
+          "Ambroxan",
+          "Sandalwood",
+          "Cedar",
+          "Vetiver",
+          "Coumarin"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-gentlemen-only-casual-chic-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_9a3eab91-8128-47e0-9711-c0d5d2386c9b.png?v=1723913867"
+    },
+    {
+      "name": "Dahlia Divin",
+      "brand": "Givenchy",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Mirabelle",
+          "Pink Pepper"
+        ],
+        "heart": [
+          "Jasmine Sambac",
+          "Peach",
+          "Orange Blossom",
+          "Rose",
+          "Black Currant"
+        ],
+        "base": [
+          "Patchouli",
+          "Sandalwood",
+          "Vetiver",
+          "Vanilla",
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-dahlia-divin-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03dbtusaxi.png?v=1723913548"
+    },
+    {
+      "name": "Irresistible",
+      "brand": "Givenchy",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pear",
+          "Ambrette"
+        ],
+        "heart": [
+          "Rose",
+          "Iris"
+        ],
+        "base": [
+          "Musk",
+          "Virginia Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-irresistible-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02cuzebdcg.png?v=1723913927"
+    },
+    {
+      "name": "Gentleman",
+      "brand": "Givenchy",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Black Pepper",
+          "Lavender",
+          "Bergamot"
+        ],
+        "heart": [
+          "Orris",
+          "Cloves",
+          "Cinnamon"
+        ],
+        "base": [
+          "Black Vanilla Husk",
+          "Tolu Balsam",
+          "Tonka Bean",
+          "Benzoin",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-gentleman-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03r6fxck7o.png?v=1723913589"
+    },
+    {
+      "name": "Xeryus Rouge",
+      "brand": "Givenchy",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Cactus",
+          "Chinese Orange",
+          "Tarragon"
+        ],
+        "heart": [
+          "Pimento",
+          "African Geranium",
+          "Cedar"
+        ],
+        "base": [
+          "Sandalwood",
+          "Cedar",
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-xeryus-rouge-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02pjzcw6g8.png?v=1723914485"
+    },
+    {
+      "name": "L'interdit",
+      "brand": "Givenchy",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pear",
+          "Bergamot"
+        ],
+        "heart": [
+          "Tuberose",
+          "Orange Blossom",
+          "Jasmine Sambac"
+        ],
+        "base": [
+          "Patchouli",
+          "Vanilla",
+          "Ambroxan",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-linterdit-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01p2ymofg1.png?v=1723914130"
+    },
+    {
+      "name": "Gentleman Society",
+      "brand": "Givenchy",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Cardamom",
+          "Sage"
+        ],
+        "heart": [
+          "French Narcissus",
+          "Haitian Vetiver",
+          "Madagascar Vetiver"
+        ],
+        "base": [
+          "Vanilla",
+          "Palo Santo",
+          "Cedar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-gentleman-society-eau-de-parfum-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/04itg08d2k.png?v=1755705514"
+    },
+    {
+      "name": "Eau Demoiselle Eau Florale",
+      "brand": "Givenchy",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pear",
+          "Pink Grapefruit"
+        ],
+        "heart": [
+          "Hamanasu Or Japanese Rose",
+          "Water Jasmine"
+        ],
+        "base": [
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-eau-demoiselle-eau-florale-eau-de-toilette-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/016vnqqpx0.png?v=1723913570"
+    },
+    {
+      "name": "Eau Demoiselle",
+      "brand": "Givenchy",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Amalfi Lemon",
+          "Basil",
+          "Tangerine"
+        ],
+        "heart": [
+          "Tincture Of Rose",
+          "Ylang-Ylang"
+        ],
+        "base": [
+          "Musk",
+          "Ambrette",
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-eau-demoiselle-eau-de-toilette-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01vt4mes5w.png?v=1723913562"
+    },
+    {
+      "name": "Ange ou Démon Le Secret Elixir",
+      "brand": "Givenchy",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Tea",
+          "Amalfi Lemon",
+          "Neroli"
+        ],
+        "heart": [
+          "Jasmine",
+          "Frangipani",
+          "African Orange Flower"
+        ],
+        "base": [
+          "Vanille",
+          "Patchouli",
+          "Virginia Cedar",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-ange-ou-demon-le-secret-elixir-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01l1dy3lou.png?v=1723913475"
+    },
+    {
+      "name": "Ange ou Démon Le Secret",
+      "brand": "Givenchy",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Tea Leaf",
+          "Cranberry",
+          "Lemon",
+          "Grapefruit",
+          "Orange"
+        ],
+        "heart": [
+          "Jasmine Sambac",
+          "Peony",
+          "Water Lily",
+          "Hedione",
+          "Rose"
+        ],
+        "base": [
+          "White Musk",
+          "White Woods",
+          "Patchouli",
+          "Amberwood",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-ange-ou-demon-le-secret-eau-de-toilette-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01orsi5lep.png?v=1723913454"
+    },
+    {
+      "name": "Amarige",
+      "brand": "Givenchy",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Orange Blossom",
+          "Peach",
+          "Plum",
+          "Neroli",
+          "Brazilian Rosewood"
+        ],
+        "heart": [
+          "Tuberose",
+          "Mimosa",
+          "Gardenia",
+          "Ylang-Ylang",
+          "Jasmine"
+        ],
+        "base": [
+          "Sandalwood",
+          "Vanilla",
+          "Amber",
+          "Musk",
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/givenchy-amarige-eau-de-toilette-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/010glipqzh.png?v=1753470315"
+    },
+    {
+      "name": "Spicebomb Infrared",
+      "brand": "Viktor&Rolf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Red Fruits",
+          "Pink Pepper",
+          "Saffron"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Red Pepper"
+        ],
+        "base": [
+          "Tobacco",
+          "Benzoin"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/viktor-rolf-spicebomb-infrared-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02zsc5uame.png?v=1771266755"
+    },
+    {
+      "name": "Flowerbomb Nectar",
+      "brand": "Viktor&Rolf",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Gunpowder",
+          "Cassis",
+          "Bergamot"
+        ],
+        "heart": [
+          "Osmanthus",
+          "Orange Blossom",
+          "Jasmine Sambac"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean",
+          "Benzoin",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/viktor-rolf-flowerbomb-nectar-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03tahjbvlm.png?v=1761336040"
+    },
+    {
+      "name": "Spice Bomb Limited Edition",
+      "brand": "Viktor&Rolf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Pink Pepper",
+          "Elemi",
+          "Bergamot",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Saffron",
+          "Paprika"
+        ],
+        "base": [
+          "Tobacco",
+          "Leather",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/viktor-rolf-spice-bomb-limited-edition-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02m60aiwts.png?v=1764623081"
+    },
+    {
+      "name": "Spicebomb Night Vision",
+      "brand": "Viktor&Rolf",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Green Cardamom",
+          "Green Mandarin",
+          "Grapefruit",
+          "Granny Smith Apple"
+        ],
+        "heart": [
+          "Black Chilli",
+          "Black Pepper",
+          "Clove",
+          "Nutmeg",
+          "Sage"
+        ],
+        "base": [
+          "Roasted Almonds",
+          "Tonka Bean Absolute"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/viktor-rolf-spicebomb-night-vision-eau-de-toilette-for-men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/017syqcci7.png?v=1724435281"
+    },
+    {
+      "name": "Flowerbomb Petite",
+      "brand": "Viktor&Rolf",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Tea",
+          "Bergamot",
+          "Osmanthus"
+        ],
+        "heart": [
+          "Orchid",
+          "Jasmine",
+          "Rose",
+          "Freesia",
+          "African Orange Flower"
+        ],
+        "base": [
+          "Patchouli",
+          "Musk",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/viktor-rolf-flowerbomb-petite-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/015d8opy8x.png?v=1747067271"
+    },
+    {
+      "name": "Flowerbomb Dew",
+      "brand": "Viktor&Rolf",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Ambrette",
+          "Pear",
+          "Dew Drop",
+          "Bergamot"
+        ],
+        "heart": [
+          "Iris",
+          "Rose"
+        ],
+        "base": [
+          "White Musk",
+          "Cashmeran",
+          "Heliotrope"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/viktor-rolf-flowerbomb-dew-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03iagptazr.png?v=1723958969"
+    },
+    {
+      "name": "Flowerbomb Nectar Intense",
+      "brand": "Viktor&Rolf",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Gunpowder",
+          "Cassis",
+          "Bergamot"
+        ],
+        "heart": [
+          "Osmanthus",
+          "Orange Blossom",
+          "Jasmine Sambac"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean",
+          "Benzoin",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.beautyhouse.com/products/viktor-rolf-flowerbomb-nectar-intense-eau-de-parfum-for-women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_e9140bc9-6219-4ad5-a89e-71cec81fcb60.jpg?v=1761341430"
     }
   ]
 }
