@@ -8,172 +8,8 @@
 <script>try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch {}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  :root { --bg: #ebe7df; --fg: #2b2824; --card: #f3f0ea; --mute: #857d70; --line: #d2cabb; --chip: #e2ddd2; --accent: #6b5a45; --tile: #f8f6f1; --shadow: none; --serif: "Cormorant Garamond", "Times New Roman", serif; --sans: Jost, system-ui, sans-serif; }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) { --bg: #1b1a18; --fg: #d6d0c4; --card: #222120; --mute: #8a8275; --line: #3a3733; --chip: #2a2825; --accent: #b8a88d; --tile: #e9e4da; }
-  }
-  :root[data-theme="dark"] { --bg: #1b1a18; --fg: #d6d0c4; --card: #222120; --mute: #8a8275; --line: #3a3733; --chip: #2a2825; --accent: #b8a88d; --tile: #e9e4da; }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 400 15px/1.6 var(--sans); letter-spacing: .01em; overflow-x: hidden; transition: background .6s, color .6s; }
-  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px 96px; }
-  .narrow { max-width: 720px; margin-inline: auto; }
-  button { font: inherit; color: inherit; }
-  a { color: inherit; }
-  ::selection { background: var(--accent); color: var(--bg); }
-
-  /* Masthead: name far left, sections centred, settings far right */
-  nav { position: sticky; top: 0; z-index: 3; background: color-mix(in srgb, var(--bg) 90%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
-  .bar { display: grid; grid-template-columns: 1fr auto 1fr; grid-template-areas: "logo tabs settings"; align-items: center; gap: 12px; padding: 16px 24px; }
-  .logo { grid-area: logo; justify-self: start; font: italic 500 1.5rem/1 var(--serif); text-decoration: none; white-space: nowrap; }
-  .logo b { font-style: normal; font-weight: 500; color: var(--accent); }
-  .tabs { grid-area: tabs; display: flex; gap: 28px; overflow-x: auto; scrollbar-width: none; }
-  .tabs a { position: relative; color: var(--mute); text-decoration: none; padding: 6px 0; font: 500 11px/1 var(--sans); letter-spacing: .2em; text-transform: uppercase; white-space: nowrap; transition: color .3s; }
-  .tabs a::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: var(--fg); transform: scaleX(0); transition: transform .6s cubic-bezier(.2,.7,.2,1); }
-  .tabs a:hover { color: var(--fg); }
-  .tabs a[aria-current="page"] { color: var(--fg); }
-  .tabs a[aria-current="page"]::after { transform: scaleX(1); }
-  .settings { grid-area: settings; justify-self: end; display: flex; gap: 20px; align-items: center; }
-  .seg { display: flex; gap: 14px; }
-  .seg button { border: 0; background: none; padding: 0; font: 500 11px/1 var(--sans); letter-spacing: .2em; text-transform: uppercase; color: var(--mute); cursor: pointer; transition: color .3s; }
-  .seg button:hover { color: var(--fg); }
-  .seg button[aria-pressed="true"] { color: var(--fg); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 6px; }
-  .theme { width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--line); background: none; color: var(--fg); cursor: pointer; display: grid; place-items: center; transition: border-color .3s; }
-  .theme:hover { border-color: var(--accent); }
-  .theme svg { width: 14px; height: 14px; }
-  .theme .sun, :root[data-theme="dark"] .theme .moon { display: none; }
-  :root[data-theme="dark"] .theme .sun { display: block; }
-  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .theme .moon { display: none; } :root:not([data-theme="light"]) .theme .sun { display: block; } }
-  @media (max-width: 680px) {
-    .bar { grid-template-columns: 1fr auto; grid-template-areas: "logo settings" "tabs tabs"; gap: 10px; padding: 12px 16px 0; }
-    .logo { font-size: 1.1rem; }
-    .tabs { justify-content: center; gap: 22px; padding-top: 6px; }
-    .settings { gap: 12px; }
-    .seg { gap: 10px; }
-    .seg button { font-size: 10px; letter-spacing: .12em; }
-  }
-  section[hidden] { display: none; }
-  .view { animation: fade 1s ease both; }
-  @keyframes fade { from { opacity: 0; } }
-  @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
-
-  /* Product art: store photos have white backgrounds, multiply sits them on the paper tone */
-  .art { display: grid; place-items: center; background: var(--tile); overflow: hidden; flex: none; }
-  .art img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; }
-  .art svg { height: 84%; width: auto; }
-  .thumb { width: 72px; height: 90px; }
-
-  /* Cover */
-  .hero { text-align: center; padding: 11vh 0 0; }
-  .hero h1 { font: 400 clamp(3.6rem, 15vw, 9rem)/.88 var(--serif); margin: 0; letter-spacing: -.02em; }
-  .hero h1 span { display: inline-block; opacity: 0; animation: rise 1.4s cubic-bezier(.2,.7,.2,1) forwards; animation-delay: calc(var(--i) * 160ms + 150ms); }
-  .hero h1 em { font-style: italic; font-weight: 400; color: var(--accent); }
-  .hero p { font: 500 11px/1 var(--sans); letter-spacing: .32em; text-transform: uppercase; color: var(--mute); margin: 30px 0 0; opacity: 0; animation: rise 1.4s 1s forwards; }
-  .shelf { display: flex; justify-content: center; gap: 18px; margin-top: 52px; }
-  .shelf .art { width: 96px; height: 124px; animation: bob 9s ease-in-out infinite alternate; animation-delay: calc(var(--i) * -1.4s); }
-  .shelf .art:nth-child(n+4) { display: none; }
-  @media (min-width: 560px) { .shelf .art { width: 130px; height: 168px; } .shelf .art:nth-child(n+4) { display: grid; } }
-  @keyframes bob { from { transform: translateY(-4px); } to { transform: translateY(4px); } }
-  .find { max-width: 620px; margin: 56px auto 0; opacity: 0; animation: rise 1.4s 1.2s forwards; }
-  .count { color: var(--mute); font: 500 10.5px/1 var(--sans); letter-spacing: .18em; text-transform: uppercase; margin: 12px 0 0; min-height: 1em; }
-  .marquee { overflow: hidden; margin: 48px -20px 0; padding: 16px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); }
-  .marquee > div { display: flex; gap: 30px; width: max-content; animation: slide 120s linear infinite; }
-  .marquee:hover > div { animation-play-state: paused; }
-  .marquee .chip { border: 0; background: none; padding: 0; font: italic 400 1.2rem/1 var(--serif); letter-spacing: 0; text-transform: none; color: var(--fg); }
-  .marquee .chip:hover { background: none; color: var(--accent); }
-  @keyframes slide { to { transform: translateX(-50%); } }
-
-  /* Section heads: thin rule, serif title */
-  .sub { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin: 80px 0 28px; padding-top: 16px; border-top: 1px solid var(--line); }
-  .sub h2 { font: 400 2.6rem/1 var(--serif); margin: 0; }
-  .sub small { color: var(--mute); font: 500 10.5px/1 var(--sans); letter-spacing: .2em; text-transform: uppercase; }
-  .link { border: 0; background: none; color: var(--mute); cursor: pointer; font: 500 11px/1 var(--sans); letter-spacing: .2em; text-transform: uppercase; padding: 0; text-decoration: none; }
-  .link:hover { color: var(--fg); }
-  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px 18px; }
-  @media (min-width: 680px) { .grid { grid-template-columns: repeat(3, 1fr); gap: 56px 28px; } }
-
-  /* Fragrance tiles: no boxes, the bottle does the work */
-  .tile { display: block; text-decoration: none; position: relative; animation: rise 1.2s cubic-bezier(.2,.7,.2,1) backwards; animation-delay: calc(var(--i) * 90ms); }
-  .tile .art { width: 100%; aspect-ratio: 4 / 5; margin-bottom: 14px; }
-  .tile .art img { transition: transform 1.6s cubic-bezier(.2,.7,.2,1); }
-  .tile:hover .art img { transform: scale(1.04); }
-  .tile .name { font: 400 1.6rem/1.05 var(--serif); transition: color .4s; }
-  .tile:hover .name { color: var(--accent); }
-  .tile .brand { margin-top: 6px; }
-  .brand { font: 500 10.5px/1.4 var(--sans); letter-spacing: .2em; text-transform: uppercase; color: var(--mute); }
-  .pill { position: absolute; top: 10px; right: 10px; z-index: 1; font: 500 9.5px/1 var(--sans); letter-spacing: .18em; text-transform: uppercase; background: var(--bg); color: var(--fg); padding: 5px 7px; }
-  .pill.left { right: auto; left: 10px; }
-  .why { font: italic 400 1.05rem var(--serif); color: var(--accent); margin-top: 4px; }
-  .end { text-align: center; margin-top: 56px; }
-  .dots { font: 500 10px/1.4 var(--sans); letter-spacing: .12em; text-transform: uppercase; margin-top: 6px; display: flex; gap: 12px; flex-wrap: wrap; color: var(--mute); }
-  .dots span::before, .chip.dot::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--c); margin-right: 6px; }
-  .btn { display: inline-block; padding: 14px 26px; border: 1px solid var(--fg); background: none; color: var(--fg); font: 500 11px/1 var(--sans); letter-spacing: .22em; text-transform: uppercase; cursor: pointer; transition: background .4s, color .4s; }
-  .btn:hover { background: var(--fg); color: var(--bg); }
-
-  /* Shared bits */
-  .head { padding: 72px 0 8px; }
-  .head h2 { font: 400 clamp(3.2rem, 11vw, 5.6rem)/.9 var(--serif); margin: 0; letter-spacing: -.015em; }
-  .head p { font: italic 400 1.3rem/1.4 var(--serif); color: var(--mute); margin: 14px 0 0; }
-  input { width: 100%; padding: 12px 0; font: italic 400 1.7rem/1.2 var(--serif); color: inherit; background: none; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; outline: none; transition: border-color .4s; }
-  input::placeholder { color: var(--mute); opacity: .7; }
-  .head input { margin-top: 32px; }
-  input:focus { border-color: var(--fg); }
-  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
-  .chip { font: 500 11px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; background: none; color: var(--fg); border: 1px solid var(--line); border-radius: 0; padding: 9px 13px; cursor: pointer; white-space: nowrap; text-decoration: none; transition: background .3s, color .3s, border-color .3s; }
-  .chip:hover, .chip:focus-visible { border-color: var(--fg); outline: none; }
-  .chip[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
-  .none { color: var(--mute); font: italic 400 1.2rem var(--serif); }
-  .q { margin-top: 40px; }
-  .q h3 { font: 400 2rem/1 var(--serif); margin: 0 0 16px; }
-  .label { font: 500 10px/1 var(--sans); letter-spacing: .24em; text-transform: uppercase; color: var(--accent); }
-  .box { border-top: 1px solid var(--line); padding: 26px 0 30px; }
-  .box .top { display: flex; gap: 22px; align-items: center; text-decoration: none; }
-  .box .top h3 { font: 400 2.1rem/1 var(--serif); margin: 8px 0 6px; transition: color .4s; }
-  .box .top:hover h3 { color: var(--accent); }
-  .verdict { margin: 16px 0 0 94px; font-size: 14px; color: var(--mute); }
-  .verdict a { color: var(--fg); text-decoration: underline; text-underline-offset: 4px; font-weight: 500; }
-  .verdict .chips { margin-top: 10px; }
-  .verdict .chip { white-space: normal; text-align: left; }
-  @media (max-width: 520px) { .verdict { margin-left: 0; } }
-
-  /* Fragrance page */
-  .back { display: inline-block; margin-top: 28px; }
-  .page { display: grid; grid-template-columns: minmax(0, 360px) 1fr; gap: 56px; align-items: start; margin-top: 28px; }
-  @media (max-width: 680px) { .page { grid-template-columns: 1fr; gap: 26px; } }
-  .page .art.big { width: 100%; aspect-ratio: 4 / 5; background: var(--tile); padding: 28px; }
-  .page h1 { font: 400 clamp(3.2rem, 9vw, 5.6rem)/.88 var(--serif); margin: 14px 0 12px; letter-spacing: -.015em; }
-  .meta { color: var(--mute); font: italic 400 1.2rem var(--serif); }
-  .dupeof { display: inline-block; margin-top: 16px; padding-bottom: 4px; border-bottom: 1px solid var(--accent); color: var(--fg); font: 500 11px/1.4 var(--sans); letter-spacing: .18em; text-transform: uppercase; text-decoration: none; }
-  h4 { font: 500 10.5px/1 var(--sans); letter-spacing: .26em; text-transform: uppercase; color: var(--accent); margin: 52px 0 20px; padding-top: 16px; border-top: 1px solid var(--line); }
-  .accords { display: grid; gap: 16px; }
-  .acc { display: grid; gap: 7px; }
-  .acc span { font: 500 10.5px/1 var(--sans); letter-spacing: .2em; text-transform: uppercase; color: var(--mute); }
-  .acc i { display: block; height: 2px; width: var(--w); background: var(--c); transform-origin: left; animation: grow 1.6s cubic-bezier(.2,.7,.2,1) backwards; animation-delay: calc(var(--i) * 120ms); }
-  @keyframes grow { from { transform: scaleX(0); } }
-  .fine { color: var(--mute); font-size: 12px; margin-top: 14px; max-width: 62ch; }
-  .stars { display: flex; align-items: center; gap: 4px; }
-  .stars button { border: 0; background: none; padding: 2px; cursor: pointer; font-size: 22px; line-height: 1; color: var(--line); transition: color .3s, transform .3s; }
-  .stars button.on { color: var(--accent); }
-  .stars button:hover { transform: scale(1.2); }
-  .stars span { margin-left: 10px; color: var(--mute); font: italic 400 1rem var(--serif); }
-  .pyr { display: grid; gap: 18px; }
-  .pyr > div { display: grid; grid-template-columns: 70px 1fr; gap: 14px; align-items: center; }
-  .pyr > div > span { color: var(--mute); font: 500 10px/1 var(--sans); letter-spacing: .2em; text-transform: uppercase; }
-  .rows { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
-  .rows li { display: flex; align-items: baseline; gap: 12px; padding: 16px 0; border-bottom: 1px solid var(--line); }
-  .rows a { text-decoration: none; font: 400 1.3rem var(--serif); }
-  .rows a:hover { color: var(--accent); }
-  .rows .r { margin-left: auto; font: 500 1rem var(--sans); font-variant-numeric: tabular-nums; white-space: nowrap; }
-  .rows small { color: var(--mute); font-size: 11px; letter-spacing: .08em; }
-  .best { font: 500 9.5px/1 var(--sans); letter-spacing: .18em; text-transform: uppercase; color: var(--bg); background: var(--fg); padding: 4px 7px; white-space: nowrap; }
-  .more { display: inline-block; margin-top: 30px; color: var(--mute); font: 500 11px/1 var(--sans); letter-spacing: .2em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid var(--line); padding-bottom: 4px; }
-  .more:hover { color: var(--fg); border-color: var(--fg); }
-  @media (prefers-reduced-motion: reduce) {
-    *, *::before, *::after { animation: none !important; transition: none !important; }
-    .hero h1 span, .hero p, .find { opacity: 1; }
-  }
-</style>
+<link id="look" rel="stylesheet" href="editorial.css">
+<script>try { if (localStorage.getItem('look') === 'classic') document.getElementById('look').href = 'classic.css'; } catch {}</script>
 </head>
 <body>
 <nav>
@@ -185,6 +21,7 @@
       <a href="#match">Match me</a>
     </div>
     <div class="settings">
+      <button class="look" id="lookBtn" aria-label="Switch site look">Editorial</button>
       <div class="seg" role="group" aria-label="Show fragrances for">
         <button data-g="both">Both</button><button data-g="men">Men</button><button data-g="women">Women</button>
       </div>
@@ -384,7 +221,7 @@ function renderPicks() {
 
 /* ---------- Fragrance page ---------- */
 const accordBars = f => `<div class="accords">${acc(f).slice(0, 7).map((a, i) =>
-  `<div class="acc"><span>${a.name.toLowerCase()}</span><i style="--w:${a.pct}%;--c:${a.color};--i:${i}"></i></div>`).join('')}</div>`;
+  `<div class="acc" style="--ink:${ink(a.color)}"><span>${a.name.toLowerCase()}</span><i style="--w:${a.pct}%;--c:${a.color};--i:${i}"></i></div>`).join('')}</div>`;
 const tier = (label, notes) => notes.length ? `<div><span>${label}</span><div class="chips">${notes.map(n =>
   `<button class="chip dot" data-q="${esc(n)}" style="--c:${accordsOf([n])[0]?.color || '#ccc'}">${esc(n)}</button>`).join('')}</div></div>` : '';
 const sharesNotes = f => {
@@ -414,30 +251,41 @@ function fragPage(f) {
         <h1>${esc(f.name)}</h1>
         <div class="meta">${GENDER[f.gender] || ''}</div>
         ${o ? `<a class="dupeof" href="${href(o)}">Dupe of ${esc(full(o))} →</a>` : f.dupeOf ? `<span class="dupeof">Dupe of ${esc(f.dupeOf)}</span>` : ''}
+        <div class="from" id="from" aria-live="polite"></div>
+        <h4>Buy</h4><ul class="rows" id="prices"><li><small>Checking prices…</small></li></ul>
         <h4>Main accords</h4>${accordBars(f)}
         <div id="stars">${starsHtml(f)}</div>
       </div>
     </div>
     <h4>Notes</h4><div class="pyr">${tier('Top', f.notes.top)}${tier('Heart', f.notes.heart)}${tier('Base', f.notes.base)}</div>
     <p class="fine">Notes compiled by hand from brand and store listings${f.source ? ` (<a href="${esc(f.source)}" ${ext}>source ↗</a>)` : ''}. Accords worked out from these notes. Spot a mistake? Check Fragrantica.</p>
-    <h4>Buy</h4><ul class="rows" id="prices"><li><small>Checking prices…</small></li></ul>
     ${mine.length ? `<h4>Dupes</h4><div class="grid">${mine.map((d, i) => tile(d, i)).join('')}</div>` : ''}
     ${similar.length ? `<h4>Smells like…</h4><div class="grid">${similar.map((g, i) => tile(g, i)).join('')}</div>` : ''}
     ${outside.length ? `<h4>Also try</h4><div class="chips">${outside.map(s => `<a class="chip" href="https://www.fragrantica.com/search/?query=${enc(s)}" ${ext}>${esc(s)} ↗</a>`).join('')}</div>` : ''}
     <a class="more" href="https://www.fragrantica.com/search/?query=${enc(full(f))}" ${ext}>Fragrantica page ↗</a>`;
 }
 
+const perMl = p => p.price / p.size;
+const priceCache = new Map();
+function fetchPrices(f) { // live prices need the /api/prices function (Cloudflare); without it, store links only
+  if (!priceCache.has(f)) priceCache.set(f, fetch(`/api/prices?q=${enc(full(f))}&name=${enc(f.name)}&brand=${enc(f.brand)}`)
+    .then(r => r.ok && r.headers.get('content-type')?.includes('json') ? r.json() : { prices: [] })
+    .then(d => d.prices).catch(() => []));
+  return priceCache.get(f);
+}
+const cheapest = list => list.length ? list.reduce((a, b) => perMl(b) < perMl(a) ? b : a) : null;
+
 async function loadPrices(f) {
   const q = full(f);
-  let live = [];
-  try { // live prices need the /api/prices function (Cloudflare); without it, store links only
-    const r = await fetch(`/api/prices?q=${enc(q)}&name=${enc(f.name)}&brand=${enc(f.brand)}`);
-    if (r.ok && r.headers.get('content-type')?.includes('json')) live = (await r.json()).prices;
-  } catch {}
+  const o = originalOf(f);
+  const [live, orig] = await Promise.all([fetchPrices(f), o ? fetchPrices(o) : []]);
   const el = $('prices');
-  if (!el) return;
-  const perMl = p => p.price / p.size;
-  const best = live.length > 1 ? live.reduce((a, b) => perMl(b) < perMl(a) ? b : a) : null;
+  if (!el || !location.hash.endsWith(slug(f))) return; // left the page
+  const best = live.length > 1 ? cheapest(live) : null;
+  const top = cheapest(live), otop = cheapest(orig);
+  // Headline: best price per ml, and for a dupe how far under the original it lands.
+  $('from').innerHTML = top ? `<b>$${top.price.toFixed(2)}</b><span>${top.size} ml at ${esc(top.store)} · $${perMl(top).toFixed(2)}/ml</span>
+    ${otop && perMl(top) < perMl(otop) ? `<em>${Math.round(100 * (1 - perMl(top) / perMl(otop)))}% less per ml than ${esc(o.name)}</em>` : ''}` : '';
   const rows = live.sort((a, b) => perMl(a) - perMl(b)).map(p => `<li>
       <a href="${esc(p.url)}" ${ext}>${esc(p.store)}</a>${p === best ? '<span class="best">Best value</span>' : ''}
       <small>${p.size} ml · $${perMl(p).toFixed(2)}/ml</small><span class="r">$${p.price.toFixed(2)}</span></li>`);
@@ -508,6 +356,15 @@ $('theme').onclick = () => {
     ? document.documentElement.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
   document.documentElement.dataset.theme = dark ? 'light' : 'dark';
   store.set('theme', dark ? 'light' : 'dark');
+};
+// Two looks, one stylesheet each: Editorial (default) and Classic.
+const lookName = () => $('look').getAttribute('href') === 'classic.css' ? 'Classic' : 'Editorial';
+$('lookBtn').textContent = lookName();
+$('lookBtn').onclick = () => {
+  const next = lookName() === 'Classic' ? 'editorial' : 'classic';
+  $('look').setAttribute('href', next + '.css');
+  store.set('look', next);
+  $('lookBtn').textContent = lookName();
 };
 $('shuffle').onclick = $('again').onclick = () => resetFeed();
 $('reset').onclick = () => { renderQuiz(); renderPicks(); };

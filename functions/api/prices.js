@@ -1,8 +1,14 @@
-// Live prices from stores whose public Shopify search is open to us.
+// Live prices (USD) from stores whose public Shopify search is open to us.
 // FragranceNet, Sephora and Ulta block bots, so the page links to them instead.
+// `brands`: a maker's own shop, only asked about its own fragrances (its vendor field says "Inspired by…", so no vendor check).
 export const SHOPS = {
-  'Arvella': 'https://arvellafragrance.com',
-  'Beauty House': 'https://www.beautyhouse.com',
+  'Arvella': { base: 'https://arvellafragrance.com' },
+  'Beauty House': { base: 'https://www.beautyhouse.com' },
+  'Perfumania': { base: 'https://www.perfumania.com' },
+  'FragranceOutlet': { base: 'https://www.fragranceoutlet.com' },
+  'Dossier': { base: 'https://www.dossier.co', brands: ['Dossier'] },
+  'Alt. Fragrances': { base: 'https://www.altfragrances.com', brands: ['Alt. Fragrances'] },
+  'Lattafa USA': { base: 'https://lattafa-usa.com', brands: ['Lattafa', 'Maison Alhambra'] },
 };
 const UA = 'Mozilla/5.0 (compatible; FragranceUnlocked/1.0; +https://github.com/Guernica4u/fragranceunlocked)';
 
@@ -43,7 +49,8 @@ export function match(products, name, brand = '') {
     || ours.find(p => ` ${clean(p.title, brand)} `.includes(` ${want} `)) || null;
 }
 
-export async function shop(store, base, q, name, brand) {
+export async function shop(store, { base, brands }, q, name, brand) {
+  if (brands && !brands.some(b => norm(b) === norm(brand))) return null;
   // Stores throttle Cloudflare's IPs now and then: retry once, then throw so the result isn't cached.
   const get = async url => {
     for (let i = 0; i < 2; i++) {
@@ -54,8 +61,8 @@ export async function shop(store, base, q, name, brand) {
     }
     throw new Error(`${store} unavailable`);
   };
-  const s = await get(`${base}/search/suggest.json?q=${encodeURIComponent(q)}&resources[type]=product&resources[limit]=8`);
-  const hit = match(s?.resources?.results?.products || [], name, brand);
+  const s = await get(`${base}/search/suggest.json?q=${encodeURIComponent(brands ? name : q)}&resources[type]=product&resources[limit]=8`);
+  const hit = match(s?.resources?.results?.products || [], name, brands ? '' : brand);
   if (!hit) return null;
   const p = await get(`${base}/products/${encodeURIComponent(hit.handle)}.json`);
   const best = p && pick(p.product.variants);
@@ -72,7 +79,7 @@ export async function onRequestGet({ request, waitUntil }) {
   if (!q || !name) return Response.json({ error: 'q and name are required' }, { status: 400 });
   let failed = false;
   const prices = (await Promise.all(
-    Object.entries(SHOPS).map(([store, base]) => shop(store, base, q, name, brand).catch(() => { failed = true; return null; }))
+    Object.entries(SHOPS).map(([store, cfg]) => shop(store, cfg, q, name, brand).catch(() => { failed = true; return null; }))
   )).filter(Boolean);
   const res = Response.json({ prices, checked: new Date().toISOString() },
     { headers: { 'cache-control': failed ? 'no-store' : 'public, max-age=21600' } }); // 6 h when complete
