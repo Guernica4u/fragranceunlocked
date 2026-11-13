@@ -17,6 +17,11 @@ export const SHOPS = {
   'Sensabeauty': { base: 'https://sensabeauty.com' },
   'Mazen Online': { base: 'https://www.mazenonline.com' },
   'DecantX': { base: 'https://www.decantx.com' },
+  'Olfactory Factory': { base: 'https://olfactoryfactoryllc.com' },
+  'Myperfumeshop': { base: 'https://myperfumeshop.com' },
+  'Escentual': { base: 'https://escentual.com' },
+  'Tom Ford Beauty': { base: 'https://www.tomfordbeauty.com', brands: ['Tom Ford'] },
+  'Armaf': { base: 'https://armaf.com', brands: ['Armaf'] },
 };
 const UA = 'Mozilla/5.0 (compatible; FragranceUnlocked/1.0; +https://github.com/Guernica4u/fragranceunlocked)';
 
