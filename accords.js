@@ -1,29 +1,29 @@
 // Main accords and note icons, worked out from each fragrance's notes.
 // A note can feed several accords (Orange Blossom: citrus, floral, white floral).
 export const ACCORDS = [
-  ['Citrus', '#f6e94a', 'bergamot lemon lime grapefruit mandarin orange tangerine neroli petitgrain citrus citron yuzu clementine chinotto  bergamote citruses'],
-  ['Floral', '#f06d95', 'rose jasmine iris violet nymphea mimosa tiare lotus magnolia cactus datura muguet nympheal hyacinth hibiscus petals flowers tuberose peony lily freesia ylang osmanthus honeysuckle gardenia heliotrope orchid creeper orris blossom frangipani mahonial floral carnation narcissus cyclamen amaryllis mignonette lilac immortelle poppy nasturtium hedione oleander nerium marigold jasmin raspberries orriswood bluebell syringa locust hawthorn acacia flower rosyfolia '],
+  ['Citrus', '#f6e94a', 'bergamot lemon lime grapefruit mandarin orange tangerine neroli petitgrain citrus citron yuzu clementine chinotto  bergamote citruses mandarins oranges lemons emon itrus limoncello kumquat amalfi hesperides pomelo ergamot bergamotto orangewood grain mandarine graprefuit'],
+  ['Floral', '#f06d95', 'rose jasmine iris violet nymphea mimosa tiare lotus magnolia cactus datura muguet nympheal hyacinth hibiscus petals flowers tuberose peony lily freesia ylang osmanthus honeysuckle gardenia heliotrope orchid creeper orris blossom frangipani mahonial floral carnation narcissus cyclamen amaryllis mignonette lilac immortelle poppy nasturtium hedione oleander nerium marigold jasmin raspberries orriswood bluebell syringa locust hawthorn acacia flower rosyfolia  camelia tulip plumeria petalia sakura wisteria waterlily lilies orchids florals voilet heliotrhope salicylate flowerpool osmantinus asmine eony lorals'],
   ['White floral', '#f2e6dc', 'jasmine tuberose gardenia ylang lily honeysuckle blossom frangipani'],
-  ['Rose', '#e8436f', 'rose pomarose rosyfolia'],
-  ['Fruity', '#f2683f', 'cherry pear apple pineapple lychee plum peach apricot currant blackcurrant rhubarb fruit fruits berry berries melon litchi strawberry raspberry blackberry quince dates pomarose pomegranate guava mango nectarine cranberry cassis fig watermelon passionfruit tamarind papaya mirabelle boysenberry sorbet raspberries blackcurrent persimmon '],
-  ['Sweet', '#e8505b', 'vanilla caramel sugar sugared praline marshmallow honey tonka cacao cocoa rum cognac dates gourmand davana cream candy cotton liquorice licorice toffee milk brandy champagne coumarin chocolate lactones milky dulce mascarpone knafeh kulfi barley honeycomb beeswax  muscovado cola kunafa dessert'],
-  ['Vanilla', '#f4ecbc', 'vanilla vanille'],
-  ['Warm spicy', '#c8461f', 'cinnamon nutmeg saffron clove cumin tobacco cardamom spicy spices chili caraway star anise pimento paprika cloves chilli galangal spice turmeric'],
-  ['Fresh spicy', '#8fb341', 'pepper peppercorn ginger coriander juniper cardamom elemi galangal'],
-  ['Amber', '#c9671f', 'amber labdanum benzoin ambergris amberwood resin myrrh balsam opoponax resins styrax mastic lentisque'],
-  ['Aromatic', '#3fa58c', 'armoise absinthe clary lavender sage rosemary mint artemisia geranium juniper lavandin bay verbena peppermint basil lemongrass tarragon thyme spearmint tagetes tagetus buchu'],
-  ['Fresh', '#a6e3ea', 'mint tea flint peppermint verbena ice vinyl mountain spearmint'],
-  ['Aquatic', '#4bb8d0', 'sea salt marine mineral aquatic water ozone ozonic crystal dew seaweed'],
-  ['Green', '#3f9a3a', 'leaf leaves needles galbanum angelica hay ivy matcha green grapevine carrot cucumber  mate'],
-  ['Woody', '#7a4a24', 'cedar cedarwood cypriol sandalwood vetiver birch wood woods woody papyrus fir pine cashmeran amberwood agarwood oud guaiac cypress oak driftwood rosewood akigalawood mahogany acajou clearwood palo santo joshua pepperwood cashmere sandal thuya ebony'],
-  ['Earthy', '#6a5a3e', 'patchouli vetiver moss oakmoss truffle'],
-  ['Musky', '#d9cbd6', 'musk ambrette aldehydes ambroxan ambrox cashmeran ambrofix civet animalis musky'],
+  ['Rose', '#e8436f', 'rose pomarose rosyfolia roses ose rosehip'],
+  ['Fruity', '#f2683f', 'cherry pear apple pineapple lychee plum peach apricot currant blackcurrant rhubarb fruit fruits berry berries melon litchi strawberry raspberry blackberry quince dates pomarose pomegranate guava mango nectarine cranberry cassis fig watermelon passionfruit tamarind papaya mirabelle boysenberry sorbet raspberries blackcurrent persimmon  kiwi banana pears apples plums lingonberry blueberry grapes durian honeydew current nesberry elder campari rhuburb passionflower strawberries'],
+  ['Sweet', '#e8505b', 'vanilla caramel sugar sugared praline marshmallow honey tonka cacao cocoa rum cognac dates gourmand davana cream candy cotton liquorice licorice toffee milk brandy champagne coumarin chocolate lactones milky dulce mascarpone knafeh kulfi barley honeycomb beeswax  muscovado cola kunafa dessert maltol malt maple syrup rhum wine whiskey whisky liquor amaretto popcorn butter loukhoum bubble gum cookie dough cupcake frosting biscuit brioche martipan panna panacotta marshamallow dragibus bread butterscotch coco rice madeleine'],
+  ['Vanilla', '#f4ecbc', 'vanilla vanille anilla'],
+  ['Warm spicy', '#c8461f', 'cinnamon nutmeg saffron clove cumin tobacco cardamom spicy spices chili caraway star anise pimento paprika cloves chilli galangal spice turmeric cassia zaffran affron ardamom allspice tabacco'],
+  ['Fresh spicy', '#8fb341', 'pepper peppercorn ginger coriander juniper cardamom elemi galangal peppe peppercorns timur'],
+  ['Amber', '#c9671f', 'amber labdanum benzoin ambergris amberwood resin myrrh balsam opoponax resins styrax mastic lentisque lentisc lentiscus ambre'],
+  ['Aromatic', '#3fa58c', 'armoise absinthe clary lavender sage rosemary mint artemisia geranium juniper lavandin bay verbena peppermint basil lemongrass tarragon thyme spearmint tagetes tagetus buchu laurels laurel wormwood cistus myrtle eucalyptus oregano lavander verbina sclarene gentiana fennel eranium clarysage'],
+  ['Fresh', '#a6e3ea', 'mint tea flint peppermint verbena ice vinyl mountain spearmint linen soap earl bubbles'],
+  ['Aquatic', '#4bb8d0', 'sea salt marine mineral aquatic water ozone ozonic crystal dew seaweed dewdrop pebbles ozonics'],
+  ['Green', '#3f9a3a', 'leaf leaves needles galbanum angelica hay ivy matcha green grapevine carrot cucumber  mate tomato bulrush cannabis aloe'],
+  ['Woody', '#7a4a24', 'cedar cedarwood cypriol sandalwood vetiver birch wood woods woody papyrus fir pine cashmeran amberwood agarwood oud guaiac cypress oak driftwood rosewood akigalawood mahogany acajou clearwood palo santo joshua pepperwood cashmere sandal thuya ebony cyprio ypriol cyperus nagarmotha amyris palisanderwood healingwood cypresses siam oakwood iso edarwood sandalowood'],
+  ['Earthy', '#6a5a3e', 'patchouli vetiver moss oakmoss truffle patchouly atchouli vetyver vvetiver etiver'],
+  ['Musky', '#d9cbd6', 'musk ambrette aldehydes ambroxan ambrox cashmeran ambrofix civet animalis musky musks castoreum ambrettolide ambronova orcanox serenolide ambrinol cetalox skatole silk'],
   ['Powdery', '#ecd8c8', 'iris orris violet heliotrope aldehydes powder powdery stardust'],
   ['Leather', '#6e4433', 'leather suede'],
-  ['Smoky', '#8b8a86', 'incense birch tobacco cade olibanum frankincense gunpowder styrax resins ink'],
-  ['Oud', '#3e2e22', 'oud agarwood'],
+  ['Smoky', '#8b8a86', 'incense birch tobacco cade olibanum frankincense gunpowder styrax resins ink smoke ncense'],
+  ['Oud', '#3e2e22', 'oud agarwood oudh udh'],
   ['Coffee', '#5b3a22', 'coffee'],
-  ['Nutty', '#c79a6b', 'almond pistachio chestnut hazelnut almonds nuts nut '],
+  ['Nutty', '#c79a6b', 'almond pistachio chestnut hazelnut almonds nuts nut  sesame walnut'],
   ['Tropical', '#f2a33a', 'coconut pineapple tropical pitahaya litchi mango passionfruit'],
 ].map(([name, color, words]) => ({ name, color, words: words.split(' ') }));
 
@@ -44,7 +44,7 @@ const ICONS = [
 ].map(([icon, words]) => ({ icon, words: words.split(' ') }));
 
 // Whole words only, so "rose" doesn't match "rosemary".
-const wordsOf = note => note.toLowerCase().split(/[^a-z]+/);
+const wordsOf = note => note.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().split(/[^a-z]+/);
 const hit = (note, words) => wordsOf(note).some(w => words.includes(w));
 
 export const noteIcon = note => ICONS.find(x => hit(note, x.words))?.icon || '✨';
