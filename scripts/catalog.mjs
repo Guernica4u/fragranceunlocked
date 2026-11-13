@@ -22,6 +22,22 @@ const SHOPS = {
   'Tom Ford Beauty': 'https://www.tomfordbeauty.com',
   'Triple Traders': 'https://tripletraders.com',
   'Almanaar': 'https://almanaar.co.uk',
+  // Retailers whose listings carry the note tiers (checked on their first feed page).
+  'Fridaycharm': 'https://fridaycharm.com',
+  'Intense Oud': 'https://www.intenseoud.com',
+  'Zaoud': 'https://zaoud.it',
+  'Fragrancehub': 'https://fragrancehub.co.uk',
+  'Ramfa Beauty': 'https://ramfabeauty.com',
+  'Soghaat': 'https://soghaat.co.uk',
+  'Justmylook': 'https://justmylook.com',
+  'Myperfumeshop': 'https://myperfumeshop.com',
+  'Escentual': 'https://escentual.com',
+  'Sensabeauty': 'https://sensabeauty.com',
+  'Mazen Online': 'https://www.mazenonline.com',
+  'Decantx': 'https://decantx.com',
+  'Olfactory Factory': 'https://olfactoryfactoryllc.com',
+  'Filledwithbarakah': 'https://filledwithbarakah.com',
+  'Theskinfit': 'https://theskinfit.com',
   'Emirates Oud': 'https://emiratesoud.co.uk',
 };
 const CACHE = process.env.CATALOG_CACHE || join(tmpdir(), 'fragrance-catalog');
@@ -151,7 +167,7 @@ function candidates(brands) {
     if (!notes || !ph) continue;
     // "Amber Oud" is a product family, so its name keeps the words; the Al Haramain shops rarely say men or women.
     const name = nameOf(p.title, brand === 'Amber Oud' ? '' : brand);
-    const gender = genderOf(p.title, p) || (/^(al haramain|amber oud)$/i.test(brand) ? 'unisex' : null);
+    const gender = genderOf(p.title, p) || (/^(al haramain|amber oud|jo malone)$/i.test(brand) ? 'unisex' : null);
     if (!name || !gender) continue;
     const key = norm(brand) + '|' + norm(name);
     const c = { brand, name, gender, notes, source: url(p), image: ph, store: p.store };
