@@ -69,7 +69,8 @@
   .link { border: 0; background: none; color: var(--mute); cursor: pointer; font-size: 13px; padding: 0; text-decoration: none; }
   .link:hover { color: var(--accent); }
   .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
-  @media (min-width: 680px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (min-width: 600px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (min-width: 880px) { .grid { grid-template-columns: repeat(4, 1fr); } }
   .tile { display: block; text-decoration: none; background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 12px; position: relative; box-shadow: var(--shadow);
           animation: rise .6s cubic-bezier(.2,.7,.2,1) backwards; animation-delay: calc(var(--i) * 60ms); transition: transform .25s, border-color .25s; }
   .tile:hover { transform: translateY(-3px); border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }

@@ -19,13 +19,13 @@ export function ml(title) {
   return o ? Math.round(o[1] * 29.5735) : 0;
 }
 
-// Largest full bottle (no testers, vials or minis): the size people compare on.
+// The full bottle closest to 100 ml (3.4 oz), the size people compare on; no testers, vials or minis.
 export function pick(variants) {
   return variants
     .filter(v => v.available !== false && !/tester|vial|sample|travel|mini|\bset\b/i.test(v.title))
     .map(v => ({ size: ml(v.title), price: +v.price }))
     .filter(v => v.size >= 30 && v.price > 0)
-    .sort((a, b) => b.size - a.size || a.price - b.price)[0] || null;
+    .sort((a, b) => Math.abs(a.size - 100) - Math.abs(b.size - 100) || a.price - b.price)[0] || null;
 }
 
 // Title minus brand, concentration and size: "Creed Aventus Eau de Parfum for Men 3.4 oz" -> "aventus".

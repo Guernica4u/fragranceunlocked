@@ -14,6 +14,10 @@ assert.deepEqual(pick([
   { title: '0.05 oz Vial Spray', price: '9.79' },
 ]), { size: 100, price: 248.89 });
 assert.equal(pick([{ title: '5ml Travel Spray', price: '40' }]), null);
+// Closest to 100 ml wins: 3.4 oz over 6.7 oz, 4.2 oz when there's no 3.4 oz.
+assert.equal(pick([{ title: '6.7 oz', price: '180' }, { title: '3.4 oz', price: '120' }, { title: '1.7 oz', price: '90' }]).size, 101);
+assert.equal(pick([{ title: '6.7 oz', price: '180' }, { title: '4.2 oz', price: '150' }]).size, 124);
+assert.equal(pick([{ title: '30 ml', price: '40' }, { title: '50 ml', price: '60' }]).size, 50);
 assert.equal(clean('Creed Aventus Eau de Parfum for Men', 'Creed'), 'aventus');
 assert.equal(clean('Aventus EDP 3.4 oz. / 100ml'), 'aventus');
 assert.equal(clean("Love, Don't Be Shy EDP"), 'love don t be shy');

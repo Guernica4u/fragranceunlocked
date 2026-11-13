@@ -42,7 +42,7 @@
     <div class="shelf" id="shelf"></div>
     <div class="find">
       <label for="q" hidden>Search by name, brand or note</label>
-      <input id="q" type="search" placeholder="Smells like…" autocomplete="off">
+      <input id="q" type="search" placeholder="Search name, brand or note" autocomplete="off">
       <div class="count" id="count" aria-live="polite"></div>
     </div>
     <div class="marquee" aria-label="Notes"><div id="marquee"></div></div>
@@ -147,7 +147,7 @@ function resetFeed() {
   const q = $('q').value.trim().toLowerCase();
   feed = q ? pool().filter(f => has(q, [f.brand, f.name, ...notesOf(f), ...acc(f).map(a => a.name)])) : shuffle(pool());
   $('count').textContent = q ? plural(feed.length, 'match', 'matches') : '';
-  $('feedTitle').textContent = q ? `Smells like ${$('q').value.trim()}` : 'Explore';
+  $('feedTitle').textContent = q ? `Results for ${$('q').value.trim()}` : 'Explore';
   $('shuffle').hidden = !!q;
   shown = 0;
   $('feed').innerHTML = feed.length ? '' : `<p class="none">Nothing yet. <a href="https://www.fragrantica.com/search/?query=${enc(q)}" ${ext}>Try Fragrantica ↗</a></p>`;
