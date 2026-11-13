@@ -405,6 +405,7 @@ $('q').addEventListener('input', resetFeed);
 $('dq').addEventListener('input', renderDupes);
 addEventListener('scroll', fillFeed, { passive: true });
 addEventListener('resize', fillFeed);
+setInterval(fillFeed, 400); // safety net: a page that is already at its bottom fires no scroll event
 new IntersectionObserver(() => fillFeed(), { rootMargin: '600px' }).observe($('sentinel'));
 setGender(['both', 'men', 'women'].includes(gender) ? gender : 'both');
 addEventListener('hashchange', route);
