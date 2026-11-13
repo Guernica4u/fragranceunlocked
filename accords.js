@@ -2,18 +2,18 @@
 // A note can feed several accords (Orange Blossom: citrus, floral, white floral).
 export const ACCORDS = [
   ['Citrus', '#f6e94a', 'bergamot lemon lime grapefruit mandarin orange tangerine neroli petitgrain citrus'],
-  ['Floral', '#f06d95', 'rose jasmine iris violet tuberose peony lily freesia ylang osmanthus honeysuckle gardenia heliotrope orchid creeper orris blossom frangipani mahonial floral'],
+  ['Floral', '#f06d95', 'rose jasmine iris violet datura muguet nympheal hyacinth hibiscus petals flowers tuberose peony lily freesia ylang osmanthus honeysuckle gardenia heliotrope orchid creeper orris blossom frangipani mahonial floral'],
   ['White floral', '#f2e6dc', 'jasmine tuberose gardenia ylang lily honeysuckle blossom frangipani'],
   ['Rose', '#e8436f', 'rose pomarose'],
   ['Fruity', '#f2683f', 'cherry pear apple pineapple lychee plum peach apricot currant blackcurrant rhubarb fruit fruits berry berries melon litchi strawberry raspberry blackberry quince dates pomarose'],
-  ['Sweet', '#e8505b', 'vanilla caramel sugar praline marshmallow honey tonka cacao rum cognac dates gourmand'],
+  ['Sweet', '#e8505b', 'vanilla caramel sugar sugared praline marshmallow honey tonka cacao cocoa rum cognac dates gourmand davana cream candy cotton'],
   ['Vanilla', '#f4ecbc', 'vanilla'],
   ['Warm spicy', '#c8461f', 'cinnamon nutmeg saffron clove cumin tobacco cardamom spicy spices chili'],
-  ['Fresh spicy', '#8fb341', 'pepper ginger coriander juniper cardamom elemi'],
+  ['Fresh spicy', '#8fb341', 'pepper peppercorn ginger coriander juniper cardamom elemi'],
   ['Amber', '#c9671f', 'amber labdanum benzoin ambergris amberwood resin myrrh balsam'],
   ['Aromatic', '#3fa58c', 'lavender sage rosemary mint artemisia geranium juniper lavandin bay verbena peppermint'],
   ['Fresh', '#a6e3ea', 'mint tea flint peppermint verbena'],
-  ['Aquatic', '#4bb8d0', 'sea salt marine mineral aquatic'],
+  ['Aquatic', '#4bb8d0', 'sea salt marine mineral aquatic water'],
   ['Green', '#3f9a3a', 'leaf leaves needles galbanum'],
   ['Woody', '#7a4a24', 'cedar cedarwood cypriol sandalwood vetiver birch wood woods woody papyrus fir pine cashmeran amberwood agarwood oud guaiac cypress oak driftwood rosewood akigalawood'],
   ['Earthy', '#6a5a3e', 'patchouli vetiver moss oakmoss truffle'],
@@ -23,8 +23,8 @@ export const ACCORDS = [
   ['Smoky', '#8b8a86', 'incense birch tobacco cade'],
   ['Oud', '#3e2e22', 'oud agarwood'],
   ['Coffee', '#5b3a22', 'coffee'],
-  ['Nutty', '#c79a6b', 'almond pistachio chestnut'],
-  ['Tropical', '#f2a33a', 'coconut pineapple tropical'],
+  ['Nutty', '#c79a6b', 'almond pistachio chestnut hazelnut'],
+  ['Tropical', '#f2a33a', 'coconut pineapple tropical pitahaya litchi'],
 ].map(([name, color, words]) => ({ name, color, words: words.split(' ') }));
 
 const ICONS = [

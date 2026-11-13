@@ -2231,6 +2231,401 @@
       "source": "https://www.anabis.com/uk/Al-Haramain-Amber-Oud-Rouge-EDP-U-120-ml.html",
       "dupeOf": "Maison Francis Kurkdjian Baccarat Rouge 540",
       "image": "https://cdn.shopify.com/s/files/1/0269/7763/2389/files/AmberOud_Rouge_40.png?v=1753376667"
+    },
+    {
+      "name": "Mon Paris",
+      "brand": "Yves Saint Laurent",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pear"
+        ],
+        "heart": [
+          "Datura",
+          "White Flowers"
+        ],
+        "base": [
+          "Patchouli",
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://eu.lookfantastic.com/p/yves-saint-laurent-mon-paris-eau-de-parfum-30ml/11791405/",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/20_dbedff1c-6fff-4e88-8d90-20c8e73025ec.png?v=1770098742"
+    },
+    {
+      "name": "Idôle",
+      "brand": "Lancôme",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Juicy Pear",
+          "Pink Peppercorn"
+        ],
+        "heart": [
+          "Rose",
+          "Jasmine"
+        ],
+        "base": [
+          "White Musk",
+          "Vanilla",
+          "Patchouli",
+          "Cedarwood"
+        ]
+      },
+      "dupes": [
+        "Dossier Floral Musk"
+      ],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.ulta.com/p/idole-eau-de-parfum-pimprod2008623"
+    },
+    {
+      "name": "Lady Million",
+      "brand": "Paco Rabanne",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Bitter Orange",
+          "Raspberry",
+          "Neroli"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "Jasmine"
+        ],
+        "base": [
+          "Patchouli",
+          "Honey",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://harrods.com/en-gb/p/paco-rabanne-lady-million-eau-de-parfum-80ml-000000000002228892",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SARA_17.png?v=1776255445"
+    },
+    {
+      "name": "My Way",
+      "brand": "Giorgio Armani",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Orange Blossom"
+        ],
+        "heart": [
+          "Tuberose",
+          "Jasmine"
+        ],
+        "base": [
+          "Cedarwood",
+          "Vanilla",
+          "White Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.armani.com/en-ae/giorgio-armani/eau-de-parfum-my-way-50-ml-cod-LB402500-NLP-50ML/",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_2b55d603-9ae6-4d30-ae47-c310020f8057.jpg?v=1764176422"
+    },
+    {
+      "name": "Bonbon",
+      "brand": "Viktor&Rolf",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Mandarin",
+          "Orange",
+          "Blackcurrant"
+        ],
+        "heart": [
+          "Peach",
+          "Jasmine",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Cedarwood",
+          "Guaiac Wood",
+          "Caramel"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://m.johnlewis.com/viktor-rolf-bonbon-eau-de-parfum/p1355162",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01q7au4h4p.png?v=1723958844"
+    },
+    {
+      "name": "English Pear & Freesia",
+      "brand": "Jo Malone",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Pear"
+        ],
+        "heart": [
+          "Freesia",
+          "Rose"
+        ],
+        "base": [
+          "Patchouli",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.sephora.com/product/english-pear-freesia-cologne-P417180",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/1_e4637b78-391e-4e38-9d7d-56b2ad1884b2.png?v=1771971316"
+    },
+    {
+      "name": "Lazy Sunday Morning",
+      "brand": "Maison Margiela",
+      "gender": "unisex",
+      "notes": {
+        "top": [
+          "Pear",
+          "Lily of the Valley",
+          "Aldehydes"
+        ],
+        "heart": [
+          "Iris",
+          "Rose",
+          "Orange Flower"
+        ],
+        "base": [
+          "White Musk",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/maison-margiela-replica-lazy-sunday-morning-eau-de-toilette-30ml/13183505.html",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-11T164945.788.png?v=1770807064"
+    },
+    {
+      "name": "Bitter Peach",
+      "brand": "Tom Ford",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Peach",
+          "Sicilian Blood Orange",
+          "Cardamom"
+        ],
+        "heart": [
+          "Heliotrope",
+          "Davana",
+          "Rum",
+          "Cognac",
+          "Jasmine Sambac"
+        ],
+        "base": [
+          "Sandalwood",
+          "Cashmeran",
+          "Vanilla",
+          "Tonka Bean",
+          "Labdanum"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.selfridges.com/AU/en/cat/tom-ford-bitter-peach-eau-de-parfum-100ml_R03789035/"
+    },
+    {
+      "name": "Valaya",
+      "brand": "Parfums de Marly",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Mandarin",
+          "White Peach"
+        ],
+        "heart": [
+          "Orange Flower",
+          "Nympheal",
+          "Vetiver"
+        ],
+        "base": [
+          "Akigalawood",
+          "Ambrofix",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://bluemercury.com/products/parfums-de-marly-valaya-eau-de-parfum",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/3700578509024-1.png?v=1787975862"
+    },
+    {
+      "name": "Yum Pistachio Gelato 33",
+      "brand": "Kayali",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Pistachio Gelato",
+          "Hazelnut",
+          "Sweet Rum",
+          "Cardamom"
+        ],
+        "heart": [
+          "Geranium",
+          "White Peony",
+          "Muguet",
+          "Jasmine",
+          "Raspberry"
+        ],
+        "base": [
+          "Whipped Cream",
+          "Marshmallow",
+          "Cotton Candy",
+          "Cocoa",
+          "Cedarwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.sephora.co.uk/p/KAYALI-Yum-Pistachio-Gelato--33-Eau-de-Parfum-Intense-100ml?curr=GBP"
+    },
+    {
+      "name": "Eilish",
+      "brand": "Billie Eilish",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Sugared Petals",
+          "Mandarin",
+          "Warm Berries"
+        ],
+        "heart": [
+          "Spices",
+          "Cocoa",
+          "Vanilla"
+        ],
+        "base": [
+          "Musk",
+          "Tonka Bean",
+          "Woods"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.lookfantastic.com/p/eilish-by-billie-eilish-eau-de-parfum-50ml/14510069/",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/14_cd575dca-0a71-422d-9f19-84eeab17c51c.png?v=1770099016"
+    },
+    {
+      "name": "Cheirosa 68",
+      "brand": "Sol de Janeiro",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pitahaya",
+          "Litchi"
+        ],
+        "heart": [
+          "Sea Water",
+          "Hibiscus",
+          "Jasmine"
+        ],
+        "base": [
+          "Musk",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.harveynichols.com/sol-de-janeiro/cheirosa-68-perfume-mist-240ml-910518-85139/",
+      "image": "https://cdn.shopify.com/s/files/1/0269/7763/2389/files/Sol_de_Janeiro_Crush_Cheriosa_68_Perfume_Mist_81.png?v=1788461631"
+    },
+    {
+      "name": "Thank U, Next",
+      "brand": "Ariana Grande",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "White Pear",
+          "Wild Raspberry"
+        ],
+        "heart": [
+          "Coconut",
+          "Rose"
+        ],
+        "base": [
+          "Musk",
+          "Macaron Sugar"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.escentual.com/agthankunext001",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03uyzh6edi.png?v=1742831284"
+    },
+    {
+      "name": "Chance",
+      "brand": "Chanel",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pink Pepper",
+          "Iris",
+          "Hyacinth",
+          "Pineapple"
+        ],
+        "heart": [
+          "Jasmine"
+        ],
+        "base": [
+          "Patchouli",
+          "Musk",
+          "Vanilla",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://www.tendance-parfums.com/en/chanel-chance-eau-de-parfum.html"
+    },
+    {
+      "name": "Floral Musk",
+      "brand": "Dossier",
+      "gender": "women",
+      "notes": {
+        "top": [
+          "Pear",
+          "Bergamot",
+          "Lychee"
+        ],
+        "heart": [
+          "Jasmine",
+          "Rose"
+        ],
+        "base": [
+          "Musk",
+          "Vanilla",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "source": "https://vivir.com/article/dossier-dossier-floral-musk",
+      "dupeOf": "Lancôme Idôle"
     }
   ]
 }
