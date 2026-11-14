@@ -151,6 +151,7 @@ function moreFeed() {
   $('end').hidden = shown < feed.length || !feed.length;
   $('endText').textContent = `That's all ${plural(feed.length, 'fragrance', 'fragrances')}.`;
   $('again').hidden = !!$('q').value.trim();
+  if (!$('q').value.trim()) $('count').textContent = feed.length ? `${shown} of ${feed.length} shown` : '';
 }
 function renderTop() {
   const top = pool().filter(f => ratings?.[slug(f)]?.count)
