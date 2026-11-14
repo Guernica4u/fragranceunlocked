@@ -63,7 +63,7 @@
       <label class="pick">Brand <select id="fbrand"><option value="">Any</option></select></label>
       <button class="link" id="fclear">Clear</button>
     </div>
-    <div class="grid" id="feed"></div>
+    <div class="grid dense" id="feed"></div>
     <div id="sentinel"></div>
     <div class="end" id="end" hidden><p class="none" id="endText"></p><button class="btn" id="again">Shuffle again</button></div>
   </section>
@@ -143,7 +143,7 @@ function tile(f, i, extra = '') {
   const r = ratings?.[slug(f)];
   return `<a class="tile" href="${href(f)}" style="--i:${i}">
     ${f.dupeOf ? '<span class="pill left">Dupe</span>' : ''}${n ? `<span class="pill">${plural(n, 'dupe')}</span>` : ''}
-    ${art(f)}<div class="name">${esc(f.name)}</div><div class="brand">${esc(f.brand)}${r?.count ? ` · ★ ${avg(f).toFixed(1)}` : ''}</div>${dots(f)}${extra}</a>`;
+    ${art(f)}<div class="name">${esc(f.name)}</div><div class="brand">${esc(f.brand)}${r?.count ? ` · ★ ${avg(f).toFixed(1)}` : ''}</div>${extra}${dots(f)}</a>`;
 }
 
 /* ---------- Explore (with search) ---------- */
@@ -153,7 +153,7 @@ function pager(view, out, sentinel, render, after) {
   const p = { list: [], shown: 0,
     reset(list) { p.list = list; p.shown = 0; $(out).innerHTML = ''; p.more(); requestAnimationFrame(fill); },
     more() {
-      const next = p.list.slice(p.shown, p.shown + 9);
+      const next = p.list.slice(p.shown, p.shown + 24);
       $(out).insertAdjacentHTML('beforeend', next.map(render).join(''));
       p.shown += next.length;
       after(p, next);
@@ -174,9 +174,14 @@ function tilePrices(list) {
   });
 }
 
+// Hand-picked bottles floating in the hero, in order; the gender switch hides those that don't fit.
+const SHELF = ['Jean Paul Gaultier Le Male Le Parfum', 'Versace Dylan Blue', 'Maison Francis Kurkdjian Baccarat Rouge 540',
+  'Yves Saint Laurent Libre', 'Dior Sauvage', 'Parfums de Marly Delina', 'Creed Aventus', 'Yves Saint Laurent Black Opium'];
+// Shuffle keeps designers and niche first, budget houses next, and bottles without a photo last.
+const rank = f => !f.image ? 2 : CLONE_HOUSES.has(f.brand) || BUDGET_HOUSES.has(f.brand) ? 1 : 0;
 const filt = { kind: 'all', accord: '', brand: '' };
 const SORTS = {
-  shuffle: l => shuffle(l),
+  shuffle: l => shuffle(l).sort((a, b) => rank(a) - rank(b)),
   az: l => [...l].sort((a, b) => full(a).localeCompare(full(b))),
   rated: l => [...l].sort((a, b) => avg(b) - avg(a) || (ratings?.[slug(b)]?.count || 0) - (ratings?.[slug(a)]?.count || 0)),
   dupes: l => [...l].sort((a, b) => dupesOf(b).length - dupesOf(a).length),
@@ -218,7 +223,8 @@ function renderTop() {
     <div class="grid">${top.map((f, i) => tile(f, i)).join('')}</div>` : '';
 }
 function renderExplore() {
-  $('shelf').innerHTML = shuffle(pool().filter(f => f.image)).slice(0, 6).map((f, i) => art(f, '', `--i:${i}`)).join('');
+  const picks = SHELF.map(find).filter(f => f && pool().includes(f)).slice(0, 6);
+  $('shelf').innerHTML = picks.map((f, i) => `<a href="${href(f)}" aria-label="${esc(full(f))}" style="--i:${i}">${art(f)}</a>`).join('');
   renderTop();
   resetFeed();
 }
@@ -233,7 +239,9 @@ function verdict(f) {
   return parts.join(' ');
 }
 // Houses known for dupes; their unlinked scents aren't called "Original".
-const CLONE_HOUSES = new Set(['Lattafa', 'Armaf', 'Khadlaj', 'Rasasi', 'Al Haramain', 'Maison Alhambra', 'Afnan', 'French Avenue', 'Rayhaan', 'Zara', 'Dossier', 'Alt. Fragrances', 'Lomani']);
+const CLONE_HOUSES = new Set(['Lattafa', 'Armaf', 'Khadlaj', 'Rasasi', 'Al Haramain', 'Maison Alhambra', 'Afnan', 'French Avenue', 'Rayhaan', 'Zara', 'Dossier', 'Alt. Fragrances', 'Ard Al Zaafaran', 'Mykonos']);
+// Budget Middle Eastern houses with their own originals: not clones, but not designer or niche either.
+const BUDGET_HOUSES = new Set(['Ajmal', 'Swiss Arabian']);
 const label = f => f.dupeOf ? 'Dupe' : CLONE_HOUSES.has(f.brand) ? 'Clone house' : 'Original';
 const box = f => `<article class="box">
     <a class="top" href="${href(f)}">${art(f, 'thumb')}<div><div class="label">${label(f)}</div><h3>${esc(f.name)}</h3><div class="brand">${esc(f.brand)}</div></div></a>
@@ -381,14 +389,17 @@ async function loadPrices(f) {
   $('from').innerHTML = top ? `<b>$${top.price.toFixed(2)}</b><span>${top.size} ml at ${esc(top.store)} · $${perMl(top).toFixed(2)}/ml</span>
     ${otop && perMl(top) < perMl(otop) ? `<em>${Math.round(100 * (1 - perMl(top) / perMl(otop)))}% less per ml than ${esc(o.name)}</em>` : ''}` : '';
   const rows = live.sort((a, b) => perMl(a) - perMl(b)).map(p => `<li>
-      <a href="${esc(p.url)}" ${ext}>${esc(p.store)}</a>${p === best ? '<span class="best">Best value</span>' : ''}
+      <a href="${esc(p.url)}" ${ext}>${esc(p.store)}</a>${trust(p.store)}${p === best ? '<span class="best">Best value</span>' : ''}
       <small>${p.size} ml · $${perMl(p).toFixed(2)}/ml</small><span class="r">$${p.price.toFixed(2)}</span></li>`);
   const priced = new Set(live.map(p => p.store));
   for (const [s, url] of Object.entries(data.stores)) {
-    if (!priced.has(s)) rows.push(`<li><a href="${url}${enc(q)}" ${ext}>${esc(s)}</a><span class="r"><small>See price ↗</small></span></li>`);
+    if (!priced.has(s)) rows.push(`<li><a href="${url}${enc(q)}" ${ext}>${esc(s)}</a>${trust(s)}<span class="r"><small>See price ↗</small></span></li>`);
   }
   el.innerHTML = rows.join('');
 }
+// Stores we've bought from and trust.
+const TRUSTED = new Set(['Arvella', 'Beauty House']);
+const trust = s => TRUSTED.has(s) ? '<span class="trust" title="Trusted store" aria-label="Trusted store">★</span>' : '';
 
 async function vote(slugId, stars) {
   try {
@@ -458,7 +469,9 @@ document.addEventListener('click', e => {
 $('theme').onclick = () => {
   const dark = document.documentElement.dataset.theme
     ? document.documentElement.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-  document.documentElement.dataset.theme = dark ? 'light' : 'dark';
+  const flip = () => { document.documentElement.dataset.theme = dark ? 'light' : 'dark'; };
+  // One clean crossfade of the whole page instead of every element easing at its own speed.
+  document.startViewTransition && !matchMedia('(prefers-reduced-motion: reduce)').matches ? document.startViewTransition(flip) : flip();
   store.set('theme', dark ? 'light' : 'dark');
 };
 $('shuffle').onclick = $('again').onclick = () => resetFeed();

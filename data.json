@@ -545,9 +545,7 @@
           "Patchouli"
         ]
       },
-      "dupes": [
-        "Lomani AB Spirit Millionaire"
-      ],
+      "dupes": [],
       "similar": [],
       "prices": {},
       "gender": "men",
@@ -1419,37 +1417,6 @@
       "source": "https://dossier.co/products/floral-marshmallow",
       "dupeOf": "Kilian Love, Don't Be Shy",
       "image": "https://cdn.shopify.com/s/files/1/0047/4067/7699/files/Floral_Marshmallow_e0017dfe-0c1a-44f4-b6df-915fb3cccc44.jpg?v=1793036922"
-    },
-    {
-      "name": "AB Spirit Millionaire",
-      "brand": "Lomani",
-      "gender": "men",
-      "notes": {
-        "top": [
-          "Bergamot",
-          "Mandarin",
-          "Cardamom",
-          "Green Apple"
-        ],
-        "heart": [
-          "Coriander",
-          "Cumin",
-          "Jasmine",
-          "Nutmeg"
-        ],
-        "base": [
-          "Amber",
-          "Cedarwood",
-          "Vanilla",
-          "White Musk"
-        ]
-      },
-      "dupes": [],
-      "similar": [],
-      "prices": {},
-      "source": "https://vivir.com/article/lomani-ab-spirit-millionaire",
-      "dupeOf": "Paco Rabanne 1 Million",
-      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01_3490d9bd-9bce-4304-8ba3-fd28d7c4ae3c.png?v=1723934059"
     },
     {
       "name": "Ultra Male",
@@ -14782,32 +14749,6 @@
       "source": "https://theskinfit.com/products/armaf-club-de-nuit-oud-eau-de-parfum-unisex"
     },
     {
-      "name": "Odyssey Bahamas",
-      "brand": "Armaf",
-      "notes": {
-        "top": [
-          "Bergamot",
-          "Mango",
-          "Coconut"
-        ],
-        "heart": [
-          "Jasmine",
-          "Tiare"
-        ],
-        "base": [
-          "White Musk",
-          "Sandalwood",
-          "Driftwood"
-        ]
-      },
-      "dupes": [],
-      "similar": [],
-      "prices": {},
-      "gender": "unisex",
-      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/ArmafOdysseyBahamasEauDeParfumUnisex_e8f4fbdf-bb76-4811-bdca-b3097a40482f.png?v=1780470006",
-      "source": "https://theskinfit.com/products/armaf-odyssey-bahamas-eau-de-parfum-unisex"
-    },
-    {
       "name": "Odyssey Revolution",
       "brand": "Armaf",
       "notes": {
@@ -16194,34 +16135,6 @@
       "gender": "women",
       "image": "https://cdn.shopify.com/s/files/1/0255/4550/6868/files/fakhar-lattafa-for-women-eau-de-parfum-100ml-lattafa-perfume_8adf9a80-6290-49f7-a672-1f50a7c0623f.webp?v=1761695779",
       "source": "https://almanaar.co.uk/products/fakhar-lattafa-for-women-eau-de-parfum-100ml-lattafa"
-    },
-    {
-      "name": "Spicebomb Limited Edition",
-      "brand": "Viktor&Rolf",
-      "notes": {
-        "top": [
-          "Pink Pepper",
-          "Elemi",
-          "Bergamot",
-          "Grapefruit"
-        ],
-        "heart": [
-          "Cinnamon",
-          "Saffron",
-          "Paprika"
-        ],
-        "base": [
-          "Tobacco",
-          "Leather",
-          "Vetiver"
-        ]
-      },
-      "dupes": [],
-      "similar": [],
-      "prices": {},
-      "gender": "men",
-      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02m60aiwts.png?v=1764623081",
-      "source": "https://www.beautyhouse.com/products/viktor-rolf-spice-bomb-limited-edition-eau-de-toilette-for-men"
     },
     {
       "name": "Spring Flower",
@@ -80097,6 +80010,57 @@
       "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0570/0891/4541/files/la-rouge-baroque-extreme-perfume-bottle-against-white-background.jpg?v=1733822238",
       "source": "https://zaoud.it/products/la-rouge-baroque-extreme"
+    },
+    {
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "name": "Althair",
+      "brand": "Parfums de Marly",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Cinnamon",
+          "Orange Blossom",
+          "Cardamom",
+          "Bergamot"
+        ],
+        "heart": [
+          "Bourbon Vanilla",
+          "Elemi"
+        ],
+        "base": [
+          "Praline",
+          "Musk",
+          "Ambroxan",
+          "Guaiac Wood",
+          "Tonka Bean"
+        ]
+      },
+      "source": "https://www.parfums-de-marly.com/en-us/products/althair"
+    },
+    {
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "name": "Le Male Le Parfum",
+      "brand": "Jean Paul Gaultier",
+      "gender": "men",
+      "notes": {
+        "top": [
+          "Cardamom"
+        ],
+        "heart": [
+          "Lavender",
+          "Iris"
+        ],
+        "base": [
+          "Vanilla",
+          "Woody Notes",
+          "Amber"
+        ]
+      },
+      "source": "https://www.jeanpaulgaultier.com/us/en/fragrances/le-male-le-parfum"
     }
   ]
 }
