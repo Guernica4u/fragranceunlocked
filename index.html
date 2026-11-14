@@ -45,7 +45,24 @@
     </div>
     <div class="marquee" aria-label="Notes"><div id="marquee"></div></div>
     <div id="top"></div>
-    <div class="sub"><h2 id="feedTitle">Explore</h2><button class="link" id="shuffle">Shuffle</button></div>
+    <div class="sub"><h2 id="feedTitle">Explore</h2>
+      <div class="tools">
+        <label class="pick">Sort <select id="sort">
+          <option value="shuffle">Shuffle</option><option value="az">Name A–Z</option>
+          <option value="rated">Top rated</option><option value="dupes">Most dupes</option>
+        </select></label>
+        <button class="link" id="filterBtn" aria-expanded="false" aria-controls="filters">Filter</button>
+        <button class="link" id="shuffle">Shuffle</button>
+      </div>
+    </div>
+    <div class="filters" id="filters" hidden>
+      <div class="seg" id="kind" role="group" aria-label="Type">
+        <button data-kind="all" aria-pressed="true">All</button><button data-kind="original" aria-pressed="false">Originals</button><button data-kind="dupe" aria-pressed="false">Dupes</button>
+      </div>
+      <label class="pick">Accord <select id="faccord"><option value="">Any</option></select></label>
+      <label class="pick">Brand <select id="fbrand"><option value="">Any</option></select></label>
+      <button class="link" id="fclear">Clear</button>
+    </div>
     <div class="grid" id="feed"></div>
     <div id="sentinel"></div>
     <div class="end" id="end" hidden><p class="none" id="endText"></p><button class="btn" id="again">Shuffle again</button></div>
@@ -60,6 +77,8 @@
       <div class="count" id="dcount" aria-live="polite"></div>
     </div>
     <div id="dout"></div>
+    <div id="dsentinel"></div>
+    <p class="none end" id="dend" hidden></p>
   </section>
 
   <section id="match" class="view" hidden>
@@ -128,30 +147,69 @@ function tile(f, i, extra = '') {
 }
 
 /* ---------- Explore (with search) ---------- */
-let feed = [], shown = 0;
-// Load pages while the sentinel is within 400px of the viewport, until every fragrance is shown.
-const fill = () => { while (!$('explore').hidden && shown < feed.length && $('sentinel').getBoundingClientRect().top < innerHeight + 400) moreFeed(); };
+// A list that renders 9 items at a time while its sentinel is near the viewport, until everything is shown.
+const pagers = [];
+function pager(view, out, sentinel, render, after) {
+  const p = { list: [], shown: 0,
+    reset(list) { p.list = list; p.shown = 0; $(out).innerHTML = ''; p.more(); requestAnimationFrame(fill); },
+    more() {
+      const next = p.list.slice(p.shown, p.shown + 9);
+      $(out).insertAdjacentHTML('beforeend', next.map(render).join(''));
+      p.shown += next.length;
+      after(p, next);
+    },
+    near: () => !$(view).hidden && p.shown < p.list.length && $(sentinel).getBoundingClientRect().top < innerHeight + 400 };
+  pagers.push(p);
+  return p;
+}
+const fill = () => pagers.forEach(p => { while (p.near()) p.more(); });
 const shuffle = a => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const has = (q, fields) => fields.join(' ').toLowerCase().includes(q);
+
+// Live "from" price on each tile, once its page is on screen (needs /api/prices; blank without it).
+function tilePrices(list) {
+  for (const f of list) fetchPrices(f).then(ps => {
+    const el = document.querySelector(`.tprice[data-p="${slug(f)}"]`);
+    if (el && ps.length) el.textContent = `From $${Math.min(...ps.map(p => p.price)).toFixed(2)}`;
+  });
+}
+
+const filt = { kind: 'all', accord: '', brand: '' };
+const SORTS = {
+  shuffle: l => shuffle(l),
+  az: l => [...l].sort((a, b) => full(a).localeCompare(full(b))),
+  rated: l => [...l].sort((a, b) => avg(b) - avg(a) || (ratings?.[slug(b)]?.count || 0) - (ratings?.[slug(a)]?.count || 0)),
+  dupes: l => [...l].sort((a, b) => dupesOf(b).length - dupesOf(a).length),
+};
+const feedPager = pager('explore', 'feed', 'sentinel', (f, i) => tile(f, i, `<div class="tprice" data-p="${slug(f)}"></div>`), (p, next) => {
+  const q = $('q').value.trim();
+  $('end').hidden = p.shown < p.list.length || !p.list.length;
+  $('endText').textContent = `That's all ${plural(p.list.length, 'fragrance', 'fragrances')}.`;
+  $('again').hidden = !!q || $('sort').value !== 'shuffle';
+  if (!q) $('count').textContent = p.list.length ? `${p.shown} of ${p.list.length} shown` : '';
+  tilePrices(next);
+});
 function resetFeed() {
   const q = $('q').value.trim().toLowerCase();
-  feed = q ? pool().filter(f => has(q, [f.brand, f.name, ...notesOf(f), ...acc(f).map(a => a.name)])) : shuffle(pool());
-  $('count').textContent = q ? plural(feed.length, 'match', 'matches') : '';
+  let list = pool().filter(f => (!q || has(q, [f.brand, f.name, ...notesOf(f), ...acc(f).map(a => a.name)]))
+    && (filt.kind === 'all' || (filt.kind === 'dupe') === !!f.dupeOf)
+    && (!filt.accord || acc(f).slice(0, 3).some(a => a.name === filt.accord))
+    && (!filt.brand || f.brand === filt.brand));
+  list = SORTS[$('sort').value](list);
+  const on = filt.kind !== 'all' || filt.accord || filt.brand;
+  $('filterBtn').textContent = on ? 'Filter •' : 'Filter';
+  $('count').textContent = q ? plural(list.length, 'match', 'matches') : '';
   $('feedTitle').textContent = q ? `Results for ${$('q').value.trim()}` : 'Explore';
-  $('shuffle').hidden = !!q;
-  shown = 0;
-  $('feed').innerHTML = feed.length ? '' : `<p class="none">Nothing yet. <a href="https://www.fragrantica.com/search/?query=${enc(q)}" ${ext}>Try Fragrantica ↗</a></p>`;
-  moreFeed();
-  requestAnimationFrame(fill);
+  $('shuffle').hidden = !!q || $('sort').value !== 'shuffle';
+  feedPager.reset(list);
+  if (!list.length) $('feed').innerHTML = `<p class="none">Nothing yet. ${q ? `<a href="https://www.fragrantica.com/search/?query=${enc(q)}" ${ext}>Try Fragrantica ↗</a>` : 'Loosen the filters.'}</p>`;
 }
-function moreFeed() {
-  const next = feed.slice(shown, shown + 9);
-  $('feed').insertAdjacentHTML('beforeend', next.map((f, i) => tile(f, i)).join(''));
-  shown += next.length;
-  $('end').hidden = shown < feed.length || !feed.length;
-  $('endText').textContent = `That's all ${plural(feed.length, 'fragrance', 'fragrances')}.`;
-  $('again').hidden = !!$('q').value.trim();
-  if (!$('q').value.trim()) $('count').textContent = feed.length ? `${shown} of ${feed.length} shown` : '';
+function fillFilters() {
+  const names = new Set(), brands = new Set();
+  for (const f of data.fragrances) { acc(f).slice(0, 3).forEach(a => names.add(a.name)); brands.add(f.brand); }
+  const opts = s => [...s].sort((a, b) => a.localeCompare(b)).map(x => `<option>${esc(x)}</option>`).join('');
+  $('faccord').insertAdjacentHTML('beforeend', opts(names));
+  $('fbrand').insertAdjacentHTML('beforeend', opts(brands));
 }
 function renderTop() {
   const top = pool().filter(f => ratings?.[slug(f)]?.count)
@@ -171,19 +229,26 @@ function verdict(f) {
   const parts = [];
   if (f.dupeOf) parts.push(`Dupe of ${o ? `<a href="${href(o)}">${esc(full(o))}</a>` : esc(f.dupeOf)}.`);
   if (mine.length) parts.push(`Its dupes:<div class="chips">${mine.map(d => `<a class="chip" href="${href(d)}">${esc(full(d))} →</a>`).join('')}</div>`);
-  if (!parts.length) parts.push('Not a dupe. No known dupes yet.');
+  if (!parts.length) parts.push(CLONE_HOUSES.has(f.brand) ? 'From a clone house, but not linked to an original yet.' : 'Not a dupe. No known dupes yet.');
   return parts.join(' ');
 }
+// Houses known for dupes; their unlinked scents aren't called "Original".
+const CLONE_HOUSES = new Set(['Lattafa', 'Armaf', 'Khadlaj', 'Rasasi', 'Al Haramain', 'Maison Alhambra', 'Afnan', 'French Avenue', 'Rayhaan', 'Zara', 'Dossier', 'Alt. Fragrances', 'Lomani']);
+const label = f => f.dupeOf ? 'Dupe' : CLONE_HOUSES.has(f.brand) ? 'Clone house' : 'Original';
 const box = f => `<article class="box">
-    <a class="top" href="${href(f)}">${art(f, 'thumb')}<div><div class="label">${f.dupeOf ? 'Dupe' : 'Original'}</div><h3>${esc(f.name)}</h3><div class="brand">${esc(f.brand)}</div></div></a>
+    <a class="top" href="${href(f)}">${art(f, 'thumb')}<div><div class="label">${label(f)}</div><h3>${esc(f.name)}</h3><div class="brand">${esc(f.brand)}</div></div></a>
     <div class="verdict">${verdict(f)}</div></article>`;
+const dupePager = pager('dupes', 'dout', 'dsentinel', box, p => {
+  $('dend').hidden = p.shown < p.list.length || !p.list.length;
+  $('dend').textContent = `That's all ${plural(p.list.length, 'fragrance', 'fragrances')}.`;
+});
 function renderDupes() {
   const q = $('dq').value.trim().toLowerCase();
   const hits = q ? pool().filter(f => has(q, [f.brand, f.name, full(f)]))
     : [...pool()].sort((a, b) => dupesOf(b).length - dupesOf(a).length || !!b.dupeOf - !!a.dupeOf); // originals with dupes, then dupes, then the rest
   $('dcount').textContent = q ? plural(hits.length, 'match', 'matches') : plural(hits.length, 'fragrance', 'fragrances');
-  $('dout').innerHTML = hits.length ? hits.map(box).join('') + `<p class="none end">That's all ${plural(hits.length, 'fragrance', 'fragrances')}.</p>` : ''
-    || `<p class="none" style="text-align:center;margin-top:32px">Not in our list yet. <a href="https://www.fragrantica.com/search/?query=${enc(q)}" ${ext}>Try Fragrantica ↗</a></p>`;
+  dupePager.reset(hits);
+  if (!hits.length) $('dout').innerHTML = `<p class="none" style="text-align:center;margin-top:32px">Not in our list yet. <a href="https://www.fragrantica.com/search/?query=${enc(q)}" ${ext}>Try Fragrantica ↗</a></p>`;
 }
 
 /* ---------- Match me: budget, then dupe or original, then a vibe ---------- */
@@ -360,10 +425,17 @@ function route() {
     if (a.hash === '#' + view) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
   }
   scrollTo(0, 0);
+  requestAnimationFrame(fill); // a list that was hidden may need its first pages now
 }
 
 document.addEventListener('click', e => {
   const t = e.target;
+  const k = t.closest('[data-kind]');
+  if (k) {
+    filt.kind = k.dataset.kind;
+    for (const b of document.querySelectorAll('[data-kind]')) b.setAttribute('aria-pressed', b === k);
+    return resetFeed();
+  }
   const g = t.closest('.seg button');
   if (g) return setGender(g.dataset.g);
   const star = t.closest('[data-star]');
@@ -390,6 +462,20 @@ $('theme').onclick = () => {
   store.set('theme', dark ? 'light' : 'dark');
 };
 $('shuffle').onclick = $('again').onclick = () => resetFeed();
+$('sort').onchange = resetFeed;
+$('filterBtn').onclick = () => {
+  const open = $('filters').hidden;
+  $('filters').hidden = !open;
+  $('filterBtn').setAttribute('aria-expanded', open);
+};
+$('faccord').onchange = e => { filt.accord = e.target.value; resetFeed(); };
+$('fbrand').onchange = e => { filt.brand = e.target.value; resetFeed(); };
+$('fclear').onclick = () => {
+  Object.assign(filt, { kind: 'all', accord: '', brand: '' });
+  $('faccord').value = $('fbrand').value = '';
+  for (const b of document.querySelectorAll('[data-kind]')) b.setAttribute('aria-pressed', b.dataset.kind === 'all');
+  resetFeed();
+};
 
 [data, ratings] = await Promise.all([
   fetch('data.json').then(r => r.json()),
@@ -398,6 +484,7 @@ $('shuffle').onclick = $('again').onclick = () => resetFeed();
 const notes = [...new Set(data.fragrances.flatMap(notesOf))].slice(0, 36);
 $('marquee').innerHTML = chipQ([...notes, ...notes]);
 renderQuiz();
+fillFilters();
 $('q').addEventListener('input', resetFeed);
 $('dq').addEventListener('input', renderDupes);
 addEventListener('scroll', fill, { passive: true });
