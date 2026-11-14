@@ -167,7 +167,7 @@ function candidates(brands) {
     if (!notes || !ph) continue;
     // "Amber Oud" is a product family, so its name keeps the words; the Al Haramain shops rarely say men or women.
     const name = nameOf(p.title, brand === 'Amber Oud' ? '' : brand);
-    const gender = genderOf(p.title, p) || (/^(al haramain|amber oud|jo malone|byredo|maison margiela|replica|mykonos|born to stand out)$/i.test(brand) ? 'unisex' : null); // unisex houses, titles often omit it
+    const gender = genderOf(p.title, p) || (/^(al haramain|amber oud|jo malone|byredo|maison margiela|replica|mykonos|born to stand out|le labo|diptyque|frederic malle|ex nihilo|nasomatto|tiziana terenzi|orto parisi|memo|papillon|sospiro|liquides imaginaires|maison crivelli|matiere premiere|vilhelm|carner barcelona|ormonde jayne|nishane|mancera|montale|juliette has a gun|atelier cologne)$/i.test(brand) ? 'unisex' : null); // unisex houses, titles often omit it
     if (!name || !gender) continue;
     const key = norm(brand) + '|' + norm(name);
     const c = { brand, name, gender, notes, source: url(p), image: ph, store: p.store };
