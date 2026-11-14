@@ -48,7 +48,7 @@
     <div class="sub"><h2 id="feedTitle">Explore</h2><button class="link" id="shuffle">Shuffle</button></div>
     <div class="grid" id="feed"></div>
     <div id="sentinel"></div>
-    <div class="end" id="end" hidden><button class="btn" id="again">That's all. Shuffle again</button></div>
+    <div class="end" id="end" hidden><p class="none" id="endText"></p><button class="btn" id="again">Shuffle again</button></div>
   </section>
 
   <section id="dupes" class="view narrow" hidden>
@@ -129,6 +129,8 @@ function tile(f, i, extra = '') {
 
 /* ---------- Explore (with search) ---------- */
 let feed = [], shown = 0;
+// Load pages while the sentinel is within 400px of the viewport, until every fragrance is shown.
+const fill = () => { while (!$('explore').hidden && shown < feed.length && $('sentinel').getBoundingClientRect().top < innerHeight + 400) moreFeed(); };
 const shuffle = a => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const has = (q, fields) => fields.join(' ').toLowerCase().includes(q);
 function resetFeed() {
@@ -140,12 +142,15 @@ function resetFeed() {
   shown = 0;
   $('feed').innerHTML = feed.length ? '' : `<p class="none">Nothing yet. <a href="https://www.fragrantica.com/search/?query=${enc(q)}" ${ext}>Try Fragrantica ↗</a></p>`;
   moreFeed();
+  requestAnimationFrame(fill);
 }
 function moreFeed() {
   const next = feed.slice(shown, shown + 9);
   $('feed').insertAdjacentHTML('beforeend', next.map((f, i) => tile(f, i)).join(''));
   shown += next.length;
-  $('end').hidden = shown < feed.length || !feed.length || !!$('q').value.trim();
+  $('end').hidden = shown < feed.length || !feed.length;
+  $('endText').textContent = `That's all ${plural(feed.length, 'fragrance', 'fragrances')}.`;
+  $('again').hidden = !!$('q').value.trim();
 }
 function renderTop() {
   const top = pool().filter(f => ratings?.[slug(f)]?.count)
@@ -174,9 +179,9 @@ const box = f => `<article class="box">
 function renderDupes() {
   const q = $('dq').value.trim().toLowerCase();
   const hits = q ? pool().filter(f => has(q, [f.brand, f.name, full(f)]))
-    : pool().filter(f => dupesOf(f).length);
-  $('dcount').textContent = q ? plural(hits.length, 'match', 'matches') : `${hits.length} originals with dupes`;
-  $('dout').innerHTML = hits.map(box).join('')
+    : [...pool()].sort((a, b) => dupesOf(b).length - dupesOf(a).length || !!b.dupeOf - !!a.dupeOf); // originals with dupes, then dupes, then the rest
+  $('dcount').textContent = q ? plural(hits.length, 'match', 'matches') : plural(hits.length, 'fragrance', 'fragrances');
+  $('dout').innerHTML = hits.length ? hits.map(box).join('') + `<p class="none end">That's all ${plural(hits.length, 'fragrance', 'fragrances')}.</p>` : ''
     || `<p class="none" style="text-align:center;margin-top:32px">Not in our list yet. <a href="https://www.fragrantica.com/search/?query=${enc(q)}" ${ext}>Try Fragrantica ↗</a></p>`;
 }
 
@@ -394,7 +399,8 @@ $('marquee').innerHTML = chipQ([...notes, ...notes]);
 renderQuiz();
 $('q').addEventListener('input', resetFeed);
 $('dq').addEventListener('input', renderDupes);
-new IntersectionObserver(es => { if (es[0].isIntersecting && shown < feed.length) moreFeed(); }, { rootMargin: '400px' }).observe($('sentinel'));
+addEventListener('scroll', fill, { passive: true });
+addEventListener('resize', fill);
 setGender(['both', 'men', 'women'].includes(gender) ? gender : 'both');
 addEventListener('hashchange', route);
 route();
