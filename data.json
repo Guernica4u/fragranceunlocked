@@ -299,8 +299,7 @@
       "brand": "Tom Ford",
       "notes": {
         "top": [
-          "Tobacco Leaf",
-          "Spicy Notes"
+          "Tobacco Leaf"
         ],
         "heart": [
           "Vanilla",
@@ -309,8 +308,7 @@
           "Tobacco Blossom"
         ],
         "base": [
-          "Dried Fruits",
-          "Woody Notes"
+          "Dried Fruits"
         ]
       },
       "dupes": [],
@@ -539,7 +537,9 @@
         "Le Labo Another 13"
       ],
       "prices": {},
-      "gender": "unisex"
+      "gender": "unisex",
+      "source": "https://www.spacenk.com/us/fragrance/personal-fragrance/fragrance/you-eau-de-parfum-UK200049717.html",
+      "image": "https://www.spacenk.com/dw/image/v2/ABCE_PRD/on/demandware.static/-/Sites-spacenkmastercatalog/default/dwc3aca23b/products/GLOSSIER/UK200049717_GLOSSIER.jpg?sw=582&sh=582"
     },
     {
       "name": "1 Million",
@@ -552,13 +552,11 @@
         ],
         "heart": [
           "Cinnamon",
-          "Rose",
-          "Spicy Notes"
+          "Rose"
         ],
         "base": [
           "Amber",
           "Leather",
-          "Woody Notes",
           "Patchouli"
         ]
       },
@@ -639,7 +637,6 @@
           "Mandarin"
         ],
         "heart": [
-          "Sea Notes",
           "Jasmine",
           "Rosemary",
           "Peach"
@@ -909,8 +906,7 @@
           "Vanilla Orchid"
         ],
         "base": [
-          "Musk",
-          "Woody Notes"
+          "Musk"
         ]
       },
       "dupes": [],
@@ -1110,7 +1106,6 @@
         ],
         "base": [
           "Amber",
-          "Woods",
           "Moss",
           "Musk"
         ]
@@ -1164,8 +1159,7 @@
         ],
         "heart": [
           "Jasmine",
-          "Lily of the Valley",
-          "Woody Notes"
+          "Lily of the Valley"
         ],
         "base": [
           "Patchouli",
@@ -1337,8 +1331,7 @@
         ],
         "base": [
           "Tonka Bean",
-          "Sandalwood",
-          "Woods"
+          "Sandalwood"
         ]
       },
       "dupes": [],
@@ -1614,17 +1607,14 @@
       "notes": {
         "top": [
           "Lemon",
-          "Grapefruit",
-          "Spices"
+          "Grapefruit"
         ],
         "heart": [
           "Cypress",
-          "Lavandin",
-          "Aquatic Accord"
+          "Lavandin"
         ],
         "base": [
-          "Patchouli",
-          "Mineral Accord"
+          "Patchouli"
         ]
       },
       "dupes": [
@@ -1698,7 +1688,6 @@
       "notes": {
         "top": [
           "Bergamot",
-          "Citrus",
           "Pepper"
         ],
         "heart": [
@@ -1805,7 +1794,6 @@
       "gender": "men",
       "notes": {
         "top": [
-          "Spices",
           "Rum"
         ],
         "heart": [
@@ -1889,7 +1877,6 @@
       "notes": {
         "top": [
           "Grapefruit",
-          "Sea Notes",
           "Mandarin Orange"
         ],
         "heart": [
@@ -2119,8 +2106,7 @@
           "Tangerine"
         ],
         "heart": [
-          "Tropical Fruits",
-          "Gourmand Accord"
+          "Tropical Fruits"
         ],
         "base": [
           "Vanilla",
@@ -2247,7 +2233,6 @@
           "Black Pepper"
         ],
         "heart": [
-          "Sea Notes",
           "Violet"
         ],
         "base": [
@@ -2269,8 +2254,7 @@
       "gender": "unisex",
       "notes": {
         "top": [
-          "Saffron",
-          "Floral Notes"
+          "Saffron"
         ],
         "heart": [
           "Amberwood",
@@ -2569,14 +2553,12 @@
           "Warm Berries"
         ],
         "heart": [
-          "Spices",
           "Cocoa",
           "Vanilla"
         ],
         "base": [
           "Musk",
-          "Tonka Bean",
-          "Woods"
+          "Tonka Bean"
         ]
       },
       "dupes": [],
@@ -3111,7 +3093,6 @@
       "gender": "men",
       "notes": {
         "top": [
-          "Citrus",
           "Pear"
         ],
         "heart": [
@@ -3136,14 +3117,12 @@
       "gender": "men",
       "notes": {
         "top": [
-          "Sea Notes",
           "Sea Salt",
           "Grapefruit"
         ],
         "heart": [
           "Bay Leaf",
-          "Geranium",
-          "Spices"
+          "Geranium"
         ],
         "base": [
           "Red Amber",
@@ -3282,7 +3261,6 @@
         ],
         "base": [
           "Clearwood",
-          "Woods",
           "Musk"
         ]
       },
@@ -6960,7 +6938,6 @@
         ],
         "heart": [
           "Magnolia",
-          "Green Accord",
           "Lily-Of-The-Valley"
         ],
         "base": [
@@ -7888,34 +7865,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03tahjbvlm.png?v=1761336040"
     },
     {
-      "name": "Spice Bomb Limited Edition",
-      "brand": "Viktor&Rolf",
-      "gender": "men",
-      "notes": {
-        "top": [
-          "Pink Pepper",
-          "Elemi",
-          "Bergamot",
-          "Grapefruit"
-        ],
-        "heart": [
-          "Cinnamon",
-          "Saffron",
-          "Paprika"
-        ],
-        "base": [
-          "Tobacco",
-          "Leather",
-          "Vetiver"
-        ]
-      },
-      "dupes": [],
-      "similar": [],
-      "prices": {},
-      "source": "https://www.beautyhouse.com/products/viktor-rolf-spice-bomb-limited-edition-eau-de-toilette-for-men",
-      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02m60aiwts.png?v=1764623081"
-    },
-    {
       "name": "Spicebomb Night Vision",
       "brand": "Viktor&Rolf",
       "gender": "men",
@@ -8838,8 +8787,7 @@
         ],
         "base": [
           "Suede",
-          "Amber",
-          "Woods"
+          "Amber"
         ]
       },
       "dupes": [],
@@ -8904,8 +8852,7 @@
         ],
         "heart": [
           "Geranium",
-          "Sage",
-          "Marine Accord"
+          "Sage"
         ],
         "base": [
           "Moss",
@@ -9205,8 +9152,7 @@
       "notes": {
         "top": [
           "Bergamot",
-          "Red Fruits",
-          "Marine Accords"
+          "Red Fruits"
         ],
         "heart": [
           "Violet",
@@ -9430,7 +9376,6 @@
           "Lemon"
         ],
         "heart": [
-          "Spices",
           "Guaiac Wood",
           "Cedar"
         ],
@@ -9655,8 +9600,7 @@
       "notes": {
         "top": [
           "Almond",
-          "Milky Lactones",
-          "Spices"
+          "Milky Lactones"
         ],
         "heart": [
           "White Flowers"
@@ -10327,7 +10271,6 @@
         ],
         "heart": [
           "Lavender",
-          "Aquatic Accords",
           "Violet Leaves"
         ],
         "base": [
@@ -11035,7 +10978,6 @@
       "gender": "unisex",
       "notes": {
         "top": [
-          "Musky",
           "Amber",
           "Bergamot",
           "Orange",
@@ -12566,8 +12508,7 @@
       "notes": {
         "top": [
           "Rose",
-          "Geranium",
-          "Citruses"
+          "Geranium"
         ],
         "heart": [
           "Cloves",
@@ -12903,8 +12844,7 @@
       "notes": {
         "top": [
           "Rose",
-          "Geranium",
-          "Citruses"
+          "Geranium"
         ],
         "heart": [
           "Cloves",
@@ -13356,7 +13296,6 @@
         ],
         "base": [
           "Musk",
-          "Gourmand Accord",
           "Sandalwood"
         ]
       },
@@ -14016,7 +13955,6 @@
           "Amber"
         ],
         "heart": [
-          "Spices",
           "Iris"
         ],
         "base": [
@@ -14045,7 +13983,6 @@
         ],
         "heart": [
           "Cashmeran",
-          "Ozonic Accord",
           "Geranium",
           "Rose",
           "Apple"
@@ -14444,9 +14381,7 @@
           "Mirabelle"
         ],
         "heart": [
-          "Chestnut",
-          "Gourmand Accord",
-          "Spices"
+          "Chestnut"
         ],
         "base": [
           "Sandalwood",
@@ -14636,8 +14571,7 @@
       "brand": "Armaf",
       "notes": {
         "top": [
-          "Grapefruit",
-          "Citruses"
+          "Grapefruit"
         ],
         "heart": [
           "Geranium",
@@ -14829,8 +14763,7 @@
       "notes": {
         "top": [
           "Bergamot",
-          "Black Pepper",
-          "Spices"
+          "Black Pepper"
         ],
         "heart": [
           "Oud",
@@ -15359,7 +15292,6 @@
           "Lemon"
         ],
         "heart": [
-          "Spices",
           "Cedar",
           "Guaiac Wood"
         ],
@@ -16649,8 +16581,7 @@
       "brand": "Acqua di Parma",
       "notes": {
         "top": [
-          "Orange Blossom",
-          "Citruses"
+          "Orange Blossom"
         ],
         "heart": [
           "Myrrh",
@@ -17014,8 +16945,7 @@
       "brand": "Dior",
       "notes": {
         "top": [
-          "Sea Salt",
-          "Citruses"
+          "Sea Salt"
         ],
         "heart": [
           "Jasmine",
@@ -18240,7 +18170,6 @@
       "brand": "Acqua di Parma",
       "notes": {
         "top": [
-          "Citruses",
           "Bergamot",
           "Cardamom",
           "Ginger"
@@ -18503,8 +18432,7 @@
           "Grapefruit"
         ],
         "heart": [
-          "Violet Leaf",
-          "Marine Accord"
+          "Violet Leaf"
         ],
         "base": [
           "Ambergris",
@@ -18961,7 +18889,6 @@
         ],
         "base": [
           "Amber",
-          "Woods",
           "Musk"
         ]
       },
@@ -19587,7 +19514,6 @@
           "Rose"
         ],
         "base": [
-          "Gourmand Accord",
           "Amberwood",
           "Amber",
           "Cashmeran"
@@ -19935,7 +19861,6 @@
       "brand": "Creed",
       "notes": {
         "top": [
-          "Spices",
           "Frankincense",
           "Ginger",
           "Bergamot"
@@ -20413,7 +20338,6 @@
           "Lemon"
         ],
         "heart": [
-          "Spices",
           "Violet Leaf",
           "White Pepper",
           "Basil"
@@ -20539,7 +20463,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Spices",
           "Pimento",
           "Mandarin"
         ],
@@ -21698,7 +21621,6 @@
       "brand": "Byredo",
       "notes": {
         "top": [
-          "Citruses",
           "Petitgrain",
           "Bergamot"
         ],
@@ -21982,8 +21904,7 @@
       "brand": "Hermès",
       "notes": {
         "top": [
-          "Orange",
-          "Citruses"
+          "Orange"
         ],
         "heart": [
           "Geranium"
@@ -22907,7 +22828,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Citruses",
           "Orange",
           "Cardamom",
           "Lavender",
@@ -22944,7 +22864,6 @@
           "Bergamot"
         ],
         "heart": [
-          "Fruits",
           "Saffron",
           "Musk",
           "Sage",
@@ -24027,8 +23946,7 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Saffron",
-          "Citruses"
+          "Saffron"
         ],
         "heart": [
           "Agarwood",
@@ -25613,7 +25531,6 @@
       "notes": {
         "top": [
           "Grapefruit",
-          "Citruses",
           "Lemon"
         ],
         "heart": [
@@ -26179,8 +26096,7 @@
       "notes": {
         "top": [
           "Vanilla",
-          "Oudh",
-          "Spices"
+          "Oudh"
         ],
         "heart": [
           "Musk",
@@ -26231,7 +26147,6 @@
       "brand": "Creed",
       "notes": {
         "top": [
-          "Citruses",
           "Mint"
         ],
         "heart": [
@@ -27062,8 +26977,7 @@
           "Ginger",
           "Thyme",
           "Grapefruit",
-          "Bergamot",
-          "Green Accord"
+          "Bergamot"
         ],
         "heart": [
           "Vanilla",
@@ -30778,7 +30692,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Fruits",
           "White Musk"
         ],
         "heart": [
@@ -30866,7 +30779,6 @@
         ],
         "base": [
           "Agarwood",
-          "Woods",
           "Ambergris"
         ]
       },
@@ -30882,7 +30794,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Woods",
           "Turkish Rose"
         ],
         "heart": [
@@ -30907,8 +30818,7 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Mandarin Oranges",
-          "Spices"
+          "Mandarin Oranges"
         ],
         "heart": [
           "Saffron",
@@ -30988,7 +30898,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Fruits",
           "Apple"
         ],
         "heart": [
@@ -32274,8 +32183,7 @@
       "brand": "Paco Rabanne",
       "notes": {
         "top": [
-          "Ginger",
-          "Green Accord"
+          "Ginger"
         ],
         "heart": [
           "Cinnamon",
@@ -32347,8 +32255,7 @@
       "brand": "Paco Rabanne",
       "notes": {
         "top": [
-          "Calabrian Bergamot",
-          "Aquatic Accord"
+          "Calabrian Bergamot"
         ],
         "heart": [
           "Jasmine",
@@ -33061,7 +32968,6 @@
         ],
         "heart": [
           "Rose",
-          "Spices",
           "Cedarwood"
         ],
         "base": [
@@ -33115,8 +33021,7 @@
         ],
         "base": [
           "Ambergris",
-          "Vanilla",
-          "Woods"
+          "Vanilla"
         ]
       },
       "dupes": [],
@@ -33232,8 +33137,7 @@
           "Red Fruits"
         ],
         "heart": [
-          "Vanilla",
-          "Woods"
+          "Vanilla"
         ],
         "base": [
           "Amber",
@@ -33331,8 +33235,7 @@
         ],
         "heart": [
           "Oud",
-          "Amber",
-          "Woods"
+          "Amber"
         ],
         "base": [
           "Vanilla",
@@ -33376,7 +33279,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Spices",
           "Smoke"
         ],
         "heart": [
@@ -34667,8 +34569,7 @@
         "base": [
           "Caramel",
           "Tonka",
-          "Sandalwood",
-          "Musky"
+          "Sandalwood"
         ]
       },
       "dupes": [],
@@ -34838,7 +34739,6 @@
           "Amber"
         ],
         "heart": [
-          "Spices",
           "Honey"
         ],
         "base": [
@@ -34943,8 +34843,7 @@
         "top": [
           "Saffron",
           "Cardamom",
-          "Coriander",
-          "Spices"
+          "Coriander"
         ],
         "heart": [
           "Jasmine",
@@ -35817,7 +35716,6 @@
         "heart": [
           "Jasmine",
           "Nutmeg",
-          "Spices",
           "Ylang-Ylang",
           "Pepper"
         ],
@@ -36079,7 +35977,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Citruses",
           "Bergamot"
         ],
         "heart": [
@@ -36180,8 +36077,7 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Mandarin Oranges",
-          "Spices"
+          "Mandarin Oranges"
         ],
         "heart": [
           "Saffron",
@@ -36668,7 +36564,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Spices",
           "Caraway",
           "Sage",
           "Bergamot"
@@ -36728,7 +36623,6 @@
           "Mandarin"
         ],
         "heart": [
-          "Green Accord",
           "Orange Blossom",
           "Neroli",
           "Geranium"
@@ -37289,7 +37183,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Fruits",
           "Lily",
           "Pomegranate",
           "Aldehydes"
@@ -38643,7 +38536,6 @@
       "brand": "Khadlaj",
       "notes": {
         "top": [
-          "Spices",
           "Saffron",
           "Raspberry"
         ],
@@ -38863,8 +38755,7 @@
         "base": [
           "Leather",
           "Patchouli",
-          "Sandalwood",
-          "Woods"
+          "Sandalwood"
         ]
       },
       "dupes": [],
@@ -40201,7 +40092,6 @@
       "brand": "Born to Stand Out",
       "notes": {
         "top": [
-          "Citruses",
           "Sage",
           "Calabrian Bergamot",
           "Violet"
@@ -41378,7 +41268,6 @@
         "top": [
           "Pear",
           "Bulgarian Rose",
-          "Citruses",
           "Hawthorn"
         ],
         "heart": [
@@ -42033,7 +41922,6 @@
       "notes": {
         "top": [
           "Cardamom",
-          "Citruses",
           "Star Anise",
           "Cypress",
           "Fennel"
@@ -42721,7 +42609,6 @@
           "Vetiver"
         ],
         "base": [
-          "Spices",
           "Musk",
           "Guaiac Wood"
         ]
@@ -44197,7 +44084,6 @@
         "base": [
           "Vanilla",
           "Amber",
-          "Spices",
           "Ambrette"
         ]
       },
@@ -44419,8 +44305,7 @@
         "top": [
           "Violet Leaf",
           "Neroli",
-          "Mandarin Orange",
-          "Citruses"
+          "Mandarin Orange"
         ],
         "heart": [
           "Jasmine",
@@ -45138,8 +45023,7 @@
       "brand": "Mancera",
       "notes": {
         "top": [
-          "Bergamot",
-          "Spices"
+          "Bergamot"
         ],
         "heart": [
           "Violet",
@@ -45164,8 +45048,7 @@
       "brand": "Mancera",
       "notes": {
         "top": [
-          "Pear",
-          "Citruses"
+          "Pear"
         ],
         "heart": [
           "Indian Ginger",
@@ -45365,7 +45248,6 @@
       "notes": {
         "top": [
           "Red Fruits",
-          "Citruses",
           "Pear",
           "Pink Pepper"
         ],
@@ -45479,7 +45361,6 @@
       "brand": "Mancera",
       "notes": {
         "top": [
-          "Spices",
           "Bergamot"
         ],
         "heart": [
@@ -48872,7 +48753,6 @@
       "brand": "Mancera",
       "notes": {
         "top": [
-          "Citruses",
           "Agarwood",
           "Lavender",
           "Cinnamon",
@@ -50257,7 +50137,6 @@
           "Plum",
           "Cardamom",
           "Lavender",
-          "Citruses",
           "Bergamot"
         ],
         "heart": [
@@ -50397,8 +50276,7 @@
         ],
         "heart": [
           "Orange Blossom",
-          "Damask Rose",
-          "Spices"
+          "Damask Rose"
         ],
         "base": [
           "Sandalwood",
@@ -51193,7 +51071,6 @@
       "notes": {
         "top": [
           "Pineapple",
-          "Citruses",
           "Pink Pepper",
           "Black Pepper"
         ],
@@ -51327,7 +51204,6 @@
       "brand": "Sospiro",
       "notes": {
         "top": [
-          "Fruits",
           "Turkish Rose"
         ],
         "heart": [
@@ -51362,7 +51238,6 @@
           "Bergamot"
         ],
         "heart": [
-          "Spices",
           "Carnation"
         ],
         "base": [
@@ -51493,7 +51368,6 @@
       "brand": "Sospiro",
       "notes": {
         "top": [
-          "Citruses",
           "Jasmine"
         ],
         "heart": [
@@ -51838,7 +51712,6 @@
         "top": [
           "Rose Water",
           "Rose",
-          "Citruses",
           "Rhubarb Leaf"
         ],
         "heart": [
@@ -52446,8 +52319,7 @@
       "notes": {
         "top": [
           "Pear",
-          "Apple",
-          "Citruses"
+          "Apple"
         ],
         "heart": [
           "Ambrette",
@@ -53012,7 +52884,6 @@
       "notes": {
         "top": [
           "Grapefruit",
-          "Spices",
           "Bergamot"
         ],
         "heart": [
@@ -53226,7 +53097,6 @@
           "M Usk",
           "Sandalwood",
           "Oask Moss",
-          "Woodsy Accord",
           "Vetiver"
         ]
       },
@@ -53300,8 +53170,7 @@
       "notes": {
         "top": [
           "Cardamom",
-          "Coriander",
-          "Citruses"
+          "Coriander"
         ],
         "heart": [
           "Lavender",
@@ -53851,7 +53720,6 @@
       "notes": {
         "top": [
           "Sumac",
-          "Citruses",
           "Cumin"
         ],
         "heart": [
@@ -55294,7 +55162,6 @@
       "notes": {
         "top": [
           "Sicilian Citruses",
-          "Spices",
           "Black Currant"
         ],
         "heart": [
@@ -55545,7 +55412,6 @@
       "brand": "Kilian",
       "notes": {
         "top": [
-          "Woods",
           "Sandalwood"
         ],
         "heart": [
@@ -55651,8 +55517,7 @@
         "heart": [
           "Tea",
           "Bamboo",
-          "Mimosa",
-          "Spices"
+          "Mimosa"
         ],
         "base": [
           "Fig Leaf",
@@ -56169,7 +56034,6 @@
           "Mandarin Orange"
         ],
         "heart": [
-          "Fruits",
           "Desert Rose"
         ],
         "base": [
@@ -56278,8 +56142,7 @@
         "heart": [
           "Osmanthus",
           "Mate",
-          "Jasmine",
-          "Spices"
+          "Jasmine"
         ],
         "base": [
           "Iris",
@@ -56592,7 +56455,6 @@
           "Vetiver"
         ],
         "base": [
-          "Gourmand",
           "Musk",
           "Patchouli"
         ]
@@ -57101,7 +56963,6 @@
         "top": [
           "Cannabis",
           "Incense",
-          "Spices",
           "Labdanum"
         ],
         "heart": [
@@ -57128,8 +56989,7 @@
       "notes": {
         "top": [
           "Cranberry",
-          "White Peach",
-          "Citruses"
+          "White Peach"
         ],
         "heart": [
           "Bulgarian Rose",
@@ -57156,7 +57016,6 @@
       "brand": "Montale",
       "notes": {
         "top": [
-          "Citruses",
           "Lavender"
         ],
         "heart": [
@@ -57683,8 +57542,7 @@
         "top": [
           "Bergamot",
           "Iris",
-          "Incense",
-          "Spices"
+          "Incense"
         ],
         "heart": [
           "Bulgarian Rose",
@@ -62276,7 +62134,6 @@
       "notes": {
         "top": [
           "Cherry",
-          "Fruits",
           "Rose",
           "Jasmine"
         ],
@@ -62304,8 +62161,7 @@
       "brand": "Sospiro",
       "notes": {
         "top": [
-          "Lavender",
-          "Citruses"
+          "Lavender"
         ],
         "heart": [
           "Spices"
@@ -63581,8 +63437,7 @@
         "top": [
           "Sicilian Lemon",
           "Blackcurrant",
-          "Bergamot",
-          "Spices"
+          "Bergamot"
         ],
         "heart": [
           "Patchouli Leaf",
@@ -64309,7 +64164,6 @@
       "brand": "Afnan",
       "notes": {
         "top": [
-          "Spices",
           "Bergamot",
           "Oregano"
         ],
@@ -64881,8 +64735,7 @@
       "notes": {
         "top": [
           "Saffron",
-          "Jasmine",
-          "Woods"
+          "Jasmine"
         ],
         "heart": [
           "Ambergris",
@@ -65308,8 +65161,7 @@
           "Cherry"
         ],
         "heart": [
-          "Vanilla",
-          "Spices"
+          "Vanilla"
         ],
         "base": [
           "Patchouli",
@@ -65412,7 +65264,6 @@
       "brand": "Afnan",
       "notes": {
         "top": [
-          "Fruits",
           "Rose",
           "Pink Pepper"
         ],
@@ -65478,8 +65329,7 @@
         ],
         "base": [
           "Musk",
-          "Leather",
-          "Spices"
+          "Leather"
         ]
       },
       "dupes": [],
@@ -66058,8 +65908,7 @@
         ],
         "heart": [
           "Lavender",
-          "Clove",
-          "Spices"
+          "Clove"
         ],
         "base": [
           "Cedarwood",
@@ -66375,8 +66224,7 @@
       "notes": {
         "top": [
           "Roses",
-          "Vanilla",
-          "Spices"
+          "Vanilla"
         ],
         "heart": [
           "Incense",
@@ -66719,7 +66567,6 @@
       "brand": "Maison Alhambra",
       "notes": {
         "top": [
-          "Fruits",
           "Mate",
           "Thyme",
           "Cypress"
@@ -69032,8 +68879,7 @@
       "notes": {
         "top": [
           "Black Currant",
-          "Pink Pepper",
-          "Citruses"
+          "Pink Pepper"
         ],
         "heart": [
           "Orchid",
@@ -69087,7 +68933,6 @@
         "top": [
           "Ginger",
           "Osmanthus",
-          "Citruses",
           "Artemisia"
         ],
         "heart": [
@@ -69494,7 +69339,6 @@
         ],
         "heart": [
           "Orchid",
-          "Spices",
           "Gardenia",
           "Ylang-Ylang",
           "Jasmine"
@@ -70020,7 +69864,6 @@
         ],
         "base": [
           "Jackfruit",
-          "Musky",
           "Sandalwood"
         ]
       },
@@ -70220,8 +70063,7 @@
       "notes": {
         "top": [
           "Rum",
-          "Cardamom",
-          "Spices"
+          "Cardamom"
         ],
         "heart": [
           "Nutmeg",
@@ -71074,8 +70916,7 @@
           "Grapefruit"
         ],
         "heart": [
-          "Bay Leaf",
-          "Spices"
+          "Bay Leaf"
         ],
         "base": [
           "Red Amber",
@@ -72106,8 +71947,7 @@
           "White Florals"
         ],
         "base": [
-          "Vanilla",
-          "Fruits"
+          "Vanilla"
         ]
       },
       "dupes": [],
@@ -72232,7 +72072,6 @@
         ],
         "base": [
           "Vanilla",
-          "Spices",
           "Pistachio"
         ]
       },
@@ -72520,7 +72359,6 @@
       "brand": "Ard Al Zaafaran",
       "notes": {
         "top": [
-          "Citruses",
           "Lemon",
           "Orange Red"
         ],
@@ -72756,9 +72594,7 @@
         "heart": [
           "Ylang-Ylang",
           "Jasmine",
-          "Gardenia",
-          "Fruits",
-          "Spices"
+          "Gardenia"
         ],
         "base": [
           "Patchouli",
@@ -73038,8 +72874,7 @@
         ],
         "base": [
           "Leather",
-          "Cypriol",
-          "Woods"
+          "Cypriol"
         ]
       },
       "dupes": [],
@@ -73063,8 +72898,7 @@
         ],
         "base": [
           "Amber",
-          "Balsam",
-          "Musky"
+          "Balsam"
         ]
       },
       "dupes": [],
@@ -73739,8 +73573,7 @@
         "top": [
           "Grapefruit",
           "Blood Oranges",
-          "Black Currants",
-          "Spices"
+          "Black Currants"
         ],
         "heart": [
           "Jasmine"
@@ -74472,7 +74305,6 @@
           "Patchouli"
         ],
         "base": [
-          "Citruses",
           "Cedar"
         ]
       },
@@ -74539,8 +74371,7 @@
       "brand": "Ajmal",
       "notes": {
         "top": [
-          "Turkish Rose",
-          "Woods"
+          "Turkish Rose"
         ],
         "heart": [
           "Amber",
@@ -74570,9 +74401,7 @@
           "Violets"
         ],
         "base": [
-          "Woods",
           "Musk",
-          "Spices",
           "Patchouli"
         ]
       },
@@ -74588,7 +74417,6 @@
       "brand": "Ajmal",
       "notes": {
         "top": [
-          "Florals",
           "Rose"
         ],
         "heart": [
@@ -74597,7 +74425,6 @@
         ],
         "base": [
           "Amber",
-          "Woods",
           "Cedar",
           "Musk"
         ]
@@ -74876,7 +74703,6 @@
           "Artemisia Incense"
         ],
         "heart": [
-          "Spices",
           "Leather",
           "Apricot",
           "Orris Root"
@@ -75338,8 +75164,7 @@
       "brand": "Ajmal",
       "notes": {
         "top": [
-          "Rose",
-          "Florals"
+          "Rose"
         ],
         "heart": [
           "Saffron",
@@ -75435,8 +75260,7 @@
       "brand": "Ajmal",
       "notes": {
         "top": [
-          "Rose",
-          "Florals"
+          "Rose"
         ],
         "heart": [
           "Spices"
@@ -76617,8 +76441,7 @@
           "Mate",
           "Cypress",
           "Thyme",
-          "Saffron",
-          "Fruit"
+          "Saffron"
         ],
         "heart": [
           "Jasmine",
@@ -78349,12 +78172,10 @@
         ],
         "heart": [
           "White Musk",
-          "Woods",
           "Oudh"
         ],
         "base": [
           "White Musk",
-          "Woods",
           "Oudh"
         ]
       },
@@ -78753,8 +78574,7 @@
         "base": [
           "Moss",
           "Orange Blossom",
-          "Musk",
-          "Woods"
+          "Musk"
         ]
       },
       "dupes": [],
@@ -78829,8 +78649,7 @@
         ],
         "heart": [
           "Rose",
-          "Cedarwood",
-          "Spices"
+          "Cedarwood"
         ],
         "base": [
           "Ambra",
@@ -78907,7 +78726,6 @@
       "notes": {
         "top": [
           "Juniper Berries",
-          "Citruses",
           "Blood Orange",
           "Sicilian Lemon"
         ],
@@ -79136,8 +78954,7 @@
         ],
         "base": [
           "Patchouli",
-          "Agarwood",
-          "Citruses"
+          "Agarwood"
         ]
       },
       "dupes": [],
@@ -79284,12 +79101,10 @@
         ],
         "heart": [
           "Roses",
-          "Spices",
           "Sandalwood"
         ],
         "base": [
           "White Musk",
-          "Woods",
           "Amber",
           "Ambergris"
         ]
@@ -79642,8 +79457,7 @@
         ],
         "base": [
           "Agarwood",
-          "Patchouli",
-          "Citruses"
+          "Patchouli"
         ]
       },
       "dupes": [],
@@ -80518,8 +80332,7 @@
         ],
         "base": [
           "Amber",
-          "Vanilla",
-          "Woods"
+          "Vanilla"
         ]
       },
       "dupes": [],
