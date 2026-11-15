@@ -80747,6 +80747,126 @@
       "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0582/2955/5259/files/05-27-9.jpg?v=1780131049",
       "source": "https://olfactoryfactoryllc.com/products/parfums-de-marly-valero"
+    },
+    {
+      "name": "Scandal Pour Homme Elixir",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Black Cherry"
+        ],
+        "heart": [
+          "Patchouli"
+        ],
+        "base": [
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0853/1863/1748/files/JeanPaulGaultierScandalPourHommeElixirParfum50ml_8516b98b-dea8-4cff-8bdb-e21ff7ecb87f.png?v=1769084738",
+      "source": "https://escentual.com/products/jean-paul-gaultier-scandal-pour-homme-elixir-parfum"
+    },
+    {
+      "name": "Scandal Elixir",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Blackberry"
+        ],
+        "heart": [
+          "Iris"
+        ],
+        "base": [
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0853/1863/1748/files/JeanPaulGaultierScandalElixirParfum80ml.png?v=1775827704",
+      "source": "https://escentual.com/products/jean-paul-gaultier-scandal-elixir-parfum"
+    },
+    {
+      "name": "Castley",
+      "brand": "Parfums de Marly",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Black Pepper"
+        ],
+        "heart": [
+          "Petitgrain Citronnier",
+          "Timut Pepper",
+          "Neroli Accord"
+        ],
+        "base": [
+          "Akigalawood",
+          "Labdanum",
+          "Benzoin Accord"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0853/1863/1748/files/Parfums_de_Marly_Castley_Eau_de_Parfum_Spray_75ml.png?v=1750850041",
+      "source": "https://escentual.com/products/parfums-de-marly-castley-eau-de-parfum-spray"
+    },
+    {
+      "name": "Byerley",
+      "brand": "Parfums de Marly",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Cardamom"
+        ],
+        "heart": [
+          "Cedarwood",
+          "Guaiac Wood Essence"
+        ],
+        "base": [
+          "Javanese Vetiver",
+          "Balsam"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0853/1863/1748/files/parfums_de_marley_byerley_eau_de_parfum_spray_125ml.png?v=1729191540",
+      "source": "https://escentual.com/products/parfums-de-marly-byerley-eau-de-parfum-spray-125ml"
+    },
+    {
+      "name": "Oajan",
+      "brand": "Parfums de Marly",
+      "notes": {
+        "top": [
+          "Honey",
+          "Cinnamon",
+          "Osmanthus"
+        ],
+        "heart": [
+          "Amber",
+          "Labdanum",
+          "Benzoin"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean",
+          "Patchouli",
+          "Davana"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "unisex",
+      "image": "https://cdn.shopify.com/s/files/1/0853/1863/1748/files/parfums_de_marly_oajan_eau_de_parfum_125ml.png?v=1729191554",
+      "source": "https://escentual.com/products/parfums-de-marly-oajan-eau-de-parfum-spray-125ml"
     }
   ]
 }
