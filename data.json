@@ -41,7 +41,8 @@
       ],
       "prices": {},
       "gender": "unisex",
-      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/08ub1xtjo2.png?v=1773181550"
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/08ub1xtjo2.png?v=1773181550",
+      "source": "https://www.beautyhouse.com/products/maison-francis-kurkdjian-baccarat-rouge-540-eau-de-parfum-for-everyone"
     },
     {
       "name": "Aventus",
@@ -77,7 +78,8 @@
       ],
       "prices": {},
       "gender": "men",
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/6_d8b413e8-b123-49b1-9626-68be988387c6.png?v=1767866679"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/6_d8b413e8-b123-49b1-9626-68be988387c6.png?v=1767866679",
+      "source": "https://www.beautyhouse.com/products/creed-aventus-eau-de-parfum-for-men"
     },
     {
       "name": "Santal 33",
@@ -107,7 +109,8 @@
       ],
       "prices": {},
       "gender": "unisex",
-      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/0584tw78ud.png?v=1723933082"
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/0584tw78ud.png?v=1723933082",
+      "source": "https://www.beautyhouse.com/products/le-labo-santal-33-eau-de-parfum-for-everyone"
     },
     {
       "name": "Black Opium",
@@ -136,7 +139,8 @@
       ],
       "prices": {},
       "gender": "women",
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitled_design_2_a5667a8e-e99a-4c27-ba29-a2353dbaf5b6.png?v=1770634073"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitled_design_2_a5667a8e-e99a-4c27-ba29-a2353dbaf5b6.png?v=1770634073",
+      "source": "https://www.beautyhouse.com/products/yves-saint-laurent-opium-black-eau-de-parfum-for-women"
     },
     {
       "name": "Sauvage",
@@ -162,7 +166,8 @@
       "similar": [],
       "prices": {},
       "gender": "men",
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-16T212303.972.png?v=1771255480"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-16T212303.972.png?v=1771255480",
+      "source": "https://arvellafragrance.com/products/sauvage-christian-edt-1"
     },
     {
       "name": "Bleu de Chanel",
@@ -192,7 +197,8 @@
       "similar": [],
       "prices": {},
       "gender": "men",
-      "image": "https://cdn.shopify.com/s/files/1/0690/1081/7340/files/chanel-mens-bleu-de-chanel-edt-spray-17-oz-fragrances-3145891074505.jpg?v=1686052090"
+      "image": "https://cdn.shopify.com/s/files/1/0690/1081/7340/files/chanel-mens-bleu-de-chanel-edt-spray-17-oz-fragrances-3145891074505.jpg?v=1686052090",
+      "source": "https://www.mazenonline.com/products/bleu-de-chanel-eau-de-parfum-pour-homme"
     },
     {
       "name": "No. 5",
@@ -223,7 +229,8 @@
       "similar": [],
       "prices": {},
       "gender": "women",
-      "image": "https://images.selfridges.com/is/image/selfridges/R04213983_M"
+      "image": "https://images.selfridges.com/is/image/selfridges/R04213983_M",
+      "source": "https://ramfabeauty.com/products/chanel-no5-edp-women-perfume-100ml"
     },
     {
       "name": "Libre",
@@ -253,7 +260,8 @@
       "similar": [],
       "prices": {},
       "gender": "women",
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-71.png?v=1767866721"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-71.png?v=1767866721",
+      "source": "https://arvellafragrance.com/products/yves-saint-laurent-libre-edp-3-0-oz-90ml"
     },
     {
       "name": "Lost Cherry",
@@ -276,21 +284,19 @@
           "Sandalwood"
         ]
       },
-      "dupes": [
-        "Alt. Fragrances Cherry Smash"
-      ],
+      "dupes": [],
       "similar": [],
       "prices": {},
       "gender": "unisex",
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/lostcherry100mltester.png?v=1767866654"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/lostcherry100mltester.png?v=1767866654",
+      "source": "https://www.beautyhouse.com/products/tom-ford-lost-cherry-eau-de-parfum-for-women"
     },
     {
       "name": "Tobacco Vanille",
       "brand": "Tom Ford",
       "notes": {
         "top": [
-          "Tobacco Leaf",
-          "Spicy Notes"
+          "Tobacco Leaf"
         ],
         "heart": [
           "Vanilla",
@@ -299,15 +305,15 @@
           "Tobacco Blossom"
         ],
         "base": [
-          "Dried Fruits",
-          "Woody Notes"
+          "Dried Fruits"
         ]
       },
       "dupes": [],
       "similar": [],
       "prices": {},
       "gender": "unisex",
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/tobaccovanille50ml-2.png?v=1767866654"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/tobaccovanille50ml-2.png?v=1767866654",
+      "source": "https://www.beautyhouse.com/products/tom-ford-tobacco-vanille-eau-de-parfum-for-everyone"
     },
     {
       "name": "Delina",
@@ -334,7 +340,8 @@
       "similar": [],
       "prices": {},
       "gender": "women",
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Sara_28_79e5fd44-367a-43e8-b044-9fad79dcdcd9.png?v=1780732441"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Sara_28_79e5fd44-367a-43e8-b044-9fad79dcdcd9.png?v=1780732441",
+      "source": "https://justmylook.com/products/parfums-de-marly-delina-eau-de-parfum-75ml"
     },
     {
       "name": "Flowerbomb",
@@ -361,7 +368,8 @@
       "similar": [],
       "prices": {},
       "gender": "women",
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_30.png?v=1770345048"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_30.png?v=1770345048",
+      "source": "https://sensabeauty.com/products/viktor-rolf-flowerbomb-edp"
     },
     {
       "name": "Miss Dior",
@@ -388,7 +396,8 @@
       "similar": [],
       "prices": {},
       "gender": "women",
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SARA_78_b6401381-358f-4537-93be-124d06149a8a.png?v=1773253762"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SARA_78_b6401381-358f-4537-93be-124d06149a8a.png?v=1773253762",
+      "source": "https://arvellafragrance.com/products/christian-ladies-miss-dior-edp"
     },
     {
       "name": "Good Girl",
@@ -417,7 +426,8 @@
       "similar": [],
       "prices": {},
       "gender": "women",
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_59.png?v=1770359639"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_59.png?v=1770359639",
+      "source": "https://tripletraders.com/products/carolina-herrera-good-girl-eau-de-parfum-spray-30ml-1-0oz"
     },
     {
       "name": "Wood Sage & Sea Salt",
@@ -439,7 +449,8 @@
       ],
       "prices": {},
       "gender": "unisex",
-      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/029tlneeoy.png?v=1723923470"
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/029tlneeoy.png?v=1723923470",
+      "source": "https://www.beautyhouse.com/products/jo-malone-wood-sage-sea-salt-eau-de-cologne-for-women"
     },
     {
       "name": "Oud for Greatness",
@@ -464,7 +475,8 @@
       "similar": [],
       "prices": {},
       "gender": "unisex",
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Oud-for-greatness_1024x1024_04a8d29d-e1de-4e88-b244-4ee0c54cb4f3.jpg?v=1767866679"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Oud-for-greatness_1024x1024_04a8d29d-e1de-4e88-b244-4ee0c54cb4f3.jpg?v=1767866679",
+      "source": "https://fridaycharm.com/products/initio-oud-for-greatness-eau-de-parfum-90-ml"
     },
     {
       "name": "Love, Don't Be Shy",
@@ -495,7 +507,8 @@
       "similar": [],
       "prices": {},
       "gender": "women",
-      "image": "https://static.thcdn.com/productimg/original/13319111-5704896624218106.jpg"
+      "image": "https://static.thcdn.com/productimg/original/13319111-5704896624218106.jpg",
+      "source": "https://justmylook.com/products/kilian-love-dont-be-shy-eau-de-parfum-50ml"
     },
     {
       "name": "You",
@@ -519,7 +532,9 @@
         "Le Labo Another 13"
       ],
       "prices": {},
-      "gender": "unisex"
+      "gender": "unisex",
+      "source": "https://www.spacenk.com/us/fragrance/personal-fragrance/fragrance/you-eau-de-parfum-UK200049717.html",
+      "image": "https://www.spacenk.com/dw/image/v2/ABCE_PRD/on/demandware.static/-/Sites-spacenkmastercatalog/default/dwc3aca23b/products/GLOSSIER/UK200049717_GLOSSIER.jpg?sw=582&sh=582"
     },
     {
       "name": "1 Million",
@@ -532,13 +547,11 @@
         ],
         "heart": [
           "Cinnamon",
-          "Rose",
-          "Spicy Notes"
+          "Rose"
         ],
         "base": [
           "Amber",
           "Leather",
-          "Woody Notes",
           "Patchouli"
         ]
       },
@@ -546,7 +559,8 @@
       "similar": [],
       "prices": {},
       "gender": "men",
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/7_0997b17e-fe61-4e7f-93bb-4292ed818a2a.png?v=1767868416"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/7_0997b17e-fe61-4e7f-93bb-4292ed818a2a.png?v=1767868416",
+      "source": "https://arvellafragrance.com/products/paco-rabanne-1-million-edt-1-7-oz-50ml"
     },
     {
       "name": "Paradoxe",
@@ -573,7 +587,8 @@
       "similar": [],
       "prices": {},
       "gender": "women",
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-12T164925.537.png?v=1770895194"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-12T164925.537.png?v=1770895194",
+      "source": "https://arvellafragrance.com/products/prada-paradoxe-edp-3-0-oz-90ml"
     },
     {
       "name": "Y",
@@ -600,7 +615,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/4_06ad5373-eb61-4461-a194-10a3a9d05cd6.png?v=1767867768"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/4_06ad5373-eb61-4461-a194-10a3a9d05cd6.png?v=1767867768",
+      "source": "https://arvellafragrance.com/products/yves-saint-laurent-y-edt-3-4-oz-100ml"
     },
     {
       "name": "Acqua di Giò",
@@ -614,7 +630,6 @@
           "Mandarin"
         ],
         "heart": [
-          "Sea Notes",
           "Jasmine",
           "Rosemary",
           "Peach"
@@ -629,7 +644,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/UniversalImages.png?v=1767866709"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/UniversalImages.png?v=1767866709",
+      "source": "https://www.beautyhouse.com/products/giorgio-armani-acqua-di-gio-eau-de-parfum-for-men"
     },
     {
       "name": "Eros",
@@ -656,7 +672,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/16_013f2018-f4cb-491c-bdbf-f14a91212237.png?v=1769242552"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/16_013f2018-f4cb-491c-bdbf-f14a91212237.png?v=1769242552",
+      "source": "https://www.beautyhouse.com/products/versace-eros-eau-de-toilette-for-men"
     },
     {
       "name": "Le Male",
@@ -684,7 +701,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/2_97996610-5282-4d8e-b91e-20b5d82b57b0.png?v=1767866698"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/2_97996610-5282-4d8e-b91e-20b5d82b57b0.png?v=1767866698",
+      "source": "https://tripletraders.com/products/jean-paul-gaultier-le-male-eau-de-toilette-spray-125ml-4-2oz"
     },
     {
       "name": "Dior Homme Intense",
@@ -707,7 +725,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://images.selfridges.com/is/image/selfridges/359-84011246-F047924709_M"
+      "image": "https://images.selfridges.com/is/image/selfridges/359-84011246-F047924709_M",
+      "source": "https://fridaycharm.com/products/christian-dior-dior-homme-intense-eau-de-perfume-for-men-100ml"
     },
     {
       "name": "Terre d'Hermès",
@@ -733,7 +752,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-13T122235.144.png?v=1770965154"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign-2026-02-13T122235.144.png?v=1770965154",
+      "source": "https://arvellafragrance.com/products/hermes-terre-dhermes-edt-3-4-oz-100ml"
     },
     {
       "name": "L'Homme",
@@ -760,7 +780,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/37_04cbbb84-0ca5-436b-858f-f2b5b11451fd.png?v=1773295912"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/37_04cbbb84-0ca5-436b-858f-f2b5b11451fd.png?v=1773295912",
+      "source": "https://fridaycharm.com/products/prada-lhomme-eau-de-toilette-for-men-100ml"
     },
     {
       "name": "Born in Roma Uomo Intense",
@@ -780,7 +801,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01eixkqzd3.png?v=1771615476"
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01eixkqzd3.png?v=1771615476",
+      "source": "https://arvellafragrance.com/products/valentino-uomo-born-in-roma-intense-edp-3-4-oz-100ml"
     },
     {
       "name": "Ombré Leather",
@@ -803,7 +825,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SARA_137bfb02-7ddb-4f22-beba-b6dedb0116f2.png?v=1774353022"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SARA_137bfb02-7ddb-4f22-beba-b6dedb0116f2.png?v=1774353022",
+      "source": "https://fridaycharm.com/products/tom-ford-ombre-leather-eau-de-perfume-100ml"
     },
     {
       "name": "Gypsy Water",
@@ -830,7 +853,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/angelshare50ml-10.png?v=1767866656"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/angelshare50ml-10.png?v=1767866656",
+      "source": "https://justmylook.com/products/byredo-gypsy-water-eau-de-parfum-100ml"
     },
     {
       "name": "La Vie Est Belle",
@@ -856,7 +880,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/25_928ea33c-eadf-456e-874d-aad7b24380fe.png?v=1767866703"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/25_928ea33c-eadf-456e-874d-aad7b24380fe.png?v=1767866703",
+      "source": "https://www.beautyhouse.com/products/lancome-la-vie-est-belle-for-women"
     },
     {
       "name": "Cloud",
@@ -874,14 +899,14 @@
           "Vanilla Orchid"
         ],
         "base": [
-          "Musk",
-          "Woody Notes"
+          "Musk"
         ]
       },
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/4_76ee3c71-aa77-4d80-943e-0c43ed5e3ab1.png?v=1767868600"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/4_76ee3c71-aa77-4d80-943e-0c43ed5e3ab1.png?v=1767868600",
+      "source": "https://decantx.com/products/ariana-grande-cloud-eau-de-parfum-for-women"
     },
     {
       "name": "Cheirosa 62",
@@ -905,7 +930,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0269/7763/2389/files/Sol_de_Janeiro_Crush_Cheriosa_62_Perfume_Mist.png?v=1788455385"
+      "image": "https://cdn.shopify.com/s/files/1/0269/7763/2389/files/Sol_de_Janeiro_Crush_Cheriosa_62_Perfume_Mist.png?v=1788455385",
+      "source": "https://theskinfit.com/products/sol-de-janeiro-brazilian-crush-cheirosa-62-pistachio-salted-caramel-perfume-mist-90ml"
     },
     {
       "name": "Her",
@@ -931,7 +957,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01nh7toupr.png?v=1781129589"
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01nh7toupr.png?v=1781129589",
+      "source": "https://tripletraders.com/products/burberry-her-eau-de-parfum-spray-100ml-3-3oz"
     },
     {
       "name": "Bloom",
@@ -951,7 +978,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitled_design_21.png?v=1770562793"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitled_design_21.png?v=1770562793",
+      "source": "https://fridaycharm.com/products/gucci-bloom-perfume-for-women"
     },
     {
       "name": "Vanilla 28",
@@ -973,7 +1001,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SHAMMY-2026-03-09T115208.035.png?v=1773035550"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/SHAMMY-2026-03-09T115208.035.png?v=1773035550",
+      "source": "https://arvellafragrance.com/products/vanilla-28-edp"
     },
     {
       "name": "Daisy",
@@ -999,7 +1028,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_10_42692987-91fa-45b9-be51-2589dc569eac.png?v=1770579839"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_10_42692987-91fa-45b9-be51-2589dc569eac.png?v=1770579839",
+      "source": "https://arvellafragrance.com/products/marc-jacobs-daisy-edt-3-4-oz-100ml"
     },
     {
       "name": "Coco Mademoiselle",
@@ -1026,7 +1056,8 @@
       "dupes": [],
       "similar": [],
       "prices": {},
-      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02mnh982py.jpg?v=1724871544"
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02mnh982py.jpg?v=1724871544",
+      "source": "https://fridaycharm.com/products/chanel-coco-mademoiselle-eau-de-toilette-for-women-100ml"
     },
     {
       "name": "Club de Nuit Untold",
@@ -1095,8 +1126,7 @@
         ],
         "heart": [
           "Jasmine",
-          "Lily of the Valley",
-          "Woody Notes"
+          "Lily of the Valley"
         ],
         "base": [
           "Patchouli",
@@ -1227,32 +1257,6 @@
       "source": "https://dossier.co/products/floral-lavender",
       "dupeOf": "Yves Saint Laurent Libre",
       "image": "https://cdn.shopify.com/s/files/1/0047/4067/7699/files/Floral_Lavender.jpg?v=1779197207"
-    },
-    {
-      "name": "Cherry Smash",
-      "brand": "Alt. Fragrances",
-      "gender": "unisex",
-      "notes": {
-        "top": [
-          "Black Cherry",
-          "Bitter Almond"
-        ],
-        "heart": [
-          "Turkish Rose",
-          "Jasmine Sambac"
-        ],
-        "base": [
-          "Tonka Bean",
-          "Sandalwood",
-          "Woods"
-        ]
-      },
-      "dupes": [],
-      "similar": [],
-      "prices": {},
-      "source": "https://www.therazorcompany.com/products/alt-fragrances-cherry-smash-eau-de-parfum-60ml",
-      "dupeOf": "Tom Ford Lost Cherry",
-      "image": "https://cdn.shopify.com/s/files/1/0042/7160/3782/files/800x800_Bottles_60ml_CherrySmash.png?v=1762181892"
     },
     {
       "name": "Delilah",
@@ -1462,17 +1466,14 @@
       "notes": {
         "top": [
           "Lemon",
-          "Grapefruit",
-          "Spices"
+          "Grapefruit"
         ],
         "heart": [
           "Cypress",
-          "Lavandin",
-          "Aquatic Accord"
+          "Lavandin"
         ],
         "base": [
-          "Patchouli",
-          "Mineral Accord"
+          "Patchouli"
         ]
       },
       "dupes": [
@@ -1546,7 +1547,6 @@
       "notes": {
         "top": [
           "Bergamot",
-          "Citrus",
           "Pepper"
         ],
         "heart": [
@@ -1654,7 +1654,6 @@
       "gender": "men",
       "notes": {
         "top": [
-          "Spices",
           "Rum"
         ],
         "heart": [
@@ -1738,7 +1737,6 @@
       "notes": {
         "top": [
           "Grapefruit",
-          "Sea Notes",
           "Mandarin Orange"
         ],
         "heart": [
@@ -1970,8 +1968,7 @@
           "Tangerine"
         ],
         "heart": [
-          "Tropical Fruits",
-          "Gourmand Accord"
+          "Tropical Fruits"
         ],
         "base": [
           "Vanilla",
@@ -2099,7 +2096,6 @@
           "Black Pepper"
         ],
         "heart": [
-          "Sea Notes",
           "Violet"
         ],
         "base": [
@@ -2121,8 +2117,7 @@
       "gender": "unisex",
       "notes": {
         "top": [
-          "Saffron",
-          "Floral Notes"
+          "Saffron"
         ],
         "heart": [
           "Amberwood",
@@ -2421,14 +2416,12 @@
           "Warm Berries"
         ],
         "heart": [
-          "Spices",
           "Cocoa",
           "Vanilla"
         ],
         "base": [
           "Musk",
-          "Tonka Bean",
-          "Woods"
+          "Tonka Bean"
         ]
       },
       "dupes": [],
@@ -2963,7 +2956,6 @@
       "gender": "men",
       "notes": {
         "top": [
-          "Citrus",
           "Pear"
         ],
         "heart": [
@@ -2988,14 +2980,12 @@
       "gender": "men",
       "notes": {
         "top": [
-          "Sea Notes",
           "Sea Salt",
           "Grapefruit"
         ],
         "heart": [
           "Bay Leaf",
-          "Geranium",
-          "Spices"
+          "Geranium"
         ],
         "base": [
           "Red Amber",
@@ -3134,7 +3124,6 @@
         ],
         "base": [
           "Clearwood",
-          "Woods",
           "Musk"
         ]
       },
@@ -6817,7 +6806,6 @@
         ],
         "heart": [
           "Magnolia",
-          "Green Accord",
           "Lily-Of-The-Valley"
         ],
         "base": [
@@ -7745,34 +7733,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03tahjbvlm.png?v=1761336040"
     },
     {
-      "name": "Spice Bomb Limited Edition",
-      "brand": "Viktor&Rolf",
-      "gender": "men",
-      "notes": {
-        "top": [
-          "Pink Pepper",
-          "Elemi",
-          "Bergamot",
-          "Grapefruit"
-        ],
-        "heart": [
-          "Cinnamon",
-          "Saffron",
-          "Paprika"
-        ],
-        "base": [
-          "Tobacco",
-          "Leather",
-          "Vetiver"
-        ]
-      },
-      "dupes": [],
-      "similar": [],
-      "prices": {},
-      "source": "https://www.beautyhouse.com/products/viktor-rolf-spice-bomb-limited-edition-eau-de-toilette-for-men",
-      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02m60aiwts.png?v=1764623081"
-    },
-    {
       "name": "Spicebomb Night Vision",
       "brand": "Viktor&Rolf",
       "gender": "men",
@@ -8695,8 +8655,7 @@
         ],
         "base": [
           "Suede",
-          "Amber",
-          "Woods"
+          "Amber"
         ]
       },
       "dupes": [],
@@ -8761,8 +8720,7 @@
         ],
         "heart": [
           "Geranium",
-          "Sage",
-          "Marine Accord"
+          "Sage"
         ],
         "base": [
           "Moss",
@@ -9041,8 +8999,7 @@
       "notes": {
         "top": [
           "Bergamot",
-          "Red Fruits",
-          "Marine Accords"
+          "Red Fruits"
         ],
         "heart": [
           "Violet",
@@ -9267,7 +9224,6 @@
           "Lemon"
         ],
         "heart": [
-          "Spices",
           "Guaiac Wood",
           "Cedar"
         ],
@@ -9494,8 +9450,7 @@
       "notes": {
         "top": [
           "Almond",
-          "Milky Lactones",
-          "Spices"
+          "Milky Lactones"
         ],
         "heart": [
           "White Flowers"
@@ -10166,7 +10121,6 @@
         ],
         "heart": [
           "Lavender",
-          "Aquatic Accords",
           "Violet Leaves"
         ],
         "base": [
@@ -10874,7 +10828,6 @@
       "gender": "unisex",
       "notes": {
         "top": [
-          "Musky",
           "Amber",
           "Bergamot",
           "Orange",
@@ -12407,8 +12360,7 @@
       "notes": {
         "top": [
           "Rose",
-          "Geranium",
-          "Citruses"
+          "Geranium"
         ],
         "heart": [
           "Cloves",
@@ -12744,8 +12696,7 @@
       "notes": {
         "top": [
           "Rose",
-          "Geranium",
-          "Citruses"
+          "Geranium"
         ],
         "heart": [
           "Cloves",
@@ -13198,7 +13149,6 @@
         ],
         "base": [
           "Musk",
-          "Gourmand Accord",
           "Sandalwood"
         ]
       },
@@ -13858,7 +13808,6 @@
           "Amber"
         ],
         "heart": [
-          "Spices",
           "Iris"
         ],
         "base": [
@@ -13887,7 +13836,6 @@
         ],
         "heart": [
           "Cashmeran",
-          "Ozonic Accord",
           "Geranium",
           "Rose",
           "Apple"
@@ -14286,9 +14234,7 @@
           "Mirabelle"
         ],
         "heart": [
-          "Chestnut",
-          "Gourmand Accord",
-          "Spices"
+          "Chestnut"
         ],
         "base": [
           "Sandalwood",
@@ -14478,8 +14424,7 @@
       "brand": "Armaf",
       "notes": {
         "top": [
-          "Grapefruit",
-          "Citruses"
+          "Grapefruit"
         ],
         "heart": [
           "Geranium",
@@ -14646,8 +14591,7 @@
       "notes": {
         "top": [
           "Bergamot",
-          "Black Pepper",
-          "Spices"
+          "Black Pepper"
         ],
         "heart": [
           "Oud",
@@ -15178,7 +15122,6 @@
           "Lemon"
         ],
         "heart": [
-          "Spices",
           "Cedar",
           "Guaiac Wood"
         ],
@@ -16031,6 +15974,34 @@
       "source": "https://almanaar.co.uk/products/fakhar-lattafa-for-women-eau-de-parfum-100ml-lattafa"
     },
     {
+      "name": "Spicebomb Limited Edition",
+      "brand": "Viktor&Rolf",
+      "notes": {
+        "top": [
+          "Pink Pepper",
+          "Elemi",
+          "Bergamot",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Saffron",
+          "Paprika"
+        ],
+        "base": [
+          "Tobacco",
+          "Leather",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02m60aiwts.png?v=1764623081",
+      "source": "https://www.beautyhouse.com/products/viktor-rolf-spice-bomb-limited-edition-eau-de-toilette-for-men"
+    },
+    {
       "name": "Spring Flower",
       "brand": "Creed",
       "notes": {
@@ -16444,8 +16415,7 @@
       "brand": "Acqua di Parma",
       "notes": {
         "top": [
-          "Orange Blossom",
-          "Citruses"
+          "Orange Blossom"
         ],
         "heart": [
           "Myrrh",
@@ -16809,8 +16779,7 @@
       "brand": "Dior",
       "notes": {
         "top": [
-          "Sea Salt",
-          "Citruses"
+          "Sea Salt"
         ],
         "heart": [
           "Jasmine",
@@ -18035,7 +18004,6 @@
       "brand": "Acqua di Parma",
       "notes": {
         "top": [
-          "Citruses",
           "Bergamot",
           "Cardamom",
           "Ginger"
@@ -18298,8 +18266,7 @@
           "Grapefruit"
         ],
         "heart": [
-          "Violet Leaf",
-          "Marine Accord"
+          "Violet Leaf"
         ],
         "base": [
           "Ambergris",
@@ -18756,7 +18723,6 @@
         ],
         "base": [
           "Amber",
-          "Woods",
           "Musk"
         ]
       },
@@ -19382,7 +19348,6 @@
           "Rose"
         ],
         "base": [
-          "Gourmand Accord",
           "Amberwood",
           "Amber",
           "Cashmeran"
@@ -19730,7 +19695,6 @@
       "brand": "Creed",
       "notes": {
         "top": [
-          "Spices",
           "Frankincense",
           "Ginger",
           "Bergamot"
@@ -20208,7 +20172,6 @@
           "Lemon"
         ],
         "heart": [
-          "Spices",
           "Violet Leaf",
           "White Pepper",
           "Basil"
@@ -20334,7 +20297,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Spices",
           "Pimento",
           "Mandarin"
         ],
@@ -21497,7 +21459,6 @@
       "brand": "Byredo",
       "notes": {
         "top": [
-          "Citruses",
           "Petitgrain",
           "Bergamot"
         ],
@@ -21781,8 +21742,7 @@
       "brand": "Hermès",
       "notes": {
         "top": [
-          "Orange",
-          "Citruses"
+          "Orange"
         ],
         "heart": [
           "Geranium"
@@ -22708,7 +22668,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Citruses",
           "Orange",
           "Cardamom",
           "Lavender",
@@ -22745,7 +22704,6 @@
           "Bergamot"
         ],
         "heart": [
-          "Fruits",
           "Saffron",
           "Musk",
           "Sage",
@@ -23828,8 +23786,7 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Saffron",
-          "Citruses"
+          "Saffron"
         ],
         "heart": [
           "Agarwood",
@@ -25415,7 +25372,6 @@
       "notes": {
         "top": [
           "Grapefruit",
-          "Citruses",
           "Lemon"
         ],
         "heart": [
@@ -25981,8 +25937,7 @@
       "notes": {
         "top": [
           "Vanilla",
-          "Oudh",
-          "Spices"
+          "Oudh"
         ],
         "heart": [
           "Musk",
@@ -26033,7 +25988,6 @@
       "brand": "Creed",
       "notes": {
         "top": [
-          "Citruses",
           "Mint"
         ],
         "heart": [
@@ -26864,8 +26818,7 @@
           "Ginger",
           "Thyme",
           "Grapefruit",
-          "Bergamot",
-          "Green Accord"
+          "Bergamot"
         ],
         "heart": [
           "Vanilla",
@@ -30585,7 +30538,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Fruits",
           "White Musk"
         ],
         "heart": [
@@ -30673,7 +30625,6 @@
         ],
         "base": [
           "Agarwood",
-          "Woods",
           "Ambergris"
         ]
       },
@@ -30689,7 +30640,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Woods",
           "Turkish Rose"
         ],
         "heart": [
@@ -30714,8 +30664,7 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Mandarin Oranges",
-          "Spices"
+          "Mandarin Oranges"
         ],
         "heart": [
           "Saffron",
@@ -30795,7 +30744,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Fruits",
           "Apple"
         ],
         "heart": [
@@ -32082,8 +32030,7 @@
       "brand": "Paco Rabanne",
       "notes": {
         "top": [
-          "Ginger",
-          "Green Accord"
+          "Ginger"
         ],
         "heart": [
           "Cinnamon",
@@ -32155,8 +32102,7 @@
       "brand": "Paco Rabanne",
       "notes": {
         "top": [
-          "Calabrian Bergamot",
-          "Aquatic Accord"
+          "Calabrian Bergamot"
         ],
         "heart": [
           "Jasmine",
@@ -32869,7 +32815,6 @@
         ],
         "heart": [
           "Rose",
-          "Spices",
           "Cedarwood"
         ],
         "base": [
@@ -32923,8 +32868,7 @@
         ],
         "base": [
           "Ambergris",
-          "Vanilla",
-          "Woods"
+          "Vanilla"
         ]
       },
       "dupes": [],
@@ -33040,8 +32984,7 @@
           "Red Fruits"
         ],
         "heart": [
-          "Vanilla",
-          "Woods"
+          "Vanilla"
         ],
         "base": [
           "Amber",
@@ -33139,8 +33082,7 @@
         ],
         "heart": [
           "Oud",
-          "Amber",
-          "Woods"
+          "Amber"
         ],
         "base": [
           "Vanilla",
@@ -33184,7 +33126,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Spices",
           "Smoke"
         ],
         "heart": [
@@ -34475,8 +34416,7 @@
         "base": [
           "Caramel",
           "Tonka",
-          "Sandalwood",
-          "Musky"
+          "Sandalwood"
         ]
       },
       "dupes": [],
@@ -34646,7 +34586,6 @@
           "Amber"
         ],
         "heart": [
-          "Spices",
           "Honey"
         ],
         "base": [
@@ -34751,8 +34690,7 @@
         "top": [
           "Saffron",
           "Cardamom",
-          "Coriander",
-          "Spices"
+          "Coriander"
         ],
         "heart": [
           "Jasmine",
@@ -35625,7 +35563,6 @@
         "heart": [
           "Jasmine",
           "Nutmeg",
-          "Spices",
           "Ylang-Ylang",
           "Pepper"
         ],
@@ -35887,7 +35824,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Citruses",
           "Bergamot"
         ],
         "heart": [
@@ -35988,8 +35924,7 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Mandarin Oranges",
-          "Spices"
+          "Mandarin Oranges"
         ],
         "heart": [
           "Saffron",
@@ -36476,7 +36411,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Spices",
           "Caraway",
           "Sage",
           "Bergamot"
@@ -36536,7 +36470,6 @@
           "Mandarin"
         ],
         "heart": [
-          "Green Accord",
           "Orange Blossom",
           "Neroli",
           "Geranium"
@@ -37097,7 +37030,6 @@
       "brand": "Lattafa",
       "notes": {
         "top": [
-          "Fruits",
           "Lily",
           "Pomegranate",
           "Aldehydes"
@@ -38452,7 +38384,6 @@
       "brand": "Khadlaj",
       "notes": {
         "top": [
-          "Spices",
           "Saffron",
           "Raspberry"
         ],
@@ -38672,8 +38603,7 @@
         "base": [
           "Leather",
           "Patchouli",
-          "Sandalwood",
-          "Woods"
+          "Sandalwood"
         ]
       },
       "dupes": [],
@@ -40010,7 +39940,6 @@
       "brand": "Born to Stand Out",
       "notes": {
         "top": [
-          "Citruses",
           "Sage",
           "Calabrian Bergamot",
           "Violet"
@@ -41192,7 +41121,6 @@
         "top": [
           "Pear",
           "Bulgarian Rose",
-          "Citruses",
           "Hawthorn"
         ],
         "heart": [
@@ -41848,7 +41776,6 @@
       "notes": {
         "top": [
           "Cardamom",
-          "Citruses",
           "Star Anise",
           "Cypress",
           "Fennel"
@@ -42536,7 +42463,6 @@
           "Vetiver"
         ],
         "base": [
-          "Spices",
           "Musk",
           "Guaiac Wood"
         ]
@@ -44012,7 +43938,6 @@
         "base": [
           "Vanilla",
           "Amber",
-          "Spices",
           "Ambrette"
         ]
       },
@@ -44234,8 +44159,7 @@
         "top": [
           "Violet Leaf",
           "Neroli",
-          "Mandarin Orange",
-          "Citruses"
+          "Mandarin Orange"
         ],
         "heart": [
           "Jasmine",
@@ -44953,8 +44877,7 @@
       "brand": "Mancera",
       "notes": {
         "top": [
-          "Bergamot",
-          "Spices"
+          "Bergamot"
         ],
         "heart": [
           "Violet",
@@ -44979,8 +44902,7 @@
       "brand": "Mancera",
       "notes": {
         "top": [
-          "Pear",
-          "Citruses"
+          "Pear"
         ],
         "heart": [
           "Indian Ginger",
@@ -45180,7 +45102,6 @@
       "notes": {
         "top": [
           "Red Fruits",
-          "Citruses",
           "Pear",
           "Pink Pepper"
         ],
@@ -45294,7 +45215,6 @@
       "brand": "Mancera",
       "notes": {
         "top": [
-          "Spices",
           "Bergamot"
         ],
         "heart": [
@@ -48688,7 +48608,6 @@
       "brand": "Mancera",
       "notes": {
         "top": [
-          "Citruses",
           "Agarwood",
           "Lavender",
           "Cinnamon",
@@ -50074,7 +49993,6 @@
           "Plum",
           "Cardamom",
           "Lavender",
-          "Citruses",
           "Bergamot"
         ],
         "heart": [
@@ -50214,8 +50132,7 @@
         ],
         "heart": [
           "Orange Blossom",
-          "Damask Rose",
-          "Spices"
+          "Damask Rose"
         ],
         "base": [
           "Sandalwood",
@@ -51010,7 +50927,6 @@
       "notes": {
         "top": [
           "Pineapple",
-          "Citruses",
           "Pink Pepper",
           "Black Pepper"
         ],
@@ -51144,7 +51060,6 @@
       "brand": "Sospiro",
       "notes": {
         "top": [
-          "Fruits",
           "Turkish Rose"
         ],
         "heart": [
@@ -51179,7 +51094,6 @@
           "Bergamot"
         ],
         "heart": [
-          "Spices",
           "Carnation"
         ],
         "base": [
@@ -51310,7 +51224,6 @@
       "brand": "Sospiro",
       "notes": {
         "top": [
-          "Citruses",
           "Jasmine"
         ],
         "heart": [
@@ -51655,7 +51568,6 @@
         "top": [
           "Rose Water",
           "Rose",
-          "Citruses",
           "Rhubarb Leaf"
         ],
         "heart": [
@@ -52263,8 +52175,7 @@
       "notes": {
         "top": [
           "Pear",
-          "Apple",
-          "Citruses"
+          "Apple"
         ],
         "heart": [
           "Ambrette",
@@ -52829,7 +52740,6 @@
       "notes": {
         "top": [
           "Grapefruit",
-          "Spices",
           "Bergamot"
         ],
         "heart": [
@@ -53043,7 +52953,6 @@
           "M Usk",
           "Sandalwood",
           "Oask Moss",
-          "Woodsy Accord",
           "Vetiver"
         ]
       },
@@ -53117,8 +53026,7 @@
       "notes": {
         "top": [
           "Cardamom",
-          "Coriander",
-          "Citruses"
+          "Coriander"
         ],
         "heart": [
           "Lavender",
@@ -53668,7 +53576,6 @@
       "notes": {
         "top": [
           "Sumac",
-          "Citruses",
           "Cumin"
         ],
         "heart": [
@@ -55111,7 +55018,6 @@
       "notes": {
         "top": [
           "Sicilian Citruses",
-          "Spices",
           "Black Currant"
         ],
         "heart": [
@@ -55362,7 +55268,6 @@
       "brand": "Kilian",
       "notes": {
         "top": [
-          "Woods",
           "Sandalwood"
         ],
         "heart": [
@@ -55468,8 +55373,7 @@
         "heart": [
           "Tea",
           "Bamboo",
-          "Mimosa",
-          "Spices"
+          "Mimosa"
         ],
         "base": [
           "Fig Leaf",
@@ -55986,7 +55890,6 @@
           "Mandarin Orange"
         ],
         "heart": [
-          "Fruits",
           "Desert Rose"
         ],
         "base": [
@@ -56095,8 +55998,7 @@
         "heart": [
           "Osmanthus",
           "Mate",
-          "Jasmine",
-          "Spices"
+          "Jasmine"
         ],
         "base": [
           "Iris",
@@ -56409,7 +56311,6 @@
           "Vetiver"
         ],
         "base": [
-          "Gourmand",
           "Musk",
           "Patchouli"
         ]
@@ -56918,7 +56819,6 @@
         "top": [
           "Cannabis",
           "Incense",
-          "Spices",
           "Labdanum"
         ],
         "heart": [
@@ -56945,8 +56845,7 @@
       "notes": {
         "top": [
           "Cranberry",
-          "White Peach",
-          "Citruses"
+          "White Peach"
         ],
         "heart": [
           "Bulgarian Rose",
@@ -56973,7 +56872,6 @@
       "brand": "Montale",
       "notes": {
         "top": [
-          "Citruses",
           "Lavender"
         ],
         "heart": [
@@ -57500,8 +57398,7 @@
         "top": [
           "Bergamot",
           "Iris",
-          "Incense",
-          "Spices"
+          "Incense"
         ],
         "heart": [
           "Bulgarian Rose",
@@ -62094,7 +61991,6 @@
       "notes": {
         "top": [
           "Cherry",
-          "Fruits",
           "Rose",
           "Jasmine"
         ],
@@ -62122,8 +62018,7 @@
       "brand": "Sospiro",
       "notes": {
         "top": [
-          "Lavender",
-          "Citruses"
+          "Lavender"
         ],
         "heart": [
           "Spices"
@@ -63399,8 +63294,7 @@
         "top": [
           "Sicilian Lemon",
           "Blackcurrant",
-          "Bergamot",
-          "Spices"
+          "Bergamot"
         ],
         "heart": [
           "Patchouli Leaf",
@@ -64127,7 +64021,6 @@
       "brand": "Afnan",
       "notes": {
         "top": [
-          "Spices",
           "Bergamot",
           "Oregano"
         ],
@@ -64699,8 +64592,7 @@
       "notes": {
         "top": [
           "Saffron",
-          "Jasmine",
-          "Woods"
+          "Jasmine"
         ],
         "heart": [
           "Ambergris",
@@ -65126,8 +65018,7 @@
           "Cherry"
         ],
         "heart": [
-          "Vanilla",
-          "Spices"
+          "Vanilla"
         ],
         "base": [
           "Patchouli",
@@ -65230,7 +65121,6 @@
       "brand": "Afnan",
       "notes": {
         "top": [
-          "Fruits",
           "Rose",
           "Pink Pepper"
         ],
@@ -65296,8 +65186,7 @@
         ],
         "base": [
           "Musk",
-          "Leather",
-          "Spices"
+          "Leather"
         ]
       },
       "dupes": [],
@@ -65878,8 +65767,7 @@
         ],
         "heart": [
           "Lavender",
-          "Clove",
-          "Spices"
+          "Clove"
         ],
         "base": [
           "Cedarwood",
@@ -66195,8 +66083,7 @@
       "notes": {
         "top": [
           "Roses",
-          "Vanilla",
-          "Spices"
+          "Vanilla"
         ],
         "heart": [
           "Incense",
@@ -66539,7 +66426,6 @@
       "brand": "Maison Alhambra",
       "notes": {
         "top": [
-          "Fruits",
           "Mate",
           "Thyme",
           "Cypress"
@@ -68854,8 +68740,7 @@
       "notes": {
         "top": [
           "Black Currant",
-          "Pink Pepper",
-          "Citruses"
+          "Pink Pepper"
         ],
         "heart": [
           "Orchid",
@@ -68909,7 +68794,6 @@
         "top": [
           "Ginger",
           "Osmanthus",
-          "Citruses",
           "Artemisia"
         ],
         "heart": [
@@ -69316,7 +69200,6 @@
         ],
         "heart": [
           "Orchid",
-          "Spices",
           "Gardenia",
           "Ylang-Ylang",
           "Jasmine"
@@ -69842,7 +69725,6 @@
         ],
         "base": [
           "Jackfruit",
-          "Musky",
           "Sandalwood"
         ]
       },
@@ -70042,8 +69924,7 @@
       "notes": {
         "top": [
           "Rum",
-          "Cardamom",
-          "Spices"
+          "Cardamom"
         ],
         "heart": [
           "Nutmeg",
@@ -70896,8 +70777,7 @@
           "Grapefruit"
         ],
         "heart": [
-          "Bay Leaf",
-          "Spices"
+          "Bay Leaf"
         ],
         "base": [
           "Red Amber",
@@ -71928,8 +71808,7 @@
           "White Florals"
         ],
         "base": [
-          "Vanilla",
-          "Fruits"
+          "Vanilla"
         ]
       },
       "dupes": [],
@@ -72054,7 +71933,6 @@
         ],
         "base": [
           "Vanilla",
-          "Spices",
           "Pistachio"
         ]
       },
@@ -72342,7 +72220,6 @@
       "brand": "Ard Al Zaafaran",
       "notes": {
         "top": [
-          "Citruses",
           "Lemon",
           "Orange Red"
         ],
@@ -72578,9 +72455,7 @@
         "heart": [
           "Ylang-Ylang",
           "Jasmine",
-          "Gardenia",
-          "Fruits",
-          "Spices"
+          "Gardenia"
         ],
         "base": [
           "Patchouli",
@@ -72860,8 +72735,7 @@
         ],
         "base": [
           "Leather",
-          "Cypriol",
-          "Woods"
+          "Cypriol"
         ]
       },
       "dupes": [],
@@ -72885,8 +72759,7 @@
         ],
         "base": [
           "Amber",
-          "Balsam",
-          "Musky"
+          "Balsam"
         ]
       },
       "dupes": [],
@@ -73561,8 +73434,7 @@
         "top": [
           "Grapefruit",
           "Blood Oranges",
-          "Black Currants",
-          "Spices"
+          "Black Currants"
         ],
         "heart": [
           "Jasmine"
@@ -74294,7 +74166,6 @@
           "Patchouli"
         ],
         "base": [
-          "Citruses",
           "Cedar"
         ]
       },
@@ -74361,8 +74232,7 @@
       "brand": "Ajmal",
       "notes": {
         "top": [
-          "Turkish Rose",
-          "Woods"
+          "Turkish Rose"
         ],
         "heart": [
           "Amber",
@@ -74392,9 +74262,7 @@
           "Violets"
         ],
         "base": [
-          "Woods",
           "Musk",
-          "Spices",
           "Patchouli"
         ]
       },
@@ -74410,7 +74278,6 @@
       "brand": "Ajmal",
       "notes": {
         "top": [
-          "Florals",
           "Rose"
         ],
         "heart": [
@@ -74419,7 +74286,6 @@
         ],
         "base": [
           "Amber",
-          "Woods",
           "Cedar",
           "Musk"
         ]
@@ -74698,7 +74564,6 @@
           "Artemisia Incense"
         ],
         "heart": [
-          "Spices",
           "Leather",
           "Apricot",
           "Orris Root"
@@ -75160,8 +75025,7 @@
       "brand": "Ajmal",
       "notes": {
         "top": [
-          "Rose",
-          "Florals"
+          "Rose"
         ],
         "heart": [
           "Saffron",
@@ -75257,8 +75121,7 @@
       "brand": "Ajmal",
       "notes": {
         "top": [
-          "Rose",
-          "Florals"
+          "Rose"
         ],
         "heart": [
           "Spices"
@@ -76439,8 +76302,7 @@
           "Mate",
           "Cypress",
           "Thyme",
-          "Saffron",
-          "Fruit"
+          "Saffron"
         ],
         "heart": [
           "Jasmine",
@@ -78171,12 +78033,10 @@
         ],
         "heart": [
           "White Musk",
-          "Woods",
           "Oudh"
         ],
         "base": [
           "White Musk",
-          "Woods",
           "Oudh"
         ]
       },
@@ -78575,8 +78435,7 @@
         "base": [
           "Moss",
           "Orange Blossom",
-          "Musk",
-          "Woods"
+          "Musk"
         ]
       },
       "dupes": [],
@@ -78651,8 +78510,7 @@
         ],
         "heart": [
           "Rose",
-          "Cedarwood",
-          "Spices"
+          "Cedarwood"
         ],
         "base": [
           "Ambra",
@@ -78729,7 +78587,6 @@
       "notes": {
         "top": [
           "Juniper Berries",
-          "Citruses",
           "Blood Orange",
           "Sicilian Lemon"
         ],
@@ -78958,8 +78815,7 @@
         ],
         "base": [
           "Patchouli",
-          "Agarwood",
-          "Citruses"
+          "Agarwood"
         ]
       },
       "dupes": [],
@@ -79106,12 +78962,10 @@
         ],
         "heart": [
           "Roses",
-          "Spices",
           "Sandalwood"
         ],
         "base": [
           "White Musk",
-          "Woods",
           "Amber",
           "Ambergris"
         ]
@@ -79464,8 +79318,7 @@
         ],
         "base": [
           "Agarwood",
-          "Patchouli",
-          "Citruses"
+          "Patchouli"
         ]
       },
       "dupes": [],
@@ -79922,6 +79775,1003 @@
       "source": "https://zaoud.it/products/la-rouge-baroque-extreme"
     },
     {
+      "name": "Divine",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Calypsone",
+          "Red Berries",
+          "Bergamot"
+        ],
+        "heart": [
+          "Lily",
+          "Ylang-Ylang",
+          "Jasmine"
+        ],
+        "base": [
+          "Meringue",
+          "Musk",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/015xctubg8.png?v=1723921493",
+      "source": "https://www.beautyhouse.com/products/jean-paul-gaultier-divine-eau-de-parfum-for-women"
+    },
+    {
+      "name": "Classique",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Orange Blossom",
+          "Star Anise",
+          "Rose",
+          "Mandarin Orange",
+          "Pear"
+        ],
+        "heart": [
+          "Ylang-Ylang",
+          "Ginger",
+          "Orchid",
+          "Tuberose",
+          "Iris"
+        ],
+        "base": [
+          "Vanilla",
+          "Amber",
+          "Musk",
+          "Cinnamon",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01pnxei8ml.jpg?v=1771510818",
+      "source": "https://www.beautyhouse.com/products/jean-paul-gaultier-classique-eau-de-toilette-for-women"
+    },
+    {
+      "name": "Le Male Superman Eau Fraiche",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Mint",
+          "Aldehydes",
+          "Neroli"
+        ],
+        "heart": [
+          "Sage",
+          "Clary Sage",
+          "Amber"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0288/9875/4698/products/043fe6f7-5439-4575-9949-39f75506f9bf.jpg?v=1661158810",
+      "source": "https://decantx.com/products/jean-paul-gaultier-le-male-superman-eau-fraiche-eau-de-toilette-for-men-1"
+    },
+    {
+      "name": "Le Beau Narcisse",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Coconut"
+        ],
+        "heart": [
+          "Musk",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/narcise1.jpg?v=1786542950",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-beau-narcisse-eau-de-parfum-for-men"
+    },
+    {
+      "name": "Le Male In Blue",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Lavender"
+        ],
+        "heart": [
+          "Anise"
+        ],
+        "base": [
+          "Benzoin"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/le_male_in_blue_1.jpg?v=1781700946",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-male-in-blue-eau-de-parfum-for-men"
+    },
+    {
+      "name": "La Belle Le Parfum Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Pear"
+        ],
+        "heart": [
+          "Tonka Bean",
+          "Jasmine"
+        ],
+        "base": [
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/belle1.jpg?v=1770815471",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-la-belle-le-parfum-eau-de-parfum-intense-for-women"
+    },
+    {
+      "name": "Scandal Pour Homme Le Parfum",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Geranium"
+        ],
+        "heart": [
+          "Tonka Bean"
+        ],
+        "base": [
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/scandal_le_parfum_1.jpg?v=1738418352",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-scandal-pour-homme-le-parfum-for-men"
+    },
+    {
+      "name": "Scandal Pour Homme",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Mandarin Orange",
+          "Clary Sage"
+        ],
+        "heart": [
+          "Caramel",
+          "Tonka Bean"
+        ],
+        "base": [
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/scandal1.jpg?v=1738417832",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-scandal-pour-homme-eau-de-toilette-for-men"
+    },
+    {
+      "name": "Le Male Elixir Absolu Parfum Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Lavender"
+        ],
+        "heart": [
+          "Plum"
+        ],
+        "base": [
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/lemaleelixirabsolu1.jpg?v=1738241658",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-male-elixir-absolu-parfum-intense-for-mennew-release-2025"
+    },
+    {
+      "name": "Le Beau Le Parfum Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Coconut Wood"
+        ],
+        "heart": [
+          "Tonka Bean"
+        ],
+        "base": [
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/jpg_le_male_intense_1.jpg?v=1736864125",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-beau-le-parfum-eau-de-parfum-intense-for-men"
+    },
+    {
+      "name": "La Belle Paradise Garden",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Blue Lotus"
+        ],
+        "heart": [
+          "Iris"
+        ],
+        "base": [
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/PARADISEW1.jpg?v=1725106871",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-la-belle-paradise-garden-eau-de-parfum-for-women"
+    },
+    {
+      "name": "Le Beau",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Bergamot"
+        ],
+        "heart": [
+          "Coconut"
+        ],
+        "base": [
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/lebeau1.jpg?v=1724248588",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-beau-eau-de-toilette-for-men"
+    },
+    {
+      "name": "Le Beau Paradise Garden",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Mint",
+          "Ginger"
+        ],
+        "heart": [
+          "Coconut",
+          "Fig",
+          "Salt"
+        ],
+        "base": [
+          "Tonka Bean",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/paradise1.jpg?v=1724235054",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-beau-paradise-garden-eau-de-parfum-for-men"
+    },
+    {
+      "name": "Fleur Du Male",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Petitgrain"
+        ],
+        "heart": [
+          "Neroli"
+        ],
+        "base": [
+          "Chamomile",
+          "Basil"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/jeanpaulfleur4.jpg?v=1709648385",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-fleur-du-male-eau-de-toilette-for-men"
+    },
+    {
+      "name": "Scandal Gold",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Saffron",
+          "Honey",
+          "Cardamom"
+        ],
+        "heart": [
+          "Rose",
+          "Jasmine Sambac"
+        ],
+        "base": [
+          "Sandalwood",
+          "Leather",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/scandalgold1.jpg?v=1706008599",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-scandal-gold-eau-de-parfum-for-women"
+    },
+    {
+      "name": "Le Male Elixir Parfum",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Lavender",
+          "Mint"
+        ],
+        "heart": [
+          "Vanilla",
+          "Benzoin"
+        ],
+        "base": [
+          "Honey",
+          "Tonka Bean",
+          "Tobacco"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/jeanpaulelixir1.jpg?v=1696511185",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-male-elixir-eau-de-parfum-for-men"
+    },
+    {
+      "name": "La Belle",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Pear",
+          "Bergamot"
+        ],
+        "heart": [
+          "Bergamot"
+        ],
+        "base": [
+          "Vanilla",
+          "Vetiver",
+          "Amber",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/products/jpg30.jpg?v=1673601938",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-la-belle-eau-de-parfum-for-women"
+    },
+    {
+      "name": "Le Male Aviator",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Lavender",
+          "Mint"
+        ],
+        "heart": [
+          "Violet"
+        ],
+        "base": [
+          "Amber",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/products/86.jpg?v=1667024738",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-male-aviator-eau-de-toilette-for-men-125ml"
+    },
+    {
+      "name": "Le Beau Male",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Lavender"
+        ],
+        "heart": [
+          "Artemisia"
+        ],
+        "base": [
+          "Mint"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/products/545.jpg?v=1673531167",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-beau-male-eau-de-toilette-for-men-125ml"
+    },
+    {
+      "name": "I Love Gaultier Classique Eau Fraiche",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Sugar Cane",
+          "Ginger",
+          "Sorbet",
+          "Lemon"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "Tiare Flower",
+          "Jasmine"
+        ],
+        "base": [
+          "Vanilla",
+          "Musk",
+          "Labdanum"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/products/JPG-I-Love-Gaultier-Classique-EF-100ml-1.jpg?v=1574750839",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-i-love-gaultier-classique-eau-fraiche-wonder-woman-special-edition-100ml"
+    },
+    {
+      "name": "Ultra Male Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Lavender",
+          "Lemon",
+          "Mint",
+          "Pear"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Cumin",
+          "Sage"
+        ],
+        "base": [
+          "Amber",
+          "Cedar",
+          "Patchouli",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/products/JPG-Le-Male-Ultra-EDT-M-125ml-1.jpg?v=1568111273",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-ultra-male-intense-eau-de-toilette"
+    },
+    {
+      "name": "Scandal Pour Homme Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Geranium"
+        ],
+        "heart": [
+          "Tonka Bean"
+        ],
+        "base": [
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0844/3861/4342/files/JPG0107.png?v=1774541403",
+      "source": "https://justmylook.com/products/jean-paul-gaultier-scandal-pour-homme-intense-eau-de-parfum-100ml"
+    },
+    {
+      "name": "Le Male Le Parfum",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Cardamom"
+        ],
+        "heart": [
+          "Lavender",
+          "Iris"
+        ],
+        "base": [
+          "Vanilla",
+          "Oriental Woods"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/Lifestyling_Curl_Perfectionist_150ml_-_2022-09-03T152730_390.png?v=1747980989",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-le-male-le-parfum-eau-de-parfum-200ml"
+    },
+    {
+      "name": "I Love Gaultier Eau Fraiche",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Sugar"
+        ],
+        "heart": [
+          "Jasmine",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Vanilla",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/jpg_i_love_gaultier_eau_fraiche_women_100ml_perfume_i517.jpg?v=1751372587",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-i-love-gaultier-eau-fraiche-100ml"
+    },
+    {
+      "name": "Le Male Essence",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Cardamom"
+        ],
+        "heart": [
+          "Lavender",
+          "Leather"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/Lifestyling_Curl_Perfectionist_150ml_-_2022-09-03T155013_344__1.png?v=1747980984",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-le-male-essence-eau-de-parfum-125ml"
+    },
+    {
+      "name": "Classique Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Tiare Flower",
+          "Pomegranate"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "Jasmine",
+          "Rose"
+        ],
+        "base": [
+          "Vanilla",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/Lifestyling_Curl_Perfectionist_150ml_-_2022-09-03T155552_533__1.png?v=1747980980",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-classique-intense-women-eau-de-parfum-100ml"
+    },
+    {
+      "name": "Classique Cabaret Edition",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Ginger"
+        ],
+        "heart": [
+          "Orange Blossom"
+        ],
+        "base": [
+          "Vanilla",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/jpg_classique_cabaret_Eau-De-Parfum_100ml_perfume_i5111.jpg?v=1751368977",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-classique-cabaret-edition-women-eau-de-parfum-100ml"
+    },
+    {
+      "name": "Essence De Parfum Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Ginger",
+          "Tangerine"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "Jasmine"
+        ],
+        "base": [
+          "Vanilla",
+          "Whipped Cream",
+          "Benzoin"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/jpg_essence_de_parfum_intense_women_Eau-De-Parfum_100ml_perfume_i5151.jpg?v=1747980968",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-essence-de-parfum-intense-women-eau-de-parfum-100ml"
+    },
+    {
+      "name": "So Scandal!",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Orange Blossom",
+          "Tuberose"
+        ],
+        "heart": [
+          "Jasmine"
+        ],
+        "base": [
+          "Milky Accord"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/8209_11.jpg?v=1747980954",
+      "source": "https://theskinfit.com/products/jean-paul-gauliter-so-scandal-eau-de-parfum-80ml"
+    },
+    {
+      "name": "Scandal Le Parfum Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Jasmine"
+        ],
+        "heart": [
+          "Salt",
+          "Caramel"
+        ],
+        "base": [
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0014/6590/9313/files/61IQxT0HI0L._SL1200.jpg?v=1782928330",
+      "source": "https://tripletraders.com/products/jean-paul-gaultier-scandal-le-parfum-for-women-eau-de-parfum-intense-80ml-2-7oz"
+    },
+    {
+      "name": "Scandal",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Blood Orange",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Honey",
+          "Gardenia"
+        ],
+        "base": [
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0014/6590/9313/files/s-l1200_1c77eeee-3852-40d0-98bc-7fc23b5a2577.jpg?v=1785784209",
+      "source": "https://tripletraders.com/products/jean-paul-gaultier-scandal-for-women-eau-de-parfum-spray-50ml-1-7oz"
+    },
+    {
+      "name": "I Love Gaultier Men Eau Fraiche",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Mint"
+        ],
+        "heart": [
+          "Lavender",
+          "Cardamom"
+        ],
+        "base": [
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/jpg_i_love_gaultier_eau_fraiche_men_125ml_perfume_i516.jpg?v=1747980967",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-i-love-gaultier-men-eau-fraiche-eau-de-parfum-125ml"
+    },
+    {
+      "name": "Scandal By Night Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Honey"
+        ],
+        "heart": [
+          "Tuberose",
+          "Orange Blossom",
+          "Pear"
+        ],
+        "base": [
+          "Tonka Bean",
+          "Vanilla",
+          "Sandalwood",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/Lifestyling_Curl_Perfectionist_150ml_-_2022-09-03T153425_563__1.png?v=1747980988",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-scandal-by-night-intense-women-eau-de-parfum-80ml"
+    },
+    {
+      "name": "La Belle Flower Edition",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Apricot"
+        ],
+        "heart": [
+          "Osmanthus"
+        ],
+        "base": [
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0844/3861/4342/files/JPG0095_0914b124-35c6-48ae-95f2-ee9e4e3e7df8.png?v=1761577743",
+      "source": "https://justmylook.com/products/jean-paul-gaultier-la-belle-flower-edition-eau-de-parfum-100ml"
+    },
+    {
+      "name": "Valero",
+      "brand": "Parfums de Marly",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Cedrat",
+          "Juniper"
+        ],
+        "heart": [
+          "Geranium Bourbon",
+          "Lavender",
+          "Cypress",
+          "Nutmeg"
+        ],
+        "base": [
+          "Patchouli Coeur",
+          "Sandalwood",
+          "Ambrox"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "unisex",
+      "image": "https://cdn.shopify.com/s/files/1/0582/2955/5259/files/05-27-9.jpg?v=1780131049",
+      "source": "https://olfactoryfactoryllc.com/products/parfums-de-marly-valero"
+    },
+    {
+      "name": "Scandal Pour Homme Elixir",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Black Cherry"
+        ],
+        "heart": [
+          "Patchouli"
+        ],
+        "base": [
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0853/1863/1748/files/JeanPaulGaultierScandalPourHommeElixirParfum50ml_8516b98b-dea8-4cff-8bdb-e21ff7ecb87f.png?v=1769084738",
+      "source": "https://escentual.com/products/jean-paul-gaultier-scandal-pour-homme-elixir-parfum"
+    },
+    {
+      "name": "Scandal Elixir",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Blackberry"
+        ],
+        "heart": [
+          "Iris"
+        ],
+        "base": [
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0853/1863/1748/files/JeanPaulGaultierScandalElixirParfum80ml.png?v=1775827704",
+      "source": "https://escentual.com/products/jean-paul-gaultier-scandal-elixir-parfum"
+    },
+    {
+      "name": "Castley",
+      "brand": "Parfums de Marly",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Black Pepper"
+        ],
+        "heart": [
+          "Petitgrain Citronnier",
+          "Timut Pepper",
+          "Neroli Accord"
+        ],
+        "base": [
+          "Akigalawood",
+          "Labdanum",
+          "Benzoin Accord"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0853/1863/1748/files/Parfums_de_Marly_Castley_Eau_de_Parfum_Spray_75ml.png?v=1750850041",
+      "source": "https://escentual.com/products/parfums-de-marly-castley-eau-de-parfum-spray"
+    },
+    {
+      "name": "Byerley",
+      "brand": "Parfums de Marly",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Cardamom"
+        ],
+        "heart": [
+          "Cedarwood",
+          "Guaiac Wood Essence"
+        ],
+        "base": [
+          "Javanese Vetiver",
+          "Balsam"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0853/1863/1748/files/parfums_de_marley_byerley_eau_de_parfum_spray_125ml.png?v=1729191540",
+      "source": "https://escentual.com/products/parfums-de-marly-byerley-eau-de-parfum-spray-125ml"
+    },
+    {
+      "name": "Oajan",
+      "brand": "Parfums de Marly",
+      "notes": {
+        "top": [
+          "Honey",
+          "Cinnamon",
+          "Osmanthus"
+        ],
+        "heart": [
+          "Amber",
+          "Labdanum",
+          "Benzoin"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean",
+          "Patchouli",
+          "Davana"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "unisex",
+      "image": "https://cdn.shopify.com/s/files/1/0853/1863/1748/files/parfums_de_marly_oajan_eau_de_parfum_125ml.png?v=1729191554",
+      "source": "https://escentual.com/products/parfums-de-marly-oajan-eau-de-parfum-spray-125ml"
+    },
+    {
+      "name": "Le Beau Le Parfum",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Coconut Wood"
+        ],
+        "heart": [
+          "Tonka Bean"
+        ],
+        "base": [
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://static.thcdn.com/productimg/original/13656989-2335321816774724.jpg",
+      "source": "https://www.lookfantastic.com/p/jean-paul-gaultier-le-beau-le-parfum-eau-de-parfum-75ml/13656989/"
+    },
+    {
+      "name": "La Belle Le Parfum",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Pear"
+        ],
+        "heart": [
+          "Vanilla"
+        ],
+        "base": [
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://static.thcdn.com/productimg/original/13026066-2144925754173247.jpg",
+      "source": "https://www.lookfantastic.com/p/jean-paul-gaultier-la-belle-le-parfum-50ml/13026066/"
+    },
+    {
       "dupes": [],
       "similar": [],
       "prices": {},
@@ -79949,30 +80799,6 @@
       },
       "source": "https://www.parfums-de-marly.com/en-us/products/althair",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/LuxuryAlthairFragranceBottleonCharcoalGradient.png?v=1794605316"
-    },
-    {
-      "dupes": [],
-      "similar": [],
-      "prices": {},
-      "name": "Le Male Le Parfum",
-      "brand": "Jean Paul Gaultier",
-      "gender": "men",
-      "notes": {
-        "top": [
-          "Cardamom"
-        ],
-        "heart": [
-          "Lavender",
-          "Iris"
-        ],
-        "base": [
-          "Vanilla",
-          "Woody Notes",
-          "Amber"
-        ]
-      },
-      "source": "https://www.jeanpaulgaultier.com/us/en/fragrances/le-male-le-parfum",
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Sleek_Gold-Capped_Torso_Fragrance_Bottle.png?v=1794606362"
     }
   ]
 }

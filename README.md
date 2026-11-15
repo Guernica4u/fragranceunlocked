@@ -8,7 +8,8 @@ Smell expensive. Pay honest.
 - `data.json`: fragrances (gender, notes, dupes, `dupeOf`, similar, photo, notes source) and store search links.
 - `accords.js`: works out main accords from each fragrance's notes.
 - `shared.js`: slug helper shared by the page and the functions.
-- `functions/api/prices.js`: live prices (USD) for the bottle closest to 100 ml / 3.4 oz, from Arvella, Beauty House, Perfumania, FragranceOutlet, and the makers' own shops for Dossier, Alt. Fragrances and Lattafa / Maison Alhambra (public Shopify search), cached 6 hours.
+- `functions/api/prices.js`: live prices (USD) for the bottle closest to 100 ml / 3.4 oz from the Shopify stores in `SHOPS`, cached 6 hours. Only the fragrance page calls it.
+- `scripts/prices.mjs` → `prices.json`: daily snapshot. Downloads each store's whole catalogue once (`/products.json`), matches every fragrance offline with the same rules, and feeds tile prices, Sort by price and the Match me budget. `.github/workflows/prices.yml` runs it every day and commits the result.
 - `functions/api/ratings.js`: 1-5 star ratings, one vote per visitor per fragrance.
 - `scripts/images.mjs`: fills missing product photos from the stores. Run `node scripts/images.mjs` after adding fragrances.
 

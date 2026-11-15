@@ -8,7 +8,6 @@ export const SHOPS = {
   'Perfumania': { base: 'https://www.perfumania.com' },
   'FragranceOutlet': { base: 'https://www.fragranceoutlet.com' },
   'Dossier': { base: 'https://www.dossier.co', brands: ['Dossier'] },
-  'Alt. Fragrances': { base: 'https://www.altfragrances.com', brands: ['Alt. Fragrances'] },
   'Lattafa USA': { base: 'https://lattafa-usa.com', brands: ['Lattafa', 'Maison Alhambra'] },
   'Almanaar': { base: 'https://almanaar.co.uk' },
   'Emirates Oud': { base: 'https://emiratesoud.co.uk' },

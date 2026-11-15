@@ -49,7 +49,7 @@
       <div class="tools">
         <label class="pick">Sort <select id="sort">
           <option value="shuffle">Shuffle</option><option value="az">Name A–Z</option>
-          <option value="rated">Top rated</option><option value="dupes">Most dupes</option>
+          <option value="rated">Top rated</option><option value="dupes">Most dupes</option><option value="price">Price, low to high</option>
         </select></label>
         <button class="link" id="filterBtn" aria-expanded="false" aria-controls="filters">Filter</button>
         <button class="link" id="shuffle">Shuffle</button>
@@ -168,9 +168,9 @@ const has = (q, fields) => fields.join(' ').toLowerCase().includes(q);
 
 // Live "from" price on each tile, once its page is on screen (needs /api/prices; blank without it).
 function tilePrices(list) {
-  for (const f of list) fetchPrices(f).then(ps => {
+  for (const f of list) Promise.resolve(stored(f)).then(ps => {
     const el = document.querySelector(`.tprice[data-p="${slug(f)}"]`);
-    if (el && ps.length) el.textContent = `From $${Math.min(...ps.map(p => p.price)).toFixed(2)}`;
+    if (el && ps.length) el.textContent = `From $${low(f).toFixed(2)}`;
   });
 }
 
@@ -185,6 +185,7 @@ const SORTS = {
   az: l => [...l].sort((a, b) => full(a).localeCompare(full(b))),
   rated: l => [...l].sort((a, b) => avg(b) - avg(a) || (ratings?.[slug(b)]?.count || 0) - (ratings?.[slug(a)]?.count || 0)),
   dupes: l => [...l].sort((a, b) => dupesOf(b).length - dupesOf(a).length),
+  price: l => [...l].sort((a, b) => low(a) - low(b) || 0), // unpriced (Infinity) last; Infinity - Infinity is NaN
 };
 const feedPager = pager('explore', 'feed', 'sentinel', (f, i) => tile(f, i, `<div class="tprice" data-p="${slug(f)}"></div>`), (p, next) => {
   const q = $('q').value.trim();
@@ -309,7 +310,7 @@ async function renderPicks() {
   }).filter(x => x.s > 0).sort((a, b) => b.s - a.s).slice(0, 15);
   const head = '<div class="sub" style="margin-top:0"><h2>Your picks</h2><button class="link" data-qreset>Start over</button></div>';
   $('quiz').innerHTML = head + '<p class="none">Checking prices…</p>';
-  const prices = await Promise.all(scored.map(x => fetchPrices(x.f)));
+  const prices = scored.map(x => stored(x.f));
   if (run !== quizRun) return; // answers changed while prices loaded
   const live = prices.some(p => p.length); // false where the price API isn't running
   const low = list => list.length ? Math.min(...list.map(p => p.price)) : null;
@@ -368,6 +369,14 @@ function fragPage(f) {
 }
 
 const perMl = p => p.price / p.size;
+// Daily snapshot (scripts/prices.mjs) for tiles, sorting and budgets; the fragrance page adds a live check on top.
+let snap = {};
+const stored = f => snap[slug(f)] || [];
+// Lowest price for a full-size bottle (75-130 ml) so a 30 ml or a decant doesn't pose as the deal; any size if that's all there is.
+const low = f => {
+  const p = stored(f), full = p.filter(x => x.size >= 75 && x.size <= 130);
+  return p.length ? Math.min(...(full.length ? full : p).map(x => x.price)) : Infinity;
+};
 const priceCache = new Map();
 function fetchPrices(f) { // live prices need the /api/prices function (Cloudflare); without it, store links only
   if (!priceCache.has(f)) priceCache.set(f, fetch(`/api/prices?q=${enc(full(f))}&name=${enc(f.name)}&brand=${enc(f.brand)}`)
@@ -380,7 +389,9 @@ const cheapest = list => list.length ? list.reduce((a, b) => perMl(b) < perMl(a)
 async function loadPrices(f) {
   const q = full(f);
   const o = originalOf(f);
-  const [live, orig] = await Promise.all([fetchPrices(f), o ? fetchPrices(o) : []]);
+  // Live prices win per store; the snapshot fills in stores the live check missed (throttled, timed out).
+  const both = async g => { const l = await fetchPrices(g); return [...l, ...stored(g).filter(s => !l.some(x => x.store === s.store))]; };
+  const [live, orig] = await Promise.all([both(f), o ? both(o) : []]);
   const el = $('prices');
   if (!el || !location.hash.endsWith(slug(f))) return; // left the page
   const best = live.length > 1 ? cheapest(live) : null;
@@ -490,8 +501,9 @@ $('fclear').onclick = () => {
   resetFeed();
 };
 
-[data, ratings] = await Promise.all([
+[data, snap, ratings] = await Promise.all([
   fetch('data.json').then(r => r.json()),
+  fetch('prices.json').then(r => r.ok ? r.json() : {}).then(j => j.prices || {}).catch(() => ({})),
   fetch('/api/ratings').then(r => r.ok && r.headers.get('content-type')?.includes('json') ? r.json() : null).catch(() => null), // null: ratings off
 ]);
 const notes = [...new Set(data.fragrances.flatMap(notesOf))].slice(0, 36);
