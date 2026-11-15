@@ -80867,6 +80867,48 @@
       "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0853/1863/1748/files/parfums_de_marly_oajan_eau_de_parfum_125ml.png?v=1729191554",
       "source": "https://escentual.com/products/parfums-de-marly-oajan-eau-de-parfum-spray-125ml"
+    },
+    {
+      "name": "Le Beau Le Parfum",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Coconut Wood"
+        ],
+        "heart": [
+          "Tonka Bean"
+        ],
+        "base": [
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://static.thcdn.com/productimg/original/13656989-2335321816774724.jpg",
+      "source": "https://www.lookfantastic.com/p/jean-paul-gaultier-le-beau-le-parfum-eau-de-parfum-75ml/13656989/"
+    },
+    {
+      "name": "La Belle Le Parfum",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Pear"
+        ],
+        "heart": [
+          "Vanilla"
+        ],
+        "base": [
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://static.thcdn.com/productimg/original/13026066-2144925754173247.jpg",
+      "source": "https://www.lookfantastic.com/p/jean-paul-gaultier-la-belle-le-parfum-50ml/13026066/"
     }
   ]
 }
