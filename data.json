@@ -10,7 +10,8 @@
     "Nordstrom": "https://www.nordstrom.com/sr?origin=keywordsearch&keyword=",
     "Bluemercury": "https://www.bluemercury.com/search?q=",
     "Beauty Bay": "https://www.beautybay.com/search?q=",
-    "Lookfantastic": "https://www.lookfantastic.com/search?q="
+    "Lookfantastic": "https://www.lookfantastic.com/search?q=",
+    "Olfactory Factory": "https://olfactoryfactoryllc.com/search?q="
   },
   "fragrances": [
     {
@@ -32,7 +33,6 @@
       },
       "dupes": [
         "Armaf Club de Nuit Untold",
-        "Zara Red Temptation",
         "Al Haramain Amber Oud Rouge"
       ],
       "similar": [
@@ -248,8 +248,7 @@
         ]
       },
       "dupes": [
-        "Dossier Floral Lavender",
-        "Zara Golden Decade"
+        "Dossier Floral Lavender"
       ],
       "similar": [],
       "prices": {},
@@ -358,9 +357,7 @@
           "Vanilla"
         ]
       },
-      "dupes": [
-        "Zara Oriental"
-      ],
+      "dupes": [],
       "similar": [],
       "prices": {},
       "gender": "women",
@@ -1056,33 +1053,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_80.png?v=1770591161"
     },
     {
-      "name": "Red Temptation",
-      "brand": "Zara",
-      "gender": "women",
-      "notes": {
-        "top": [
-          "Bitter Orange",
-          "Saffron",
-          "Coriander"
-        ],
-        "heart": [
-          "Praline",
-          "Jasmine"
-        ],
-        "base": [
-          "Amber",
-          "Woods",
-          "Moss",
-          "Musk"
-        ]
-      },
-      "dupes": [],
-      "similar": [],
-      "prices": {},
-      "source": "https://www.zara.com/au/en/red-zara-temptation-edp-80-ml---2-71-oz-p20110747.html",
-      "dupeOf": "Maison Francis Kurkdjian Baccarat Rouge 540"
-    },
-    {
       "name": "Club de Nuit Intense Man",
       "brand": "Armaf",
       "gender": "men",
@@ -1259,31 +1229,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0047/4067/7699/files/Floral_Lavender.jpg?v=1779197207"
     },
     {
-      "name": "Golden Decade",
-      "brand": "Zara",
-      "gender": "women",
-      "notes": {
-        "top": [
-          "Mandarin Orange"
-        ],
-        "heart": [
-          "Orange Blossom",
-          "Jasmine",
-          "Lavender"
-        ],
-        "base": [
-          "Vanilla",
-          "Amber"
-        ]
-      },
-      "dupes": [],
-      "similar": [],
-      "prices": {},
-      "source": "https://www.scentverdict.com/perfume/zara-golden-decade-paradise-eau-de-toilette",
-      "dupeOf": "Yves Saint Laurent Libre",
-      "image": "https://scentverdict.com/og/live/images/perfumes/zara/zara-golden-decade-paradise-eau-de-toilette-1780040943.jpg"
-    },
-    {
       "name": "Cherry Smash",
       "brand": "Alt. Fragrances",
       "gender": "unisex",
@@ -1336,33 +1281,6 @@
       "source": "https://bjutip.com/women-eau-de-parfum/alhambra-delilah-pour-femme-edp-w-100-ml",
       "dupeOf": "Parfums de Marly Delina",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_99.png?v=1770703659"
-    },
-    {
-      "name": "Oriental",
-      "brand": "Zara",
-      "gender": "women",
-      "notes": {
-        "top": [
-          "Rose",
-          "Bergamot",
-          "Freesia"
-        ],
-        "heart": [
-          "Jasmine",
-          "Vanilla"
-        ],
-        "base": [
-          "Caramel",
-          "Patchouli",
-          "Musk"
-        ]
-      },
-      "dupes": [],
-      "similar": [],
-      "prices": {},
-      "source": "https://scentverdict.com/perfume/zara-oriental-eau-de-parfum",
-      "dupeOf": "Viktor&Rolf Flowerbomb",
-      "image": "https://scentverdict.com/og/live/images/perfumes/zara/zara-oriental-eau-de-parfum-1778866160.jpg"
     },
     {
       "name": "Bade'e Al Oud for Glory",
@@ -2065,7 +1983,8 @@
       "similar": [],
       "prices": {},
       "source": "https://www.notino.co.uk/-/pd/LTF00377",
-      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_20.png?v=1770622730"
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Untitleddesign_20.png?v=1770622730",
+      "dupeOf": "Carolina Herrera Good Girl Blush"
     },
     {
       "name": "Flora Gorgeous Gardenia",
@@ -5235,8 +5154,7 @@
       "similar": [],
       "prices": {},
       "source": "https://www.beautyhouse.com/products/armaf-club-de-nuit-intense-parfum-for-men",
-      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03kaejy9p7.jpg?v=1787947267",
-      "dupeOf": "Creed Aventus"
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/03kaejy9p7.jpg?v=1787947267"
     },
     {
       "name": "Tres Nuit Lyric Cologne",
@@ -8980,32 +8898,6 @@
       "prices": {},
       "source": "https://almanaar.co.uk/products/amber-oud-dubai-night-extrait-de-parfum-100ml-by-al-haramain",
       "image": "https://cdn.shopify.com/s/files/1/0255/4550/6868/files/Amber_Oud_Dubai_Night_Extrait_De_Parfum_100ml_by_Al_Haramain._almanaar_Islamic_Store_ba7b85cd-2eaa-439b-8358-71181a28b8e3.webp?v=1759760617"
-    },
-    {
-      "name": "Club de Nuit Women",
-      "brand": "Armaf",
-      "gender": "women",
-      "notes": {
-        "top": [
-          "Grapefruit",
-          "Bergamot"
-        ],
-        "heart": [
-          "Rose",
-          "Jasmine",
-          "Geranium"
-        ],
-        "base": [
-          "Vanilla",
-          "Musk"
-        ]
-      },
-      "dupes": [],
-      "similar": [],
-      "prices": {},
-      "source": "https://almanaar.co.uk/products/club-de-nuit-women-eau-de-parfum-105ml-armaf",
-      "image": "https://cdn.shopify.com/s/files/1/0255/4550/6868/files/image_u53.png?v=1759758795",
-      "dupeOf": "Chanel Coco Mademoiselle"
     },
     {
       "name": "Amber Oud Gold Edition",
@@ -14801,7 +14693,8 @@
       "prices": {},
       "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/ArmafOdysseyGoMangoEauDeParfumUnisex.png?v=1780469581",
-      "source": "https://theskinfit.com/products/armaf-odyssey-go-mango-eau-de-parfum-unisex"
+      "source": "https://theskinfit.com/products/armaf-odyssey-go-mango-eau-de-parfum-unisex",
+      "dupeOf": "Simone Andreoli Sunplosion"
     },
     {
       "name": "Niche Gold",
@@ -15932,7 +15825,8 @@
       "prices": {},
       "gender": "women",
       "image": "https://cdn.shopify.com/s/files/1/0255/4550/6868/files/ana-abiyedh-poudree-eau-de-parfum-60ml-lattafa-perfume.webp?v=1759748487",
-      "source": "https://almanaar.co.uk/products/ana-abiyedh-poudree-eau-de-parfum-60ml-lattafa"
+      "source": "https://almanaar.co.uk/products/ana-abiyedh-poudree-eau-de-parfum-60ml-lattafa",
+      "dupeOf": "Narciso Rodriguez Narciso"
     },
     {
       "name": "Washwashah",
@@ -20647,7 +20541,8 @@
       "prices": {},
       "gender": "men",
       "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/bourbon_1.jpg?v=1739427413",
-      "source": "https://fridaycharm.com/products/lattafa-asad-bourbon-eau-de-parfum-for-men-new-release-2025"
+      "source": "https://fridaycharm.com/products/lattafa-asad-bourbon-eau-de-parfum-for-men-new-release-2025",
+      "dupeOf": "Azzaro The Most Wanted"
     },
     {
       "name": "Vintage Radio",
@@ -28619,7 +28514,8 @@
       "prices": {},
       "gender": "women",
       "image": "https://cdn.shopify.com/s/files/1/0127/7840/5947/files/1_dddbf63a-b046-4cd9-b6b7-e2f753c71f46.webp?v=1774795610",
-      "source": "https://www.intenseoud.com/products/layaan-eau-de-parfum-spray-75ml-2-5-oz-by-lattafa"
+      "source": "https://www.intenseoud.com/products/layaan-eau-de-parfum-spray-75ml-2-5-oz-by-lattafa",
+      "dupeOf": "Lancôme Idôle"
     },
     {
       "name": "Niche Emarati Hayaam",
@@ -30113,7 +30009,8 @@
       "prices": {},
       "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0127/7840/5947/files/145146_7b7b8bfb4a8b759e1277724c38bfb1ff_sumou-platinum.jpg?v=1774643162",
-      "source": "https://www.intenseoud.com/products/sumou-platinum-eau-de-parfum-100ml-3-4oz-by-lattafa"
+      "source": "https://www.intenseoud.com/products/sumou-platinum-eau-de-parfum-100ml-3-4oz-by-lattafa",
+      "dupeOf": "Versace Dylan Blue"
     },
     {
       "name": "Simply Oud",
@@ -31687,7 +31584,8 @@
       "prices": {},
       "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/LattafaAtlasEauDeParfumUnisex55ml.png?v=1787641099",
-      "source": "https://theskinfit.com/products/lattafa-atlas-eau-de-parfum-unisex-55ml"
+      "source": "https://theskinfit.com/products/lattafa-atlas-eau-de-parfum-unisex-55ml",
+      "dupeOf": "Orto Parisi Megamare"
     },
     {
       "name": "Gentleman Society Sport",
@@ -36060,8 +35958,7 @@
       "prices": {},
       "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0014/6590/9313/products/63707b07b778ce1ce11c7c8c_b3fd7cf5-2137-4568-8ee2-76d4d1915b53.png?v=1697091637",
-      "source": "https://tripletraders.com/products/i-am-white-ana-abiyedh-rouge-perfume-by-lattafa-edp-60-ml",
-      "dupeOf": "Maison Francis Kurkdjian Baccarat Rouge 540"
+      "source": "https://tripletraders.com/products/i-am-white-ana-abiyedh-rouge-perfume-by-lattafa-edp-60-ml"
     },
     {
       "name": "Coco Musk",
@@ -40462,7 +40359,8 @@
       "prices": {},
       "gender": "men",
       "image": "https://cdn.shopify.com/s/files/1/0255/4550/6868/files/ChatGPT-Image-Apr-8-2025-01_25_5.jpg?v=1759760605",
-      "source": "https://almanaar.co.uk/products/turathi-blue-eau-de-parfum-90ml-by-afnan"
+      "source": "https://almanaar.co.uk/products/turathi-blue-eau-de-parfum-90ml-by-afnan",
+      "dupeOf": "Bvlgari Tygar"
     },
     {
       "name": "9AM",
@@ -40599,7 +40497,8 @@
       "prices": {},
       "gender": "men",
       "image": "https://cdn.shopify.com/s/files/1/0255/4550/6868/products/afnan-supremacy-incense-eau-de-parfum-100ml-afnan-perfume.jpg?v=1759748728",
-      "source": "https://almanaar.co.uk/products/supremacy-incense-by-afnan-edp-100ml-for-men"
+      "source": "https://almanaar.co.uk/products/supremacy-incense-by-afnan-edp-100ml-for-men",
+      "dupeOf": "Amouage Interlude"
     },
     {
       "name": "Supremacy Not Only Intense",
@@ -40624,7 +40523,8 @@
       "prices": {},
       "gender": "men",
       "image": "https://cdn.shopify.com/s/files/1/0255/4550/6868/products/afnan-supremacy-not-only-intense-eau-de-parfum-100ml-afnan-perfume-2.jpg?v=1759748714",
-      "source": "https://almanaar.co.uk/products/supremacy-not-only-intense-by-afnan-for-men"
+      "source": "https://almanaar.co.uk/products/supremacy-not-only-intense-by-afnan-for-men",
+      "dupeOf": "Creed Aventus"
     },
     {
       "name": "Supremacy In Oud",
@@ -40694,7 +40594,8 @@
       "prices": {},
       "gender": "men",
       "image": "https://cdn.shopify.com/s/files/1/0255/4550/6868/products/afnan-supremacy-in-heaven-eau-de-parfum-100ml-afnan-perfume.jpg?v=1759742027",
-      "source": "https://almanaar.co.uk/products/supremacy-in-heaven-100ml-parfum"
+      "source": "https://almanaar.co.uk/products/supremacy-in-heaven-100ml-parfum",
+      "dupeOf": "Creed Silver Mountain Water"
     },
     {
       "name": "Vetiver",
@@ -41011,7 +40912,8 @@
       "prices": {},
       "gender": "women",
       "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/04ddxhirua.png?v=1729868417",
-      "source": "https://www.beautyhouse.com/products/afnan-mystique-bouquet-eau-de-parfum-for-women"
+      "source": "https://www.beautyhouse.com/products/afnan-mystique-bouquet-eau-de-parfum-for-women",
+      "dupeOf": "Parfums de Marly Valaya"
     },
     {
       "name": "Edict Amberythme",
@@ -41850,7 +41752,8 @@
       "prices": {},
       "gender": "men",
       "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/040zaja7pl.png?v=1723878735",
-      "source": "https://www.beautyhouse.com/products/afnan-rare-carbon-eau-de-parfum-for-men"
+      "source": "https://www.beautyhouse.com/products/afnan-rare-carbon-eau-de-parfum-for-men",
+      "dupeOf": "Tom Ford Ombré Leather"
     },
     {
       "name": "Silver",
@@ -46833,7 +46736,8 @@
       "prices": {},
       "gender": "women",
       "image": "https://cdn.shopify.com/s/files/1/0288/9875/4698/products/f2804137-6a2e-46a0-84b5-7a77979080b1_9dd77bc4-92d2-4a28-93fd-f872843d9f2c.jpg?v=1683064958",
-      "source": "https://decantx.com/products/afnan-souvenir-floral-bouquet-eau-de-parfum-for-women"
+      "source": "https://decantx.com/products/afnan-souvenir-floral-bouquet-eau-de-parfum-for-women",
+      "dupeOf": "Parfums de Marly Delina"
     },
     {
       "name": "His Highness Green",
@@ -49286,7 +49190,8 @@
       "prices": {},
       "gender": "men",
       "image": "https://cdn.shopify.com/s/files/1/0804/7365/3577/files/11e98fc4-4731-4dcb-8c40-5da093b1b1ba.jpg?v=1743861841",
-      "source": "https://fragrancehub.co.uk/products/afnan-modest-pour-homme-une-eau-de-parfum-100ml"
+      "source": "https://fragrancehub.co.uk/products/afnan-modest-pour-homme-une-eau-de-parfum-100ml",
+      "dupeOf": "Dior Sauvage"
     },
     {
       "name": "Midnight Oud",
@@ -59486,7 +59391,8 @@
       "prices": {},
       "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0127/7840/5947/files/afnan-turathi-electric-eau-de-parfum-90ml-bottle-and-packaging.webp?v=1793818024",
-      "source": "https://www.intenseoud.com/products/turathi-electric-eau-de-parfum-spray-100ml-3-4-oz-by-afnan"
+      "source": "https://www.intenseoud.com/products/turathi-electric-eau-de-parfum-spray-100ml-3-4-oz-by-afnan",
+      "dupeOf": "Ex Nihilo Blue Talisman"
     },
     {
       "name": "Amberful",
@@ -65532,7 +65438,8 @@
       "prices": {},
       "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0014/6590/9313/files/bdrtsdtzf.jpg?v=1738001736",
-      "source": "https://tripletraders.com/products/cherry-bouquet-eau-de-parfum-by-afnan-80ml-2-7-fl-oz"
+      "source": "https://tripletraders.com/products/cherry-bouquet-eau-de-parfum-by-afnan-80ml-2-7-fl-oz",
+      "dupeOf": "Tom Ford Lost Cherry"
     },
     {
       "name": "Zahir",
@@ -65856,7 +65763,8 @@
       "prices": {},
       "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0570/0891/4541/files/Afnan-historic-sahara-perfume-bottle-against-white-background.jpg?v=1753729572",
-      "source": "https://zaoud.it/products/afnan-historic-sahara"
+      "source": "https://zaoud.it/products/afnan-historic-sahara",
+      "dupeOf": "Parfums de Marly Althair"
     },
     {
       "name": "Dehn Al Oudh Abiyad",
@@ -67272,7 +67180,8 @@
       "prices": {},
       "gender": "men",
       "image": "https://cdn.shopify.com/s/files/1/0288/5228/9622/files/973A156C-86E8-44AD-B8ED-1E7EDDCB0BE5.jpg?v=1756943351",
-      "source": "https://filledwithbarakah.com/products/candid-pour-homme-eau-de-parfum-100ml-by-maison-alhambra"
+      "source": "https://filledwithbarakah.com/products/candid-pour-homme-eau-de-parfum-100ml-by-maison-alhambra",
+      "dupeOf": "Jean Paul Gaultier Scandal"
     },
     {
       "name": "Camille",
@@ -68204,7 +68113,8 @@
       "prices": {},
       "gender": "women",
       "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/products/AjmalRaindrops1.jpg?v=1677764747",
-      "source": "https://fridaycharm.com/products/ajmal-raindrops-edp-50ml-chypre-perfume-for-women"
+      "source": "https://fridaycharm.com/products/ajmal-raindrops-edp-50ml-chypre-perfume-for-women",
+      "dupeOf": "Chanel Coco Mademoiselle"
     },
     {
       "name": "Oudesire",
@@ -80037,7 +79947,8 @@
           "Tonka Bean"
         ]
       },
-      "source": "https://www.parfums-de-marly.com/en-us/products/althair"
+      "source": "https://www.parfums-de-marly.com/en-us/products/althair",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/LuxuryAlthairFragranceBottleonCharcoalGradient.png?v=1794605316"
     },
     {
       "dupes": [],
@@ -80060,7 +79971,8 @@
           "Amber"
         ]
       },
-      "source": "https://www.jeanpaulgaultier.com/us/en/fragrances/le-male-le-parfum"
+      "source": "https://www.jeanpaulgaultier.com/us/en/fragrances/le-male-le-parfum",
+      "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/Sleek_Gold-Capped_Torso_Fragrance_Bottle.png?v=1794606362"
     }
   ]
 }
