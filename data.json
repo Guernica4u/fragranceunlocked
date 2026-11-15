@@ -80061,6 +80061,842 @@
       "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0570/0891/4541/files/la-rouge-baroque-extreme-perfume-bottle-against-white-background.jpg?v=1733822238",
       "source": "https://zaoud.it/products/la-rouge-baroque-extreme"
+    },
+    {
+      "name": "Divine",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Calypsone",
+          "Red Berries",
+          "Bergamot"
+        ],
+        "heart": [
+          "Lily",
+          "Ylang-Ylang",
+          "Jasmine"
+        ],
+        "base": [
+          "Meringue",
+          "Musk",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/015xctubg8.png?v=1723921493",
+      "source": "https://www.beautyhouse.com/products/jean-paul-gaultier-divine-eau-de-parfum-for-women"
+    },
+    {
+      "name": "Classique",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Orange Blossom",
+          "Star Anise",
+          "Rose",
+          "Mandarin Orange",
+          "Pear"
+        ],
+        "heart": [
+          "Ylang-Ylang",
+          "Ginger",
+          "Orchid",
+          "Tuberose",
+          "Iris"
+        ],
+        "base": [
+          "Vanilla",
+          "Amber",
+          "Musk",
+          "Cinnamon",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/01pnxei8ml.jpg?v=1771510818",
+      "source": "https://www.beautyhouse.com/products/jean-paul-gaultier-classique-eau-de-toilette-for-women"
+    },
+    {
+      "name": "Le Male Superman Eau Fraiche",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Mint",
+          "Aldehydes",
+          "Neroli"
+        ],
+        "heart": [
+          "Sage",
+          "Clary Sage",
+          "Amber"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0288/9875/4698/products/043fe6f7-5439-4575-9949-39f75506f9bf.jpg?v=1661158810",
+      "source": "https://decantx.com/products/jean-paul-gaultier-le-male-superman-eau-fraiche-eau-de-toilette-for-men-1"
+    },
+    {
+      "name": "Le Beau Narcisse",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Coconut"
+        ],
+        "heart": [
+          "Musk",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean",
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/narcise1.jpg?v=1786542950",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-beau-narcisse-eau-de-parfum-for-men"
+    },
+    {
+      "name": "Le Male In Blue",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Lavender"
+        ],
+        "heart": [
+          "Anise"
+        ],
+        "base": [
+          "Benzoin"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/le_male_in_blue_1.jpg?v=1781700946",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-male-in-blue-eau-de-parfum-for-men"
+    },
+    {
+      "name": "La Belle Le Parfum Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Pear"
+        ],
+        "heart": [
+          "Tonka Bean",
+          "Jasmine"
+        ],
+        "base": [
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/belle1.jpg?v=1770815471",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-la-belle-le-parfum-eau-de-parfum-intense-for-women"
+    },
+    {
+      "name": "Scandal Pour Homme Le Parfum",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Geranium"
+        ],
+        "heart": [
+          "Tonka Bean"
+        ],
+        "base": [
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/scandal_le_parfum_1.jpg?v=1738418352",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-scandal-pour-homme-le-parfum-for-men"
+    },
+    {
+      "name": "Scandal Pour Homme",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Mandarin Orange",
+          "Clary Sage"
+        ],
+        "heart": [
+          "Caramel",
+          "Tonka Bean"
+        ],
+        "base": [
+          "Vetiver"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/scandal1.jpg?v=1738417832",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-scandal-pour-homme-eau-de-toilette-for-men"
+    },
+    {
+      "name": "Le Male Elixir Absolu Parfum Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Lavender"
+        ],
+        "heart": [
+          "Plum"
+        ],
+        "base": [
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/lemaleelixirabsolu1.jpg?v=1738241658",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-male-elixir-absolu-parfum-intense-for-mennew-release-2025"
+    },
+    {
+      "name": "Le Beau Le Parfum Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Coconut Wood"
+        ],
+        "heart": [
+          "Tonka Bean"
+        ],
+        "base": [
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/jpg_le_male_intense_1.jpg?v=1736864125",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-beau-le-parfum-eau-de-parfum-intense-for-men"
+    },
+    {
+      "name": "La Belle Paradise Garden",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Blue Lotus"
+        ],
+        "heart": [
+          "Iris"
+        ],
+        "base": [
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/PARADISEW1.jpg?v=1725106871",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-la-belle-paradise-garden-eau-de-parfum-for-women"
+    },
+    {
+      "name": "Le Beau",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Bergamot"
+        ],
+        "heart": [
+          "Coconut"
+        ],
+        "base": [
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/lebeau1.jpg?v=1724248588",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-beau-eau-de-toilette-for-men"
+    },
+    {
+      "name": "Le Beau Paradise Garden",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Mint",
+          "Ginger"
+        ],
+        "heart": [
+          "Coconut",
+          "Fig",
+          "Salt"
+        ],
+        "base": [
+          "Tonka Bean",
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/paradise1.jpg?v=1724235054",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-beau-paradise-garden-eau-de-parfum-for-men"
+    },
+    {
+      "name": "Fleur Du Male",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Petitgrain"
+        ],
+        "heart": [
+          "Neroli"
+        ],
+        "base": [
+          "Chamomile",
+          "Basil"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/jeanpaulfleur4.jpg?v=1709648385",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-fleur-du-male-eau-de-toilette-for-men"
+    },
+    {
+      "name": "Scandal Gold",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Saffron",
+          "Honey",
+          "Cardamom"
+        ],
+        "heart": [
+          "Rose",
+          "Jasmine Sambac"
+        ],
+        "base": [
+          "Sandalwood",
+          "Leather",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/scandalgold1.jpg?v=1706008599",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-scandal-gold-eau-de-parfum-for-women"
+    },
+    {
+      "name": "Le Male Elixir Parfum",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Lavender",
+          "Mint"
+        ],
+        "heart": [
+          "Vanilla",
+          "Benzoin"
+        ],
+        "base": [
+          "Honey",
+          "Tonka Bean",
+          "Tobacco"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/files/jeanpaulelixir1.jpg?v=1696511185",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-male-elixir-eau-de-parfum-for-men"
+    },
+    {
+      "name": "La Belle",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Pear",
+          "Bergamot"
+        ],
+        "heart": [
+          "Bergamot"
+        ],
+        "base": [
+          "Vanilla",
+          "Vetiver",
+          "Amber",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/products/jpg30.jpg?v=1673601938",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-la-belle-eau-de-parfum-for-women"
+    },
+    {
+      "name": "Le Male Aviator",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Lavender",
+          "Mint"
+        ],
+        "heart": [
+          "Violet"
+        ],
+        "base": [
+          "Amber",
+          "Vanilla",
+          "Woods"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/products/86.jpg?v=1667024738",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-male-aviator-eau-de-toilette-for-men-125ml"
+    },
+    {
+      "name": "Le Beau Male",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Lavender"
+        ],
+        "heart": [
+          "Artemisia"
+        ],
+        "base": [
+          "Mint"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/products/545.jpg?v=1673531167",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-le-beau-male-eau-de-toilette-for-men-125ml"
+    },
+    {
+      "name": "I Love Gaultier Classique Eau Fraiche",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Sugar Cane",
+          "Ginger",
+          "Sorbet",
+          "Lemon"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "Tiare Flower",
+          "Jasmine"
+        ],
+        "base": [
+          "Vanilla",
+          "Musk",
+          "Labdanum"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/products/JPG-I-Love-Gaultier-Classique-EF-100ml-1.jpg?v=1574750839",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-i-love-gaultier-classique-eau-fraiche-wonder-woman-special-edition-100ml"
+    },
+    {
+      "name": "Ultra Male Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Lavender",
+          "Lemon",
+          "Mint",
+          "Pear"
+        ],
+        "heart": [
+          "Cinnamon",
+          "Cumin",
+          "Sage"
+        ],
+        "base": [
+          "Amber",
+          "Cedar",
+          "Patchouli",
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0069/4471/8937/products/JPG-Le-Male-Ultra-EDT-M-125ml-1.jpg?v=1568111273",
+      "source": "https://fridaycharm.com/products/jean-paul-gaultier-ultra-male-intense-eau-de-toilette"
+    },
+    {
+      "name": "Scandal Pour Homme Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Geranium"
+        ],
+        "heart": [
+          "Tonka Bean"
+        ],
+        "base": [
+          "Sandalwood"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0844/3861/4342/files/JPG0107.png?v=1774541403",
+      "source": "https://justmylook.com/products/jean-paul-gaultier-scandal-pour-homme-intense-eau-de-parfum-100ml"
+    },
+    {
+      "name": "Le Male Le Parfum",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Cardamom"
+        ],
+        "heart": [
+          "Lavender",
+          "Iris"
+        ],
+        "base": [
+          "Vanilla",
+          "Oriental Woods"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/Lifestyling_Curl_Perfectionist_150ml_-_2022-09-03T152730_390.png?v=1747980989",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-le-male-le-parfum-eau-de-parfum-200ml"
+    },
+    {
+      "name": "I Love Gaultier Eau Fraiche",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Sugar"
+        ],
+        "heart": [
+          "Jasmine",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Vanilla",
+          "Musk"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/jpg_i_love_gaultier_eau_fraiche_women_100ml_perfume_i517.jpg?v=1751372587",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-i-love-gaultier-eau-fraiche-100ml"
+    },
+    {
+      "name": "Le Male Essence",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Cardamom"
+        ],
+        "heart": [
+          "Lavender",
+          "Leather"
+        ],
+        "base": [
+          "Vanilla",
+          "Tonka Bean"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/Lifestyling_Curl_Perfectionist_150ml_-_2022-09-03T155013_344__1.png?v=1747980984",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-le-male-essence-eau-de-parfum-125ml"
+    },
+    {
+      "name": "Classique Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Tiare Flower",
+          "Pomegranate"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "Jasmine",
+          "Rose"
+        ],
+        "base": [
+          "Vanilla",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/Lifestyling_Curl_Perfectionist_150ml_-_2022-09-03T155552_533__1.png?v=1747980980",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-classique-intense-women-eau-de-parfum-100ml"
+    },
+    {
+      "name": "Classique Cabaret Edition",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Ginger"
+        ],
+        "heart": [
+          "Orange Blossom"
+        ],
+        "base": [
+          "Vanilla",
+          "Amber"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/jpg_classique_cabaret_Eau-De-Parfum_100ml_perfume_i5111.jpg?v=1751368977",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-classique-cabaret-edition-women-eau-de-parfum-100ml"
+    },
+    {
+      "name": "Essence De Parfum Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Ginger",
+          "Tangerine"
+        ],
+        "heart": [
+          "Orange Blossom",
+          "Jasmine"
+        ],
+        "base": [
+          "Vanilla",
+          "Whipped Cream",
+          "Benzoin"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/jpg_essence_de_parfum_intense_women_Eau-De-Parfum_100ml_perfume_i5151.jpg?v=1747980968",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-essence-de-parfum-intense-women-eau-de-parfum-100ml"
+    },
+    {
+      "name": "So Scandal!",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Orange Blossom",
+          "Tuberose"
+        ],
+        "heart": [
+          "Jasmine"
+        ],
+        "base": [
+          "Milky Accord"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/8209_11.jpg?v=1747980954",
+      "source": "https://theskinfit.com/products/jean-paul-gauliter-so-scandal-eau-de-parfum-80ml"
+    },
+    {
+      "name": "Scandal Le Parfum Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Jasmine"
+        ],
+        "heart": [
+          "Salt",
+          "Caramel"
+        ],
+        "base": [
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0014/6590/9313/files/61IQxT0HI0L._SL1200.jpg?v=1782928330",
+      "source": "https://tripletraders.com/products/jean-paul-gaultier-scandal-le-parfum-for-women-eau-de-parfum-intense-80ml-2-7oz"
+    },
+    {
+      "name": "Scandal",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Blood Orange",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Honey",
+          "Gardenia"
+        ],
+        "base": [
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0014/6590/9313/files/s-l1200_1c77eeee-3852-40d0-98bc-7fc23b5a2577.jpg?v=1785784209",
+      "source": "https://tripletraders.com/products/jean-paul-gaultier-scandal-for-women-eau-de-parfum-spray-50ml-1-7oz"
+    },
+    {
+      "name": "I Love Gaultier Men Eau Fraiche",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Mint"
+        ],
+        "heart": [
+          "Lavender",
+          "Cardamom"
+        ],
+        "base": [
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "men",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/jpg_i_love_gaultier_eau_fraiche_men_125ml_perfume_i516.jpg?v=1747980967",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-i-love-gaultier-men-eau-fraiche-eau-de-parfum-125ml"
+    },
+    {
+      "name": "Scandal By Night Intense",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Honey"
+        ],
+        "heart": [
+          "Tuberose",
+          "Orange Blossom",
+          "Pear"
+        ],
+        "base": [
+          "Tonka Bean",
+          "Vanilla",
+          "Sandalwood",
+          "Patchouli"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0752/4191/4682/files/Lifestyling_Curl_Perfectionist_150ml_-_2022-09-03T153425_563__1.png?v=1747980988",
+      "source": "https://theskinfit.com/products/jean-paul-gaultier-scandal-by-night-intense-women-eau-de-parfum-80ml"
+    },
+    {
+      "name": "La Belle Flower Edition",
+      "brand": "Jean Paul Gaultier",
+      "notes": {
+        "top": [
+          "Apricot"
+        ],
+        "heart": [
+          "Osmanthus"
+        ],
+        "base": [
+          "Vanilla"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "women",
+      "image": "https://cdn.shopify.com/s/files/1/0844/3861/4342/files/JPG0095_0914b124-35c6-48ae-95f2-ee9e4e3e7df8.png?v=1761577743",
+      "source": "https://justmylook.com/products/jean-paul-gaultier-la-belle-flower-edition-eau-de-parfum-100ml"
+    },
+    {
+      "name": "Valero",
+      "brand": "Parfums de Marly",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Cedrat",
+          "Juniper"
+        ],
+        "heart": [
+          "Geranium Bourbon",
+          "Lavender",
+          "Cypress",
+          "Nutmeg"
+        ],
+        "base": [
+          "Patchouli Coeur",
+          "Sandalwood",
+          "Ambrox"
+        ]
+      },
+      "dupes": [],
+      "similar": [],
+      "prices": {},
+      "gender": "unisex",
+      "image": "https://cdn.shopify.com/s/files/1/0582/2955/5259/files/05-27-9.jpg?v=1780131049",
+      "source": "https://olfactoryfactoryllc.com/products/parfums-de-marly-valero"
     }
   ]
 }
