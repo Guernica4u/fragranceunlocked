@@ -80999,8 +80999,7 @@
         "top": [
           "Mango",
           "Ginger",
-          "Lemon",
-          "Spicy Ginger"
+          "Lemon"
         ],
         "heart": [
           "Coumarin",
@@ -81011,7 +81010,7 @@
           "Musk",
           "Amber",
           "Agarwood",
-          "Earthy Cypriol Oil"
+          "Cypriol Oil"
         ]
       },
       "dupes": [],
@@ -81319,7 +81318,6 @@
           "Vanilla",
           "Benzoin",
           "Tonka Beans",
-          "Comforting Base Of Vanilla",
           "Musk"
         ]
       },
@@ -82807,7 +82805,7 @@
         ],
         "base": [
           "Musk",
-          "Woody Notes Other"
+          "Woody"
         ]
       },
       "dupes": [],
@@ -85355,7 +85353,7 @@
           "Jasmine"
         ],
         "base": [
-          "Base Of Sandalwood",
+          "Sandalwood",
           "Benzoin",
           "White Musk"
         ]
@@ -85509,13 +85507,15 @@
           "Bergamot"
         ],
         "heart": [
-          "Neroli Cinnnamon",
+          "Neroli",
+          "Cinnamon",
           "Ginger"
         ],
         "base": [
           "Black Tea",
           "Ambroxan",
-          "Guaac Wood Olybanum"
+          "Guaiac Wood",
+          "Olibanum"
         ]
       },
       "dupes": [],
