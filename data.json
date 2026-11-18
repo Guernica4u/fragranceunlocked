@@ -3186,7 +3186,7 @@
       "prices": {},
       "source": "https://www.fragrancehub.co.uk/products/rayhaan-elixir-100ml-edp-by-rayhaan",
       "image": "https://cdn.shopify.com/s/files/1/0670/9903/3791/files/CopyofUntitled_14.png?v=1771597363",
-      "dupeOf": "Jean Paul Gaultier Le Male Elixir"
+      "dupeOf": "Jean Paul Gaultier Le Male Elixir Parfum"
     },
     {
       "name": "Nocturno",
@@ -80806,13 +80806,19 @@
       "brand": "Rayhaan",
       "notes": {
         "top": [
-          "Iris Citrus"
+          "Iris",
+          "Citrus"
         ],
         "heart": [
-          "Sueded Leather Floral"
+          "Suede",
+          "Leather",
+          "Floral Notes"
         ],
         "base": [
-          "Cedar Sandalwood Ambrette Oud"
+          "Cedar",
+          "Sandalwood",
+          "Ambrette",
+          "Oud"
         ]
       },
       "dupes": [],
@@ -83494,18 +83500,24 @@
       "notes": {
         "top": [
           "Grapefruit",
-          "Aldehydes",
-          "Bergamot"
+          "Bergamot",
+          "Italian Lemon",
+          "Bitter Orange",
+          "Mandarin",
+          "Ice Accord",
+          "Aldehydes"
         ],
         "heart": [
-          "Myrrh",
-          "Labdanum",
-          "Jasmine"
+          "Cognac",
+          "Cinnamon",
+          "Caramel"
         ],
         "base": [
           "Tonka Bean",
-          "Amber",
-          "Vanilla"
+          "Oak",
+          "Sandalwood",
+          "Cashmere Wood",
+          "Myrrh"
         ]
       },
       "dupes": [],
@@ -83513,7 +83525,7 @@
       "prices": {},
       "gender": "unisex",
       "image": "https://cdn.shopify.com/s/files/1/0798/6898/5693/files/Obsidian-Perfume-100ml-EDP-French-Avenue-183496326.webp?v=1768705572",
-      "source": "https://emiratesoud.co.uk/products/obsidian-french-avenue"
+      "source": "https://filledwithbarakah.com/products/obsidian-eau-de-parfum-by-french-avenue"
     },
     {
       "name": "Marmara",

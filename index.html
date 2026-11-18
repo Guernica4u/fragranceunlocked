@@ -108,7 +108,7 @@ const pool = () => data.fragrances.filter(f => gender === 'both' || f.gender ===
 const accCache = new Map();
 const acc = f => accCache.get(f) || accCache.set(f, accordsOf(notesOf(f))).get(f);
 const dots = f => `<div class="dots">${acc(f).slice(0, 3).map(a => `<span style="--c:${a.color}">${a.name}</span>`).join('')}</div>`;
-const full = f => `${f.brand} ${f.name}`;
+const full = f => f.name.startsWith(f.brand) ? f.name : `${f.brand} ${f.name}`; // "Dior Homme", not "Dior Dior Homme"
 const href = f => `#f/${slug(f)}`;
 const find = name => data.fragrances.find(f => slug(f) === norm(name));
 // Dupes of a fragrance: entries that say they dupe it, plus names it lists.
