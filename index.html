@@ -243,7 +243,9 @@ function verdict(f) {
 const CLONE_HOUSES = new Set(['Lattafa', 'Armaf', 'Khadlaj', 'Rasasi', 'Al Haramain', 'Maison Alhambra', 'Afnan', 'French Avenue', 'Rayhaan', 'Zara', 'Dossier', 'Alt. Fragrances', 'Ard Al Zaafaran', 'Mykonos']);
 // Budget Middle Eastern houses with their own originals: not clones, but not designer or niche either.
 const BUDGET_HOUSES = new Set(['Ajmal', 'Swiss Arabian']);
-const label = f => f.dupeOf ? 'Dupe' : CLONE_HOUSES.has(f.brand) ? 'Clone house' : 'Original';
+// Dupe houses we vouch for: well made, not knockoffs. Match me suggests these first.
+const QUALITY_HOUSES = new Set(['French Avenue', 'Rayhaan', 'Armaf', 'Afnan', 'Lattafa', 'Al Haramain']);
+const label = f => f.dupeOf ? (QUALITY_HOUSES.has(f.brand) ? 'Quality dupe' : 'Dupe') : CLONE_HOUSES.has(f.brand) ? 'Clone house' : 'Original';
 const box = f => `<article class="box">
     <a class="top" href="${href(f)}">${art(f, 'thumb')}<div><div class="label">${label(f)}</div><h3>${esc(f.name)}</h3><div class="brand">${esc(f.brand)}</div></div></a>
     <div class="verdict">${verdict(f)}</div></article>`;
@@ -260,23 +262,27 @@ function renderDupes() {
   if (!hits.length) $('dout').innerHTML = `<p class="none" style="text-align:center;margin-top:32px">Not in our list yet. <a href="https://www.fragrantica.com/search/?query=${enc(q)}" ${ext}>Try Fragrantica ↗</a></p>`;
 }
 
-/* ---------- Match me: budget, then dupe or original, then a vibe ---------- */
+/* ---------- Match me: budget, dupe or original, a vibe. Then: what that smell is called, the classic, and the dupe ---------- */
+// [everyday words, hint, accords (first one matters most), family, what it means, the classic that defines it]
 const VIBES = [
-  ['Apple pie & ice cream', 'Warm, sweet, cozy', ['Sweet', 'Vanilla', 'Fruity', 'Warm spicy', 'Nutty']],
-  ['A brand-new leather boot', 'Rich, smoky, grown-up', ['Leather', 'Smoky', 'Woody']],
-  ['A day at the beach', 'Salt air, citrus, sun', ['Aquatic', 'Citrus', 'Fresh', 'Tropical']],
-  ['A forest after rain', 'Green, woody, earthy', ['Woody', 'Green', 'Earthy', 'Aromatic']],
-  ['A flower shop', 'Petals everywhere', ['Floral', 'White floral', 'Rose', 'Powdery']],
-  ['Fresh laundry', 'Clean, soft, skin-like', ['Musky', 'Powdery', 'Fresh', 'Aromatic']],
-  ['A spice market', 'Pepper, saffron, warmth', ['Warm spicy', 'Fresh spicy', 'Amber']],
-  ['A campfire', 'Smoke, resin, embers', ['Smoky', 'Amber', 'Woody', 'Oud']],
-  ['A coffee shop', 'Espresso and pastry', ['Coffee', 'Sweet', 'Nutty', 'Vanilla']],
-  ['A fruit stand', 'Juicy and bright', ['Fruity', 'Citrus', 'Tropical']],
+  ['Fresh-cut grass', 'Leaves, stems, a green snap', ['Green', 'Aromatic', 'Earthy'], 'a green', 'Snapped stems, wet leaves and cut grass. Sharp, natural and outdoorsy.', 'Parfums de Marly Greenley'],
+  ['Pure vanilla', 'Soft, warm, sweet', ['Vanilla', 'Sweet', 'Amber'], 'a vanilla', 'Creamy and warm, with a little sweetness. Cozy without smelling like dessert.', 'Parfums de Marly Althair'],
+  ['Apple pie & ice cream', 'Warm, sweet, cozy', ['Sweet', 'Vanilla', 'Warm spicy', 'Fruity', 'Nutty'], 'a gourmand', 'Gourmand means it smells good enough to eat: baked fruit, caramel and warm spice.', "Kilian Angels' Share"],
+  ['A brand-new leather boot', 'Rich, smoky, grown-up', ['Leather', 'Smoky', 'Woody'], 'a leather', 'Soft hide with a little smoke. Bold, polished and a bit rugged.', 'Tom Ford Ombré Leather'],
+  ['A day at the beach', 'Salt air, citrus, sun', ['Aquatic', 'Citrus', 'Fresh', 'Tropical'], 'an aquatic', 'Aquatic means sea air, salt and clean water. Easy to wear when it is hot.', 'Giorgio Armani Acqua di Gio Profondo'],
+  ['A forest after rain', 'Woody, earthy, damp', ['Woody', 'Earthy', 'Green', 'Aromatic'], 'a woody', 'Cedar, sandalwood and damp earth. Calm, dry and grounded.', 'Le Labo Santal 33'],
+  ['A flower shop', 'Petals everywhere', ['Floral', 'Rose', 'White floral', 'Powdery'], 'a floral', 'Fresh petals front and center, from soft rose to rich jasmine.', 'Parfums de Marly Delina'],
+  ['Fresh laundry', 'Clean, soft, skin-like', ['Musky', 'Powdery', 'Fresh', 'Aromatic'], 'a clean musk', 'Musk here means warm, clean skin and soft cotton, like sheets out of the dryer.', 'Narciso Rodriguez For Her'],
+  ['A spice market', 'Pepper, saffron, warmth', ['Warm spicy', 'Fresh spicy', 'Amber'], 'a warm spicy', 'Cinnamon, tobacco and saffron. Rich and made for cold weather.', 'Tom Ford Tobacco Vanille'],
+  ['A campfire', 'Smoke, resin, embers', ['Smoky', 'Amber', 'Woody', 'Oud'], 'a smoky', 'Burning wood, incense and resin. Moody, warm and hard to miss.', 'Maison Margiela Replica By the Fireplace'],
+  ['A coffee shop', 'Espresso and pastry', ['Coffee', 'Sweet', 'Vanilla', 'Nutty'], 'a coffee', 'Dark roast softened with vanilla and sugar. Sweet with a bitter edge.', 'Yves Saint Laurent Black Opium'],
+  ['A fruit stand', 'Juicy and bright', ['Fruity', 'Citrus', 'Tropical'], 'a fruity', 'Ripe, juicy fruit up top, from pineapple to blackcurrant. Bright and loud.', 'Creed Aventus'],
 ];
-const BUDGETS = [['Under $50', 'Dupes and budget gems', 50], ['Under $100', 'Lots of designers', 100], ['Under $200', 'Most designers', 200], ['No limit', 'Niche included', 0]];
+// Value is "min-max" in dollars; a max of 0 means no ceiling.
+const BUDGETS = [['Under $50', 'Dupes and budget gems', '0-50'], ['$50 to $120', 'Designers and the best dupes', '50-120'], ['$120 to $250', 'Most designers', '120-250'], ['$250 and up', 'Niche and luxury', '250-0'], ['No limit', 'Show me everything', '0-0']];
 const KINDS = [['A dupe', 'Smells close, costs less', 'dupe'], ['The original', 'The real thing', 'original'], ['Either', 'Show me both', 'any']];
 const fresh = () => ({ step: 0, budget: null, kind: null, vibes: [] });
-let quiz = fresh(), quizRun = 0;
+let quiz = fresh();
 
 const opt = (key, label, sub, value, on) =>
   `<button class="opt" data-key="${key}" data-val="${esc(value)}" aria-pressed="${on}">${esc(label)}<small>${esc(sub)}</small></button>`;
@@ -286,7 +292,7 @@ function renderQuiz() {
   const [title, hint, opts] = [
     ['What can you spend?', 'For a full bottle, about 100 ml.', BUDGETS.map(([l, s, v]) => opt('budget', l, s, v, v === budget))],
     ['Dupe or the real thing?', 'Dupes get you close for a lot less.', KINDS.map(([l, s, v]) => opt('kind', l, s, v, v === kind))],
-    ['What do you want to smell like?', 'Pick as many as you like.', VIBES.map(([l, s]) => opt('vibe', l, s, l, vibes.includes(l)))],
+    ['What do you want to smell like?', "Don't know the words for it? Pick what it reminds you of.", VIBES.map(([l, s]) => opt('vibe', l, s, l, vibes.includes(l)))],
   ][step];
   $('quiz').innerHTML = `<div class="qstep">
     <div class="progress">${[0, 1, 2].map(i => `<i class="${i <= step ? 'on' : ''}"></i>`).join('')}</div>
@@ -295,31 +301,58 @@ function renderQuiz() {
     <div class="qnav">${step ? '<button class="link" data-qback>← Back</button>' : '<span></span>'}
       ${step === 2 ? `<button class="btn" data-qdone ${vibes.length ? '' : 'disabled'}>See my matches</button>` : ''}</div></div>`;
 }
-async function renderPicks() {
-  const run = ++quizRun;
+
+const isDupeHouse = f => !!f.dupeOf || CLONE_HOUSES.has(f.brand);
+const priceText = f => low(f) < Infinity ? `From $${low(f).toFixed(2)}` : 'See stores for price';
+const range = () => (quiz.budget || '0-0').split('-').map(Number);
+// A dupe that costs less than the budget's floor still fits: nobody minds paying less for the same smell.
+function fits(f) {
+  const [min, max] = range();
+  return !min && !max ? true : low(f) < Infinity && (isDupeHouse(f) || low(f) >= min) && (!max || low(f) <= max);
+}
+// The houses people ask for by name come first, then the others we vouch for.
+const dupeRank = f => ['French Avenue', 'Rayhaan'].includes(f.brand) ? 2 : QUALITY_HOUSES.has(f.brand) ? 1 : 0;
+// The dupe to suggest for a classic: in budget first, then quality houses, then cheapest.
+const bestDupe = c => dupesOf(c).sort((a, b) => fits(b) - fits(a) || dupeRank(b) - dupeRank(a) || low(a) - low(b) || 0)[0];
+
+// "That's a green fragrance": names the smell, shows the classic, and offers the dupe when the classic costs too much.
+function familyCard([, , , family, meaning, classic]) {
+  const c = find(classic);
+  if (!c) return '';
+  const d = quiz.kind === 'original' ? null : bestDupe(c);
+  const over = range()[1] > 0 && low(c) > range()[1];
+  const off = d && low(c) < Infinity && low(d) < low(c) ? Math.round(100 * (1 - low(d) / low(c))) : 0;
+  const side = (f, tag, note) => `<a class="side" href="${href(f)}">${art(f, 'thumb')}<div><div class="label">${tag}</div>
+    <div class="name">${esc(f.name)}</div><div class="brand">${esc(f.brand)}</div><div class="tprice">${priceText(f)}</div>${note ? `<div class="why">${esc(note)}</div>` : ''}</div></a>`;
+  return `<article class="fam"><div class="label">What you're describing</div><h3>That's ${esc(family)} fragrance.</h3><p>${esc(meaning)}</p>
+    <div class="pair">${side(c, 'The classic', over ? 'Outside your budget' : '')}
+    ${d ? side(d, over ? 'Try this instead' : 'Spend less', `${QUALITY_HOUSES.has(d.brand) ? 'Quality dupe house, not a knockoff' : 'A close dupe'}${off ? `. ${off}% less` : ''}`) : ''}</div></article>`;
+}
+
+function renderPicks() {
   const want = quiz.vibes.map(v => VIBES.find(x => x[0] === v));
-  const scored = pool().filter(f => quiz.kind === 'any' || (quiz.kind === 'dupe') === !!f.dupeOf).map(f => {
+  const shown = new Set(want.flatMap(v => { const c = find(v[5]); return c ? [c, bestDupe(c)] : []; }));
+  const scored = pool().filter(f => f.image && !shown.has(f) && fits(f) && (quiz.kind === 'any' || (quiz.kind === 'dupe') === isDupeHouse(f))).map(f => {
     const top = acc(f).slice(0, 6);
     let s = 0;
     const why = [];
     for (const [label, , names] of want) {
-      const hit = top.filter(a => names.includes(a.name)).reduce((t, a) => t + a.pct / 100, 0);
+      // The vibe's main accord has to be prominent, or 'green' matches anything vaguely herbal.
+      if (!top.slice(0, 3).some(a => a.name === names[0])) continue;
+      const hit = top.filter(a => names.includes(a.name)).reduce((t, a) => t + (a.name === names[0] ? 2 : 1) * a.pct / 100, 0);
       if (hit) { s += hit; why.push(label); }
     }
     return { f, s, why };
-  }).filter(x => x.s > 0).sort((a, b) => b.s - a.s).slice(0, 15);
-  const head = '<div class="sub" style="margin-top:0"><h2>Your picks</h2><button class="link" data-qreset>Start over</button></div>';
-  $('quiz').innerHTML = head + '<p class="none">Checking prices…</p>';
-  const prices = scored.map(x => stored(x.f));
-  if (run !== quizRun) return; // answers changed while prices loaded
-  const live = prices.some(p => p.length); // false where the price API isn't running
-  const low = list => list.length ? Math.min(...list.map(p => p.price)) : null;
-  const picks = scored.map((x, i) => ({ ...x, low: low(prices[i]) }))
-    .filter(x => !quiz.budget || !live || (x.low != null && x.low <= quiz.budget)).slice(0, 6);
-  $('quiz').innerHTML = head + (picks.length ? `<div class="grid">${picks.map(({ f, why, low }, i) => tile(f, i,
-      `<div class="why">${esc(why.join(' + '))}</div>${low != null ? `<div class="tprice">From $${low.toFixed(2)}</div>` : ''}`)).join('')}</div>`
-    : '<p class="none">Nothing fits all of that. Try a bigger budget or more scents.</p>')
-    + (quiz.budget && !live ? `<p class="fine">Live prices are off right now, so your budget isn't applied.</p>` : '');
+  }).filter(x => x.s >= 1).sort((a, b) => b.s - a.s);
+  // Mostly designers and niche, then a few dupes: quality houses and known dupes first.
+  const designers = scored.filter(x => !isDupeHouse(x.f) && !BUDGET_HOUSES.has(x.f.brand));
+  const dupes = scored.filter(x => isDupeHouse(x.f)).sort((a, b) => dupeRank(b.f) - dupeRank(a.f) || !!b.f.dupeOf - !!a.f.dupeOf);
+  const picks = [...new Set([...designers.slice(0, 8), ...dupes.slice(0, 4), ...scored])].slice(0, 12);
+  $('quiz').innerHTML = `<div class="sub" style="margin-top:0"><h2>Your matches</h2><button class="link" data-qreset>Start over</button></div>
+    ${want.slice(0, 3).map(familyCard).join('')}
+    ${picks.length ? `<div class="sub"><h2>More in your budget</h2></div><div class="grid dense">${picks.map(({ f, why }, i) => tile(f, i,
+      `<div class="tprice">${priceText(f)}</div><div class="why">${esc(why.join(' + '))}</div>`)).join('')}</div>`
+    : '<p class="none">Nothing else fits all of that. Try a bigger budget or more scents.</p>'}`;
 }
 
 /* ---------- Fragrance page ---------- */
@@ -428,7 +461,7 @@ async function vote(slugId, stars) {
 function setGender(g) {
   gender = g;
   store.set('gender', g);
-  for (const b of document.querySelectorAll('.seg button')) b.setAttribute('aria-pressed', b.dataset.g === g);
+  for (const b of document.querySelectorAll('.seg button[data-g]')) b.setAttribute('aria-pressed', b.dataset.g === g);
   renderExplore(); renderDupes();
   if (quiz.step === 3) renderPicks();
 }
@@ -465,7 +498,7 @@ document.addEventListener('click', e => {
   const choice = t.closest('[data-key]');
   if (choice) {
     const { key, val } = choice.dataset;
-    if (key === 'budget') Object.assign(quiz, { budget: Number(val), step: 1 });
+    if (key === 'budget') Object.assign(quiz, { budget: val, step: 1 });
     else if (key === 'kind') Object.assign(quiz, { kind: val, step: 2 });
     else quiz.vibes = quiz.vibes.includes(val) ? quiz.vibes.filter(v => v !== val) : [...quiz.vibes, val];
     return renderQuiz();
